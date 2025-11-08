@@ -1,0 +1,97 @@
+[PENNY]
+Innates1 = SERENEGRACE
+Innates2 = MAGICGUARD 
+Innates3 = CUTECHARM
+#-------------------------------
+[HATTERENE_2]
+Innates = FATALPRECISION
+#-------------------------------
+[NINETALES_2]
+Innates = WELLBAKEDBODY
+#-------------------------------
+[GARDEVOIR_2]
+Innates = DANCER
+#-------------------------------
+[NINETALES_3]
+Innates = SHADOWTAG
+#-------------------------------
+[DELPHOX_1]
+Innates = FURCOAT
+#-------------------------------
+[NOIVERN_1]
+Innates = COWED
+#-------------------------------
+[GARDEVOIR_3]
+Innates = PRANKSTER
+#-------------------------------
+[MAWILE_2]
+Innates = STRONGJAW
+#-------------------------------
+[ABSOL_2]
+Innates = BATTLEBOND
+#-------------------------------
+[GOURGEIST_4]
+Innates = BATTLEBOND
+#-------------------------------
+[GROWLITHE_2]
+Innates = SHARPNESS
+#-------------------------------
+[GROWLITHE_3]
+Innates = SHARPNESS
+#-------------------------------
+[MAWILE_3]
+Innates = SELFSUFFICIENT
+#-------------------------------
+[MEOWSCARADA_1]
+Innates = LONGREACH
+#-------------------------------
+[CINDERACE_2]
+Innates = STRIKER
+#-------------------------------
+[PRIMARINA_1]
+Innates = BLUES
+#-------------------------------
+[JOLTEON_1]
+Innates = SURGESURFER
+#-------------------------------
+[FLAREON_1]
+Innates = SHARPNESS
+#-------------------------------
+[ESPEON_1]
+Innates = PSYCHICSURGE
+#-------------------------------
+[UMBREON_1]
+Innates = WONDERSKIN
+#-------------------------------
+[GLACEON_1]
+Innates = ICEBODY
+#-------------------------------
+[SYLVEON_1]
+Innates = SOULHEART
+#-------------------------------
+[DRACEON]
+Innates = STAMINA
+#-------------------------------
+[NOIVERN_2]
+Innates = FATALPRECISION
+#-------------------------------
+[NINETALES_4]
+Innates = MOLDBREAKER
+#-------------------------------
+[FLORAGATO_2]
+Innates = EXFLAMEBODY
+#-------------------------------
+[MISMAGIUS_1]
+Innates = BEADSOFRUIN
+#-------------------------------
+[LUXRAY_1]
+Innates = DARKAURA
+#-------------------------------
+[SUICUNEh]
+Innates = SWIFTSWIM,TANGLINGHAIR,BEASTBOOST
+#-------------------------------
+[RAIKOUh]
+Innates = COWED,SURGESURFER,BEASTBOOST
+#-------------------------------
+[ENTEIh]
+Innates = OVERCOAT,THERMALEXCHANGE,BEASTBOOST

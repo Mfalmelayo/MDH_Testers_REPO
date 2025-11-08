@@ -1,0 +1,26 @@
+#-------------------------------
+[INDUCTIONBOLT]
+Name = Induction Bolt
+Type = ELECTRIC
+Category = Physical
+Power = 75
+Accuracy = 0
+TotalPP = 20
+Target = Other
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove,Biting
+Description = The user blitzes the target and lashes out with an electrified bite. This attack never misses. 
+#-------------------------------
+[DIVINESMITE]
+Name = Divine Smite
+Type = NORMAL
+Category = Special
+Power = 90
+Accuracy = 0
+TotalPP = 20
+Target = Other
+FunctionCode = RaiseUserMainStats1
+EffectChance = 33
+Flags = CanProtect,CannotMetronome
+Description = The user calls upon the Lord Almighty to smite their foe. Bless'd be.
+#-------------------------------

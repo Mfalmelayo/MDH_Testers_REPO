@@ -1,0 +1,133 @@
+### Apply changes by holding SHIFT while compiling. ###
+#-------------------------------
+[VENUSAUR,2]
+RaidRanks = 4,5
+RaidStyle = Max
+#-------------------------------
+[CHARIZARD,3]
+RaidRanks = 4,5
+RaidStyle = Max
+#-------------------------------
+[BLASTOISE,2]
+RaidRanks = 4,5
+RaidStyle = Max
+#-------------------------------
+[BUTTERFREE,1]
+RaidRanks = 4,5
+RaidStyle = Max
+#-------------------------------
+[PIKACHU,17]
+RaidRanks = 3
+RaidStyle = Max
+#-------------------------------
+[MEOWTH,3]
+RaidRanks = 3
+RaidStyle = Max
+#-------------------------------
+[MACHAMP,1]
+RaidRanks = 4,5
+RaidStyle = Max
+#-------------------------------
+[GENGAR,2]
+RaidRanks = 4,5
+RaidStyle = Max
+#-------------------------------
+[KINGLER,1]
+RaidRanks = 4,5
+RaidStyle = Max
+#-------------------------------
+[LAPRAS,1]
+RaidRanks = 4,5
+RaidStyle = Max
+#-------------------------------
+[EEVEE,2]
+RaidRanks = 3
+RaidStyle = Max
+#-------------------------------
+[SNORLAX,1]
+RaidRanks = 4,5
+RaidStyle = Max
+#-------------------------------
+[GARBODOR,1]
+RaidRanks = 4,5
+RaidStyle = Max
+#-------------------------------
+[MELMETAL,1]
+RaidRanks = 6
+RaidStyle = Max
+#-------------------------------
+[RILLABOOM,1]
+RaidRanks = 4,5
+RaidStyle = Max
+#-------------------------------
+[CINDERACE,1]
+RaidRanks = 4,5
+RaidStyle = Max
+#-------------------------------
+[INTELEON,1]
+RaidRanks = 4,5
+RaidStyle = Max
+#-------------------------------
+[CORVIKNIGHT,1]
+RaidRanks = 4,5
+RaidStyle = Max
+#-------------------------------
+[ORBEETLE,1]
+RaidRanks = 4,5
+RaidStyle = Max
+#-------------------------------
+[DREDNAW,1]
+RaidRanks = 4,5
+RaidStyle = Max
+#-------------------------------
+[COALOSSAL,1]
+RaidRanks = 4,5
+RaidStyle = Max
+#-------------------------------
+[FLAPPLE,1]
+RaidRanks = 4,5
+RaidStyle = Max
+#-------------------------------
+[APPLETUN,1]
+RaidRanks = 4,5
+RaidStyle = Max
+#-------------------------------
+[SANDACONDA,1]
+RaidRanks = 4,5
+RaidStyle = Max
+#-------------------------------
+[TOXTRICITY,2]
+RaidRanks = 4,5
+RaidStyle = Max
+#-------------------------------
+[CENTISKORCH,1]
+RaidRanks = 4,5
+RaidStyle = Max
+#-------------------------------
+[HATTERENE,1]
+RaidRanks = 4,5
+RaidStyle = Max
+#-------------------------------
+[GRIMMSNARL,1]
+RaidRanks = 4,5
+RaidStyle = Max
+#-------------------------------
+[ALCREMIE,63]
+RaidRanks = 4,5
+RaidStyle = Max
+#-------------------------------
+[COPPERAJAH,1]
+RaidRanks = 4,5
+RaidStyle = Max
+#-------------------------------
+[DURALUDON,1]
+RaidRanks = 4,5
+RaidStyle = Max
+#-------------------------------
+[URSHIFU,2]
+RaidRanks = 6
+RaidStyle = Max
+#-------------------------------
+[URSHIFU,3]
+RaidRanks = 6
+RaidStyle = Max

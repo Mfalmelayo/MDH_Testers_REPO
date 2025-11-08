@@ -1,0 +1,210 @@
+Innate Abilities:
+How to use:
+-Drag both the plugin and PBS folder to the corresponding ones of your project
+-Inside of the innate_sets.txt of the PBS file simply add the id of the pokemon and the set of innates you want
+As an example:
+
+[BLAZIKEN]
+Innates = BLAZE,FLAMEBODY,STRONGLENGS
+
+This gives blaziken a set of 3 innates.
+
+For alternate forms:
+
+[AGGRON]
+Innates = FILTER,STURDY,TITAN
+#----------------------------------------
+[AGGRON_1] #<- Mega Aggron. Use POKEMON_X, with X that form's number
+Innates = STURDY,HEAVYMETAL,PUREARMOR
+
+Use the ID of the pokemon, plus an _ and the number of the form you want. In this case, Aggron has a set of innates and Mega Aggron,
+form 1, has a different set. If an alternate form doesn't have specific innates defined, it will load those from it's base form.
+
+As of v1.3 theres the chance to have Progress with the innates:
+If you want to add progress to the act of unlocking more innates, this is the solution for you:
+The Plugin now comes with 2 new settings in AAM Settings
+
+INNATE_PROGRESS_WITH_VARIABLE and INNATE_PROGRESS_WITH_LEVEL
+
+Setting either of these to true activates the progress of unlocking innates during your playthrough.
+IMPORTANT! ONLY SET ONE OF THEM TRUE, otherwise the code becomes a mess.
+
+If you decide to use:
+Progress with variable:
+
+Firstly, define what game variable you want to use for unlocking each innate with INNATE_PROGRESS_VARIABLE = X
+
+After that, it is quite simple: The value of the variable represents how many innates your pokemon can have.
+Setting it to 1 gives you the first inante in the Innates = section of the pbs
+Setting it to 2 the first 2 innates
+Setting it to 3 gives you all of them
+
+And so, setting it to 0 basically "disables" the innate system.
+
+This affects all pokemon in the game, so you can use it to increase the complexity or difficulty after enabling more Innates per pokemon.
+If a pokemon has Innates "Locked" behind the system, they will display in the summary with a message saying they are currently locked.
+
+It's up to you to inform the player when exactly the unlock happens... if you want, of course.
+
+If instead you decide to use:
+Progress with level
+
+Define at what levels does the pokemon "unlock" their innates, in with LEVELS_TO_UNLOCK:
+LEVELS_TO_UNLOCK = [[x, y, z]]
+
+It works like this:
+When the pokemon level its equal or greather than the X value, unlock the first innate
+When its equal or greather than the Y value, unlock the 2nd innate
+When its equal or greather than the Z value, unlock the 3rd innate.
+
+This affects each pokemon individually, so yes, pokemon of higher level have an advantage over others since it's more likely they have more innates unlocked.
+Note that if for some reason, a pokemon's level decreases after unlocking an Innate, the innate will be locked up again.
+If using this progress, the summary will not only display the locked message, but will also tell at what level will the pokemon unlock that innate.
+
+
+As of v.1.3.1, you can add the ID of the pokemon' species to make that specific species have their own levels to unlock their innates. For example:
+LEVELS_TO_UNLOCK =  [
+   [:MEWTWO, 45, 70, 90],
+   [:ARCEUS, 80, 90, 100],
+   [:BUTTERFREE, 10, 14, 30], #<- Always remember to end with a "," in arrays prior to the "nameless" one.
+   [1, 15, 45]
+   ]
+This will make it so that Mewtwo, Arceus and Butterfree have different levels at which their innates are unlocked.
+You can use this to make pokemon get their innates sooner or later. Maybe to give a species pokemon an edge over others.
+Keep in mind, this affects ALL of it's forms. So even if Mewtwo mega evolves, Mega Mewtwo X and Y will still use Mewtwo's custom Innate level unlocks.
+
+Something to keep in mind is that, regarldess of Progress method and current progress, if using the Pokedex Data Page add-on, that will ALWAYS display the pokemon's Innates,
+so its a great way to let the player what they can unlock before unlocking it.
+
+As of v.1.4, you can now have randomized innates.
+It works rather simple, when the setting is true, you define the number of the INNATE_MAX_AMOUNT setting to be how many innates pokemon can have at max.
+Then, if a pokemon has more Innates in their pbs than the maxium, the game will randomly pick them from it's innate pool and assing them to it.
+This will vary PER individual pokemon.
+
+For example:
+Lets say I have Zubat defined in the pbs with:
+Innates = TERASHELL,INTREPIDSWORD,PROTEAN,GRASSYSURGE,SPEEDBOOST,SHEERFORCE,ANGERSHELL,ANGERPOINT,SOUNDPROOF
+
+And my INNATE_MAX_AMMOUNT it's set to 3
+
+Then when I get a Zubat and go to it's summary: It could have: Anger Shell, Intrepid Sword, Tera Shell
+
+Then I capture another one. Go to it's summary and it has: Sound Proof, Sheer Force, Tera Shell
+
+Each instance is randomized and permament per pokemon, so once the dice rolled, they will remain like this. I however added an optional item called Innate Shuffler.
+On use on a pokemon, it'll shuffle it's current innate abilities, so if you didnt' like what you got, you have another chance! It'll still be totally random tho.
+
+As of v.1.4.1, the randomizer also checks for the current ID of the Regular Ability and each ability about to be assigned, so it will never randomly repeat an Inante!
+
+For example, Let's say you have a Pokemon with 2 abilities and SHEERFORCE as it's hidden one. 
+Then, for that same pokemon you have the following set of Innates: SHARPNESS,SPEEDBOOST,TORRENT,SHEERFORCE
+
+If the ability of your pokemon is anything but Sheer Force, Sheer Force has a chance to appear as one of it's Innates since its defined in the Innates = part of the PBS. This is nothing new.
+HOWEVER, if your pokemon DOES have Sheer Force as it's ability, Sheer Force will NEVER be given to it by the randomizer. This is to make sure that each ID give it's unique amongst both the
+regulars and the Innates. 
+
+In that same example if your pokemon has SPEEDBOOST,TORRENT and SHEERFORCE as possible Inantes and ends up having Sheer Force as the ability, the ranfomizer will leave you only with Torrent and Speedboost,
+with a --- No Innate --- for the last one.
+
+Another new feature is that you can multiply the amount of times an ID it's present in the Innates = to increase it's chances to being choosen, since the randomizer distributes the chances
+equally amongst all of the ID. So for example, if my max amount of innates = 3, having a Innates = be SHARPNESS,SHARPNESS,SHARPNESS,SHARPNESS,TORRENT,SHEERFORCE,SHARPNESS,SHARPNESS,TRUANT Can result in either
+Sharpness, Torrent and Truant, or also Torrent, Sheer Force and Truant if you are really unlucky. Desspite being defined multiple times harpness will never be grabed more than once.
+
+And also yes, if you have a bunch of "SHARPNESS" defined and a "truant", it will pick 1 sharpness and 1 truant, and leave you with an empty spot last.
+
+Tldr: The randomizer will never pick an Ability who's ID's matches with the current regular ability, nor will it repeat it in the Innates. It will continuosly search in the list untill
+either reaches the Max Amount of Innates or no other unique ID exist for that pokemon.
+
+IMPORTANT: A pokemon will basically have no innates untill it's either sent to battle or you see it's summary, whatever happens first. This is because of the way I've implemented the random factor.
+This is true even if you are not using the randomized setting. Keep that in mind.
+
+>To uninstall remove the innate sumary folder in the plugins folder, and the innate_sets.txt in the PBS folder
+
+As of v.1.5, you can give each given pokemon a set of innates to be picked at random. To set up, simply give each pokemon another instance of "Innates" with a number at the end. Like this:
+
+#----------------------------------------
+[METAGROSS]
+Innates1 = SANDVEIL,STURDY,CLEARBODY
+Innates2 = FILTER,CLEARBODY
+Innates3 = PLUS,MINUS,ELECTRICSURGE
+#----------------------------------------
+
+Doing this makes that, when a pokemon has it's innates assigned, it can pick either of the possible defined sets as it active innate sets. It will pick at random with equal odds among them, for example,
+if you have 2 sets, each one has a 50% chance to bein choosen. If you have 4, a 25% chance. This is defined before the randomizer and any of the progress settings, so yes, you can give multiple
+Innates per set and they can be randomized.
+
+Other things added in this update are that:
+	- If you are using the randomizer, even if a pokemon has less innates than the maximum, they will always be shuffled around, which can cause different innates
+be locked if using any of the progress systems. 
+This is no longer the case. If you have less innates than the maximum possible, they will remain their order so you can control any progress with the settings.
+Of course, if you want them always be shuffled around no matter how many innates are given, you can turn the ALWAYS_SHUFFLE_RANDOMS setting ON in the AAM settings.
+
+	- You can give custom innates to a trainer NPC or a Object pokemon created.
+For a trainer, simply add the Innates (Case sensitive) property among the properties of its pokemon, like this:
+#-------------------------------
+[AROMALADY,Petunia]
+LoseText = Oh man...
+Pokemon = CHIKORITA,6
+		Innates = GRASSYSURGE,CHLOROPHYLL
+#-------------------------------
+Doing this will take priority over it's innate sets.
+
+For a pokemon object, do it like this:
+#-------------------------------
+pkmn = Pokemon.new(:ZUBAT, 45)
+pkmn.Innates = 
+[:DAMP,:KLUTZ,:SPEEDBOOST]
+pbAddPokemon(pkmn)
+#-------------------------------
+Use the property "Innates" (It's case sensitive) and then an array of what Innates you want that pokemon to have.
+
+If you want to modify a pokemon's innates after it has them assigned (You either checked it's summary or send it to battle), use assign_innate_abilities to make the re-roll.
+
+ADD-ON:
+
+Innate Summary page:
+Drag and drop the "Innate Summary Page" folder inside your Plugins folder. Requires Modular UI Scenes from Lucidious89
+Inside of the "Innate Summary Page" folder there are 2 images, called "bg_innates" and "page_innates", drag and drop these
+in Graphics > UI > Summary
+
+Pokedex Data Page add-on
+For this one to work, in your Pokemon.txt file in your PBS, for each pokemon add a property called "Innates =" with the list of Innates the pokedex data should display.
+This is so you can have a lot of innates and innate sets defined per pokemon but not to display ALL of every possible copy. It's basically for ease of show
+
+...and beacuse it was a nightmare to code properly.
+
+Inside the (Optional) folder there are 3 files. "002 Main Page", "003 Sub Menu" and "005 Data Messages". Drag and drop these in your "MUI_002 Pokedex Data Page"
+plugin folder and replace. 
+Then, grab the "submenu" image, and drop it in the Graphics > Plugins > Pokedex Data Page. Replace
+
+In case you want to know specifically what these files are changing or want to replace yourself:
+In 002 Main Page:
+-In line 247:
+Adds these code:
+	#Innate abilities add-on
+	species.innates.each do |a|
+	  next if @data_hash[:ability][3].include?(a)
+	  @data_hash[:ability][3] << a
+	end
+Simply adds the "Innate" part of the PBS as a readable value
+
+Now for 003 Sub Menu
+-In line 387 adds these code
+			sp.innates == base_form.innates
+        if sp.abilities.include?(cursor) || sp.hidden_abilities.include?(cursor) || sp.innates.include?(cursor)
+
+-In line 629 adds these code:
+	when 3 then note = "Innate" #Innate ability add-on
+
+And then in line 639: these next one:
+	when 3 then imagepos.push([path + "submenu", 50, 104 + 42 * i, 0, 472, 412, 40]) #Innate ability add-on
+
+Quite simply adds the Innate abilities to be displayed on the dex page, and allows you to filter pokemon that have that
+ability as an available Innate as well.
+
+And finally 005 Data Messages:
+-In line 545 adds these code:
+			elsif species.innates.include?(ability)
+				text << "a " + t[1] + "innate"
+
+Just for displaying text

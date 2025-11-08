@@ -1,0 +1,11 @@
+#-------------------------------------
+# Custom Stat lines for "X" Pokemon
+# Format:
+# POKEMON,HP,Atk,Def,SpAtk,SpDef,Spe
+# TAKE NOTE!! These are different from how Essentials
+# Normally handles stats. This is to make it easier on us.
+#-------------------------------------
+CHARIZARD,300,300,300,300,300,300
+WHIMSICOTT,120,80,120,100,120,130
+BRAIXENx,170,80,150,180,150,150
+AGGRONx,200,150,200,180,200,60

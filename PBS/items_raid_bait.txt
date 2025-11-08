@@ -1,0 +1,11 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[RAIDBAIT]
+Name = Raid Bait
+NamePlural = Raid Baits
+PortionName = helping of Raid Bait
+PortionNamePlural = helpings of Raid Bait
+Pocket = 1
+Price = 100
+Flags = Fling_10
+Description = A box containing a helping of a special type of bait. It can be used to lure wild Pokémon to a raid den.

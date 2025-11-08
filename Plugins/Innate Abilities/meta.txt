@@ -1,0 +1,86 @@
+﻿Name       = Innate Abilities
+Version    = 1.5.2
+Essentials = 21.1
+Optional   = Generation 9 Pack
+Website    = https://eeveeexpo.com/resources/1518/
+Credits    = DemICE, Penelope, Bguy7, Tsoukinator
+#Honestly credits entirely to DemICE for making the All Abilities Mutation. I just made a separate ability list
+#Also credits to Penelope for helping solving a ton of problems lost in the update
+#Credits to Bguy7 for the suggestion of a case where a pokemon has neither an ability nor any innates defined.
+#Credits to Tsoukinator for the suggestion of an option to let pokemon with bigger innate pools have randomized, picked innates.
+#==========Known bugs=========
+#*Opportunist not working neither as an Innate nor as a Regular ability
+#*Guard Dog only blocks the drop of attack by Intimidate, but doesn't raise it after it
+#*Some abilities that don't use an ability handler have their names show incorrectly in the ability splash bar. While I automate a solution, you can hard-code the name
+#of the ability with the use of $aamName = GameData::Ability.get(:X).name right before the @battle.pbShowAbilitySplash in those instances (Sturdy for example)
+#The first option of the Innate abilities in the debug mode straight up does not work. Don't use it. It will crash your game. Still a WIP.
+#
+#Cangelog
+#=================v1.5.2=============
+#YOU HAVE TO RE-COMPILE AND START A NEW GAME AFTER THIS UPDATE, AS IT CHANGES IT'S BEHAVIOR A BIT
+#Fixed an error when you tried to run the game without the PBS folder, so publishing your project or releasing a beta was impossible.
+#Added the dependency of Moduler UI scenes in the meta file for the Innate Summary page so it always loads after it.
+#Btw, always be sure that the innate summary page is the same version as the main plugin. So, I've added "versions" in it's meta file.
+#The latest update broke the innate filter if it would match the regular ability of the pokemon. Fixed back again.
+#=================v1.5.1=============
+#Fixed an error that would occur if your innate_sets.txt had an empty space. Still, I recommend not leaving one just for consistency
+#Fixed an error for an alias to an unexisting method, it was a custom code for my own game. This was fixed in the previous hotfix but I'm oficially adding it to the changelog now
+#=================v1.5=============
+#YOU HAVE TO RE-COMPILE AND START A NEW GAME AFTER THIS UPDATE, AS IT CHANGES A LOT OF STUFF
+#The "Rework" Update. The biggest update to date.
+#The innates for each pokemon are no longer defined in Pokemon.txt PBS or their derivates
+#Instead, the are defined in a new file called "innate_sets.txt", this is for ease of uninstalling, to allow the new Innate Sets function,
+#and to avoid any overwrittes of other plugins that modify the Pokemon.txt file directly
+#As such, the usage of the Innates parameter in Pokemon.txt no loger does anything but to be loaded by the Data Page modification. If you are not using it, or are using it
+#but don't care to show off the Innates in it, you can remove it no problems. It's basically for utility and flavor for that plugin.
+#Fixed the entirity of the DEBUG menu for Innate abilities. Now the option to set any ability as the pokemon's innate works as intended.
+#Added the option to give custom innates to a created pokemon or to a trainer. This customly given innates bypass randomization. They reset on shuffle by the item or DEBUG menu.
+#Fixed the Mega Evolution/Primal reversion code to allow to have different innates than their baase forms and properly load them in battle. And revert back once the Form change ends.
+#This is also true for temporal form changes that might have a different set of innates. For example if you Give Darmanitan's Zen mode innates unique to it, they will revert back once the battle ends
+#Keep that in mind in case a pokemon was supposed to remain it's new innates gained in combate
+#While using the randomizer, if your total amount of Innates is less than the maximum, the randomizer wont ever shuffle them. So at least you can keep some consitency.
+#This can be turned off with a setting.
+#Pokemon can have more than 1 innate set at the time, picked at random if more than 1 are defined.
+#Basically moved the whole process to Pokemon class.
+#Fixed pokemon mantaining it's pre-evolution's innates after evolving. Now they always get re-asssigned after evolving.
+#=================v1.4.1=============
+#Added a uniqueness filter for the Randomized setting:
+#Now the randomly selected Innates will never have the same ID of the regular ability of the pokemon, nor in between them if you set them multiple times in the "Innates =",
+#this ensures that in between the possible innates and the regular ability, no ID appears more than once. This is only true for the randomizer as the user has full control of the
+#pokemon's innates if they don't use it, so it's not needed.
+#As such, the option for that has been update it in the Innate Shuffler, the Ability Capsule and the Ability Patch.
+#Also updated the Debug Menu, specially the randomizer option. Don't use the first option of the debug Innates menu because it provoques a crash. Still WIP.
+#Fixed (Hopefully) an error that caused crashes with Poison Puppeteer's code if the Gen 9 pack not being installed
+#=================v1.4=============
+#The "Randomized" Update
+#Added a pair of new settings in the AAM Settings file to choose if you want to limit the amount of innates a pokemon can have
+#from the entire "Innates =" section of the PBS. And randomly choose abilities from that same pool. So now 2 pokemon from the same
+#species can have different innates! I recommend to expand the amount of innates in the section if you want to use it.
+#Sligtly reworked the "Innate Page Summary" add-on to now reflect these changes.
+#=================v1.3.2=============
+#Reworked the file "Innate Abilities - Species" to modify only stuff added by the Innate abilities and nothing else
+#	-Therefore, solved compatibilities with the DBK/Animated Pokemon System plugin and the Dynamax plugin.
+#BE SURE TO RECOMPILE AND START A NEW SAVE FILE!
+#Added support for pokemon with no abilities/innates. Simply make a new ability with the id "NOABILITY" with a similar name and description, or
+#add the "abilities_innateabilities.txt" to your pbs folder.
+#=================v1.3.1=============
+#Updated the way the "INNATE_PROGRESS_WITH_LEVEL" works, so now you can give specific pokemon' species custom levels to which they can unlock their innates
+#Updated the "Innates in summary" page to reflect this change
+#=================v1.3=============
+#The "Progress" Update
+#Added new settings in AAM Settings, to choose if you want to enable locking and unlocking innates via either a
+#variable for all pokemon, or based on level for each individual pokemon
+#This is reflected in the Innate Summary page
+#Also added an "No Innate" text for when the pokemon doesn't have an Innate to show
+#=================v1.2=============
+#*Hopefully solved the problem with the "hasActiveAbility?" definition (Credits to Penelope)
+#*Protean and Libero now work as Innates
+#*Fixed the handler "ModifyMoveBaseType" so abilities that use it(Like Galvanize or Pixilate) now properly work as Innates
+#*Solved Poison Puppeteer working as an Innate now (Credits to Penelope for the code)
+#*Fixed an small typo in the Pokedex Data Page mod, so now reads "An Innate" and not "A Innate"
+##=================v1.1.2=============
+#*Fixed Tera Shell's ability splash not showing up while being a Regular/Non-innate ability
+#*Fixed Poison Puppeteer not working while being a regular ability
+#=================v1.1=============
+#*Fixed the problem with the gen 9 pack having moves learned at -1 level. Now -1 levels are an accepted value
+#*Fixed damage altering abilities that use the DamageCalcFromTarget and DamageCalcFromTargetNonIgnorable flag not working properly

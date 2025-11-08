@@ -1,0 +1,1562 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[SCRIPT_TEXTS]
+Kanto Pokédex
+Kanto Pokédex
+Johto Pokédex
+Johto Pokédex
+My Game by:
+My Game by:
+Also involved were:
+Also involved were:
+Special thanks to:
+Special thanks to:
+Field '{1}' is not an integer.
+Field '{1}' is not an integer.
+Field '{1}' is not a positive integer or 0.
+Field '{1}' is not a positive integer or 0.
+Field '{1}' is not a positive integer.
+Field '{1}' is not a positive integer.
+Field '{1}' must be greater than 0.
+Field '{1}' must be greater than 0.
+Field '{1}' is not a hexadecimal number.
+Field '{1}' is not a hexadecimal number.
+Field '{1}' is not a number.
+Field '{1}' is not a number.
+Field '{1}' is not a Boolean value (true, false, 1, 0).
+Field '{1}' is not a Boolean value (true, false, 1, 0).
+Field '{1}' must contain only letters, digits, and<<n>>underscores and can't begin with a number.
+Field '{1}' must contain only letters, digits, and<<n>>underscores and can't begin with a number.
+'{1}' is not a defined type (type {2}, Weaknesses).
+'{1}' is not a defined type (type {2}, Weaknesses).
+'{1}' is not a defined type (type {2}, Resistances).
+'{1}' is not a defined type (type {2}, Resistances).
+'{1}' is not a defined type (type {2}, Immunities).
+'{1}' is not a defined type (type {2}, Immunities).
+Check Moves
+Check Moves
+Remember Moves
+Remember Moves
+Forget Moves
+Forget Moves
+Use TM's
+Use TM's
+Nickname
+Nickname
+{1} forgot how to use {2}.
+{1} forgot how to use {2}.
+Set the Pokémon's #{status} count.
+Set the Pokémon's #{status} count.
+Set {1}'s #{status} count (0-99).
+Set {1}'s #{status} count (0-99).
+{1} was freed from the jagged splinters!
+{1} was freed from the jagged splinters!
+{1} was freed from the sticky candy syrup!
+{1} was freed from the sticky candy syrup!
+{1} is hurt by the jagged splinters!
+{1} is hurt by the jagged splinters!
+{1} is hurt by Salt Cure!
+{1} is hurt by Salt Cure!
+{1} was revived and is ready to fight again!
+{1} was revived and is ready to fight again!
+{1}'s Ability is protected by the effects of its Ability Shield!
+{1}'s Ability is protected by the effects of its Ability Shield!
+{1} comes out of {2}'s mouth!
+{1} comes out of {2}'s mouth!
+{1} was shocked wide awake!
+{1} was shocked wide awake!
+{1} warmed up!
+{1} warmed up!
+{1} can't be used twice in a row!
+{1} can't be used twice in a row!
+Drowsy
+Drowsy
+Frostbite
+Frostbite
+Snow is falling.
+Snow is falling.
+A harsh hailstorm bellows!
+A harsh hailstorm bellows!
+It started to snow!
+It started to snow!
+The hailstorm ended.
+The hailstorm ended.
+The snow stopped.
+The snow stopped.
+{1} is already drowsy!
+{1} is already drowsy!
+{1} is already frostbitten!
+{1} is already frostbitten!
+But the uproar kept {1} alert!
+But the uproar kept {1} alert!
+{1} stays alert!
+{1} stays alert!
+{1} cannot be frostbitten!
+{1} cannot be frostbitten!
+{1} stays alert because of {2}'s {3}!
+{1} stays alert because of {2}'s {3}!
+{1} cannot be frostbitten because of {2}'s {3}!
+{1} cannot be frostbitten because of {2}'s {3}!
+{1}'s {2} prevents drowsiness!
+{1}'s {2} prevents drowsiness!
+{1}'s {2} prevents frostbites!
+{1}'s {2} prevents frostbites!
+{1} grew drowsy!<<n>>It may be too sleepy to move!
+{1} grew drowsy!<<n>>It may be too sleepy to move!
+{1} was frostbitten!
+{1} was frostbitten!
+{1} became alert again.
+{1} became alert again.
+{1}'s frostbite was healed.
+{1}'s frostbite was healed.
+{1} is too drowsy to move!
+{1} is too drowsy to move!
+{1} was hurt by its frostbite!
+{1} was hurt by its frostbite!
+Being hit by Tailwind charged {1} with power!
+Being hit by Tailwind charged {1} with power!
+{1} cut its own HP and minimized its Attack!
+{1} cut its own HP and minimized its Attack!
+{1} cut its own HP and maximized its Attack!
+{1} cut its own HP and maximized its Attack!
+Jagged splinters dug into {1}!
+Jagged splinters dug into {1}!
+{1} used up all its electricity!
+{1} used up all its electricity!
+{1} is being salt cured!
+{1} is being salt cured!
+The pointed stones disappeared from around {1}!
+The pointed stones disappeared from around {1}!
+The pointed steel disappeared from around {1}!
+The pointed steel disappeared from around {1}!
+The spikes disappeared from the ground around {1}!
+The spikes disappeared from the ground around {1}!
+The poison spikes disappeared from the ground around {1}!
+The poison spikes disappeared from the ground around {1}!
+The sticky web has disappeared from the ground around {1}!
+The sticky web has disappeared from the ground around {1}!
+Tidying up complete!
+Tidying up complete!
+{1} blew away the pointed steel!
+{1} blew away the pointed steel!
+{1} is preparing to tell a chillingly bad joke!
+{1} is preparing to tell a chillingly bad joke!
+{1} shed its tail to create a decoy!
+{1} shed its tail to create a decoy!
+{1} got covered in sticky candy syrup!
+{1} got covered in sticky candy syrup!
+{1} absorbed electricity!
+{1} absorbed electricity!
+{1} is going all out for this attack!
+{1} is going all out for this attack!
+{1} is already pumped!
+{1} is already pumped!
+{1}'s {2} made it alert again!
+{1}'s {2} made it alert again!
+{1}'s {2} healed its frostbite!
+{1}'s {2} healed its frostbite!
+{1}'s {2} made its partner alert again!
+{1}'s {2} made its partner alert again!
+{1}'s {2} healed its partner's frostbite!
+{1}'s {2} healed its partner's frostbite!
+{1}'s {2} made {3} drowsy! It may be too sleepy to move!
+{1}'s {2} made {3} drowsy! It may be too sleepy to move!
+{1}'s {2} caused {3} to become frostbitten!
+{1}'s {2} caused {3} to become frostbitten!
+A lingering aroma clings to {1}!
+A lingering aroma clings to {1}!
+{1}'s Ability is protected by the effects of its {2}!
+{1}'s Ability is protected by the effects of its {2}!
+{1} gained strength from the fallen!
+{1} gained strength from the fallen!
+Being hit by {1} charged {2} with power!
+Being hit by {1} charged {2} with power!
+Poison spikes were scattered on the ground all around {1}!
+Poison spikes were scattered on the ground all around {1}!
+{1} underwent a heroic transformation!
+{1} underwent a heroic transformation!
+{1} goes inside the mouth of {2}!
+{1} goes inside the mouth of {2}!
+{1}'s {2} weakened the {3} of all surrounding Pokémon!
+{1}'s {2} weakened the {3} of all surrounding Pokémon!
+{1} basked in the sunlight, sending its ancient pulse into a frenzy!
+{1} basked in the sunlight, sending its ancient pulse into a frenzy!
+{1} turned the sunlight harsh, sending its ancient pulse into a frenzy!
+{1} turned the sunlight harsh, sending its ancient pulse into a frenzy!
+{1} used the Electric Terrain to energize its futuristic engine!
+{1} used the Electric Terrain to energize its futuristic engine!
+{1} turned the ground into Electric Terrain, energizing its futuristic engine!
+{1} turned the ground into Electric Terrain, energizing its futuristic engine!
+The effects of {1}'s {2} wore off!
+The effects of {1}'s {2} wore off!
+The #{cause} activated {1}'s {2}!
+The #{cause} activated {1}'s {2}!
+{1} used its {2} to activate its {3}!
+{1} used its {2} to activate its {3}!
+{1}'s {2} was heightened!
+{1}'s {2} was heightened!
+A supersweet aroma is wafting from the syrup covering {1}!
+A supersweet aroma is wafting from the syrup covering {1}!
+{1} drank down all the matcha that {2} made!
+{1} drank down all the matcha that {2} made!
+The {1} worn by {2} shone brilliantly!
+The {1} worn by {2} shone brilliantly!
+{1} made its shell gleam! It's distorting type matchups!
+{1} made its shell gleam! It's distorting type matchups!
+The harsh sunlight faded!
+The harsh sunlight faded!
+The heavy rain has lifted!
+The heavy rain has lifted!
+The mysterious air current has dissipated!
+The mysterious air current has dissipated!
+The weather returned to normal.
+The weather returned to normal.
+The battlefield returned to normal.
+The battlefield returned to normal.
+{1} used its {2} to mirror its opponent's stat changes!
+{1} used its {2} to mirror its opponent's stat changes!
+{1}'s base points were all reset to zero!
+{1}'s base points were all reset to zero!
+Normal Forme
+Normal Forme
+Attack Forme
+Attack Forme
+Defense Forme
+Defense Forme
+Speed Forme
+Speed Forme
+Which form should {1} change into?
+Which form should {1} change into?
+The 'quest' argument should be a symbol, e.g. ':Quest1'.
+The 'quest' argument should be a symbol, e.g. ':Quest1'.
+\se[{1}]<ac><c2=#{colorQuest(
+\se[{1}]<ac><c2=#{colorQuest(
+{1} tasks
+{1} tasks
+Possess which Pokémon?
+Possess which Pokémon?
+It cannot possess itself.
+It cannot possess itself.
+It cannot possess an Egg.
+It cannot possess an Egg.
+Fainted Pokémon cannot be possessed.
+Fainted Pokémon cannot be possessed.
+It cannot possess that Pokémon.
+It cannot possess that Pokémon.
+{1} possessed {2}!
+{1} possessed {2}!
+{1} emerged from within {2}!
+{1} emerged from within {2}!
+Cheer
+Cheer
+Launch
+Launch
+{1} can only use {2} due to its Encore!
+{1} can only use {2} due to its Encore!
+{1} is completely immune to being copied!
+{1} is completely immune to being copied!
+{1} is completely immune to one-hit KO's!
+{1} is completely immune to one-hit KO's!
+#{msg}
+#{msg}
+{1} used the {2} on {3}.
+{1} used the {2} on {3}.
+{1} used the {2}.
+{1} used the {2}.
+{1} transformed into the {2}-type!
+{1} transformed into the {2}-type!
+{1} put on its {2}!
+{1} put on its {2}!
+{1} is weak!<<n>>Throw a Poké Ball now!
+{1} is weak!<<n>>Throw a Poké Ball now!
+But there is no room left in the PC!
+But there is no room left in the PC!
+Items can't be used in this battle.
+Items can't be used in this battle.
+#{@introText}
+#{@introText}
+{1}
+{1}
+{1} is completely immune to being put to sleep!
+{1} is completely immune to being put to sleep!
+{1} is completely immune to poisoning!
+{1} is completely immune to poisoning!
+{1} is completely immune to burns!
+{1} is completely immune to burns!
+{1} is completely immune to paralysis!
+{1} is completely immune to paralysis!
+{1} is completely immune to being frozen!
+{1} is completely immune to being frozen!
+{1} is completely immune to frostbite!
+{1} is completely immune to frostbite!
+{1} is completely immune to becoming drowsy!
+{1} is completely immune to becoming drowsy!
+{1} is completely immune to confusion!
+{1} is completely immune to confusion!
+{1} is completely immune to infatuation!
+{1} is completely immune to infatuation!
+{1} is completely immune to having its stats lowered!
+{1} is completely immune to having its stats lowered!
+{1} is completely immune to effects that may disable its moves!
+{1} is completely immune to effects that may disable its moves!
+Deluxe plugin settings...
+Deluxe plugin settings...
+Settings added by the Deluxe Battle Kit and other add-on plugins.
+Settings added by the Deluxe Battle Kit and other add-on plugins.
+Toggle Mega Evolution
+Toggle Mega Evolution
+Toggles the availability of Mega Evolution functionality.
+Toggles the availability of Mega Evolution functionality.
+Mega Evolution {1}.
+Mega Evolution {1}.
+{1} radiates with Mega energy!
+{1} radiates with Mega energy!
+{1}'s {2} radiates with Mega energy!
+{1}'s {2} radiates with Mega energy!
+#{param}
+#{param}
+{1}'s held {2} was removed!
+{1}'s held {2} was removed!
+{1} obtained {2} {3}!
+{1} obtained {2} {3}!
+{1}'s stat changes returned to normal!
+{1}'s stat changes returned to normal!
+{1}'s raised stats returned to normal!
+{1}'s raised stats returned to normal!
+{1}'s lowered stats returned to normal!
+{1}'s lowered stats returned to normal!
+The weather cleared.
+The weather cleared.
+{1} emited a powerful magnetic pulse!
+{1} emited a powerful magnetic pulse!
+Your Poké Balls short-circuited!<<n>>They cannot be used this battle!
+Your Poké Balls short-circuited!<<n>>They cannot be used this battle!
+{1} possessed a new appliance!
+{1} possessed a new appliance!
+{1} equipped a {2} it found in the appliance!
+{1} equipped a {2} it found in the appliance!
+{1} emited an electrical pulse out of desperation!
+{1} emited an electrical pulse out of desperation!
+The cave ceiling begins to crumble down all around you!
+The cave ceiling begins to crumble down all around you!
+I am not letting you escape!
+I am not letting you escape!
+I don't care if this whole cave collapses down on the both of us...haha!
+I don't care if this whole cave collapses down on the both of us...haha!
+Defeat your opponent before time runs out!
+Defeat your opponent before time runs out!
+The cave continues to collapse all around you!
+The cave continues to collapse all around you!
+{1} was struck on the head by a falling rock!
+{1} was struck on the head by a falling rock!
+You're running out of time!
+You're running out of time!
+You need to escape immediately!
+You need to escape immediately!
+You failed to defeat your opponent in time!
+You failed to defeat your opponent in time!
+You were forced to flee the battle!
+You were forced to flee the battle!
+My {1} will never give up!
+My {1} will never give up!
+{1} is standing its ground!
+{1} is standing its ground!
+Haha...you'll never make it out alive!
+Haha...you'll never make it out alive!
+{1}'s Mega Evolution faded!<<n>>It may now be captured!
+{1}'s Mega Evolution faded!<<n>>It may now be captured!
+Graphics/UI/Bag Screen with Party/icon_slider
+Graphics/UI/Bag Screen with Party/icon_slider
+Graphics/UI/Bag Screen with Party/icon_pocket
+Graphics/UI/Bag Screen with Party/icon_pocket
+UNABLE
+UNABLE
+Take Item
+Take Item
+Move Item
+Move Item
+{1} is holding {2} {3}.
+{1} is holding {2} {3}.
+{1} is already holding some {2}.<<1>>
+{1} is already holding some {2}.<<1>>
+{1} is already holding an {2}.<<1>>
+{1} is already holding an {2}.<<1>>
+{1} is already holding a {2}.<<1>>
+{1} is already holding a {2}.<<1>>
+\se<<[>>PC access<<]>>You booted up {1}.<<1>>
+\se<<[>>PC access<<]>>You booted up {1}.<<1>>
+Your fainted Pokémon's HP were restored.
+Your fainted Pokémon's HP were restored.
+Your fainted Pokémon's HP was restored.
+Your fainted Pokémon's HP was restored.
+Toggle Dynamax
+Toggle Dynamax
+Toggles the availability of Dynamax functionality.
+Toggles the availability of Dynamax functionality.
+Dynamax {1}.
+Dynamax {1}.
+Dynamax settings...
+Dynamax settings...
+Edit when and where Dynamax is able to be used.
+Edit when and where Dynamax is able to be used.
+Dynamax usable on every map [{1}]
+Dynamax usable on every map [{1}]
+Dynamax usable in wild battles [{1}]
+Dynamax usable in wild battles [{1}]
+Dynamax is now usable on every map.
+Dynamax is now usable on every map.
+Dynamax is now only usable on maps with the 'PowerSpot' flag.
+Dynamax is now only usable on maps with the 'PowerSpot' flag.
+Dynamax is now also usable in wild battles.
+Dynamax is now also usable in wild battles.
+Dynamax is now only usable in trainer battles.
+Dynamax is now only usable in trainer battles.
+Dynamax metrics...
+Dynamax metrics...
+Reposition Pokémon Dynamax sprites displayed in battle.
+Reposition Pokémon Dynamax sprites displayed in battle.
+Edit Dynamax metrics
+Edit Dynamax metrics
+Auto-set Dynamax metrics
+Auto-set Dynamax metrics
+All sprites
+All sprites
+Gigantamax sprites
+Gigantamax sprites
+Sprites by generation...
+Sprites by generation...
+Which sprites do you want to edit?
+Which sprites do you want to edit?
+Select a generation.
+Select a generation.
+Half back sprites (Gen 4 style)
+Half back sprites (Gen 4 style)
+Full back sprites (Gen 5 style)
+Full back sprites (Gen 5 style)
+What style of back sprites are you using?
+What style of back sprites are you using?
+Are you sure you want to automatically reposition all Dynamax sprites?
+Are you sure you want to automatically reposition all Dynamax sprites?
+Repositioning all Dynamax sprites. Please wait.
+Repositioning all Dynamax sprites. Please wait.
+SHOW_DYNAMAX_SIZE is set to 'false', so no Dynamax metrics need to be set.
+SHOW_DYNAMAX_SIZE is set to 'false', so no Dynamax metrics need to be set.
+Plugin attributes...
+Plugin attributes...
+Dynamax...
+Dynamax...
+Eligible: {1}<<n>>Dynamax Level: {2}<<n>>G-Max Factor: {3}<<n>>Dynamaxed: {4}
+Eligible: {1}<<n>>Dynamax Level: {2}<<n>>G-Max Factor: {3}<<n>>Dynamaxed: {4}
+Set eligibility
+Set eligibility
+Set Dynamax Level
+Set Dynamax Level
+Set G-Max Factor
+Set G-Max Factor
+Set Dynamax
+Set Dynamax
+Reset All
+Reset All
+{1} belongs to a species or form that cannot currently use Dynamax.<<n>>Eligibility cannot be changed.
+{1} belongs to a species or form that cannot currently use Dynamax.<<n>>Eligibility cannot be changed.
+{1} is no longer able to use Dynamax.
+{1} is no longer able to use Dynamax.
+{1} is now able to use Dynamax.
+{1} is now able to use Dynamax.
+Set {1}'s Dynamax level (max. 10).
+Set {1}'s Dynamax level (max. 10).
+Can't edit Dynamax values on that Pokémon.
+Can't edit Dynamax values on that Pokémon.
+Gigantamax factor was removed from {1}.
+Gigantamax factor was removed from {1}.
+Gigantamax factor was given to {1}.
+Gigantamax factor was given to {1}.
+{1} doesn't have a Gigantamax form.<<n>>Give it Gigantamax factor anyway?
+{1} doesn't have a Gigantamax form.<<n>>Give it Gigantamax factor anyway?
+{1} is no longer Dynamaxed.
+{1} is no longer Dynamaxed.
+{1} is now Dynamaxed.
+{1} is now Dynamaxed.
+All Dynamax settings restored to default.
+All Dynamax settings restored to default.
+Dynamax
+Dynamax
+Whether each trainer is allowed to Dynamax.
+Whether each trainer is allowed to Dynamax.
+Choose trainer to toggle whether they can Dynamax.
+Choose trainer to toggle whether they can Dynamax.
+Dynamax values
+Dynamax values
+{1} Dynamax <<[>>Lvl: {2}<<]>> <<[>>G-Max: {3}<<]>><<n>>{4} currently Dynamaxed.
+{1} Dynamax <<[>>Lvl: {2}<<]>> <<[>>G-Max: {3}<<]>><<n>>{4} currently Dynamaxed.
+Set Dynamax Lvl
+Set Dynamax Lvl
+Set Dynamax state
+Set Dynamax state
+No Dynamax
+No Dynamax
+If set to true, the trainer will never Dynamax this Pokémon.
+If set to true, the trainer will never Dynamax this Pokémon.
+Dynamax Lv
+Dynamax Lv
+Dynamax level of the Pokémon (0-10).
+Dynamax level of the Pokémon (0-10).
+Gigantamax
+Gigantamax
+If set to true, the Pokémon will have G-Max Factor.
+If set to true, the Pokémon will have G-Max Factor.
+Dynamax Lv.
+Dynamax Lv.
+{1}'s Dynamax level was increased to 10!
+{1}'s Dynamax level was increased to 10!
+{1}'s Dynamax level was increased by 1!
+{1}'s Dynamax level was increased by 1!
+{1} lost its Gigantamax energy.
+{1} lost its Gigantamax energy.
+{1} is now bursting with Gigantamax energy!
+{1} is now bursting with Gigantamax energy!
+You don't have a {1} to charge!
+You don't have a {1} to charge!
+You can't use this item while issuing orders at the same time!
+You can't use this item while issuing orders at the same time!
+You don't need to recharge your {1} yet!
+You don't need to recharge your {1} yet!
+The {1} fully recharged {2}'s {3}!<<n>>{2} can use Dynamax again!
+The {1} fully recharged {2}'s {3}!<<n>>{2} can use Dynamax again!
+{1}'s Dynamax energy faded!<<n>>It may now be captured!
+{1}'s Dynamax energy faded!<<n>>It may now be captured!
+Dynamax Band
+Dynamax Band
+{1} surrounded itself in {2} energy!
+{1} surrounded itself in {2} energy!
+{1} recalled {2}!
+{1} recalled {2}!
+{1}'s ball surges with {2} energy!
+{1}'s ball surges with {2} energy!
+The sharp steel bit into {1}!
+The sharp steel bit into {1}!
+{1} is hurt by {2}'s ferocious beating!
+{1} is hurt by {2}'s ferocious beating!
+{1} is burning up within {2}'s flames!
+{1} is burning up within {2}'s flames!
+{1} is hurt by {2}'s vortex!
+{1} is hurt by {2}'s vortex!
+{1} is hurt by the rocks thrown out by {2}!
+{1} is hurt by the rocks thrown out by {2}!
+{1} was released from {2}'s beating!
+{1} was released from {2}'s beating!
+{1} was released from {2}'s flames!
+{1} was released from {2}'s flames!
+{1} was released from {2}'s vortex!
+{1} was released from {2}'s vortex!
+Rocks stopped being thrown out by {1} on {2}!
+Rocks stopped being thrown out by {1} on {2}!
+{1} couldn't fully protect itself and got hurt!
+{1} couldn't fully protect itself and got hurt!
+{1} became drowsy!
+{1} became drowsy!
+{1} got trapped with vines!
+{1} got trapped with vines!
+{1} were surrounded by fire!
+{1} were surrounded by fire!
+{1} got caught in a vortex of water!
+{1} got caught in a vortex of water!
+{1} became surrounded by rocks!
+{1} became surrounded by rocks!
+Sharp-pointed pieces of steel started floating around {1}!
+Sharp-pointed pieces of steel started floating around {1}!
+{1} became stronger against physical and special moves!
+{1} became stronger against physical and special moves!
+{1} became trapped in the watery vortex!
+{1} became trapped in the watery vortex!
+{1}'s PP was reduced!
+{1}'s PP was reduced!
+Z-Crystals
+Z-Crystals
+Toggle Z-Moves
+Toggle Z-Moves
+Toggles the availability of Z-Move functionality.
+Toggles the availability of Z-Move functionality.
+Z-Moves {1}.
+Z-Moves {1}.
+Toggle Ultra Burst
+Toggle Ultra Burst
+Toggles the availability of Ultra Burst functionality.
+Toggles the availability of Ultra Burst functionality.
+Ultra Burst {1}.
+Ultra Burst {1}.
+Z-Moves
+Z-Moves
+Whether each trainer is allowed to use Z-Moves.
+Whether each trainer is allowed to use Z-Moves.
+Choose trainer to toggle whether they can use Z-Moves.
+Choose trainer to toggle whether they can use Z-Moves.
+Ultra Burst
+Ultra Burst
+Whether each trainer is allowed to Ultra Burst.
+Whether each trainer is allowed to Ultra Burst.
+Choose trainer to toggle whether they can Ultra Burst.
+Choose trainer to toggle whether they can Ultra Burst.
+The move taught by a TM/HM/TR, or a Z-Move linked to a Z-Crystal.
+The move taught by a TM/HM/TR, or a Z-Move linked to a Z-Crystal.
+Alternate description of this item while it's being held by a Pokémon.
+Alternate description of this item while it's being held by a Pokémon.
+A move ID followed by any number of species ID's.
+A move ID followed by any number of species ID's. 
+{1} is a Z-Crystal, but missing a Z-Move in the 'Move' field.<<n>>{2}
+{1} is a Z-Crystal, but missing a Z-Move in the 'Move' field.<<n>>{2}
+{1} is a Z-Crystal, but the 'ZCombo' field is missing a move or a species.<<n>>{2}
+{1} is a Z-Crystal, but the 'ZCombo' field is missing a move or a species.<<n>>{2}
+{1} is already holding a piece of {2}.
+{1} is already holding a piece of {2}.
+{1} cannot currently use this crystal's Z-Power. Is that OK?
+{1} cannot currently use this crystal's Z-Power. Is that OK?
+The piece of {1} will be given to {2} so that it may use its Z-Power!
+The piece of {1} will be given to {2} so that it may use its Z-Power!
+{1} is already holding {2} {3}.<<1>>
+{1} is already holding {2} {3}.<<1>>
+You took {1}'s {2} and gave it a piece of {3}.
+You took {1}'s {2} and gave it a piece of {3}.
+{1} is now holding a piece of {2}!
+{1} is now holding a piece of {2}!
+The {1} fully recharged {2}'s {3}!<<n>>{2} can use Z-Moves again!
+The {1} fully recharged {2}'s {3}!<<n>>{2} can use Z-Moves again!
+The Z-Power healed {1}!
+The Z-Power healed {1}!
+{1} surrounded itself with its Z-Power!
+{1} surrounded itself with its Z-Power!
+{1} unleashed its full force Z-Move!
+{1} unleashed its full force Z-Move!
+{1} restored its HP using its Z-Power!
+{1} restored its HP using its Z-Power!
+{1} boosted its critical hit ratio using its Z-Power!
+{1} boosted its critical hit ratio using its Z-Power!
+{1} returned its decreased stats to normal using its Z-Power!
+{1} returned its decreased stats to normal using its Z-Power!
+{1} became the center of attention using its Z-Power!
+{1} became the center of attention using its Z-Power!
+{1} boosted its {2} using its Z-Power!
+{1} boosted its {2} using its Z-Power!
+{1}'s aura flared to life!
+{1}'s aura flared to life!
+{1}'s Z-Power was replenished by its aura!
+{1}'s Z-Power was replenished by its aura!
+{1}'s aura faded!<<n>>It may now be captured!
+{1}'s aura faded!<<n>>It may now be captured!
+Z-Ring
+Z-Ring
+{1} is not compatible with {2}!
+{1} is not compatible with {2}!
+{1}'s Ultra Burst faded!<<n>>It may now be captured!
+{1}'s Ultra Burst faded!<<n>>It may now be captured!
+Bright light is about to burst out of {1}!
+Bright light is about to burst out of {1}!
+{1} regained its true power with Ultra Burst!
+{1} regained its true power with Ultra Burst!
+Toggle Terastallization
+Toggle Terastallization
+Toggles the availability of Terastallization functionality.
+Toggles the availability of Terastallization functionality.
+Terastallization {1}.
+Terastallization {1}.
+Terastal settings...
+Terastal settings...
+Edit the player's Tera Orb and Pokémon Tera types.
+Edit the player's Tera Orb and Pokémon Tera types.
+Player's Tera Orb is charged [{1}]
+Player's Tera Orb is charged [{1}]
+Tera Orb has infinite charge [{1}]
+Tera Orb has infinite charge [{1}]
+Randomize Pokémon Tera types [{1}]
+Randomize Pokémon Tera types [{1}]
+The player's Tera Orb is now {1}.
+The player's Tera Orb is now {1}.
+The player's Tera Orb now requires {1} between uses.
+The player's Tera Orb now requires {1} between uses.
+New Pokémon will now generate with {1} Tera types.
+New Pokémon will now generate with {1} Tera types.
+Terastal...
+Terastal...
+Eligible: {1}<<n>>Tera type: {2}<<n>>Terastallized: {3}
+Eligible: {1}<<n>>Tera type: {2}<<n>>Terastallized: {3}
+Set Tera type
+Set Tera type
+Set Terastallized
+Set Terastallized
+{1} belongs to a species or form that cannot currently Terastallize.<<n>>Eligibility cannot be changed.
+{1} belongs to a species or form that cannot currently Terastallize.<<n>>Eligibility cannot be changed.
+{1} is no longer able to Terastallize.
+{1} is no longer able to Terastallize.
+{1} is now able to Terastallize.
+{1} is now able to Terastallize.
+{1}'s Tera type cannot be changed.
+{1}'s Tera type cannot be changed.
+{1}'s Tera type is now {2}.
+{1}'s Tera type is now {2}.
+Can't edit Terastal values on that Pokémon.
+Can't edit Terastal values on that Pokémon.
+{1} changes form when Terastallized.<<n>>This may only occur in battle.
+{1} changes form when Terastallized.<<n>>This may only occur in battle.
+{1} is no longer Terastallized.
+{1} is no longer Terastallized.
+{1} is now Terastallized.
+{1} is now Terastallized.
+All Terastal settings restored to default.
+All Terastal settings restored to default.
+Terastallization
+Terastallization
+Whether each trainer is allowed to Terastallize.
+Whether each trainer is allowed to Terastallize.
+Choose trainer to toggle whether they can Terastallize.
+Choose trainer to toggle whether they can Terastallize.
+Terastal values
+Terastal values
+{1} Terastallize <<[>>Type: {2}<<]>><<n>>{3} currently Terastallized.
+{1} Terastallize <<[>>Type: {2}<<]>><<n>>{3} currently Terastallized.
+Set Terastal state
+Set Terastal state
+Not enough {1} remaining...
+Not enough {1} remaining...
+You don't have enough {1}...<<n>>You need {2} shards to change a Pokémon's Tera type.
+You don't have enough {1}...<<n>>You need {2} shards to change a Pokémon's Tera type.
+You don't have enough {1}...
+You don't have enough {1}...
+Select a new Tera type for {1}.
+Select a new Tera type for {1}.
+The {1} fully recharged {2}'s {3}!<<n>>{2} can use Terastallization again!
+The {1} fully recharged {2}'s {3}!<<n>>{2} can use Terastallization again!
+No Tera
+No Tera
+If set to true, the trainer will never Terastallize this Pokémon.
+If set to true, the trainer will never Terastallize this Pokémon.
+Tera Type
+Tera Type
+Tera type of the Pokémon.
+Tera type of the Pokémon.
+{1}'s Tera Jewel shattered!<<n>>It may now be captured!
+{1}'s Tera Jewel shattered!<<n>>It may now be captured!
+Tera Orb
+Tera Orb
+{1} Terastallized into the {2}-type!
+{1} Terastallized into the {2}-type!
+{1} surrounded itself in Terastal energy!
+{1} surrounded itself in Terastal energy!
+{1} is reacting to {2}'s {3}!
+{1} is reacting to {2}'s {3}!
+Kanto Leaders
+Kanto Leaders
+Certain exotic species, as well as eggs, are ineligible.\<<1>>
+Certain exotic species, as well as eggs, are ineligible.\<<1>>
+We're terribly sorry, but your Pokémon are not eligible for the Tournament.\<<1>>
+We're terribly sorry, but your Pokémon are not eligible for the Tournament.\<<1>>
+Please come back once your Pokémon Party has been adjusted.\<<1>>
+Please come back once your Pokémon Party has been adjusted.\<<1>>
+Congratulations on today's win.\<<1>>
+Congratulations on today's win.\<<1>>
+Accounting for your current win streak, you have earned {1} BP.\<<1>>
+Accounting for your current win streak, you have earned {1} BP.\<<1>>
+\pn was awarded {1} Battle Points!\me[BP Fanfare]\wtnp[80]
+\pn was awarded {1} Battle Points!\me[BP Fanfare]\wtnp[80]
+For your victory you have earned {1} BP.\<<1>>
+For your victory you have earned {1} BP.\<<1>>
+We hope to see you again.
+We hope to see you again.
+I'm sorry that you lost this tournament.\<<1>>
+I'm sorry that you lost this tournament.\<<1>>
+Maybe you'll have better luck next time.
+Maybe you'll have better luck next time.
+Which Tournament would you like to participate in?
+Which Tournament would you like to participate in?
+Single
+Single
+Double
+Double
+Sudden Death
+Sudden Death
+Which type of Battle would you like to participate in?
+Which type of Battle would you like to participate in?
+Please choose the Pokémon you would like to participate.
+Please choose the Pokémon you would like to participate.
+Hello, and welcome to the Pokémon World Tournament!\<<1>>
+Hello, and welcome to the Pokémon World Tournament!\<<1>>
+The place where the strongest gather to compete.\<<1>>
+The place where the strongest gather to compete.\<<1>>
+Before we go any further, you will need to save your progress.\<<1>>
+Before we go any further, you will need to save your progress.\<<1>>
+I'm terribly sorry, but it seems there are currently no competitions around for you to compete in.\<<1>>
+I'm terribly sorry, but it seems there are currently no competitions around for you to compete in.\<<1>>
+Please come back at a later time!
+Please come back at a later time!
+Announcer: Welcome to the {1} Tournament!\<<1>>
+Announcer: Welcome to the {1} Tournament!\<<1>>
+Announcer: Today we have 8 very eager contestants, waiting to compete for the title of "Champion".\<<1>>
+Announcer: Today we have 8 very eager contestants, waiting to compete for the title of "Champion".\<<1>>
+Announcer: Let us turn our attention to the scoreboard, to see who will be competing today.\<<1>>
+Announcer: Let us turn our attention to the scoreboard, to see who will be competing today.\<<1>>
+Announcer: Without further ado, let the first match begin.\<<1>>
+Announcer: Without further ado, let the first match begin.\<<1>>
+Announcer: This will be a battle between {1} and {2}.
+Announcer: This will be a battle between {1} and {2}.
+Announcer: Wow! What an exciting first round!\<<1>>
+Announcer: Wow! What an exciting first round!\<<1>>
+Announcer: The stadium is getting heated up, and the contestants are on fire!\<<1>>
+Announcer: The stadium is getting heated up, and the contestants are on fire!\<<1>>
+Announcer: Let us turn our attention back to the scoreboard for the results.\<<1>>
+Announcer: Let us turn our attention back to the scoreboard for the results.\<<1>>
+Announcer: It looks like the next match will be between {1} and {2}.\<<1>>
+Announcer: It looks like the next match will be between {1} and {2}.\<<1>>
+Announcer: Let the battle begin!
+Announcer: Let the battle begin!
+Announcer: What spectacular matches!\<<1>>
+Announcer: What spectacular matches!\<<1>>
+Announcer: These trainers are really giving it all.\<<1>>
+Announcer: These trainers are really giving it all.\<<1>>
+Announcer: Let's direct our attention at the scoreboard one final time.\<<1>>
+Announcer: Let's direct our attention at the scoreboard one final time.\<<1>>
+Announcer: Alright! It's all set!\<<1>>
+Announcer: Alright! It's all set!\<<1>>
+Announcer: The final match of this tournament will be between {1} and {2}.\<<1>>
+Announcer: The final match of this tournament will be between {1} and {2}.\<<1>>
+Announcer: May the best trainer win!
+Announcer: May the best trainer win!
+Announcer: What an amazing battle!\<<1>>
+Announcer: What an amazing battle!\<<1>>
+Announcer: Both the trainers put up a great fight, but our very own {1} was the one to come out on top!\<<1>>
+Announcer: Both the trainers put up a great fight, but our very own {1} was the one to come out on top!\<<1>>
+Announcer: Congratulations {1}! You have certainly earned today's title of "Champion"!\<<1>>
+Announcer: Congratulations {1}! You have certainly earned today's title of "Champion"!\<<1>>
+Announcer: That's all we have time for. I hope you enjoyed today's contest. And we hope to see you again soon.
+Announcer: That's all we have time for. I hope you enjoyed today's contest. And we hope to see you again soon.
+Choose a map number.
+Choose a map number.
+<<[>>ADD ENCOUNTER<<]>>
+<<[>>ADD ENCOUNTER<<]>>
+Choose a species, encounter type and map ID.
+Choose a species, encounter type and map ID.
+Choose an encounter type.
+Choose an encounter type.
+Do what with this encounter?
+Do what with this encounter?
+Change encounter type
+Change encounter type
+Change map number
+Change map number
+Choose a type of {1}.
+Choose a type of {1}.
+Set an encounter chance.
+Set an encounter chance.
+{1}: {2}, {3}, {4}, {5}
+{1}: {2}, {3}, {4}, {5}
+Choose a species, encounter chance, time of day, battle condition, and type of condition.
+Choose a species, encounter chance, time of day, battle condition, and type of condition.
+Choose a time of day.
+Choose a time of day.
+Choose a battle condition.
+Choose a battle condition.
+Change encounter chance
+Change encounter chance
+Change battle condition
+Change battle condition
+Change condition type
+Change condition type
+No specific battle condition has been set.
+No specific battle condition has been set.
+Toggle SOS battles
+Toggle SOS battles
+Toggles SOS call functionality for wild Pokémon.
+Toggles SOS call functionality for wild Pokémon.
+SOS calls {1}.
+SOS calls {1}.
+Add new foe
+Add new foe
+Add or replace a foe on the opposing side.
+Add or replace a foe on the opposing side.
+<<[>>{1}<<]>> {2} {3}
+<<[>>{1}<<]>> {2} {3}
+Choose an index for the new foe.
+Choose an index for the new foe.
+Set {1}'s level (max. {2}).
+Set {1}'s level (max. {2}).
+<<[>>{1}<<]>> ---
+<<[>>{1}<<]>> ---
+Species that this wild Pokémon will prioritize attacking, even if on the same side.
+Species that this wild Pokémon will prioritize attacking, even if on the same side.
+Species that may appear when this wild Pokémon calls for help.
+Species that may appear when this wild Pokémon calls for help.
+Conditional species that may appear when this wild Pokémon calls for help.
+Conditional species that may appear when this wild Pokémon calls for help.
+Base odds of this wild Pokémon calling for help.
+Base odds of this wild Pokémon calling for help.
+Exclusive SOS encounters found on this map.
+Exclusive SOS encounters found on this map.
+The {1} makes the wild Pokémon nervous!
+The {1} makes the wild Pokémon nervous!
+{1} called its ally Pokémon!
+{1} called its ally Pokémon!
+{1} called for help!
+{1} called for help!
+... ... ...
+... ... ...
+{1} appeared!
+{1} appeared!
+Its help didn't appear!
+Its help didn't appear!
+Totem {1}
+Totem {1}
+{1} joined the battle!
+{1} joined the battle!
+Gengar cannot possess a Pokémon while fainted.
+Gengar cannot possess a Pokémon while fainted.
+She cannot possess herself.
+She cannot possess herself.
+Gengar will not possess an Egg.
+Gengar will not possess an Egg.
+Gengar will not possess that fainted Pokémon.
+Gengar will not possess that fainted Pokémon.
+Possession with that Pokémon has not been implemented.
+Possession with that Pokémon has not been implemented.
+{1} possessed their host!
+{1} possessed their host!
+{1} released her host!
+{1} released her host!
+Speed Up Settings
+Speed Up Settings
+Always
+Always
+Only Battles
+Only Battles
+Choose which aspect is sped up.
+Choose which aspect is sped up.
+Battle Speed
+Battle Speed
+x#{SPEEDUP_STAGES[0]}
+x#{SPEEDUP_STAGES[0]}
+x#{SPEEDUP_STAGES[1]}
+x#{SPEEDUP_STAGES[1]}
+x#{SPEEDUP_STAGES[2]}
+x#{SPEEDUP_STAGES[2]}
+Choose the battle speed when the battle speed-up is set to 'Battles Only'.
+Choose the battle speed when the battle speed-up is set to 'Battles Only'.
+Choose tile(s) to swap
+Choose tile(s) to swap
+Choose tile(s) to cut
+Choose tile(s) to cut
+Choose row(s) to move
+Choose row(s) to move
+Insert new row
+Insert new row
+Erase tile(s)
+Erase tile(s)
+Delete row
+Delete row
+Tileset Rearranger
+Tileset Rearranger
+Mode: Swap tiles
+Mode: Swap tiles
+Mode: Cut/insert tiles
+Mode: Cut/insert tiles
+Mode: Move rows
+Mode: Move rows
+Mode: Insert new row
+Mode: Insert new row
+Mode: Erase unused tiles
+Mode: Erase unused tiles
+Mode: Delete row
+Mode: Delete row
+Height: {1}/{2} rows [!]
+Height: {1}/{2} rows [!]
+Height: {1}/{2} rows
+Height: {1}/{2} rows
+C: Swap tiles
+C: Swap tiles
+X: Cancel tile swap
+X: Cancel tile swap
+C: Insert tiles here
+C: Insert tiles here
+X: Cancel tile(s) insert
+X: Cancel tile(s) insert
+ARROWS: Select multiple tiles
+ARROWS: Select multiple tiles
+RELEASE C: Finish selection
+RELEASE C: Finish selection
+C: Select tile
+C: Select tile
+HOLD C: Select multiple tiles
+HOLD C: Select multiple tiles
+C: Move rows here
+C: Move rows here
+X: Cancel row moving
+X: Cancel row moving
+ARROWS: Select multiple rows
+ARROWS: Select multiple rows
+C: Select row
+C: Select row
+HOLD C: Select multiple rows
+HOLD C: Select multiple rows
+C: Insert row of tiles
+C: Insert row of tiles
+RELEASE C: Erase tiles
+RELEASE C: Erase tiles
+C: Erase tile
+C: Erase tile
+HOLD C: Erase multiple tiles
+HOLD C: Erase multiple tiles
+C: Delete row of tiles
+C: Delete row of tiles
+A/S: Jump up/down tileset
+A/S: Jump up/down tileset
+Z: Change mode to cut/insert
+Z: Change mode to cut/insert
+Z: Change mode to swap
+Z: Change mode to swap
+Z: Change mode
+Z: Change mode
+D: Open menu
+D: Open menu
+Q: Undo ({1}) - W: Redo ({2})
+Q: Undo ({1}) - W: Redo ({2})
+Q: Undo ({1})
+Q: Undo ({1})
+W: Redo ({1})
+W: Redo ({1})
+This tileset is too tall ({1} rows) and cannot be saved. Please shrink it to at most {2} rows tall.
+This tileset is too tall ({1} rows) and cannot be saved. Please shrink it to at most {2} rows tall.
+Changes saved. To ensure that they are applied properly, close and reopen RPG Maker XP.
+Changes saved. To ensure that they are applied properly, close and reopen RPG Maker XP.
+Choose tileset to load
+Choose tileset to load
+Rearrange tiles in tilesets.
+Rearrange tiles in tilesets.
+Clear all unused tiles
+Clear all unused tiles
+Delete all unused rows
+Delete all unused rows
+List maps using this tileset
+List maps using this tileset
+Maps using tileset {1:03d}: {2:s}:
+Maps using tileset {1:03d}: {2:s}:
+No maps use tileset {1:03d}: {2:s}.
+No maps use tileset {1:03d}: {2:s}.
+{1}'s effort values were reset.
+{1}'s effort values were reset.
+Begin mining mini-game.
+Begin mining mini-game.
+Remember Move
+Remember Move
+Forget Move
+Forget Move
+#{cmd}
+#{cmd}
+Graphics/UI/Pokedex/bg_#{suffix}
+Graphics/UI/Pokedex/bg_#{suffix}
+Innate 1
+ Innate 1
+Innate 2
+ Innate 2
+Innate 3
+ Innate 3
+After consuming the [placeholder], {1} has awakened its untapped potential!
+After consuming the [placeholder], {1} has awakened its untapped potential!
+After consuming the gene, {1} has awakened its untapped potential!
+After consuming the gene, {1} has awakened its untapped potential!
+{1} has shuffled it's innates!
+{1} has shuffled it's innates!
+{1} has shuffled its innates!
+{1} has shuffled its innates!
+One or more specified innate abilities are not defined.<<n>>{1}
+One or more specified innate abilities are not defined.<<n>>{1}
+Abilities the pokemon always had
+Abilities the pokemon always had
+Set Innates
+Set Innates
+Set Innate Abilities.
+Set Innate Abilities.
+Randomize Defined Innates
+Randomize Defined Innates
+Reset Innates
+Reset Innates
+Innates are: {1}
+Innates are: {1}
+How many Innates Max?
+How many Innates Max? 
+{1} ability has been set as the {2} Innate!
+{1} ability has been set as the {2} Innate!
+How many innates should this Pokémon have?
+How many innates should this Pokémon have?
+Quests
+Quests
+Johto Leaders
+Johto Leaders
+Hoenn Leaders
+Hoenn Leaders
+Sinnoh Leaders
+Sinnoh Leaders
+Unova Leaders
+Unova Leaders
+Kalos Leaders
+Kalos Leaders
+Alola's Captains!
+Alola's Captains!
+Galar Leaders
+Galar Leaders
+Announcer: It's time to lock in and duke it out for the title of "World Champion!".\<<1>>
+Announcer: It's time to lock in and duke it out for the title of "World Champion!".\<<1>>
+Announcer: Take a look up at our scoreboard. Let's see who we have competing today!\<<1>>
+Announcer: Take a look up at our scoreboard. Let's see who we have competing today!\<<1>>
+Announcer: Without further ado... LET'S GET READY TO RUMMMMMMMBLE!\<<1>>
+Announcer: Without further ado... LET'S GET READY TO RUMMMMMMMBLE!\<<1>>
+Announcer: {1} and {2} are ready to go! It's Battle Time in Rustboro City!
+Announcer: {1} and {2} are ready to go! It's Battle Time in Rustboro City!
+Announcer: Unbelievable! What an incredible first round!\<<1>>
+Announcer: Unbelievable! What an incredible first round!\<<1>>
+Announcer: Let's take another look at that scoreboard for our results.\<<1>>
+Announcer: Let's take another look at that scoreboard for our results.\<<1>>
+Next up, we've got {1} and {2}. Two powerhouse Trainers squaring off!\<<1>>
+Next up, we've got {1} and {2}. Two powerhouse Trainers squaring off!\<<1>>
+Announcer: Let's go! Trainers, ready your Pokémon!
+Announcer: Let's go! Trainers, ready your Pokémon!
+Announcer: These trainers are really giving it their all.\<<1>>
+Announcer: These trainers are really giving it their all.\<<1>>
+Announcer: And finally... Our crowning match has been decided!\<<1>>
+Announcer: And finally... Our crowning match has been decided!\<<1>>
+Announcer: The final match of this tournament will be between {1} and {2}!\<<1>>
+Announcer: The final match of this tournament will be between {1} and {2}!\<<1>>
+Announcer: Ready? Fight!
+Announcer: Ready? Fight!
+Announcer: What an incredible series of matches here in Rustboro Colosseum!
+Announcer: What an incredible series of matches here in Rustboro Colosseum!
+{1}'s {2} made {3} lust after {1}!
+{1}'s {2} made {3} lust after {1}!
+{1} is channeling her Love, Anger, and Sorrow!
+{1} is channeling her Love, Anger, and Sorrow!
+{1} became Absol-Ur!
+{1} became Absol-Ur!
+{1} seduced {2}!
+{1} seduced {2}!
+{1} rose back to battle!
+{1} rose back to battle!
+{1}'s stats and primary status were reset!
+{1}'s stats and primary status were reset!
+{1} possessed her host!
+{1} possessed her host!
+Oh? {1} found a rare {2}! Incredible!
+Oh? {1} found a rare {2}! Incredible!
+{1} picked up a {2} and placed it in the bag.
+{1} picked up a {2} and placed it in the bag.
+{1} tried to pick up a {2}, but the bag is full!
+{1} tried to pick up a {2}, but the bag is full!
+{1}'s {2} infatuated {3}!
+{1}'s {2} infatuated {3}!
+Spikes were scattered on the ground all around {1}!
+Spikes were scattered on the ground all around {1}!
+Pointed stones float in the air all around {1}!
+Pointed stones float in the air all around {1}!
+Jagged steel was scattered on the ground all around {1}!
+Jagged steel was scattered on the ground all around {1}!
+{1}'s {2} seeded the opposing side!
+{1}'s {2} seeded the opposing side!
+{1} is on a rampage!
+{1} is on a rampage!
+{1} reactivated Tailwind!
+{1} reactivated Tailwind!
+{1}'s presence stirred up a strong wind behind your team!
+{1}'s presence stirred up a strong wind behind your team!
+{1}'s {2} trapped {3}!
+{1}'s {2} trapped {3}!
+{1}'s Contrary inverted the stat drop!
+{1}'s Contrary inverted the stat drop!
+{1}'s {2} allows it to avoid recharging!
+{1}'s {2} allows it to avoid recharging!
+{1}'s {2} allows {3} to avoid recharging!
+{1}'s {2} allows {3} to avoid recharging!
+The terrain turned Earthquake into Surf!
+The terrain turned Earthquake into Surf!
+{1}'s {2} allows it to skip charging!
+{1}'s {2} allows it to skip charging!
+The battlefield is getting warm! Fire-type moves are strengthened, and Water-type moves are weakened!
+The battlefield is getting warm! Fire-type moves are strengthened, and Water-type moves are weakened!
+The battlefield is hot! Fire-type moves are greatly strengthened, and Water-type moves are almost useless!
+The battlefield is hot! Fire-type moves are greatly strengthened, and Water-type moves are almost useless!
+The battlefield is covered in an inferno! Fire-type moves are unstoppable, and Water-type moves will evaporate!
+The battlefield is covered in an inferno! Fire-type moves are unstoppable, and Water-type moves will evaporate!
+{1}'s Fire-type move is powered up by the Toasty Field!
+{1}'s Fire-type move is powered up by the Toasty Field!
+{1}'s Water-type move is weakened by the Toasty Field!
+{1}'s Water-type move is weakened by the Toasty Field!
+{1}'s Fire-type move is greatly powered up by the Hot Field!
+{1}'s Fire-type move is greatly powered up by the Hot Field!
+{1}'s Water-type move is severely weakened by the Hot Field!
+{1}'s Water-type move is severely weakened by the Hot Field!
+{1}'s Fire-type move is empowered to the max by the Inferno Field!
+{1}'s Fire-type move is empowered to the max by the Inferno Field!
+{1}'s Water-type move evaporates in the Inferno Field!
+{1}'s Water-type move evaporates in the Inferno Field!
+The battlefield cooled off!
+The battlefield cooled off!
+The heat blew over! The battlefield returned to normal!
+The heat blew over! The battlefield returned to normal!
+The inferno covering the battlefield subsided!
+The inferno covering the battlefield subsided!
+A save file is corrupt, or is incompatible with this game.
+A save file is corrupt, or is incompatible with this game.
+Do you want to delete that save file? The game will exit afterwards either way.
+Do you want to delete that save file? The game will exit afterwards either way.
+The save data was deleted.
+The save data was deleted.
+The save data could not be deleted.
+The save data could not be deleted.
+Save to #{$player.save_slot}
+Save to #{$player.save_slot}
+Save to another file
+Save to another file
+Quit without saving
+Quit without saving
+Are you sure you want to overwrite the save in #{slot}?
+Are you sure you want to overwrite the save in #{slot}?
+Are you sure you want to quit without saving?
+Are you sure you want to quit without saving?
+Which slot to save in?
+Which slot to save in?
+<ac><c3=3050C8,D0D0C8>(empty)</c3></ac>
+<ac><c3=3050C8,D0D0C8>(empty)</c3></ac>
+%I:%M%p
+%I:%M%p
+<ac>(old save)</ac>
+<ac>(old save)</ac>
+Time<r>{1}h {2}m<br>
+Time<r>{1}h {2}m<br>
+Time<r>{1}m<br>
+Time<r>{1}m<br>
+{1} evolved into {2}!
+{1} evolved into {2}!
+Capture {1}?
+Capture {1}?
+{1} is completely immune to indirect damage!
+{1} is completely immune to indirect damage!
+Toggle battle gimmicks...
+Toggle battle gimmicks...
+Toggles for various battle gimmicks such as Mega Evolution.
+Toggles for various battle gimmicks such as Mega Evolution.
+Basic
+Basic
+Long
+Long
+Graphics/Items/#{@battler.item_id}
+Graphics/Items/#{@battler.item_id}
+Plugin settings...
+Plugin settings...
+Settings for various features implemented by add-on plugins.
+Settings for various features implemented by add-on plugins.
+Cannot use this move here.
+Cannot use this move here.
+Toggle battle modes...
+Toggle battle modes...
+Toggles for various battle modes implemented by add-on plugins.
+Toggles for various battle modes implemented by add-on plugins.
+{1}'s {2} made {3} disobedient!
+{1}'s {2} made {3} disobedient!
+{1} stole {2}'s boosted {3}!
+{1} stole {2}'s boosted {3}!
+{1}'s {2} boost was nullified!
+{1}'s {2} boost was nullified!
+You are missing the graphic for this UI. Make sure the image is in your Graphics/UI folder and that it is named appropriately.
+You are missing the graphic for this UI. Make sure the image is in your Graphics/UI folder and that it is named appropriately.
+<ac><c2=43F022E8>{1}: {2}</c2></ac>
+<ac><c2=43F022E8>{1}: {2}</c2></ac>
+<ac><c2=43F022E8>{1}</c2></ac>
+<ac><c2=43F022E8>{1}</c2></ac>
+Encounters
+Encounters
+Omni Pokédex
+Omni Pokédex
+{1} restored a little HP with its {2}!
+{1} restored a little HP with its {2}!
+{1} restored a lot of HP with its {2}!
+{1} restored a lot of HP with its {2}!
+{1} restored some HP with its {2}!
+{1} restored some HP with its {2}!
+{1} devoured {2}'s carcass!
+{1} devoured {2}'s carcass!
+Base
+Base
+IV
+IV
+EV
+EV
+Total EV
+Total EV
+Hidden Power
+Hidden Power
+Level {1} for {2} is not a valid level as it goes {3}. The level has been reset to {4}
+Level {1} for {2} is not a valid level as it goes {3}. The level has been reset to {4}
+{1} got a reduced {2} Exp. Points!
+{1} got a reduced {2} Exp. Points!
+{1} refuses to eat the {2}.
+{1} refuses to eat the {2}.
+You're a boy, right?
+You're a boy, right?
+You're a girl, right?
+You're a girl, right?
+Your name is {1}?
+Your name is {1}?
+Are you a boy?<<n>>Or a girl?
+Are you a boy?<<n>>Or a girl?
+Remove
+Remove
+Do what with this rule?
+Do what with this rule?
+There are no remaining battle rules to add.
+There are no remaining battle rules to add.
+Selected battle rule is invalid.
+Selected battle rule is invalid.
+Battle rule inverted.
+Battle rule inverted.
+Set battle rules...
+Set battle rules...
+Set battle rules to apply to the next encounter.
+Set battle rules to apply to the next encounter.
+Set partner trainer
+Set partner trainer
+Set a partner trainer to accompany the player in battle.
+Set a partner trainer to accompany the player in battle.
+Replace
+Replace
+Do what with the player's existing partner? ({1})
+Do what with the player's existing partner? ({1})
+Removed {1} as partner.
+Removed {1} as partner.
+Choose a new partner.
+Choose a new partner.
+PARTNER TRAINER
+PARTNER TRAINER
+Registered {1} as partner.
+Registered {1} as partner.
+Trainer is missing a back sprite.<<n>>Unable to set as partner.
+Trainer is missing a back sprite.<<n>>Unable to set as partner.
+<<[>>ADD NEW RULE<<]>>
+<<[>>ADD NEW RULE<<]>>
+Select a new battle rule to apply.
+Select a new battle rule to apply.
+<<[>>CLEAR ALL RULES<<]>>
+<<[>>CLEAR ALL RULES<<]>>
+Clear all active battle rules.
+Clear all active battle rules.
+No battle active battle rules to clear.
+No battle active battle rules to clear.
+Are you sure you want to clear all active battle rules?
+Are you sure you want to clear all active battle rules?
+Determines the number of battlers on each side of the field.
+Determines the number of battlers on each side of the field.
+Set the battle size.
+Set the battle size.
+The player's partner trainer will not participate in battle.
+The player's partner trainer will not participate in battle.
+The game will continue even if the player loses the battle.
+The game will continue even if the player loses the battle.
+The player will be unable to select the Run command.
+The player will be unable to select the Run command.
+Wild Pokémon will always attempt to flee as their first action.
+Wild Pokémon will always attempt to flee as their first action.
+Trainers will be unable to manually switch out Pokémon.
+Trainers will be unable to manually switch out Pokémon.
+Determines whether or not switch mode is enabled.
+Determines whether or not switch mode is enabled.
+Set whether switch mode should be enabled. (Trainer battles only)
+Set whether switch mode should be enabled. (Trainer battles only)
+The player's Pokémon will not gain any experience.
+The player's Pokémon will not gain any experience.
+The player will not lose or receive any prize money.
+The player will not lose or receive any prize money.
+Determines the default battle weather.
+Determines the default battle weather.
+Set the default battle weather.
+Set the default battle weather.
+Determines the default battle terrain.
+Determines the default battle terrain.
+Set the default battle terrain.
+Set the default battle terrain.
+Determines the battle environment.
+Determines the battle environment.
+Set the battle environment.
+Set the battle environment.
+Poké Balls will be unable to be selected from the bag.
+Poké Balls will be unable to be selected from the bag.
+Any captured Pokémon must be added to the party.
+Any captured Pokémon must be added to the party.
+Determines whether or not battle animations are enabled.
+Determines whether or not battle animations are enabled.
+Set whether battle animations should be enabled.
+Set whether battle animations should be enabled.
+Determines the graphic used for the battle background.
+Determines the graphic used for the battle background.
+Set the name of the background graphic.
+Set the name of the background graphic.
+Determines the graphics used for the battle bases.
+Determines the graphics used for the battle bases.
+Set the name of the battle base graphics.
+Set the name of the battle base graphics.
+The variable number used to store the battle outcome.
+The variable number used to store the battle outcome.
+Set a variable number.
+Set a variable number.
+Determines temporary player attributes.
+Determines temporary player attributes.
+Enter the player's temporary display name.
+Enter the player's temporary display name.
+Set the player's temporary outfit number.
+Set the player's temporary outfit number.
+Determines the player's temporary party.
+Determines the player's temporary party.
+Add a temporary party member (slot {1}).<<n>>(Exit menu to end early)
+Add a temporary party member (slot {1}).<<n>>(Exit menu to end early)
+Set a level for {1}.
+Set a level for {1}.
+Set a temporary party of {1}.
+Set a temporary party of {1}.
+Determines the player's temporary inventory.
+Determines the player's temporary inventory.
+Add a new item to the temporary bag.<<n>>(Exit menu to end)
+Add a new item to the temporary bag.<<n>>(Exit menu to end)
+Set the number of {1} to add.
+Set the number of {1} to add.
+Set a temporary inventory of {1} items.
+Set a temporary inventory of {1} items.
+Trainers are unable to use any items from their inventories.
+Trainers are unable to use any items from their inventories.
+Determines which side Mega Evolution is disabled for.
+Determines which side Mega Evolution is disabled for.
+Choose a side to disable Mega Evolution for.
+Choose a side to disable Mega Evolution for.
+The AI will control the player's commands.
+The AI will control the player's commands.
+The battle functions like a Battle Tower or PvP battle.
+The battle functions like a Battle Tower or PvP battle.
+Type effectiveness will be inverted.
+Type effectiveness will be inverted.
+Determines a battle gimmick to be used by wild Pokémon.
+Determines a battle gimmick to be used by wild Pokémon.
+Choose a battle gimmick for wild Pokémon to use.
+Choose a battle gimmick for wild Pokémon to use.
+Determines whether Poké Balls always succeeed or fail.
+Determines whether Poké Balls always succeeed or fail.
+Set whether Poké Balls will always succeed or fail.
+Set whether Poké Balls will always succeed or fail.
+Captured Pokémon will not be kept or registered in the Pokédex.
+Captured Pokémon will not be kept or registered in the Pokédex.
+You're prompted to capture a wild Pokémon when its HP drops to zero.
+You're prompted to capture a wild Pokémon when its HP drops to zero.
+Determines the music effect upon capturing a Pokémon.
+Determines the music effect upon capturing a Pokémon.
+Set the music effect that plays upon capturing a Pokémon.
+Set the music effect that plays upon capturing a Pokémon.
+Determines the battle background music.
+Determines the battle background music.
+Set the battle background music. (Set to None to disable)
+Set the battle background music. (Set to None to disable)
+Determines the battle victory music.
+Determines the battle victory music.
+Set the battle victory music. (Set to None to disable)
+Set the battle victory music. (Set to None to disable)
+Determines the low HP background music.
+Determines the low HP background music.
+Set the low HP background music. (Set to None to disable)
+Set the low HP background music. (Set to None to disable)
+Determines the text displayed at the start of an encounter.
+Determines the text displayed at the start of an encounter.
+Set the displayed encounter text.
+Set the displayed encounter text.
+Determines the opposing trainer's win speech.
+Determines the opposing trainer's win speech.
+Set the opposing trainer's win speech. (PvP-style battles only)
+Set the opposing trainer's win speech. (PvP-style battles only)
+Determines the opposing trainer's lose speech.
+Determines the opposing trainer's lose speech.
+Set the opposing trainer's lose speech.
+Set the opposing trainer's lose speech.
+Determines the way opponents slide on screen when encountered.
+Determines the way opponents slide on screen when encountered.
+Set the way opponents slide on screen.
+Set the way opponents slide on screen.
+Determines the style of the displayed databoxes.
+Determines the style of the displayed databoxes.
+Set the databox style to display.
+Set the databox style to display.
+Determines which mid-battle script to run.
+Determines which mid-battle script to run.
+No valid midbattle scripts found.
+No valid midbattle scripts found.
+Set a mid-battle script to run.
+Set a mid-battle script to run.
+{1} reverted to its original typing!
+{1} reverted to its original typing!
+Determines which side Terastallization is disabled for.
+Determines which side Terastallization is disabled for.
+Choose a side to disable Terastallization for.
+Choose a side to disable Terastallization for.
+Other plugin settings...
+Other plugin settings...
+Determines which side Dynamax is disabled for.
+Determines which side Dynamax is disabled for.
+Choose a side to disable Dynamax for.
+Choose a side to disable Dynamax for.
+Dynamax species metrics...
+Dynamax species metrics...
+Determines which side Z-Moves are disabled for.
+Determines which side Z-Moves are disabled for.
+Choose a side to disable Z-Moves for.
+Choose a side to disable Z-Moves for.
+Determines which side Ultra Burst is disabled for.
+Determines which side Ultra Burst is disabled for.
+Choose a side to disable Ultra Burst for.
+Choose a side to disable Ultra Burst for.
+The place where the strongest gather to compete, powered by Macro Cosmos!.\<<1>>
+The place where the strongest gather to compete, powered by Macro Cosmos!.\<<1>>
+Announcer: {1} and {2} are ready to go! It's Battle Time in Verdanturf City!
+Announcer: {1} and {2} are ready to go! It's Battle Time in Verdanturf City!
+Announcer: What an incredible series of matches here in Verdanturf Colosseum - brought to you by Macro Cosmos!
+Announcer: What an incredible series of matches here in Verdanturf Colosseum - brought to you by Macro Cosmos!
+Toggle plugin battle modes...
+Toggle plugin battle modes...
+Determines whether or not wild Pokémon can use SOS calls.
+Determines whether or not wild Pokémon can use SOS calls.
+Set whether wild Pokémon can use SOS calls.
+Set whether wild Pokémon can use SOS calls.
+Wild Pokémon will be flagged as Totem Pokemon.
+Wild Pokémon will be flagged as Totem Pokemon.
+Determines the species called via SOS.
+Determines the species called via SOS.
+Set which species should be called via SOS.
+Set which species should be called via SOS.
+Determines an extra species that may be called via SOS.
+Determines an extra species that may be called via SOS.
+Add a species to the pool of possible SOS calls.
+Add a species to the pool of possible SOS calls.
+{1}'s {2} aroused {3}!
+{1}'s {2} aroused {3}!
+Banette
+Banette
+{1} consumed its charge to heal itself!
+{1} consumed its charge to heal itself!
+No usage found.
+No usage found.
+Results printed to {1} in the project folder.
+Results printed to {1} in the project folder.
+Switch Usage Report
+Switch Usage Report
+Find which events use a specific switch.
+Find which events use a specific switch.
+Search for which switch?
+Search for which switch?
+Console
+Console
+Text File
+Text File
+Display the results where?
+Display the results where?
+Variable Usage Report
+Variable Usage Report
+Find which events use a specific variable.
+Find which events use a specific variable.
+Search for which variable?
+Search for which variable?

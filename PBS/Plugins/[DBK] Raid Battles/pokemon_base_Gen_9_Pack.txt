@@ -1,0 +1,382 @@
+### Changes will apply automatically. ###
+#-------------------------------
+[WYRDEER]
+RaidRanks = 4,5
+#-------------------------------
+[KLEAVOR]
+RaidRanks = 3,4,5
+#-------------------------------
+[URSALUNA]
+RaidRanks = 5
+#-------------------------------
+[BASCULEGION]
+RaidRanks = 4,5
+#-------------------------------
+[SNEASLER]
+RaidRanks = 4,5
+#-------------------------------
+[OVERQWIL]
+RaidRanks = 4,5
+#-------------------------------
+[ENAMORUS]
+RaidRanks = 6
+#-------------------------------
+[SPRIGATITO]
+RaidRanks = 1,2
+#-------------------------------
+[FLORAGATO]
+RaidRanks = 2,3
+#-------------------------------
+[MEOWSCARADA]
+RaidRanks = 3,4,5
+#-------------------------------
+[FUECOCO]
+RaidRanks = 1,2
+#-------------------------------
+[CROCALOR]
+RaidRanks = 2,3
+#-------------------------------
+[SKELEDIRGE]
+RaidRanks = 3,4,5
+#-------------------------------
+[QUAXLY]
+RaidRanks = 1,2
+#-------------------------------
+[QUAXWELL]
+RaidRanks = 2,3
+#-------------------------------
+[QUAQUAVAL]
+RaidRanks = 3,4,5
+#-------------------------------
+[LECHONK]
+RaidRanks = 1,2
+#-------------------------------
+[OINKOLOGNE]
+RaidRanks = 3,4
+#-------------------------------
+[TAROUNTULA]
+RaidRanks = 1,2
+#-------------------------------
+[SPIDOPS]
+RaidRanks = 2,3
+#-------------------------------
+[NYMBLE]
+RaidRanks = 1,2
+#-------------------------------
+[LOKIX]
+RaidRanks = 3,4
+#-------------------------------
+[PAWMI]
+RaidRanks = 1,2
+#-------------------------------
+[PAWMO]
+RaidRanks = 2,3
+#-------------------------------
+[PAWMOT]
+RaidRanks = 3,4
+#-------------------------------
+[TANDEMAUS]
+RaidRanks = 1,2
+#-------------------------------
+[MAUSHOLD]
+RaidRanks = 3,4,5
+#-------------------------------
+[FIDOUGH]
+RaidRanks = 1,2
+#-------------------------------
+[DACHSBUN]
+RaidRanks = 3,4
+#-------------------------------
+[SMOLIV]
+RaidRanks = 1,2
+#-------------------------------
+[DOLLIV]
+RaidRanks = 2,3
+#-------------------------------
+[ARBOLIVA]
+RaidRanks = 3,4,5
+#-------------------------------
+[SQUAWKABILLY]
+RaidRanks = 3,4
+#-------------------------------
+[NACLI]
+RaidRanks = 1,2
+#-------------------------------
+[NACLSTACK]
+RaidRanks = 2,3
+#-------------------------------
+[GARGANACL]
+RaidRanks = 4,5
+#-------------------------------
+[CHARCADET]
+RaidRanks = 1,2
+#-------------------------------
+[ARMAROUGE]
+RaidRanks = 3,4,5
+#-------------------------------
+[CERULEDGE]
+RaidRanks = 3,4,5
+#-------------------------------
+[TADBULB]
+RaidRanks = 1,2
+#-------------------------------
+[BELLIBOLT]
+RaidRanks = 3,4
+#-------------------------------
+[WATTREL]
+RaidRanks = 1,2
+#-------------------------------
+[KILOWATTREL]
+RaidRanks = 3,4
+#-------------------------------
+[MASCHIFF]
+RaidRanks = 2,3
+#-------------------------------
+[MABOSSTIFF]
+RaidRanks = 4,5
+#-------------------------------
+[SHROODLE]
+RaidRanks = 1,2
+#-------------------------------
+[GRAFAIAI]
+RaidRanks = 3,4
+#-------------------------------
+[BRAMBLIN]
+RaidRanks = 1,2
+#-------------------------------
+[BRAMBLEGHAST]
+RaidRanks = 3,4,5
+#-------------------------------
+[TOEDSCOOL]
+RaidRanks = 1,2,3
+#-------------------------------
+[TOEDSCRUEL]
+RaidRanks = 3,4,5
+#-------------------------------
+[KLAWF]
+RaidRanks = 3,4,5
+#-------------------------------
+[CAPSAKID]
+RaidRanks = 1,2
+#-------------------------------
+[SCOVILLAIN]
+RaidRanks = 3,4
+#-------------------------------
+[RELLOR]
+RaidRanks = 1,2
+#-------------------------------
+[RABSCA]
+RaidRanks = 3,4
+#-------------------------------
+[FLITTLE]
+RaidRanks = 1,2
+#-------------------------------
+[ESPATHRA]
+RaidRanks = 3,4,5
+#-------------------------------
+[TINKATINK]
+RaidRanks = 1,2
+#-------------------------------
+[TINKATUFF]
+RaidRanks = 2,3
+#-------------------------------
+[TINKATON]
+RaidRanks = 3,4,5
+#-------------------------------
+[WIGLETT]
+RaidRanks = 1,2
+#-------------------------------
+[WUGTRIO]
+RaidRanks = 3,4
+#-------------------------------
+[BOMBIRDIER]
+RaidRanks = 3,4
+#-------------------------------
+[FINIZEN]
+RaidRanks = 1,2
+#-------------------------------
+[PALAFIN]
+RaidRanks = 3,4
+#-------------------------------
+[VAROOM]
+RaidRanks = 1,2,3
+#-------------------------------
+[REVAVROOM]
+RaidRanks = 4,5
+#-------------------------------
+[CYCLIZAR]
+RaidRanks = 3,4,5
+#-------------------------------
+[ORTHWORM]
+RaidRanks = 3,4,5
+#-------------------------------
+[GLIMMET]
+RaidRanks = 1,2
+#-------------------------------
+[GLIMMORA]
+RaidRanks = 3,4,5
+#-------------------------------
+[GREAVARD]
+RaidRanks = 1,2
+#-------------------------------
+[HOUNDSTONE]
+RaidRanks = 3,4,5
+#-------------------------------
+[FLAMIGO]
+RaidRanks = 3,4,5
+#-------------------------------
+[CETODDLE]
+RaidRanks = 1,2,3
+#-------------------------------
+[CETITAN]
+RaidRanks = 4,5
+#-------------------------------
+[VELUZA]
+RaidRanks = 3,4,5
+#-------------------------------
+[DONDOZO]
+RaidRanks = 4,5
+#-------------------------------
+[TATSUGIRI]
+RaidRanks = 3,4
+#-------------------------------
+[ANNIHILAPE]
+RaidRanks = 4,5
+#-------------------------------
+[CLODSIRE]
+RaidRanks = 3,4
+#-------------------------------
+[FARIGIRAF]
+RaidRanks = 4,5
+#-------------------------------
+[DUDUNSPARCE]
+RaidRanks = 4,5
+#-------------------------------
+[KINGAMBIT]
+RaidRanks = 5
+#-------------------------------
+[GREATTUSK]
+RaidRanks = 6
+#-------------------------------
+[SCREAMTAIL]
+RaidRanks = 6
+#-------------------------------
+[BRUTEBONNET]
+RaidRanks = 6
+#-------------------------------
+[FLUTTERMANE]
+RaidRanks = 6
+#-------------------------------
+[SLITHERWING]
+RaidRanks = 6
+#-------------------------------
+[SANDYSHOCKS]
+RaidRanks = 6
+#-------------------------------
+[IRONTREADS]
+RaidRanks = 6
+#-------------------------------
+[IRONBUNDLE]
+RaidRanks = 6
+#-------------------------------
+[IRONHANDS]
+RaidRanks = 6
+#-------------------------------
+[IRONJUGULIS]
+RaidRanks = 6
+#-------------------------------
+[IRONMOTH]
+RaidRanks = 6
+#-------------------------------
+[IRONTHORNS]
+RaidRanks = 6
+#-------------------------------
+[FRIGIBAX]
+RaidRanks = 1,2
+#-------------------------------
+[ARCTIBAX]
+RaidRanks = 3,4
+#-------------------------------
+[BAXCALIBUR]
+RaidRanks = 5
+#-------------------------------
+[GIMMIGHOUL]
+RaidRanks = 1,2
+#-------------------------------
+[GHOLDENGO]
+RaidRanks = 4,5
+#-------------------------------
+[WOCHIEN]
+RaidRanks = 6
+#-------------------------------
+[CHIENPAO]
+RaidRanks = 6
+#-------------------------------
+[TINGLU]
+RaidRanks = 6
+#-------------------------------
+[CHIYU]
+RaidRanks = 6
+#-------------------------------
+[ROARINGMOON]
+RaidRanks = 6
+#-------------------------------
+[IRONVALIANT]
+RaidRanks = 6
+#-------------------------------
+[KORAIDON]
+RaidRanks = 6
+#-------------------------------
+[MIRAIDON]
+RaidRanks = 6
+#-------------------------------
+[WALKINGWAKE]
+RaidRanks = 6
+#-------------------------------
+[IRONLEAVES]
+RaidRanks = 6
+#-------------------------------
+[DIPPLIN]
+RaidRanks = 2,3
+#-------------------------------
+[POLTCHAGEIST]
+RaidRanks = 1,2
+#-------------------------------
+[SINISTCHA]
+RaidRanks = 3,4,5
+#-------------------------------
+[OKIDOGI]
+RaidRanks = 6
+#-------------------------------
+[MUNKIDORI]
+RaidRanks = 6
+#-------------------------------
+[FEZANDIPITI]
+RaidRanks = 6
+#-------------------------------
+[OGERPON]
+RaidRanks = 6
+#-------------------------------
+[ARCHALUDON]
+RaidRanks = 5
+#-------------------------------
+[HYDRAPPLE]
+RaidRanks = 4,5
+#-------------------------------
+[GOUGINGFIRE]
+RaidRanks = 6
+#-------------------------------
+[RAGINGBOLT]
+RaidRanks = 6
+#-------------------------------
+[IRONBOULDER]
+RaidRanks = 6
+#-------------------------------
+[IRONCROWN]
+RaidRanks = 6
+#-------------------------------
+[TERAPAGOS]
+RaidRanks = 6
+#-------------------------------
+[PECHARUNT]
+RaidRanks = 6

@@ -1,0 +1,17 @@
+Name      = Idite Plugin
+Version   = 1
+Essentials = 21.1
+Credits   = Idite, BunnE [thanks for putting up with the massive amounts of shit I send you.]
+##############################################################
+# CHANGELOG
+##############################################################
+# + Bubble: reworked to function similarly to Bullet Seed. Is now a Pulse move.
+# + Added the Pulse flag to many moves.
+# Reworked the Pickup mod drastically.
+# Buffed several old abilities.
+# + Plus/Minus: 1.5x -> 2x boost. Now only functions when Plus is paired with Minus, or vice versa. 
+# Overcoat: 20% Special Damage reduction. This is NOT a SpDef increase.
+# Battle Armor: 20% Damage reduction. This is NOT a Def/spDef increase.
+# Forecast: holding a weather rock now triggers that weather effect. Additionally, 1.8x damage multiplier. Castform needs this.
+# Cute Charm: Works on contact, by EITHER party.
+# Keen Eye: 1.2x accuracy buff.

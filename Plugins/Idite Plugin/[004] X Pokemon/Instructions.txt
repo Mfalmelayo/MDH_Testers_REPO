@@ -1,0 +1,44 @@
+This is a script specifically to handle the initial fights against non-hybrid Pokemon.
+
+There is a new PBS file within the PBS folder called "boss_stats".
+There are instructions within that tell you how to add Pokémon - it is very simple.
+
+To use the script in an event, call pbBossPokemon when creating your PKMN object. 
+Example:
+
+boss = pbBossPokemon(:CHARIZARD, 50, {
+  :gender => 1, # Female
+  :ability => :DROUGHT,
+  :item => :HEATROCK,
+  :nature => :MODEST,
+  :moves => [:FLAMETHROWER, :SOLARBEAM],
+  :Innates => [:INTIMIDATE,:DROUGHT,:SOLARPOWER],
+  :iv => 31,
+  :ev => [0, 0, 0, 252, 252, 0]
+})
+
+Then, below that:
+
+WildBattle.start(boss)
+
+This can be used in conjunction to existing battle rules. Example:
+
+setBattleRule("raidStyleCapture", { 
+  :capture_chance => 100
+})
+#------------------------
+setBattleRule("cannotRun")
+#------------------------
+boss = pbBossPokemon(:REGIROCK, 75, {
+  :ability => :SOLIDROCK,
+  :item => :ASSAULTVEST,
+  :nature => :TIMID,
+  :moves => [:BODYPRESS, :ROCKWRECKER, :ROCKSLIDE, :HAMMERARM],
+  :Innates => [:STAMINA,:SANDSTREAM,:SANDVEIL],
+  :iv => [31,31,31,0,31,31],
+  :ev => [252, 0, 128, 0, 0, 128]
+})
+#------------------------
+WildBattle.start(boss)
+
+This would create & start a Raid-Style encounter (throw a pokeball after KO) against a Regirock that you cannot flee from.

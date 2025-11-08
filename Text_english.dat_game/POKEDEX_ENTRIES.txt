@@ -1,0 +1,478 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[POKEDEX_ENTRIES]
+The black orbs shine with an uncanny light when the Pokémon is erecting invisible barriers. The fur shed from its beard retains heat well and is a highly useful material for winter clothing
+The black orbs shine with an uncanny light when the Pokémon is erecting invisible barriers. The fur shed from its beard retains heat well and is a highly useful material for winter clothing
+A violent creature that fells towering trees with its crude axes and shields itself with hard stone. If one should chance upon this Pokémon in the wilds, one's only recourse is to flee.
+A violent creature that fells towering trees with its crude axes and shields itself with hard stone. If one should chance upon this Pokémon in the wilds, one's only recourse is to flee.
+It is believed that the swampy terrain of its ancient home region that gave Ursaluna its burly physique and newfound capacity to manipulate peat at will.
+It is believed that the swampy terrain of its ancient home region that gave Ursaluna its burly physique and newfound capacity to manipulate peat at will.
+Clads itself in the souls of comrades that perished before fulfilling their goals of journeying upstream. No other species throughout other aquatic environments is Basculegion’s equal.
+Clads itself in the souls of comrades that perished before fulfilling their goals of journeying upstream. No other species throughout other aquatic environments is Basculegion’s equal.
+Because of Sneasler’s virulent poison and daunting physical prowess, no other species could hope to best it on frozen highlands. Preferring solitude, this species does not form packs.
+Because of Sneasler’s virulent poison and daunting physical prowess, no other species could hope to best it on frozen highlands. Preferring solitude, this species does not form packs.
+Its lancelike spikes and savage temperament have earned it the nickname "sea fiend." It slurps up poison to nourish itself.
+Its lancelike spikes and savage temperament have earned it the nickname "sea fiend." It slurps up poison to nourish itself.
+When it flies to this land from across the sea, the bitter winter comes to an end. According to legend, this Pokémon's love gives rise to the budding of fresh life across Hisui.
+When it flies to this land from across the sea, the bitter winter comes to an end. According to legend, this Pokémon's love gives rise to the budding of fresh life across Hisui.
+The sweet scent its body gives off mesmerizes those around it. The scent grows stronger when this Pokémon is in the sun.
+The sweet scent its body gives off mesmerizes those around it. The scent grows stronger when this Pokémon is in the sun.
+Floragato deftly wields the vine hidden beneath its long fur, slamming the hard flower bud against its opponents.
+Floragato deftly wields the vine hidden beneath its long fur, slamming the hard flower bud against its opponents.
+This Pokémon uses the reflective fur lining its cape to camouflage the stem of its flower, creating the illusion that the flower is floating.
+This Pokémon uses the reflective fur lining its cape to camouflage the stem of its flower, creating the illusion that the flower is floating.
+It lies on warm rocks and uses the heat absorbed by its square-shaped scales to create fire energy.
+It lies on warm rocks and uses the heat absorbed by its square-shaped scales to create fire energy.
+The combination of Crocalor’s fire energy and overflowing vitality has caused an egg-shaped fireball to appear on the Pokémon’s head.
+The combination of Crocalor’s fire energy and overflowing vitality has caused an egg-shaped fireball to appear on the Pokémon’s head.
+The fiery bird changes shape when Skeledirge sings. Rumor has it that the bird was born when the fireball on Skeledirge’s head gained a soul.
+The fiery bird changes shape when Skeledirge sings. Rumor has it that the bird was born when the fireball on Skeledirge’s head gained a soul.
+This Pokémon migrated to Paldea from distant lands long ago. The gel secreted by its feathers repels water and grime.
+This Pokémon migrated to Paldea from distant lands long ago. The gel secreted by its feathers repels water and grime.
+These Pokémon constantly run through shallow waters to train their legs, then compete with each other to see which of them kicks most gracefully.
+These Pokémon constantly run through shallow waters to train their legs, then compete with each other to see which of them kicks most gracefully.
+A single kick from a Quaquaval can send a truck rolling. This Pokémon uses its powerful legs to perform striking dances from far-off lands.
+A single kick from a Quaquaval can send a truck rolling. This Pokémon uses its powerful legs to perform striking dances from far-off lands.
+It searches for food all day. It possesses a keen sense of smell but doesn’t use it for anything other than foraging.
+It searches for food all day. It possesses a keen sense of smell but doesn’t use it for anything other than foraging.
+It entrances female Pokémon with the sweet, alluring scent that wafts from all over its body.
+It entrances female Pokémon with the sweet, alluring scent that wafts from all over its body.
+The ball of threads wrapped around its body is elastic enough to deflect the scythes of Scyther, this Pokémon’s natural enemy.
+The ball of threads wrapped around its body is elastic enough to deflect the scythes of Scyther, this Pokémon’s natural enemy.
+It clings to branches and ceilings using its threads and moves without a sound. It takes out its prey before the prey even notices it.
+It clings to branches and ceilings using its threads and moves without a sound. It takes out its prey before the prey even notices it.
+It has its third set of legs folded up. When it’s in a tough spot, this Pokémon jumps over 30 feet using the strength of its legs.
+It has its third set of legs folded up. When it’s in a tough spot, this Pokémon jumps over 30 feet using the strength of its legs.
+When it decides to fight all out, it stands on its previously folded legs to enter Showdown Mode. It neutralizes its enemies in short order.
+When it decides to fight all out, it stands on its previously folded legs to enter Showdown Mode. It neutralizes its enemies in short order.
+It has underdeveloped electric sacs on its cheeks. These sacs can produce electricity only if Pawmi rubs them furiously with the pads on its forepaws.
+It has underdeveloped electric sacs on its cheeks. These sacs can produce electricity only if Pawmi rubs them furiously with the pads on its forepaws.
+When its group is attacked, Pawmo is the first to leap into battle, defeating enemies with a fighting technique that utilizes electric shocks.
+When its group is attacked, Pawmo is the first to leap into battle, defeating enemies with a fighting technique that utilizes electric shocks.
+This Pokémon normally is slow to react, but once it enters battle, it will strike down its enemies with lightning-fast movements.
+This Pokémon normally is slow to react, but once it enters battle, it will strike down its enemies with lightning-fast movements.
+Exhibiting great teamwork, they use their incisors to cut pieces out of any material that might be useful for a nest, then make off with them.
+Exhibiting great teamwork, they use their incisors to cut pieces out of any material that might be useful for a nest, then make off with them.
+They build huge nests with many rooms that are used for different purposes, such as eating and sleeping.
+They build huge nests with many rooms that are used for different purposes, such as eating and sleeping.
+This Pokémon is smooth and moist to the touch. Yeast in Fidough’s breath induces fermentation in the Pokémon’s vicinity.
+This Pokémon is smooth and moist to the touch. Yeast in Fidough’s breath induces fermentation in the Pokémon’s vicinity.
+The pleasant aroma that emanates from this Pokémon’s body helps wheat grow, so Dachsbun has been treasured by farming villages.
+The pleasant aroma that emanates from this Pokémon’s body helps wheat grow, so Dachsbun has been treasured by farming villages.
+It protects itself from enemies by emitting oil from the fruit on its head. This oil is bitter and astringent enough to make someone flinch.
+It protects itself from enemies by emitting oil from the fruit on its head. This oil is bitter and astringent enough to make someone flinch.
+Dolliv shares its tasty, fresh-scented oil with others. This species has coexisted with humans since times long gone.
+Dolliv shares its tasty, fresh-scented oil with others. This species has coexisted with humans since times long gone.
+This calm Pokémon is very compassionate. It will share its delicious, nutrient-rich oil with weakened Pokémon.
+This calm Pokémon is very compassionate. It will share its delicious, nutrient-rich oil with weakened Pokémon.
+These Pokémon prefer to live in cities. They form flocks based on the color of their feathers, and they fight over territory.
+These Pokémon prefer to live in cities. They form flocks based on the color of their feathers, and they fight over territory.
+It was born in a layer of rock salt deep under the earth. This species was particularly treasured in the old days, as they would share precious salt.
+It was born in a layer of rock salt deep under the earth. This species was particularly treasured in the old days, as they would share precious salt.
+This Pokémon dry cures its prey by spraying salt over them. The curing process steals away the water in the prey’s body.
+This Pokémon dry cures its prey by spraying salt over them. The curing process steals away the water in the prey’s body.
+Garganacl will rub its fingertips together and sprinkle injured Pokémon with salt. Even severe wounds will promptly heal afterward.
+Garganacl will rub its fingertips together and sprinkle injured Pokémon with salt. Even severe wounds will promptly heal afterward.
+Burnt charcoal came to life and became a Pokémon. Possessing a fiery fighting spirit, Charcadet will battle even tough opponents.
+Burnt charcoal came to life and became a Pokémon. Possessing a fiery fighting spirit, Charcadet will battle even tough opponents.
+Armarouge evolved through the use of a set of armor that belonged to a distinguished warrior. This Pokémon is incredibly loyal.
+Armarouge evolved through the use of a set of armor that belonged to a distinguished warrior. This Pokémon is incredibly loyal.
+The fiery blades on its arms burn fiercely with the lingering resentment of a sword wielder who fell before accomplishing their goal.
+The fiery blades on its arms burn fiercely with the lingering resentment of a sword wielder who fell before accomplishing their goal.
+Tadbulb shakes its tail to generate electricity. If it senses danger, it will make its head blink on and off to alert its allies.
+Tadbulb shakes its tail to generate electricity. If it senses danger, it will make its head blink on and off to alert its allies.
+When this Pokémon expands and contracts its wobbly body, the belly-button dynamo in its stomach produces a huge amount of electricity.
+When this Pokémon expands and contracts its wobbly body, the belly-button dynamo in its stomach produces a huge amount of electricity.
+When its wings catch the wind, the bones within produce electricity. This Pokémon dives into the ocean, catching prey by electrocuting them.
+When its wings catch the wind, the bones within produce electricity. This Pokémon dives into the ocean, catching prey by electrocuting them.
+Kilowattrel inflates its throat sac to amplify its electricity. By riding the wind, this Pokémon can fly over 430 miles in a day.
+Kilowattrel inflates its throat sac to amplify its electricity. By riding the wind, this Pokémon can fly over 430 miles in a day.
+It always scowls in an attempt to make opponents take it seriously, but even crying children will burst into laughter when they see Maschiff’s face.
+It always scowls in an attempt to make opponents take it seriously, but even crying children will burst into laughter when they see Maschiff’s face.
+This Pokémon can store energy in its large dewlap. Mabosstiff unleashes this energy all at once to blow away enemies.
+This Pokémon can store energy in its large dewlap. Mabosstiff unleashes this energy all at once to blow away enemies.
+Though usually a mellow Pokémon, it will sink its sharp, poison-soaked front teeth into any that anger it, causing paralysis in the object of its ire.
+Though usually a mellow Pokémon, it will sink its sharp, poison-soaked front teeth into any that anger it, causing paralysis in the object of its ire.
+The color of the poisonous saliva depends on what the Pokémon eats. Grafaiai covers its fingers in its saliva and draws patterns on trees in forests.
+The color of the poisonous saliva depends on what the Pokémon eats. Grafaiai covers its fingers in its saliva and draws patterns on trees in forests.
+A soul unable to move on to the afterlife was blown around by the wind until it got tangled up with dried grass and became a Pokémon.
+A soul unable to move on to the afterlife was blown around by the wind until it got tangled up with dried grass and became a Pokémon.
+It will open the branches of its head to envelop its prey. Once it absorbs all the life energy it needs, it expels the prey and discards it.
+It will open the branches of its head to envelop its prey. Once it absorbs all the life energy it needs, it expels the prey and discards it.
+Toedscool lives in muggy forests. The flaps that fall from its body are chewy and very delicious.
+Toedscool lives in muggy forests. The flaps that fall from its body are chewy and very delicious.
+These Pokémon gather into groups and form colonies deep within forests. They absolutely hate it when strangers approach.
+These Pokémon gather into groups and form colonies deep within forests. They absolutely hate it when strangers approach.
+Klawf hangs upside-down from cliffs, waiting for prey. But Klawf can’t remain in this position for long because its blood rushes to its head.
+Klawf hangs upside-down from cliffs, waiting for prey. But Klawf can’t remain in this position for long because its blood rushes to its head.
+The more sunlight this Pokémon bathes in, the more spicy chemicals are produced by its body, and thus the spicier its moves become.
+The more sunlight this Pokémon bathes in, the more spicy chemicals are produced by its body, and thus the spicier its moves become.
+The red head converts spicy chemicals into fire energy and blasts the surrounding area with a super spicy stream of flame.
+The red head converts spicy chemicals into fire energy and blasts the surrounding area with a super spicy stream of flame.
+This Pokémon creates a mud ball by mixing sand and dirt with psychic energy. It treasures its mud ball more than its own life.
+This Pokémon creates a mud ball by mixing sand and dirt with psychic energy. It treasures its mud ball more than its own life.
+The body that supports the ball barely moves. Therefore, it is thought that the true body of this Pokémon is actually inside the ball.
+The body that supports the ball barely moves. Therefore, it is thought that the true body of this Pokémon is actually inside the ball.
+Flittle’s toes levitate about half an inch above the ground because of the psychic power emitted from the frills on the Pokémon’s belly.
+Flittle’s toes levitate about half an inch above the ground because of the psychic power emitted from the frills on the Pokémon’s belly.
+It immobilizes opponents by bathing them in psychic power from its large eyes. Despite its appearance, it has a vicious temperament.
+It immobilizes opponents by bathing them in psychic power from its large eyes. Despite its appearance, it has a vicious temperament.
+It swings its handmade hammer around to protect itself, but the hammer is often stolen by Pokémon that eat metal.
+It swings its handmade hammer around to protect itself, but the hammer is often stolen by Pokémon that eat metal.
+This Pokémon will attack groups of Pawniard and Bisharp, gathering metal from them in order to create a large and sturdy hammer.
+This Pokémon will attack groups of Pawniard and Bisharp, gathering metal from them in order to create a large and sturdy hammer.
+This intelligent Pokémon has a very daring disposition. It knocks rocks into the sky with its hammer, aiming for flying Corviknight.
+This intelligent Pokémon has a very daring disposition. It knocks rocks into the sky with its hammer, aiming for flying Corviknight.
+This Pokémon can pick up the scent of a Veluza just over 65 feet away and will hide itself in the sand.
+This Pokémon can pick up the scent of a Veluza just over 65 feet away and will hide itself in the sand.
+It has a vicious temperament, contrary to what its appearance may suggest. It wraps its long bodies around prey, then drags the prey into its den.
+It has a vicious temperament, contrary to what its appearance may suggest. It wraps its long bodies around prey, then drags the prey into its den.
+It gathers things up in an apron made from shed feathers added to the Pokémon’s chest feathers, then drops those things from high places for fun.
+It gathers things up in an apron made from shed feathers added to the Pokémon’s chest feathers, then drops those things from high places for fun.
+It likes playing with others of its kind using the water ring on its tail. It uses ultrasonic waves to sense the emotions of other living creatures.
+It likes playing with others of its kind using the water ring on its tail. It uses ultrasonic waves to sense the emotions of other living creatures.
+This Pokémon changes its appearance if it hears its allies calling for help. Palafin will never show anybody its moment of transformation.
+This Pokémon changes its appearance if it hears its allies calling for help. Palafin will never show anybody its moment of transformation.
+It is said that this Pokémon was born when an unknown poison Pokémon entered and inspirited an engine left at a scrap-processing factory.
+It is said that this Pokémon was born when an unknown poison Pokémon entered and inspirited an engine left at a scrap-processing factory.
+It creates a gas out of poison and minerals from rocks. It then detonates the gas in its cylinders— now numbering eight—to generate energy.
+It creates a gas out of poison and minerals from rocks. It then detonates the gas in its cylinders— now numbering eight—to generate energy.
+Apparently Cyclizar has been allowing people to ride on its back since ancient times. Depictions of this have been found in 10,000-year-old murals.
+Apparently Cyclizar has been allowing people to ride on its back since ancient times. Depictions of this have been found in 10,000-year-old murals.
+When attacked, this Pokémon will wield the tendrils on its body like fists and pelt the opponent with a storm of punches.
+When attacked, this Pokémon will wield the tendrils on its body like fists and pelt the opponent with a storm of punches.
+It absorbs nutrients from cave walls. The petals it wears are made of crystallized poison.
+It absorbs nutrients from cave walls. The petals it wears are made of crystallized poison.
+When this Pokémon detects danger, it will open up its crystalline petals and fire beams from its conical body.
+When this Pokémon detects danger, it will open up its crystalline petals and fire beams from its conical body.
+It is said that a dog Pokémon that died in the wild without ever interacting with a human was reborn as this Pokémon.
+It is said that a dog Pokémon that died in the wild without ever interacting with a human was reborn as this Pokémon.
+Houndstone spends most of its time sleeping in graveyards. Among all the dog Pokémon, this one is most loyal to its master.
+Houndstone spends most of its time sleeping in graveyards. Among all the dog Pokémon, this one is most loyal to its master.
+This Pokémon apparently ties the base of its neck into a knot so that energy stored in its belly does not escape from its beak.
+This Pokémon apparently ties the base of its neck into a knot so that energy stored in its belly does not escape from its beak.
+This species left the ocean and began living on land a very long time ago. It seems to be closely related to Wailmer.
+This species left the ocean and began living on land a very long time ago. It seems to be closely related to Wailmer.
+This Pokémon wanders around snowy, icy areas. It protects its body with powerful muscles and a thick layer of fat under its skin.
+This Pokémon wanders around snowy, icy areas. It protects its body with powerful muscles and a thick layer of fat under its skin.
+When Veluza discards unnecessary flesh, its mind becomes honed and its psychic power increases. The spare flesh has a mild but delicious flavor.
+When Veluza discards unnecessary flesh, its mind becomes honed and its psychic power increases. The spare flesh has a mild but delicious flavor.
+This Pokémon is a glutton, but it’s bad at getting food. It teams up with a Tatsugiri to catch prey.
+This Pokémon is a glutton, but it’s bad at getting food. It teams up with a Tatsugiri to catch prey.
+This is a small dragon Pokémon. It lives inside the mouth of Dondozo to protect itself from enemies on the outside.
+This is a small dragon Pokémon. It lives inside the mouth of Dondozo to protect itself from enemies on the outside.
+When its anger rose beyond a critical point, this Pokémon gained power that is unfettered by the limits of its physical body.
+When its anger rose beyond a critical point, this Pokémon gained power that is unfettered by the limits of its physical body.
+When attacked, this Pokémon will retaliate by sticking thick spines out from its body. It’s a risky move that puts everything on the line.
+When attacked, this Pokémon will retaliate by sticking thick spines out from its body. It’s a risky move that puts everything on the line.
+Now that the brain waves from the head and tail are synced up, the psychic power of this Pokémon is 10 times stronger than Girafarig’s.
+Now that the brain waves from the head and tail are synced up, the psychic power of this Pokémon is 10 times stronger than Girafarig’s.
+This Pokémon uses its hard tail to make its nest by boring holes into bedrock deep underground. The nest can reach lengths of over six miles.
+This Pokémon uses its hard tail to make its nest by boring holes into bedrock deep underground. The nest can reach lengths of over six miles.
+Only a Bisharp that stands above all others in its vast army can evolve into Kingambit.
+Only a Bisharp that stands above all others in its vast army can evolve into Kingambit.
+Sightings of this Pokémon have occurred in recent years. The name Great Tusk was taken from a creature listed in a certain book.
+Sightings of this Pokémon have occurred in recent years. The name Great Tusk was taken from a creature listed in a certain book.
+There has been only one reported sighting of this Pokémon. It resembles a mysterious creature depicted in an old expedition journal.
+There has been only one reported sighting of this Pokémon. It resembles a mysterious creature depicted in an old expedition journal.
+It is possible that the creature listed as Brute Bonnet in a certain book could actually be this Pokémon.
+It is possible that the creature listed as Brute Bonnet in a certain book could actually be this Pokémon.
+This Pokémon has characteristics similar to those of Flutter Mane, a creature mentioned in a certain book.
+This Pokémon has characteristics similar to those of Flutter Mane, a creature mentioned in a certain book.
+This mysterious Pokémon has some similarities to a creature that an old book introduced as Slither Wing.
+This mysterious Pokémon has some similarities to a creature that an old book introduced as Slither Wing.
+No records exist of this Pokémon being caught. Data is lacking, but the Pokémon’s traits match up with a creature shown in an expedition journal.
+No records exist of this Pokémon being caught. Data is lacking, but the Pokémon’s traits match up with a creature shown in an expedition journal.
+This Pokémon closely resembles a scientific weapon that a paranormal magazine claimed was sent to this planet by aliens.
+This Pokémon closely resembles a scientific weapon that a paranormal magazine claimed was sent to this planet by aliens.
+Its shape is similar to a robot featured in a paranormal magazine article. The robot was said to have been created by an ancient civilization.
+Its shape is similar to a robot featured in a paranormal magazine article. The robot was said to have been created by an ancient civilization.
+It is very similar to a cyborg covered exclusively by a paranormal magazine. The cyborg was said to be the modified form of a certain athlete.
+It is very similar to a cyborg covered exclusively by a paranormal magazine. The cyborg was said to be the modified form of a certain athlete.
+It resembles a certain Pokémon introduced in a paranormal magazine, described as the offspring of a Hydreigon that fell in love with a robot.
+It resembles a certain Pokémon introduced in a paranormal magazine, described as the offspring of a Hydreigon that fell in love with a robot.
+This Pokémon resembles an unknown object described in a paranormal magazine as a UFO sent to observe humanity.
+This Pokémon resembles an unknown object described in a paranormal magazine as a UFO sent to observe humanity.
+It has some similarities to a Pokémon introduced in a dubious magazine as a Tyranitar from one billion years into the future.
+It has some similarities to a Pokémon introduced in a dubious magazine as a Tyranitar from one billion years into the future.
+Frigibax absorbs heat through its dorsal fin and converts the heat into ice energy. The higher the temperature, the more energy Frigibax stores.
+Frigibax absorbs heat through its dorsal fin and converts the heat into ice energy. The higher the temperature, the more energy Frigibax stores.
+Arctibax freezes the air around it, protecting its face with an ice mask and turning its dorsal fin into a blade of ice.
+Arctibax freezes the air around it, protecting its face with an ice mask and turning its dorsal fin into a blade of ice.
+This Pokémon blasts cryogenic air out from its mouth. This air can instantly freeze even liquid-hot lava.
+This Pokémon blasts cryogenic air out from its mouth. This air can instantly freeze even liquid-hot lava.
+This Pokémon was born inside a treasure chest about 1,500 years ago. It sucks the life-force out of scoundrels who try to steal the treasure.
+This Pokémon was born inside a treasure chest about 1,500 years ago. It sucks the life-force out of scoundrels who try to steal the treasure.
+Its body seems to be made up of 1,000 coins. This Pokémon gets along well with others and is quick to make friends with anybody.
+Its body seems to be made up of 1,000 coins. This Pokémon gets along well with others and is quick to make friends with anybody.
+The grudge of a person punished for writing the king’s evil deeds upon wooden tablets has clad itself in dead leaves to become a Pokémon.
+The grudge of a person punished for writing the king’s evil deeds upon wooden tablets has clad itself in dead leaves to become a Pokémon.
+This Pokémon can control 100 tons of fallen snow. It plays around innocently by leaping in and out of avalanches it has caused.
+This Pokémon can control 100 tons of fallen snow. It plays around innocently by leaping in and out of avalanches it has caused.
+The fear poured into an ancient ritual vessel has clad itself in rocks and dirt to become a Pokémon.
+The fear poured into an ancient ritual vessel has clad itself in rocks and dirt to become a Pokémon.
+It controls flames burning at over 5,400 degrees Fahrenheit. It casually swims through the sea of lava it creates by melting rock and sand.
+It controls flames burning at over 5,400 degrees Fahrenheit. It casually swims through the sea of lava it creates by melting rock and sand.
+It is possible that this is the creature listed as Roaring Moon in an expedition journal that still holds many mysteries.
+It is possible that this is the creature listed as Roaring Moon in an expedition journal that still holds many mysteries.
+It has some similarities to a mad scientist’s invention covered in a paranormal magazine.
+It has some similarities to a mad scientist’s invention covered in a paranormal magazine.
+This seems to be the Winged King mentioned in an old expedition journal. It was said to have split the land with its bare fists.
+This seems to be the Winged King mentioned in an old expedition journal. It was said to have split the land with its bare fists.
+Much remains unknown about this creature. It resembles Cyclizar, but it is far more ruthless and powerful.
+Much remains unknown about this creature. It resembles Cyclizar, but it is far more ruthless and powerful.
+This ferocious creature is shrouded in mystery. It's named after an aquatic monster mentioned in an old expedition journal.
+This ferocious creature is shrouded in mystery. It's named after an aquatic monster mentioned in an old expedition journal.
+According to the few eyewitness accounts that exist, it used its shining blades to julienne large trees and boulders.
+According to the few eyewitness accounts that exist, it used its shining blades to julienne large trees and boulders.
+The head sticking out belongs to the fore-wyrm, while the tail belongs to the core-wyrm. The two share one apple and help each other out.
+The head sticking out belongs to the fore-wyrm, while the tail belongs to the core-wyrm. The two share one apple and help each other out.
+Supposedly, the regrets of a tea ceremony master who died before perfecting his craft lingered in some matcha and became a Pokémon.
+Supposedly, the regrets of a tea ceremony master who died before perfecting his craft lingered in some matcha and became a Pokémon.
+It pretends to be tea, trying to fool people into drinking it so it can drain their life-force. Its ruse is generally unsuccessful.
+It pretends to be tea, trying to fool people into drinking it so it can drain their life-force. Its ruse is generally unsuccessful.
+After all its muscles were stimulated by the toxic chain around its neck, Okidogi transformed and gained a powerful physique.
+After all its muscles were stimulated by the toxic chain around its neck, Okidogi transformed and gained a powerful physique.
+The chain is made from toxins that enhance capabilities. It stimulated Munkidori's brain and caused the Pokémon's psychic powers to bloom.
+The chain is made from toxins that enhance capabilities. It stimulated Munkidori's brain and caused the Pokémon's psychic powers to bloom.
+Fezandipiti owes its beautiful looks and lovely voice to the toxic stimulants emanating from the chain wrapped around its body.
+Fezandipiti owes its beautiful looks and lovely voice to the toxic stimulants emanating from the chain wrapped around its body.
+This Pokémon's type changes based on which mask it's wearing. It confounds its enemies with nimble movements and kicks.
+This Pokémon's type changes based on which mask it's wearing. It confounds its enemies with nimble movements and kicks.
+It digs holes on mountains, searching for food. It’s so durable that being caught in a cave-in won’t faze it.
+It digs holes on mountains, searching for food. It’s so durable that being caught in a cave-in won’t faze it.
+Seven syrpents live inside an apple made of syrup. The syrpent in the center is the commander.
+Seven syrpents live inside an apple made of syrup. The syrpent in the center is the commander.
+There are scant few reports of this creature being sighted. One short video shows it rampaging and spouting pillars of flame.
+There are scant few reports of this creature being sighted. One short video shows it rampaging and spouting pillars of flame.
+It's said to incinerate everything around it with lightning launched from its fur. Very little is known about this creature.
+It's said to incinerate everything around it with lightning launched from its fur. Very little is known about this creature.
+It was named after a mysterious object recorded in an old book. Its body seems to be metallic.
+It was named after a mysterious object recorded in an old book. Its body seems to be metallic.
+There was supposedly an incident in which it launched shining blades to cut everything around it to pieces. Little else is known about it.
+There was supposedly an incident in which it launched shining blades to cut everything around it to pieces. Little else is known about it.
+Terapagos protects itself using its power to transform energy into hard crystals. This Pokémon is the source of the Terastal phenomenon.
+Terapagos protects itself using its power to transform energy into hard crystals. This Pokémon is the source of the Terastal phenomenon.
+It feeds others toxic mochi that draw out desires and capabilities. Those who eat the mochi fall under Pecharunt's control, chained to its will.
+It feeds others toxic mochi that draw out desires and capabilities. Those who eat the mochi fall under Pecharunt's control, chained to its will.
+It is highly attuned to the emotions of people and Pokémon. It hides if it senses hostility.
+It is highly attuned to the emotions of people and Pokémon. It hides if it senses hostility.
+Its body's cellular structure is similar to the molecular composition of water. It can melt invisibly in water.
+Its body's cellular structure is similar to the molecular composition of water. It can melt invisibly in water.
+While young, it has six gorgeous tails. When it grows, several new tails are sprouted.
+While young, it has six gorgeous tails. When it grows, several new tails are sprouted.
+It chomps with its gaping mouth. Its huge jaws are actually steel horns that have been transformed.
+It chomps with its gaping mouth. Its huge jaws are actually steel horns that have been transformed.
+Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions.
+Thanks to its unstable genetic makeup, this special Pokémon conceals many different possible evolutions.
+The coldness emanating from Glaceon causes powdery snow to form, making it quite a popular Pokémon at ski resorts.
+The coldness emanating from Glaceon causes powdery snow to form, making it quite a popular Pokémon at ski resorts.
+Its mystic scales shimmer with energy, warding off attacks. It strikes with devastating precision, blending beauty with power.
+Its mystic scales shimmer with energy, warding off attacks. It strikes with devastating precision, blending beauty with power.
+After nightfall, they emerge from the caves they nest in during the day. Using their ultrasonic waves, they go on the hunt for ripened fruit.
+After nightfall, they emerge from the caves they nest in during the day. Using their ultrasonic waves, they go on the hunt for ripened fruit.
+Very smart and very vengeful. Grabbing one of its many tails could result in a 1,000-year curse.
+Very smart and very vengeful. Grabbing one of its many tails could result in a 1,000-year curse.
+If its Trainer becomes happy, it overflows with energy, dancing joyously while spinning about.
+If its Trainer becomes happy, it overflows with energy, dancing joyously while spinning about.
+This Pokémon overcame its sorrow to evolve a sturdy new body. Marowak faces its opponents bravely, using a bone as a weapon.
+This Pokémon overcame its sorrow to evolve a sturdy new body. Marowak faces its opponents bravely, using a bone as a weapon.
+It has the power to predict the future. Its power peaks when it is protecting its Trainer.
+It has the power to predict the future. Its power peaks when it is protecting its Trainer.
+If its coat becomes fully charged with electricity, its tail lights up. It fires hair that zaps on impact.
+If its coat becomes fully charged with electricity, its tail lights up. It fires hair that zaps on impact.
+After a piece of seaweed merged with debris from a sunken ship, it was reborn as this ghost Pokémon.
+After a piece of seaweed merged with debris from a sunken ship, it was reborn as this ghost Pokémon.
+It likes playing mischievous tricks, such as screaming and wailing to startle people at night.
+It likes playing mischievous tricks, such as screaming and wailing to startle people at night.
+Using psychic power, it generates a fiery vortex of 5,400 degrees Fahrenheit, incinerating foes swept into this whirl of flame.
+Using psychic power, it generates a fiery vortex of 5,400 degrees Fahrenheit, incinerating foes swept into this whirl of flame.
+Flying through the darkness, it weakens enemies with ultrasonic waves that could crush stone. Its fangs finish the fight.
+Flying through the darkness, it weakens enemies with ultrasonic waves that could crush stone. Its fangs finish the fight.
+It gathers things it likes and passes them through its loop to teleport them to a secret place.
+It gathers things it likes and passes them through its loop to teleport them to a secret place.
+It is told in mythology that this Pokémon was born before the universe even existed.
+It is told in mythology that this Pokémon was born before the universe even existed.
+With swift movements, this Pokémon gradually backs its prey into a corner. Lycanroc's fangs are always aimed toward opponents' weak spots.
+With swift movements, this Pokémon gradually backs its prey into a corner. Lycanroc's fangs are always aimed toward opponents' weak spots.
+It can use waves called auras to gauge how others are feeling. These same waves can also tell this Pokémon about the state of the environment.
+It can use waves called auras to gauge how others are feeling. These same waves can also tell this Pokémon about the state of the environment.
+The cause behind the extinction of this species is unknown. Kabutops were aggressive Pokémon that inhabited warm seas.
+The cause behind the extinction of this species is unknown. Kabutops were aggressive Pokémon that inhabited warm seas.
+It has special pads on the backs of its feet, and one on its nose. Once it's raring to fight, these pads radiate tremendous heat.
+It has special pads on the backs of its feet, and one on its nose. Once it's raring to fight, these pads radiate tremendous heat.
+It's skilled at both offense and defense, and it gets pumped up when cheered on. But if it starts showboating, it could put itself in a tough spot.
+It's skilled at both offense and defense, and it gets pumped up when cheered on. But if it starts showboating, it could put itself in a tough spot.
+A Floragato that REALLY likes the song Numel by Numel!
+A Floragato that REALLY likes the song Numel by Numel!
+Their horns are powerful sensors. As soon as Goomy pick up any sign of enemies, they go into hiding. This is how they've survived.
+Their horns are powerful sensors. As soon as Goomy pick up any sign of enemies, they go into hiding. This is how they've survived.
+Although this Pokémon isn't very strong, its body is coated in a caustic slime that can melt through anything, so predators steer clear of it.
+Although this Pokémon isn't very strong, its body is coated in a caustic slime that can melt through anything, so predators steer clear of it.
+Sometimes it misunderstands instructions and appears dazed or bewildered. Many Trainers don't mind, finding this behavior to be adorable.
+Sometimes it misunderstands instructions and appears dazed or bewildered. Many Trainers don't mind, finding this behavior to be adorable.
+They patrol their territory in pairs. I believe the igneous rock components in the fur of this species are the result of volcanic activity in its habitat.
+They patrol their territory in pairs. I believe the igneous rock components in the fur of this species are the result of volcanic activity in its habitat.
+Snaps at its foes with fangs cloaked in blazing flame. Despite its bulk, it deftly feints every which way, leading opponents on a deceptively merry chase as it all but dances around them.
+Snaps at its foes with fangs cloaked in blazing flame. Despite its bulk, it deftly feints every which way, leading opponents on a deceptively merry chase as it all but dances around them.
+An enigmatic Pokémon that happens to bear a resemblance to a Poké Ball. When excited, it discharges the electric current it has stored in its belly, then lets out a great, uproarious laugh.
+An enigmatic Pokémon that happens to bear a resemblance to a Poké Ball. When excited, it discharges the electric current it has stored in its belly, then lets out a great, uproarious laugh.
+The tissue on the surface of its body is curiously similar in composition to an Apricorn. When irritated, this Pokémon lets loose an electric current equal to 20 lightning bolts.
+The tissue on the surface of its body is curiously similar in composition to an Apricorn. When irritated, this Pokémon lets loose an electric current equal to 20 lightning bolts.
+This kind of Tauros, known as the Combat Breed, is distinguished by its thick, powerful muscles and its fierce disposition.
+This kind of Tauros, known as the Combat Breed, is distinguished by its thick, powerful muscles and its fierce disposition.
+People call this kind of Tauros the Blaze Breed due to the hot air it snorts from its nostrils. Its three tails are intertwined.
+People call this kind of Tauros the Blaze Breed due to the hot air it snorts from its nostrils. Its three tails are intertwined.
+It swims by jetting water from its horns. The most notable characteristic of the Aqua Breed is its high body fat, which allows it to float easily.
+It swims by jetting water from its horns. The most notable characteristic of the Aqua Breed is its high body fat, which allows it to float easily.
+Said to purify lost, forsaken souls with its flames and guide them to the afterlife. I believe its form has been influenced by the energy of the sacred mountain towering at Hisui's center.
+Said to purify lost, forsaken souls with its flames and guide them to the afterlife. I believe its form has been influenced by the energy of the sacred mountain towering at Hisui's center.
+After losing a territorial struggle, Wooper began living on land. The Pokémon changed over time, developing a poisonous film to protect its body.
+After losing a territorial struggle, Wooper began living on land. The Pokémon changed over time, developing a poisonous film to protect its body.
+Fishers detest this troublesome Pokémon because it sprays poison from its spines, getting it everywhere. A different form of Qwilfish lives in other regions.
+Fishers detest this troublesome Pokémon because it sprays poison from its spines, getting it everywhere. A different form of Qwilfish lives in other regions.
+Its sturdy, curved claws are ideal for traversing precipitous cliffs. From the tips of these claws drips a venom that infiltrates the nerves of any prey caught in Sneasel's grasp.
+Its sturdy, curved claws are ideal for traversing precipitous cliffs. From the tips of these claws drips a venom that infiltrates the nerves of any prey caught in Sneasel's grasp.
+Radiant light caused Dialga to take on a form bearing a striking resemblance to the creator Pokémon. Dialga now wields such colossal strength that one must conclude this is its true form.
+Radiant light caused Dialga to take on a form bearing a striking resemblance to the creator Pokémon. Dialga now wields such colossal strength that one must conclude this is its true form.
+It soars across the sky in a form that greatly resembles the creator of all things. Perhaps this imitation of appearance is Palkia's strategy for gaining Arceus's powers.
+It soars across the sky in a form that greatly resembles the creator of all things. Perhaps this imitation of appearance is Palkia's strategy for gaining Arceus's powers.
+Hard of heart and deft of blade, this rare form of Samurott is a product of the Pokémon's evolution in the region of Hisui. Its turbulent blows crash into foes like ceaseless pounding waves.
+Hard of heart and deft of blade, this rare form of Samurott is a product of the Pokémon's evolution in the region of Hisui. Its turbulent blows crash into foes like ceaseless pounding waves.
+They suspect that its well-developed legs are the result of a life spent on mountains covered in deep snow. The scent it exudes from its flower crown heartens those in proximity.
+They suspect that its well-developed legs are the result of a life spent on mountains covered in deep snow. The scent it exudes from its flower crown heartens those in proximity.
+Though it differs from other Basculin in several respects, including demeanor—this one is gentle—people have categorized it as a regional form given the vast array of shared qualities.
+Though it differs from other Basculin in several respects, including demeanor—this one is gentle—people have categorized it as a regional form given the vast array of shared qualities.
+A once-departed soul, returned to life in Hisui. Derives power from resentment, which rises as energy atop its head and takes on the forms of foes. In this way, Zorua vents lingering malice.
+A once-departed soul, returned to life in Hisui. Derives power from resentment, which rises as energy atop its head and takes on the forms of foes. In this way, Zorua vents lingering malice.
+With its disheveled white fur, it looks like an embodiment of death. Heedless of its own safety, Zoroark attacks its nemeses with a bitter energy so intense, it lacerates Zoroark's own body.
+With its disheveled white fur, it looks like an embodiment of death. Heedless of its own safety, Zoroark attacks its nemeses with a bitter energy so intense, it lacerates Zoroark's own body.
+Screaming a bloodcurdling battle cry, this huge and ferocious bird Pokémon goes out on the hunt. It blasts lakes with shock waves, then scoops up any prey that float to the water's surface.
+Screaming a bloodcurdling battle cry, this huge and ferocious bird Pokémon goes out on the hunt. It blasts lakes with shock waves, then scoops up any prey that float to the water's surface.
+A creature given to melancholy. I suspect its metallic shell developed as a result of the mucus on its skin reacting with the iron in Hisui's water.
+A creature given to melancholy. I suspect its metallic shell developed as a result of the mucus on its skin reacting with the iron in Hisui's water.
+Able to freely control the hardness of its metallic shell. It loathes solitude and is extremely clingy—it will fume and run riot if those dearest to it ever leave its side.
+Able to freely control the hardness of its metallic shell. It loathes solitude and is extremely clingy—it will fume and run riot if those dearest to it ever leave its side.
+The armor of ice covering its lower jaw puts steel to shame and can shatter rocks with ease. This Pokémon barrels along steep mountain paths, cleaving through the deep snow.
+The armor of ice covering its lower jaw puts steel to shame and can shatter rocks with ease. This Pokémon barrels along steep mountain paths, cleaving through the deep snow.
+The air stored inside the rachises of Decidueye's feathers insulates the Pokémon against Hisui's extreme cold. This is firm proof that evolution can be influenced by environment.
+The air stored inside the rachises of Decidueye's feathers insulates the Pokémon against Hisui's extreme cold. This is firm proof that evolution can be influenced by environment.
+A different guise from its feminine humanoid form. From the clouds, it descends upon those who treat any form of life with disrespect and metes out wrathful, ruthless punishment.
+A different guise from its feminine humanoid form. From the clouds, it descends upon those who treat any form of life with disrespect and metes out wrathful, ruthless punishment.
+This is a meticulous Pokémon that likes to keep things tidy. It shrouds itself in a floral aroma that soothes the Pokémon around it.
+This is a meticulous Pokémon that likes to keep things tidy. It shrouds itself in a floral aroma that soothes the Pokémon around it.
+This species’ differing colors and patterns are apparently the result of Tatsugiri changing itself to suit the preferences of the prey it lures in.
+This species’ differing colors and patterns are apparently the result of Tatsugiri changing itself to suit the preferences of the prey it lures in.
+Bird Pokémon are its main prey. This Pokémon knows it’s weak, so it hunts with a partner.
+Bird Pokémon are its main prey. This Pokémon knows it’s weak, so it hunts with a partner.
+Blue-feathered Squawkabilly view their green- feathered counterparts as rivals, since the latter make up the largest, most powerful groups.
+Blue-feathered Squawkabilly view their green- feathered counterparts as rivals, since the latter make up the largest, most powerful groups.
+The yellow Squawkabilly are especially fierce. They've even been known to drive other bird Pokémon out of town.
+The yellow Squawkabilly are especially fierce. They've even been known to drive other bird Pokémon out of town.
+Though these Squawkabilly are the fewest in number, they have no trouble living in towns since they blend in with the white buildings.
+Though these Squawkabilly are the fewest in number, they have no trouble living in towns since they blend in with the white buildings.
+This Pokémon was born from passion that seeped into a coin. It wanders, apparently seeking to return to the treasure chest it once inhabited.
+This Pokémon was born from passion that seeped into a coin. It wanders, apparently seeking to return to the treasure chest it once inhabited.
+It sprinkles some of its powdery body onto food and drains the life-force from those who so much as lick it.
+It sprinkles some of its powdery body onto food and drains the life-force from those who so much as lick it.
+It lives inside a superb teacup that was crafted by a potter of great renown. Collectors positively adore this Pokémon.
+It lives inside a superb teacup that was crafted by a potter of great renown. Collectors positively adore this Pokémon.
+This form excels in both attack and defense. It ceaselessly unleashes moves like a spring gushes water.
+This form excels in both attack and defense. It ceaselessly unleashes moves like a spring gushes water.
+This form is the most aggressive, bombarding enemies with the intensity of flames blazing within a hearth.
+This form is the most aggressive, bombarding enemies with the intensity of flames blazing within a hearth.
+This form has excellent defenses, absorbing impacts solidly like the cornerstones that support houses.
+This form has excellent defenses, absorbing impacts solidly like the cornerstones that support houses.
+The shell is made of crystallized Terastal energy. When struck by a move, this shell absorbs the move’s energy and transfers it to Terapagos.
+The shell is made of crystallized Terastal energy. When struck by a move, this shell absorbs the move’s energy and transfers it to Terapagos.
+In this form, Terapagos resembles the world as the ancients saw it, and its Terastal energy is abnormally amplified.
+In this form, Terapagos resembles the world as the ancients saw it, and its Terastal energy is abnormally amplified.
+What... what is that thing?
+What... what is that thing?
+In battle, this Pokémon swings around two thick vines. If these vines slammed into a 10-story building, they could easily topple it.
+In battle, this Pokémon swings around two thick vines. If these vines slammed into a 10-story building, they could easily topple it.
+This colossal, flame-winged figure of a Charizard was brought about by Gigantamax energy.
+This colossal, flame-winged figure of a Charizard was brought about by Gigantamax energy.
+Water fired from this Pokémon's central main cannon has enough power to blast a hole into a mountain.
+Water fired from this Pokémon's central main cannon has enough power to blast a hole into a mountain.
+Crystallized Gigantamax energy makes up this Pokémon's blindingly bright and highly toxic scales.
+Crystallized Gigantamax energy makes up this Pokémon's blindingly bright and highly toxic scales.
+Its Gigantamax power expanded, forming its supersized body and towering tail.
+Its Gigantamax power expanded, forming its supersized body and towering tail.
+Its body has grown incredibly long and the coin on its forehead has grown incredibly large all thanks to Gigantamax power.
+Its body has grown incredibly long and the coin on its forehead has grown incredibly large all thanks to Gigantamax power.
+The Gigantamax energy coursing through its arms makes its punches hit as hard as bomb blasts.
+The Gigantamax energy coursing through its arms makes its punches hit as hard as bomb blasts.
+It lays traps, hoping to steal the lives of those it catches. If you stand in front of its mouth, you'll hear your loved ones' voices calling out to you.
+It lays traps, hoping to steal the lives of those it catches. If you stand in front of its mouth, you'll hear your loved ones' voices calling out to you.
+The flow of Gigantamax energy has spurred this Pokémon's left pincer to grow to an enormous size. That claw can pulverize anything.
+The flow of Gigantamax energy has spurred this Pokémon's left pincer to grow to an enormous size. That claw can pulverize anything.
+Over 5,000 people can ride on its shell at once. And it's a very comfortable ride, without the slightest shaking or swaying.
+Over 5,000 people can ride on its shell at once. And it's a very comfortable ride, without the slightest shaking or swaying.
+Gigantamax energy upped the fluffiness of the fur around Eevee's neck. The fur will envelop a foe, capturing its body and captivating its mind.
+Gigantamax energy upped the fluffiness of the fur around Eevee's neck. The fur will envelop a foe, capturing its body and captivating its mind.
+Gigantamax energy has affected stray seeds and even pebbles that got stuck to Snorlax, making them grow to a huge size.
+Gigantamax energy has affected stray seeds and even pebbles that got stuck to Snorlax, making them grow to a huge size.
+Due to Gigantamax energy, this Pokémon's toxic gas has become much thicker, congealing into masses shaped like discarded toys.
+Due to Gigantamax energy, this Pokémon's toxic gas has become much thicker, congealing into masses shaped like discarded toys.
+In a distant land, there are legends about a cyclopean giant. In fact, the giant was a Melmetal that was flooded with Gigantamax energy.
+In a distant land, there are legends about a cyclopean giant. In fact, the giant was a Melmetal that was flooded with Gigantamax energy.
+Gigantamax energy has caused Rillaboom's stump to grow into a drum set that resembles a forest.
+Gigantamax energy has caused Rillaboom's stump to grow into a drum set that resembles a forest.
+Gigantamax energy can sometimes cause the diameter of this Pokémon's fireball to exceed 300 feet.
+Gigantamax energy can sometimes cause the diameter of this Pokémon's fireball to exceed 300 feet.
+Gigantamax Inteleon's Water Gun move fires at Mach 7. As the Pokémon takes aim, it uses the crest on its head to gauge wind and temperature.
+Gigantamax Inteleon's Water Gun move fires at Mach 7. As the Pokémon takes aim, it uses the crest on its head to gauge wind and temperature.
+Imbued with Gigantamax energy, its wings can whip up winds more forceful than any a hurricane could muster. The gusts blow everything away.
+Imbued with Gigantamax energy, its wings can whip up winds more forceful than any a hurricane could muster. The gusts blow everything away.
+Its brain has grown to a gargantuan size, as has the rest of its body. This Pokémon's intellect and psychic abilities are overpowering.
+Its brain has grown to a gargantuan size, as has the rest of its body. This Pokémon's intellect and psychic abilities are overpowering.
+It responded to Gigantamax energy by becoming bipedal. First it comes crashing down on foes, and then it finishes them off with its massive jaws.
+It responded to Gigantamax energy by becoming bipedal. First it comes crashing down on foes, and then it finishes them off with its massive jaws.
+Its body is a colossal stove. With Gigantamax energy stoking the fire, this Pokémon's flame burns hotter than 3,600 degrees Fahrenheit.
+Its body is a colossal stove. With Gigantamax energy stoking the fire, this Pokémon's flame burns hotter than 3,600 degrees Fahrenheit.
+Under the influence of Gigantamax energy, it produces much more sweet nectar, and its shape has changed to resemble a giant apple.
+Under the influence of Gigantamax energy, it produces much more sweet nectar, and its shape has changed to resemble a giant apple.
+Due to Gigantamax energy, this Pokémon's nectar has thickened. The increased viscosity lets the nectar absorb more damage than before.
+Due to Gigantamax energy, this Pokémon's nectar has thickened. The increased viscosity lets the nectar absorb more damage than before.
+Sand swirls around its body with such speed and power that it could pulverize a skyscraper.
+Sand swirls around its body with such speed and power that it could pulverize a skyscraper.
+Out of control after its own poison penetrated its brain, it tears across the land in a rampage, contaminating the earth with toxic sweat.
+Out of control after its own poison penetrated its brain, it tears across the land in a rampage, contaminating the earth with toxic sweat.
+The heat that comes off a Gigantamax Centiskorch may destabilize air currents. Sometimes it can even cause storms.
+The heat that comes off a Gigantamax Centiskorch may destabilize air currents. Sometimes it can even cause storms.
+Beams like lightning shoot down from its tentacles. It's known to some as the Raging Goddess.
+Beams like lightning shoot down from its tentacles. It's known to some as the Raging Goddess.
+Gigantamax energy has caused more hair to sprout all over its body. With the added strength, it can jump over the world's tallest building.
+Gigantamax energy has caused more hair to sprout all over its body. With the added strength, it can jump over the world's tallest building.
+It launches swarms of missiles, each made of cream and loaded with 100,000 kilocalories. Get hit by one of these, and your head will swim.
+It launches swarms of missiles, each made of cream and loaded with 100,000 kilocalories. Get hit by one of these, and your head will swim.
+After this Pokémon has Gigantamaxed, its massive nose can utterly demolish large structures with a single smashing blow.
+After this Pokémon has Gigantamaxed, its massive nose can utterly demolish large structures with a single smashing blow.
+It's grown to resemble a skyscraper. Parts of its towering body glow due to a profusion of energy.
+It's grown to resemble a skyscraper. Parts of its towering body glow due to a profusion of energy.
+Infinite amounts of energy pour from this Pokémon's enlarged core, warping the surrounding space-time.
+Infinite amounts of energy pour from this Pokémon's enlarged core, warping the surrounding space-time.
+The energy released by this Pokémon's fists forms shock waves that can blow away Dynamax Pokémon in just one hit.
+The energy released by this Pokémon's fists forms shock waves that can blow away Dynamax Pokémon in just one hit.
+As it waits for the right moment to unleash its Gigantamax power, this Pokémon maintains a perfect one-legged stance. It won't even twitch.
+As it waits for the right moment to unleash its Gigantamax power, this Pokémon maintains a perfect one-legged stance. It won't even twitch.
+Decades of built-up resentment caused this Banette to combine the phoenemonon of Mega Evolution with Dynamax.
+Decades of built-up resentment caused this Banette to combine the phoenemonon of Mega Evolution with Dynamax.
+The cap this Pikachu wears is filled with memories of this Pokémon and its partner traveling across lots of different regions together.
+The cap this Pikachu wears is filled with memories of this Pokémon and its partner traveling across lots of different regions together.
+The cap this Pikachu wears is filled with memories of this Pokémon and its partner traveling across the Hoenn region together.
+The cap this Pikachu wears is filled with memories of this Pokémon and its partner traveling across the Hoenn region together.
+The cap this Pikachu wears is filled with memories of this Pokémon and its partner traveling across the Sinnoh region together.
+The cap this Pikachu wears is filled with memories of this Pokémon and its partner traveling across the Sinnoh region together.
+The cap this Pikachu wears is filled with memories of this Pokémon and its partner traveling across the Unova region together.
+The cap this Pikachu wears is filled with memories of this Pokémon and its partner traveling across the Unova region together.
+The cap this Pikachu wears is filled with memories of this Pokémon and its partner traveling across the Kalos region together.
+The cap this Pikachu wears is filled with memories of this Pokémon and its partner traveling across the Kalos region together.
+The cap this Pikachu wears is filled with memories of this Pokémon and its partner traveling across the Alola region together.
+The cap this Pikachu wears is filled with memories of this Pokémon and its partner traveling across the Alola region together.
+The cap this Pikachu wears is filled with memories of this Pokémon traveling together with its partner, whom it met in a fateful encounter.
+The cap this Pikachu wears is filled with memories of this Pokémon traveling together with its partner, whom it met in a fateful encounter.
+The cap this Pikachu wears is filled with memories of this Pokémon and its partner traveling across the world together.
+The cap this Pikachu wears is filled with memories of this Pokémon and its partner traveling across the world together.

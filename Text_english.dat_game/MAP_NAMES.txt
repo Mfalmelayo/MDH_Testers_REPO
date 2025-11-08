@@ -1,0 +1,342 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[MAP_NAMES]
+Intro
+Intro
+Lappet Town
+Lappet Town
+\PN's house
+\PN's house
+Pokémon Lab
+Pokémon Lab
+Route 1
+Route 1
+Kurt's house
+Kurt's house
+Cedolan City
+Cedolan City
+Daisy's house
+Daisy's house
+Cedolan City Poké Center
+Cedolan City Poké Center
+Cedolan Gym
+Cedolan Gym
+Pokémon Institute
+Pokémon Institute
+Cedolan City Condo
+Cedolan City Condo
+Game Corner
+Game Corner
+Cedolan Dept. 1F
+Cedolan Dept. 1F
+Cedolan Dept. 2F
+Cedolan Dept. 2F
+Cedolan Dept. 3F
+Cedolan Dept. 3F
+Cedolan Dept. 4F
+Cedolan Dept. 4F
+Cedolan Dept. 5F
+Cedolan Dept. 5F
+Cedolan Dept. Rooftop
+Cedolan Dept. Rooftop
+Cedolan Dept. Elevator
+Cedolan Dept. Elevator
+Route 2
+Route 2
+Lerucean Town
+Lerucean Town
+Lerucean Town Poké Center
+Lerucean Town Poké Center
+Lerucean Town Mart
+Lerucean Town Mart
+Pokémon Fan Club
+Pokémon Fan Club
+Pokémon Day Care
+Pokémon Day Care
+Natural Park
+Natural Park
+Natural Park Entrance
+Natural Park Entrance
+Natural Park Pavillion
+Natural Park Pavillion
+Route 3
+Route 3
+Littleroot Town
+Littleroot Town
+Ice Cave
+Ice Cave
+Ingido Plateau
+Ingido Plateau
+Pokémon League
+Pokémon League
+Hall of Fame
+Hall of Fame
+Route 4
+Route 4
+Route 5
+Route 5
+Route 6
+Route 6
+Cycling Road gate
+Cycling Road gate
+Route 7
+Route 7
+Rock Cave
+Rock Cave
+Dungeon
+Dungeon
+Battle Frontier
+Battle Frontier
+Battle Frontier Poké Center
+Battle Frontier Poké Center
+Battle Frontier Mart
+Battle Frontier Mart
+Battle Tower
+Battle Tower
+Battle Tower arena
+Battle Tower arena
+Stadium Cup lobby
+Stadium Cup lobby
+Battle Palace
+Battle Palace
+Battle Palace arena
+Battle Palace arena
+Battle Arena
+Battle Arena
+Battle Arena arena
+Battle Arena arena
+Battle Factory
+Battle Factory
+Battle Factory intro corridor
+Battle Factory intro corridor
+Battle Factory arena
+Battle Factory arena
+Battle Factory corridor
+Battle Factory corridor
+Safari Zone
+Safari Zone
+Safari Zone gate
+Safari Zone gate
+Route 8
+Route 8
+Underwater
+Underwater
+Harbor
+Harbor
+Berth Island
+Berth Island
+Faraday Island
+Faraday Island
+Tiall Region
+Tiall Region
+Route 101
+Route 101
+Route 102
+Route 102
+Route 103
+Route 103
+Oldale Town
+Oldale Town
+Route 102 Underground
+Route 102 Underground
+Petalburg City
+Petalburg City
+Route 101 Underground
+Route 101 Underground
+Route 104
+Route 104
+Petalburg Woods
+Petalburg Woods
+Rustboro City
+Rustboro City
+Spring Cave
+Spring Cave
+Route 116
+Route 116
+Rustboro Gym
+Rustboro Gym
+Rusturf Tunnel
+Rusturf Tunnel
+Route 115
+Route 115
+Dewford Town
+Dewford Town
+Route 105
+Route 105
+Route 106
+Route 106
+Route 107
+Route 107
+Granite Cave
+Granite Cave
+Dewford Gym
+Dewford Gym
+Slateport City
+Slateport City
+Route 108
+Route 108
+Route 109
+Route 109
+Seashore House
+Seashore House
+Battle Tent
+Battle Tent
+Oceanic Museum
+Oceanic Museum
+Route 110
+Route 110
+Battle Tent Room
+Battle Tent Room
+Cycling Road
+Cycling Road
+Trick House 1
+Trick House 1
+Mauville City
+Mauville City
+Route 117
+Route 117
+Verdanturf Town Basic
+Verdanturf Town Basic
+Route 118
+Route 118
+Mauville Gym
+Mauville Gym
+Verdanturf Town
+Verdanturf Town
+Route 111
+Route 111
+Route 112
+Route 112
+Route 103 Underground
+Route 103 Underground
+Fiery Path
+Fiery Path
+Route 113
+Route 113
+Fallarbor Town
+Fallarbor Town
+Route 114
+Route 114
+Trick House 2
+Trick House 2
+Fossil Home
+Fossil Home
+Meteor Falls
+Meteor Falls
+Mt. Chimney
+Mt. Chimney
+Jagged Pass
+Jagged Pass
+Lavaridge Town
+Lavaridge Town
+Lavaridge Gym
+Lavaridge Gym
+Lavaridge Hotsprings
+Lavaridge Hotsprings
+Rustboro Pc
+Rustboro Pc
+Petalburg Gym
+Petalburg Gym
+Mirage Tower
+Mirage Tower
+Mirage Tower 1
+Mirage Tower 1
+Mirage Tower 2
+Mirage Tower 2
+Mirage Tower 3
+Mirage Tower 3
+Mirage Tower 4
+Mirage Tower 4
+Abandoned Ship
+Abandoned Ship
+Abandoned Ship 1
+Abandoned Ship 1
+Abandoned Ship 2
+Abandoned Ship 2
+Abandoned Ship 3
+Abandoned Ship 3
+Abandoned Ship 4
+Abandoned Ship 4
+Abandoned Ship 5
+Abandoned Ship 5
+Abandoned Ship 8
+Abandoned Ship 8
+New Mauville
+New Mauville
+Southern Island
+Southern Island
+Trick House 3
+Trick House 3
+Trick House 4
+Trick House 4
+Pokemon Den-Fomantis
+Pokemon Den-Fomantis
+Pokemon Den-Diglett
+Pokemon Den-Diglett
+Pokemon Den-Mudbray
+Pokemon Den-Mudbray
+Pokemon Den-Geodude
+Pokemon Den-Geodude
+Pokemon Den-Silicobra
+Pokemon Den-Silicobra
+Pokemon Den-Mankey
+Pokemon Den-Mankey
+Pokemon Den-Maractus
+Pokemon Den-Maractus
+Pokemon Den-Mienfoo
+Pokemon Den-Mienfoo
+Pokemon Den-Bounsweet
+Pokemon Den-Bounsweet
+Pokemon Den-Caterpie
+Pokemon Den-Caterpie
+Pokemon Den-Litleo
+Pokemon Den-Litleo
+Pokemon Den-Starly
+Pokemon Den-Starly
+Pokemon Den-Weedle
+Pokemon Den-Weedle
+Pokemon Den-Phanpy
+Pokemon Den-Phanpy
+Pokemon Den-Deerling
+Pokemon Den-Deerling
+Pokemon Den-Ekans
+Pokemon Den-Ekans
+Pokemon Den-Joltik
+Pokemon Den-Joltik
+Pokemon Den-Bunnelby
+Pokemon Den-Bunnelby
+Pokemon Den-Chingling
+Pokemon Den-Chingling
+Pokemon Den-Buneary
+Pokemon Den-Buneary
+Pokemon Den-Blipbug
+Pokemon Den-Blipbug
+Pokemon Den-Wooloo
+Pokemon Den-Wooloo
+Pokemon Den-Bellsprout
+Pokemon Den-Bellsprout
+Wak cave
+Wak cave
+Pokemon Den-Ducklett
+Pokemon Den-Ducklett
+Pokemon Den Drilbur
+Pokemon Den Drilbur
+Pokemon Den-Crabrawler
+Pokemon Den-Crabrawler
+Pokemon Den-Nidoran
+Pokemon Den-Nidoran
+Pokemon Den-Spearow
+Pokemon Den-Spearow
+\PN's Home
+\PN's Home
+Dewford Town Pc
+Dewford Town Pc
+Verdanturf City
+Verdanturf City
+Trackless Forest
+Trackless Forest
+Secret Jungle
+Secret Jungle
+Gnarled Woods
+Gnarled Woods

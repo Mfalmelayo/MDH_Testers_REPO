@@ -1,0 +1,806 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[ITEM_NAMES]
+Black Augurite
+Black Augurite
+Peat Block
+Peat Block
+Linking Cord
+Linking Cord
+Adamant Crystal
+Adamant Crystal
+Lustrous Globe
+Lustrous Globe
+Legend Plate
+Legend Plate
+Blank Plate
+Blank Plate
+Hopo Berry
+Hopo Berry
+Griseous Core
+Griseous Core
+Feather Ball
+Feather Ball
+Wing Ball
+Wing Ball
+Jet Ball
+Jet Ball
+Leaden Ball
+Leaden Ball
+Gigaton Ball
+Gigaton Ball
+Origin Ball
+Origin Ball
+Strange Ball
+Strange Ball
+Auspicious Armor
+Auspicious Armor
+Malicious Armor
+Malicious Armor
+Scroll of Darkness
+Scroll of Darkness
+Scroll of Waters
+Scroll of Waters
+Leader's Crest
+Leader's Crest
+Booster Energy
+Booster Energy
+Ability Shield
+Ability Shield
+Clear Amulet
+Clear Amulet
+Mirror Herb
+Mirror Herb
+Punching Glove
+Punching Glove
+Covert Cloak
+Covert Cloak
+Loaded Dice
+Loaded Dice
+Gimmighoul Coin
+Gimmighoul Coin
+Tiny Bamboo Shoot
+Tiny Bamboo Shoot
+Big Bamboo Shoot
+Big Bamboo Shoot
+Rotom Phone
+Rotom Phone
+Scarlet Book
+Scarlet Book
+Violet Book
+Violet Book
+Health Mochi
+Health Mochi
+Muscle Mochi
+Muscle Mochi
+Resist Mochi
+Resist Mochi
+Genius Mochi
+Genius Mochi
+Clever Mochi
+Clever Mochi
+Swift Mochi
+Swift Mochi
+Fresh-Start Mochi
+Fresh-Start Mochi
+Fairy Feather
+Fairy Feather
+Syrupy Apple
+Syrupy Apple
+Unremarkable Teacup
+Unremarkable Teacup
+Masterpiece Teacup
+Masterpiece Teacup
+Wellspring Mask
+Wellspring Mask
+Hearthflame Mask
+Hearthflame Mask
+Cornerstone Mask
+Cornerstone Mask
+Teal Mask
+Teal Mask
+Metal Alloy
+Metal Alloy
+Indigo Disk
+Indigo Disk
+Mythical Pecha Berry
+Mythical Pecha Berry
+Synchro Machine
+Synchro Machine
+Meteorite
+Meteorite
+Briar's Book
+Briar's Book
+Null Berry
+Null Berry
+Grim Skull
+Grim Skull
+Sukeban Swag
+Sukeban Swag
+Link Cable
+Link Cable
+Strongest Dress
+Strongest Dress
+Pandemonic Drip
+Pandemonic Drip
+Savage Axe
+Savage Axe
+Dhampir Rapier
+Dhampir Rapier
+Oath Sign
+Oath Sign
+Harp
+Harp
+Winter Drip
+Winter Drip
+Magus Garb
+Magus Garb
+Ancient Dress
+Ancient Dress
+Honchnite
+Honchnite
+Flygonite
+Flygonite
+Miloite
+Miloite
+Torkolnite
+Torkolnite
+Skarmorite
+Skarmorite
+Brelonite
+Brelonite
+Training Whip
+Training Whip
+Training Paddle
+Training Paddle
+Training Crop
+Training Crop
+Good Whip
+Good Whip
+Good Paddle
+Good Paddle
+Good Crop
+Good Crop
+Sweet Candy
+Sweet Candy
+Sour Candy
+Sour Candy
+Bitter Candy
+Bitter Candy
+Cheap Candy
+Cheap Candy
+EX Weakness Policy
+EX Weakness Policy
+EX Leftovers
+EX Leftovers
+HP X
+HP X
+ATTACK X
+ATTACK X
+DEFENSE X
+DEFENSE X
+SPECIAL ATTACK X
+SPECIAL ATTACK X
+SPECIAL DEFENSE X
+SPECIAL DEFENSE X
+SPEED X
+SPEED X
+Galarian Artifact
+Galarian Artifact
+Mega Anchor
+Mega Anchor
+Gengar's Sigil
+Gengar's Sigil
+Cheap Chow
+Cheap Chow
+Standard Chow
+Standard Chow
+Premium Chow
+Premium Chow
+Spring Outfit
+Spring Outfit
+Floral Dress
+Floral Dress
+Medical Root
+Medical Root
+Master Doll
+Master Doll
+EXP All
+EXP All
+Bottle Cap
+Bottle Cap
+Gold Bottle Cap
+Gold Bottle Cap
+Innate Shuffler
+Innate Shuffler
+TR001
+TR001
+TR002
+TR002
+TR003
+TR003
+TR004
+TR004
+TR005
+TR005
+TR006
+TR006
+TR007
+TR007
+TR008
+TR008
+TR009
+TR009
+TR010
+TR010
+TR011
+TR011
+TR012
+TR012
+TR013
+TR013
+TR014
+TR014
+TR015
+TR015
+TR016
+TR016
+TR017
+TR017
+TR018
+TR018
+TR019
+TR019
+TR020
+TR020
+TR021
+TR021
+TR022
+TR022
+TR023
+TR023
+TR024
+TR024
+TR025
+TR025
+TR026
+TR026
+TR027
+TR027
+TR028
+TR028
+TR029
+TR029
+TR030
+TR030
+TR031
+TR031
+TR032
+TR032
+TR033
+TR033
+TR034
+TR034
+TR035
+TR035
+TR036
+TR036
+TR037
+TR037
+TR038
+TR038
+TR039
+TR039
+TR040
+TR040
+TR041
+TR041
+TR042
+TR042
+TR043
+TR043
+TR044
+TR044
+TR045
+TR045
+TR046
+TR046
+TR047
+TR047
+TR048
+TR048
+TR049
+TR049
+TR050
+TR050
+TR051
+TR051
+TR052
+TR052
+TR053
+TR053
+TR054
+TR054
+TR055
+TR055
+TR056
+TR056
+TR057
+TR057
+TR058
+TR058
+TR059
+TR059
+TR060
+TR060
+TR061
+TR061
+TR062
+TR062
+TR063
+TR063
+TR064
+TR064
+TR065
+TR065
+TR066
+TR066
+TR067
+TR067
+TR068
+TR068
+TR069
+TR069
+TR070
+TR070
+TR071
+TR071
+TR072
+TR072
+TR073
+TR073
+TR074
+TR074
+TR075
+TR075
+TR076
+TR076
+TR077
+TR077
+TR078
+TR078
+TR079
+TR079
+TR080
+TR080
+TR081
+TR081
+TR082
+TR082
+TR083
+TR083
+TR084
+TR084
+TR085
+TR085
+TR086
+TR086
+TR087
+TR087
+TR088
+TR088
+TR089
+TR089
+TR090
+TR090
+TR091
+TR091
+TR092
+TR092
+TR093
+TR093
+TR094
+TR094
+TR095
+TR095
+TR096
+TR096
+TR098
+TR098
+TR099
+TR099
+TR100
+TR100
+TR101
+TR101
+TR102
+TR102
+TR103
+TR103
+TR104
+TR104
+TR105
+TR105
+TR106
+TR106
+TR107
+TR107
+TR108
+TR108
+TR109
+TR109
+TR110
+TR110
+TR111
+TR111
+TR112
+TR112
+TR113
+TR113
+TR114
+TR114
+TR115
+TR115
+TR116
+TR116
+TR117
+TR117
+TR118
+TR118
+TR119
+TR119
+TR120
+TR120
+TR121
+TR121
+TR122
+TR122
+TR124
+TR124
+TR125
+TR125
+TR126
+TR126
+TR127
+TR127
+TR128
+TR128
+TR129
+TR129
+TR130
+TR130
+TR131
+TR131
+TR132
+TR132
+TR133
+TR133
+TR134
+TR134
+TR135
+TR135
+TR136
+TR136
+TR137
+TR137
+TR138
+TR138
+TR139
+TR139
+TR140
+TR140
+TR141
+TR141
+TR142
+TR142
+TR143
+TR143
+TR144
+TR144
+TR145
+TR145
+TR146
+TR146
+TR147
+TR147
+TR148
+TR148
+TR149
+TR149
+TR150
+TR150
+TR151
+TR151
+TR152
+TR152
+TR153
+TR153
+TR154
+TR154
+TR155
+TR155
+TR156
+TR156
+TR157
+TR157
+TR158
+TR158
+TR159
+TR159
+TR160
+TR160
+TR161
+TR161
+TR162
+TR162
+TR163
+TR163
+TR164
+TR164
+TR165
+TR165
+TR166
+TR166
+TR167
+TR167
+TR168
+TR168
+TR169
+TR169
+TR170
+TR170
+TR171
+TR171
+TR172
+TR172
+TR173
+TR173
+TR174
+TR174
+TR175
+TR175
+TR176
+TR176
+TR177
+TR177
+TR178
+TR178
+TR179
+TR179
+TR180
+TR180
+TR181
+TR181
+TR182
+TR182
+TR183
+TR183
+TR184
+TR184
+TR185
+TR185
+TR186
+TR186
+TR187
+TR187
+TR188
+TR188
+TR189
+TR189
+TR190
+TR190
+TR191
+TR191
+TR192
+TR192
+TR193
+TR193
+TR194
+TR194
+TR195
+TR195
+TR196
+TR196
+TR197
+TR197
+TR198
+TR198
+TR199
+TR199
+TR200
+TR200
+TR201
+TR201
+TR202
+TR202
+TR203
+TR203
+TR204
+TR204
+TR205
+TR205
+TR206
+TR206
+TR207
+TR207
+TR208
+TR208
+TR209
+TR209
+TR210
+TR210
+TR211
+TR211
+TR212
+TR212
+TR213
+TR213
+TR214
+TR214
+TR215
+TR215
+TR216
+TR216
+TR217
+TR217
+TR218
+TR218
+TR219
+TR219
+TR220
+TR220
+TR221
+TR221
+TR222
+TR222
+TR223
+TR223
+TR224
+TR224
+TR225
+TR225
+TR226
+TR226
+TR227
+TR227
+TR228
+TR228
+TR229
+TR229
+Dynamax Band
+Dynamax Band
+Wishing Star
+Wishing Star
+Dynamax Candy
+Dynamax Candy
+Dynamax Candy XL
+Dynamax Candy XL
+Max Soup
+Max Soup
+Tera Orb
+Tera Orb
+Normal Tera Shard
+Normal Tera Shard
+Fire Tera Shard
+Fire Tera Shard
+Water Tera Shard
+Water Tera Shard
+Electric Tera Shard
+Electric Tera Shard
+Grass Tera Shard
+Grass Tera Shard
+Ice Tera Shard
+Ice Tera Shard
+Fighting Tera Shard
+Fighting Tera Shard
+Poison Tera Shard
+Poison Tera Shard
+Ground Tera Shard
+Ground Tera Shard
+Flying Tera Shard
+Flying Tera Shard
+Psychic Tera Shard
+Psychic Tera Shard
+Bug Tera Shard
+Bug Tera Shard
+Rock Tera Shard
+Rock Tera Shard
+Ghost Tera Shard
+Ghost Tera Shard
+Dragon Tera Shard
+Dragon Tera Shard
+Dark Tera Shard
+Dark Tera Shard
+Steel Tera Shard
+Steel Tera Shard
+Fairy Tera Shard
+Fairy Tera Shard
+Stellar Tera Shard
+Stellar Tera Shard
+Mystery Tera Jewel
+Mystery Tera Jewel
+Master Tera Jewel
+Master Tera Jewel
+Radiant Tera Jewel
+Radiant Tera Jewel
+Glimmering Charm
+Glimmering Charm
+Z-Ring
+Z-Ring
+Z-Power Ring
+Z-Power Ring
+Z-Gauntlet
+Z-Gauntlet
+Z-Booster
+Z-Booster
+Normalium Z
+Normalium Z
+Fightinium Z
+Fightinium Z
+Flyinium Z
+Flyinium Z
+Poisonium Z
+Poisonium Z
+Groundium Z
+Groundium Z
+Rockium Z
+Rockium Z
+Buginium Z
+Buginium Z
+Ghostium Z
+Ghostium Z
+Steelium Z
+Steelium Z
+Firium Z
+Firium Z
+Waterium Z
+Waterium Z
+Grassium Z
+Grassium Z
+Electrium Z
+Electrium Z
+Psychium Z
+Psychium Z
+Icium Z
+Icium Z
+Dragonium Z
+Dragonium Z
+Darkinium Z
+Darkinium Z
+Fairium Z
+Fairium Z
+Pikanium Z
+Pikanium Z
+Pikashunium Z
+Pikashunium Z
+Aloraichium Z
+Aloraichium Z
+Eevium Z
+Eevium Z
+Snorlium Z
+Snorlium Z
+Mewnium Z
+Mewnium Z
+Decidium Z
+Decidium Z
+Incinium Z
+Incinium Z
+Primarium Z
+Primarium Z
+Lycanium Z
+Lycanium Z
+Mimikium Z
+Mimikium Z
+Kommonium Z
+Kommonium Z
+Tapunium Z
+Tapunium Z
+Solganium Z
+Solganium Z
+Lunalium Z
+Lunalium Z
+Marshadium Z
+Marshadium Z
+Ultranecrozium Z
+Ultranecrozium Z

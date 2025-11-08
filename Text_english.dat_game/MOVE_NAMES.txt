@@ -1,0 +1,370 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[MOVE_NAMES]
+Dire Claw
+Dire Claw
+Springtide Storm
+Springtide Storm
+Raging Fury
+Raging Fury
+Wave Crash
+Wave Crash
+Chloroblast
+Chloroblast
+Mountain Gale
+Mountain Gale
+Headlong Rush
+Headlong Rush
+Barb Barrage
+Barb Barrage
+Esper Wing
+Esper Wing
+Bitter Malice
+Bitter Malice
+Triple Arrows
+Triple Arrows
+Bleakwind Storm
+Bleakwind Storm
+Wildbolt Storm
+Wildbolt Storm
+Sandsear Storm
+Sandsear Storm
+Lunar Blessing
+Lunar Blessing
+Psyshield Bash
+Psyshield Bash
+Power Shift
+Power Shift
+Stone Axe
+Stone Axe
+Mystical Power
+Mystical Power
+Victory Dance
+Victory Dance
+Shelter
+Shelter
+Infernal Parade
+Infernal Parade
+Ceaseless Edge
+Ceaseless Edge
+Take Heart
+Take Heart
+Aqua Cutter
+Aqua Cutter
+Aqua Step
+Aqua Step
+Armor Cannon
+Armor Cannon
+Axe Kick
+Axe Kick
+Bitter Blade
+Bitter Blade
+Blazing Torque
+Blazing Torque
+Chilling Water
+Chilling Water
+Chilly Reception
+Chilly Reception
+Collision Course
+Collision Course
+Combat Torque
+Combat Torque
+Comeuppance
+Comeuppance
+Doodle
+Doodle
+Double Shock
+Double Shock
+Electro Drift
+Electro Drift
+Fillet Away
+Fillet Away
+Flower Trick
+Flower Trick
+Gigaton Hammer
+Gigaton Hammer
+Glaive Rush
+Glaive Rush
+Hyper Drill
+Hyper Drill
+Ice Spinner
+Ice Spinner
+Jet Punch
+Jet Punch
+Kowtow Cleave
+Kowtow Cleave
+Last Respects
+Last Respects
+Lumina Crash
+Lumina Crash
+Magical Torque
+Magical Torque
+Make It Rain
+Make It Rain
+Mortal Spin
+Mortal Spin
+Noxious Torque
+Noxious Torque
+Order Up
+Order Up
+Population Bomb
+Population Bomb
+Pounce
+Pounce
+Rage Fist
+Rage Fist
+Raging Bull
+Raging Bull
+Revival Blessing
+Revival Blessing
+Ruination
+Ruination
+Salt Cure
+Salt Cure
+Shed Tail
+Shed Tail
+Silk Trap
+Silk Trap
+Snowscape
+Snowscape
+Spicy Extract
+Spicy Extract
+Spin Out
+Spin Out
+Tidy Up
+Tidy Up
+Torch Song
+Torch Song
+Trailblaze
+Trailblaze
+Triple Dive
+Triple Dive
+Twin Beam
+Twin Beam
+Wicked Torque
+Wicked Torque
+Hydro Steam
+Hydro Steam
+Psyblade
+Psyblade
+Blood Moon
+Blood Moon
+Matcha Gotcha
+Matcha Gotcha
+Syrup Bomb
+Syrup Bomb
+Ivy Cudgel
+Ivy Cudgel
+Electro Shot
+Electro Shot
+Tera Starstorm
+Tera Starstorm
+Fickle Beam
+Fickle Beam
+Burning Bulwark
+Burning Bulwark
+Thunderclap
+Thunderclap
+Mighty Cleave
+Mighty Cleave
+Tachyon Cutter
+Tachyon Cutter
+Hard Press
+Hard Press
+Dragon Cheer
+Dragon Cheer
+Alluring Voice
+Alluring Voice
+Temper Flare
+Temper Flare
+Supercell Slam
+Supercell Slam
+Psychic Noise
+Psychic Noise
+Upper Hand
+Upper Hand
+Malignant Chain
+Malignant Chain
+Volt Eater
+Volt Eater
+Armor Piercer
+Armor Piercer
+Max Guard
+Max Guard
+Max Knuckle
+Max Knuckle
+Max Steelspike
+Max Steelspike
+Max Ooze
+Max Ooze
+Max Quake
+Max Quake
+Max Airstream
+Max Airstream
+Max Wyrmwind
+Max Wyrmwind
+Max Phantasm
+Max Phantasm
+Max Flutterby
+Max Flutterby
+Max Darkness
+Max Darkness
+Max Strike
+Max Strike
+Max Flare
+Max Flare
+Max Geyser
+Max Geyser
+Max Rockfall
+Max Rockfall
+Max Hailstorm
+Max Hailstorm
+Max Overgrowth
+Max Overgrowth
+Max Lightning
+Max Lightning
+Max Starfall
+Max Starfall
+Max Mindstorm
+Max Mindstorm
+G-Max Vine Lash
+G-Max Vine Lash
+G-Max Wildfire
+G-Max Wildfire
+G-Max Cannonade
+G-Max Cannonade
+G-Max Volcalith
+G-Max Volcalith
+G-Max Drum Solo
+G-Max Drum Solo
+G-Max Fireball
+G-Max Fireball
+G-Max Hydrosnipe
+G-Max Hydrosnipe
+G-Max Volt Crash
+G-Max Volt Crash
+G-Max Malodor
+G-Max Malodor
+G-Max Stun Shock
+G-Max Stun Shock
+G-Max Befuddle
+G-Max Befuddle
+G-Max Smite
+G-Max Smite
+G-Max Cuddle
+G-Max Cuddle
+G-Max Gold Rush
+G-Max Gold Rush
+G-Max Stonesurge
+G-Max Stonesurge
+G-Max Steelsurge
+G-Max Steelsurge
+G-Max Centiferno
+G-Max Centiferno
+G-Max Sandblast
+G-Max Sandblast
+G-Max Foam Burst
+G-Max Foam Burst
+G-Max Wind Rage
+G-Max Wind Rage
+G-Max Gravitas
+G-Max Gravitas
+G-Max Finale
+G-Max Finale
+G-Max Sweetness
+G-Max Sweetness
+G-Max Tartness
+G-Max Tartness
+G-Max Replenish
+G-Max Replenish
+G-Max Depletion
+G-Max Depletion
+G-Max Resonance
+G-Max Resonance
+G-Max Chi Strike
+G-Max Chi Strike
+G-Max Terror
+G-Max Terror
+G-Max Snooze
+G-Max Snooze
+G-Max Meltdown
+G-Max Meltdown
+G-Max One Blow
+G-Max One Blow
+G-Max Rapid Flow
+G-Max Rapid Flow
+Induction Bolt
+Induction Bolt
+Tera Blast
+Tera Blast
+Breakneck Blitz
+Breakneck Blitz
+All-Out Pummeling
+All-Out Pummeling
+Supersonic Skystrike
+Supersonic Skystrike
+Acid Downpour
+Acid Downpour
+Tectonic Rage
+Tectonic Rage
+Continental Crush
+Continental Crush
+Savage Spin-Out
+Savage Spin-Out
+Never-Ending Nightmare
+Never-Ending Nightmare
+Corkscrew Crash
+Corkscrew Crash
+Inferno Overdrive
+Inferno Overdrive
+Hydro Vortex
+Hydro Vortex
+Bloom Doom
+Bloom Doom
+Gigavolt Havoc
+Gigavolt Havoc
+Shattered Psyche
+Shattered Psyche
+Subzero Slammer
+Subzero Slammer
+Devastating Drake
+Devastating Drake
+Black Hole Eclipse
+Black Hole Eclipse
+Twinkle Tackle
+Twinkle Tackle
+Catastropika
+Catastropika
+10_000_000 Volt Thunderbolt
+10_000_000 Volt Thunderbolt
+Stoked Sparksurfer
+Stoked Sparksurfer
+Extreme Evoboost
+Extreme Evoboost
+Pulverizing Pancake
+Pulverizing Pancake
+Genesis Supernova
+Genesis Supernova
+Sinister Arrow Raid
+Sinister Arrow Raid
+Malicious Moonsault
+Malicious Moonsault
+Oceanic Operetta
+Oceanic Operetta
+Splintered Stormshards
+Splintered Stormshards
+Let's Snuggle Forever
+Let's Snuggle Forever
+Clangorous Soulblaze
+Clangorous Soulblaze
+Guardian of Alola
+Guardian of Alola
+Searing Sunraze Smash
+Searing Sunraze Smash
+Menacing Moonraze Maelstrom
+Menacing Moonraze Maelstrom
+Light That Burns the Sky
+Light That Burns the Sky
+Soul-Stealing 7-Star Strike
+Soul-Stealing 7-Star Strike

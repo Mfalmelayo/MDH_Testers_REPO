@@ -1,0 +1,92 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[TRAINER_TYPE_NAMES]
+Ace Trainer
+Ace Trainer
+Expert
+Expert
+Fairytale Girl
+Fairytale Girl
+Pokéfan
+Pokéfan
+Rich Boy
+Rich Boy
+Schoolboy
+Schoolboy
+Schoolgirl
+Schoolgirl
+Triathlete
+Triathlete
+Kindler
+Kindler
+Ninja boy
+Ninja boy
+Parasol Lady
+Parasol Lady
+Teammates
+Teammates
+Magma Grunt
+Magma Grunt
+Aqua Grunt
+Aqua Grunt
+Grunt Duo
+Grunt Duo
+CultWak
+CultWak
+Mother's Chosen
+Mother's Chosen
+The Strongest!
+The Strongest!
+Possessed
+Possessed
+Hex Maniac
+Hex Maniac
+Temp Champion
+Temp Champion
+Goddess
+Goddess
+Fluff
+Fluff
+Sugar Mommy
+Sugar Mommy
+Poké Knight
+Poké Knight
+Pokémon Scientist
+Pokémon Scientist
+Shrine Guardian
+Shrine Guardian
+Aqua
+Aqua
+Rainbow Rocket Admin
+Rainbow Rocket Admin
+Aqua Boss
+Aqua Boss
+Magma Admin
+Magma Admin
+Magma Boss
+Magma Boss
+Gym Leaders
+Gym Leaders
+Team Aqua Admin
+Team Aqua Admin
+Crasher Wake
+Crasher Wake
+Casino Bunny
+Casino Bunny
+Guitarist
+Guitarist
+Collector
+Collector
+Iono
+Iono
+Apex Mistress
+Apex Mistress
+Fishing Girl
+Fishing Girl
+Team Galatic Admin
+Team Galatic Admin
+Admin Duo
+Admin Duo
+Rocket
+Rocket

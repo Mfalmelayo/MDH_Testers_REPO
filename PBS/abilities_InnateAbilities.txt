@@ -1,0 +1,4 @@
+﻿#-------------------------------
+[NOABILITY]
+Name = No Ability
+Description = The user doesn't have any ability

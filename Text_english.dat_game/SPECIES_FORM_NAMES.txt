@@ -1,0 +1,114 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[SPECIES_FORM_NAMES]
+Family of Four
+Family of Four
+Green Plumage
+Green Plumage
+Zero Form
+Zero Form
+Curly Form
+Curly Form
+Two-Segment Form
+Two-Segment Form
+Chest Form
+Chest Form
+Counterfeit Form
+Counterfeit Form
+Unremarkable Form
+Unremarkable Form
+Teal Mask
+Teal Mask
+Kantonian
+Kantonian
+Small
+Small
+Mega Honchkrow
+Mega Honchkrow
+EXXXTRA THICC
+EXXXTRA THICC
+Hisuian
+Hisuian
+Paldean (Combat Breed)
+Paldean (Combat Breed)
+Paldean (Blaze Breed)
+Paldean (Blaze Breed)
+Paldean (Aqua Breed)
+Paldean (Aqua Breed)
+Paldean
+Paldean
+White-Striped
+White-Striped
+Bloodmoon Ursaluna
+Bloodmoon Ursaluna
+Therian Form
+Therian Form
+Three-Segment Form
+Three-Segment Form
+Hero Form
+Hero Form
+Family of Three
+Family of Three
+Droopy Form
+Droopy Form
+Stretchy Form
+Stretchy Form
+Blue Plumage
+Blue Plumage
+Yellow Plumage
+Yellow Plumage
+White Plumage
+White Plumage
+Roaming Form
+Roaming Form
+Artisan Form
+Artisan Form
+Masterpiece Form
+Masterpiece Form
+Wellspring Mask
+Wellspring Mask
+Hearthflame Mask
+Hearthflame Mask
+Cornerstone Mask
+Cornerstone Mask
+Terastal Teal Mask
+Terastal Teal Mask
+Terastal Wellspring Mask
+Terastal Wellspring Mask
+Terastal Hearthflame Mask
+Terastal Hearthflame Mask
+Terastal Cornerstone Mask
+Terastal Cornerstone Mask
+Terastal Form
+Terastal Form
+Stellar Form
+Stellar Form
+Busted
+Busted
+Zoe
+Zoe
+Gigantamax
+Gigantamax
+Eternamax
+Eternamax
+Gigantamax Single Strike Style
+Gigantamax Single Strike Style
+Gigantamax Rapid Strike Style
+Gigantamax Rapid Strike Style
+Original Cap
+Original Cap
+Hoenn Cap
+Hoenn Cap
+Sinnoh Cap
+Sinnoh Cap
+Unova Cap
+Unova Cap
+Kalos Cap
+Kalos Cap
+Alola Cap
+Alola Cap
+Partner Cap
+Partner Cap
+World Cap
+World Cap

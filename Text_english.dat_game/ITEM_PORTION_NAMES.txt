@@ -1,0 +1,26 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[ITEM_PORTION_NAMES]
+set of Auspicious Armor
+set of Auspicious Armor
+set of Malicious Armor
+set of Malicious Armor
+capsule of Booster Energy
+capsule of Booster Energy
+hunk of Metal Alloy
+hunk of Metal Alloy
+bottle of HP X
+bottle of HP X
+bottle of ATTACK X
+bottle of ATTACK X
+bottle of DEFENSE X
+bottle of DEFENSE X
+bottle of SPECIAL ATTACK X
+bottle of SPECIAL ATTACK X
+bottle of SPECIAL DEFENSE X
+bottle of SPECIAL DEFENSE X
+bottle of SPEED X
+bottle of SPEED X
+serving of Max Soup
+serving of Max Soup

@@ -1,0 +1,202 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[ABILITY_NAMES]
+Anger Shell
+Anger Shell
+Armor Tail
+Armor Tail
+Beads of Ruin
+Beads of Ruin
+Commander
+Commander
+Costar
+Costar
+Cud Chew
+Cud Chew
+Earth Eater
+Earth Eater
+Electromorphosis
+Electromorphosis
+Good as Gold
+Good as Gold
+Guard Dog
+Guard Dog
+Hadron Engine
+Hadron Engine
+Lingering Aroma
+Lingering Aroma
+Mycelium Might
+Mycelium Might
+Opportunist
+Opportunist
+Orichalcum Pulse
+Orichalcum Pulse
+Protosynthesis
+Protosynthesis
+Purifying Salt
+Purifying Salt
+Quark Drive
+Quark Drive
+Rocky Payload
+Rocky Payload
+Seed Sower
+Seed Sower
+Sharpness
+Sharpness
+Supreme Overlord
+Supreme Overlord
+Sword of Ruin
+Sword of Ruin
+Tablets of Ruin
+Tablets of Ruin
+Thermal Exchange
+Thermal Exchange
+Toxic Debris
+Toxic Debris
+Vessel of Ruin
+Vessel of Ruin
+Well-Baked Body
+Well-Baked Body
+Wind Power
+Wind Power
+Wind Rider
+Wind Rider
+Zero to Hero
+Zero to Hero
+Supersweet Syrup
+Supersweet Syrup
+Hospitality
+Hospitality
+Toxic Chain
+Toxic Chain
+Mind's Eye
+Mind's Eye
+Embody Aspect
+Embody Aspect
+Poison Puppeteer
+Poison Puppeteer
+Tera Shift
+Tera Shift
+Tera Shell
+Tera Shell
+Teraform Zero
+Teraform Zero
+Berserk Gene
+Berserk Gene
+Corruption
+Corruption
+Assured Victory
+Assured Victory
+Five Magics
+Five Magics
+Bipolar
+Bipolar
+Welcome to Hell
+Welcome to Hell
+Breeding Kink
+Breeding Kink
+Loose Ends
+Loose Ends
+No Ability
+No Ability
+Bad Company
+Bad Company
+Bone Zone
+Bone Zone
+Blazing Soul
+Blazing Soul
+Precise
+Precise
+Feline Prowess
+Feline Prowess
+Frozen Mist
+Frozen Mist
+Mountaineer
+Mountaineer
+One-Two
+One-Two
+Parasitic Waste
+Parasitic Waste
+Phoenix Down
+Phoenix Down
+Primal Armor
+Primal Armor
+Sage Power
+Sage Power
+Self Sufficient
+Self Sufficient
+Striker
+Striker
+Down Heel
+Down Heel
+Leeching
+Leeching
+Jagged Steel
+Jagged Steel
+Poison Absorb
+Poison Absorb
+Underhanded
+Underhanded
+Eighth Plague
+Eighth Plague
+Soul Siphon
+Soul Siphon
+Apex Predator
+Apex Predator
+Pre-Fae
+Pre-Fae
+Heater
+Heater
+Dimensional warp
+Dimensional warp
+Circuit Phantom
+Circuit Phantom
+Antartic
+Antartic
+Invasive
+Invasive
+Devour
+Devour
+Cowed
+Cowed
+Rampage
+Rampage
+Mind Control
+Mind Control
+Attuned
+Attuned
+Predator
+Predator
+Acid Reflux
+Acid Reflux
+Molten Slag
+Molten Slag
+Volcanic Wrath
+Volcanic Wrath
+Blues
+Blues
+Party Chat
+Party Chat
+Red Chain
+Red Chain
+Time Warp
+Time Warp
+See No Evil
+See No Evil
+Air Support
+Air Support
+Encore
+Encore
+Dual Wield
+Dual Wield
+Loose Rocks
+Loose Rocks
+Endless Greed
+Endless Greed
+Influence
+Influence
+Neko Neko Rush
+Neko Neko Rush
+Pirate Garb
+Pirate Garb

@@ -1,0 +1,220 @@
+#-------------------------------------
+[BADCOMPANY]
+Name = Bad Company
+Description = Stops self-lowering stats and prevents recoil.
+#-------------------------------------
+[BONEZONE]
+Name = Bone Zone
+Description = Bone moves ignore immunity and resistances.
+#-------------------------------------
+[BLAZINGSOUL]
+Name = Blazing Soul
+Description = Gives +1 priority to Fire moves at full HP.
+#-------------------------------------
+[FATALPRECISION]
+Name = Precise
+Description = Super effective moves can't miss and boosted by 20%.
+#-------------------------------------
+[FELINEPROWESS]
+Name = Feline Prowess
+Description = Doubles Special Attack stat.
+#-------------------------------------
+[FROZENMIST]
+Name = Frozen Mist
+Description = Stops added effects and entry hazard damage.
+#-------------------------------------
+[MOUNTAINEER]
+Name = Mountaineer
+Description = Immune to Rock attacks and Stealth Rock.
+#-------------------------------------
+[ORAORAORAORA]
+Name = One-Two
+Description = Punch moves hit twice.
+#-------------------------------------
+[PARASITICWASTE]
+Name = Parasitic Waste
+Description = Attacks that poison also drain.
+#-------------------------------------
+[PHOENIXDOWN]
+Name = Phoenix Down
+Description = Revives to half health on first faint.
+#-------------------------------------
+[PRIMALARMOR]
+Name = Primal Armor
+Description = Decreases super effective moves by 50%.
+#-------------------------------------
+[SAGEPOWER]
+Name = Sage Power
+Description = Ups Special Attack by 50%. Locks move choice.
+#-------------------------------------
+[SELFSUFFICIENT]
+Name = Self Sufficient
+Description = Recover 1/16HP at end of turn.
+#-------------------------------------
+[STRIKER]
+Name = Striker
+Description = Boosts kicking moves by 30%.
+#-------------------------------------
+[DOWNHEEL]
+Name = Down Heel
+Description = Boosts kicking moves by 50%
+#-------------------------------------
+[LEECHING]
+Name = Leeching
+Description = Contact moves inflict Leech Seed on the opponent.
+#----------------------------------------
+[LOOSEEND]
+Name = Loose Ends
+Description = Sets Spikes upon being hit with a contact move.
+#----------------------------------------
+[JAGGEDSTEEL]
+Name = Jagged Steel
+Description = Contact with this PKMN sets Steel Spikes.
+#----------------------------------------
+[POISONABSORB]
+Name = Poison Absorb
+Description = Poison heals.
+#----------------------------------------
+[UNDERHANDED]
+Name = Underhanded
+Description = +1 priority to Dark type moves.
+#----------------------------------------
+[EIGHTHPLAGUE]
+Name = Eighth Plague
+Description = Doubles the power of Bug type moves.
+#----------------------------------------
+[SOULSIPHON]
+Name = Soul Siphon
+Description = Recover 1/3 total HP upon K.O.
+#----------------------------------------
+[APEXPREDATOR]
+Name = Apex Predator
+Description = Recover 1/3 total HP upon K.O.
+#----------------------------------------
+[PREFAE]
+Name = Pre-Fae
+Description = Immunity to Fairy.
+#----------------------------------------
+[HEATER]
+Name = Heater
+Description = Normal type moves become Fire type.
+#----------------------------------------
+[DIMENSIONWARP]
+Name = Dimensional Warp
+Description = Twists the dimensions upon switch-in.
+#----------------------------------------
+[DIMENSIONWARPEX]
+Name = Dimensional Warp
+Description = Twists the dimensions upon switch-in.
+#----------------------------------------
+[CIRCUITPHANTOM]
+Name = Circuit Phantom
+Description = Traps Steel types; Electric does double damage.
+#----------------------------------------
+[ANTARTIC]
+Name = Antartic
+Description = Boosts Ice type moves under Snow.
+#----------------------------------------
+[INVASIVE]
+Name = Invasive
+Description = Lower's the opponents higher attacking stat.
+#----------------------------------------
+[DEVOUR]
+Name = Devour
+Description = Upon K.O., devour 1/2 the opponent's total HP.
+#----------------------------------------
+[COWED]
+Name = Cowed
+Description = Lower the SpAtk of opposing Pokémon.
+#----------------------------------------
+[RAMPAGE]
+Name = Rampage
+Description = No recharge after a KO.
+#----------------------------------------
+[MINDCONTROL]
+Name = Mind Control
+Description = Hypnosis always lands.
+#----------------------------------------
+[ATTUNED]
+Name = Attuned
+Description = Boosts Psychic type moves.
+#----------------------------------------
+[PREDATOR]
+Name = Predator
+Description = User restores 25% HP on KO.
+#----------------------------------------
+[ACIDREFLUX]
+Name = Acid Reflux
+Description = Normal type moves become Poison type.
+#----------------------------------------
+[MOLTENSLAG]
+Name = Molten Slag
+Description = Fire is super-effective on Rock.
+#----------------------------------------
+[VOLCANICWRATH]
+Name = Volcanic Wrath
+Description = Fire beats Rock & Ground.
+#----------------------------------------
+[BLUES]
+Name = Blues
+Description = Sound-based attacks heal the user.
+#----------------------------------------
+[STICKSANDSTONES]
+Name = Party Chat
+Description = Who taught Chatot those slurs?
+#----------------------------------------
+[REDCHAIN]
+Name = Red Chain
+Description = Traps and weakens certain Legendaries.
+#----------------------------------------
+[TIMEWARP]
+Name = Time Warp
+Description = User and allies bypass charge & recharge turns.
+#----------------------------------------
+[SEENOEVIL]
+Name = See No Evil
+Description = Immunity to Dark type moves.
+#----------------------------------------
+[AIRSUPPORT]
+Name = Air Support
+Description = Set Tailwind on entry for 3 turns.
+#----------------------------------------
+[ENCORE]
+Name = Encore
+Description = Sound moves hit twice.
+#----------------------------------------
+[DUALWIELD]
+Name = Dual Wield
+Description = Pulse/Slicing moves hit twice.
+#----------------------------------------
+[LOOSEROCKS]
+Name = Loose Rocks
+Description = Being hit sets Stealth Rocks.
+#----------------------------------------
+[ONETWO]
+Name = One-Two
+Description = Hit 'em with the ole One-Two!
+#----------------------------------------
+[ENDLESSGREED]
+Name = Endless Greed
+Description = The user hoards material wealth.
+#----------------------------------------
+[BEASTMASTERINFLUENCE]
+Name = Influence
+Description = The Trainer compels opposing Pokémon to disobey when weakened.
+#----------------------------------------
+[NEKONEKORUSH]
+Name = Neko Neko Rush
+Description = HAHAHAHAHAHAHAHAHAHAHAHA
+#----------------------------------------
+[PIRATEGARB]
+Name = Pirate Garb
+Description = 50% Damage Reduction 
+#----------------------------------------
+[TREMBLE]
+Name = Tremble Before Me
+Description = Attacks against Paralyzed Pokémon always crit.
+#----------------------------------------
+[PURIFY]
+Name = Purification
+Description = Water attacks are super effective against the Poison type; poison immunity.

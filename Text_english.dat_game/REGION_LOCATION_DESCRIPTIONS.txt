@@ -1,0 +1,52 @@
+﻿# To localize this text for a particular language, please
+# translate every second line of this file.
+#-------------------------------
+[REGION_LOCATION_DESCRIPTIONS]
+Prof. Birch's Lab
+Prof. Birch's Lab
+Your house
+Your house
+Rusturf Tunnel
+Rusturf Tunnel
+PWT
+PWT
+Granite Cave
+Granite Cave
+Abandoned Ship
+Abandoned Ship
+Seashore House
+Seashore House
+Cycling Road
+Cycling Road
+Fiery Path
+Fiery Path
+Jagged Pass
+Jagged Pass
+Hot Springs
+Hot Springs
+Desert Ruins
+Desert Ruins
+Mt. Pyre
+Mt. Pyre
+Weather Institute
+Weather Institute
+Ancient Tomb
+Ancient Tomb
+Safari Zone
+Safari Zone
+Shoal Cave
+Shoal Cave
+Nameless Cavern
+Nameless Cavern
+Seafloor Cavern
+Seafloor Cavern
+Cave of Origin
+Cave of Origin
+Victory Road
+Victory Road
+Space Center
+Space Center
+Petalburg Woods
+Petalburg Woods
+Mr. Briney's Cottage
+Mr. Briney's Cottage
