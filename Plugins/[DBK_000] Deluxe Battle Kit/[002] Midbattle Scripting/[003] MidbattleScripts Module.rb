@@ -1669,21 +1669,20 @@ BRAIXEN_MAGI_MIDBATTLE = {
 #
 #===============================================
 
-#Roxanne gym battle
-ROXANNE_QUIZ = {
+OXANNE_QUIZ = {
   # Intro (optional)
   "RoundStartCommand_1_foe" => {
     "speech_A" => ["Roxanne's Rock Quiz begins!"],
     "playSE"   => "Anim/Applause"
   },
 
- # GEODUDE quiz
+  # GEODUDE quiz (
   "battlerSpecies_GEODUDE" => {
-    :speech    => ["Roxanne asks:", "What ability boosts Defense when Geodude is hit?"],
+    :speech    => ["Roxanne asks:", "What ability lets Geodude survive a KO hit from full HP?"],
     :setchoice => [:ability, 3, {
-      "Sturdy"     => "Right! Sturdy blocks one-hit KOs.",
-      "Rock Head"  => "Wrong! Rock Head stops recoil only.",
-      "Sand Veil"  => "Incorrect—evades Sandstorm effects."
+      "Sturdy"     => "Right! Sturdy lets it endure at 1 HP.",
+      "Rock Head"  => "Wrong! Rock Head prevents recoil damage from moves like Double-Edge.",
+      "Sand Veil"  => "Incorrect! Sand Veil boosts evasion in sandstorms."
     }]
   },
   "ChoiceRight_ability" => {
@@ -1697,24 +1696,13 @@ ROXANNE_QUIZ = {
     :battlerStats => [:DEFENSE, -2]
   },
 
-  "ChoiceRight_ability" => {
-    "playSE"       => "Anim/Applause",
-    "text"         => "Correct! Geodude stands strong!",
-    "battlerStats" => [:DEFENSE, 1]
-  },
-  "ChoiceWrong_ability" => {
-    "playSE"       => "Anim/Buzzer",
-    "text"         => "Oops, wrong answer!",
-    "battlerStats" => [:DEFENSE, -2]
-  },
-
-  # TIRTOUGA
+  # TIRTOUGA 
   "battlerSpecies_TIRTOUGA" => {
-    "speech" => ["Which move hits before slower foes?"],
+    "speech" => ["Roxanne asks:", "Which move has priority to strike before slower foes?"],
     "setChoices" => [:movepriority, 3, {
-      "Aqua Jet"  => "Yes! Aqua Jet has priority.",
-      "Tackle"    => "No—neutral priority.",
-      "Rock Tomb" => "Wrong—it lowers Speed."
+      "Aqua Jet"  => "Yes! Aqua Jet has +1 priority.",
+      "Tackle"    => "No—that's neutral priority.",
+      "Rock Tomb" => "Wrong! It lowers the target's Speed after hitting."
     }]
   },
   "ChoiceRight_movepriority" => {
@@ -1728,33 +1716,33 @@ ROXANNE_QUIZ = {
     "battlerStats"   => [:SPEED, -1]
   },
 
-  # MINIOR
+  # MINIOR 
   "battlerSpecies_MINIOR" => {
-    "speech" => ["Which mechanic doubles power with a gem?"],
-    "setChoices" => [:gem, 3, {
-      "Flying Gem" => "Right! Acrobatics doubles without the gem.",
-      "Swift"      => "No—Swift never misses but no boost.",
-      "Rock Tomb"  => "Wrong—it just lowers Speed."
+    "speech" => ["Roxanne asks:", "What ability changes Minior's form at half HP or below?"],
+    "setChoices" => [:shieldsdown, 3, {
+      "Shields Down" => "Right! It reveals its core form, boosting offense and Speed.",
+      "Swift Swim"   => "Wrong! That doubles Speed in rain.",
+      "Weak Armor"   => "Incorrect! That boosts Speed but lowers Defense on hit."
     }]
   },
-  "ChoiceRight_gem" => {
+  "ChoiceRight_shieldsdown" => {
     "playSE"     => "Anim/Applause",
     "text"       => "Good job!",
     "battlerHP"  => [30, "{1} regained some HP!"]
   },
-  "ChoiceWrong_gem" => {
+  "ChoiceWrong_shieldsdown" => {
     "playSE"       => "Anim/Buzzer",
     "text"         => "Nope!",
     "battlerStats" => [:ATTACK, -1]
   },
 
-  # LILEEP
+  # LILEEP 
   "battlerSpecies_LILEEP" => {
-    "speech" => ["What does Harden do?"],
+    "speech" => ["Roxanne asks:", "What does the move Harden do?"],
     "setChoices" => [:harden, 3, {
-      "Raises Defense"  => "Yes! Boosts Defense.",
-      "Lowers Speed"    => "No—it’s Rock Tomb's effect.",
-      "Creates barrier" => "Incorrect—no barrier."
+      "Raises Defense"  => "Yes! It boosts the user's Defense by 1 stage.",
+      "Lowers Speed"    => "No—that's Rock Tomb's secondary effect.",
+      "Creates barrier" => "Incorrect! Moves like Protect create barriers."
     }]
   },
   "ChoiceRight_harden" => {
@@ -1768,13 +1756,13 @@ ROXANNE_QUIZ = {
     "battlerStats" => [:SPEED, -1]
   },
 
-  # NOSEPASS
+  # NOSEPASS 
   "battlerSpecies_NOSEPASS" => {
-    "speech" => ["What does Solid Rock do?"],
+    "speech" => ["Roxanne asks:", "What does the ability Solid Rock do?"],
     "setChoices" => [:solidrock, 3, {
-      "Reduces super-effective damage" => "Right! Lowers SE damage.",
-      "Immune to paralysis"            => "No—doesn't stop status.",
-      "Boosts Sp. Atk"                 => "Incorrect—no Sp. Atk boost."
+      "Reduces super-effective damage" => "Right! It reduces damage from super-effective moves by 25%.",
+      "Prevents switching"             => "Wrong! That's Magnet Pull's effect on Steel-types.",
+      "Boosts Rock moves in sand"      => "Incorrect! That's Sand Force."
     }]
   },
   "ChoiceRight_solidrock" => {
