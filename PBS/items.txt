@@ -7810,3 +7810,11 @@ Pocket = 1
 Price = 13500
 BPPrice = 50
 Description = Despite the gold being blatantly fake, these caps are extremely valuable amongst certain Trainers.
+#-------------------------------
+[LEAFCORE]
+Name = Leaf Core
+NamePlural = Leaf Cores
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A rare core that can be used to forge a sword!

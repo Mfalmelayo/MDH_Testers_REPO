@@ -642,7 +642,7 @@ Quest13 = {
     :Stage2 => "Defeat the aggressive Pokémon.",
     :Stage3 => "Report back to Lady Cindy.",
     :Location1 => "Route 104 Beach",
-    :QuestDescription => "Lady Cindy is in hysterics—something is smashing picnic baskets and scaring people on the Route 104 beach. Go calm the scene and stop the rampaging Pokémon.",
+    :QuestDescription => "Lady Cindy is in hysterics! Something is smashing picnic baskets and scaring people on the Route 104 beach. Go calm the scene and stop the rampaging Pokémon.",
     :RewardString => "Nugget or Pearl"
 }
    QuestBugCatcher = {
@@ -652,7 +652,7 @@ Quest13 = {
     :Stage1 => "Protect the cocoons from the attackers.",
     :Stage2 => "Report back to the Bug Catcher.",
     :Location1 => "Petalburg Woods",
-    :QuestDescription => "A Bug Catcher in Petalburg Woods begs for help—something keeps dive-bombing a cluster of cocoons at a forest hollow. Go there, drive off the attackers, and make sure the cocoons are safe.",
+    :QuestDescription => "A Bug Catcher in Petalburg Woods begs for help! Something keeps dive-bombing a cluster of cocoons at a forest hollow. Go there, drive off the attackers, and make sure the cocoons are safe.",
     :RewardString => "SilverPowder or Net Ball ×2"
 }
 
