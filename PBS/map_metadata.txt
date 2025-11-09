@@ -402,6 +402,10 @@ Outdoor = true
 ShowArea = true
 BattleBack = field
 #-------------------------------
+[082]   # Route 102 Fillertreestop
+Outdoor = true
+Bicycle = true
+#-------------------------------
 [084]   # Route 103
 Name = Route 103
 Outdoor = true
@@ -940,7 +944,7 @@ Name = Pokemon Den-Bounsweet
 SnapEdges = true
 BattleBack = Den1
 #-------------------------------
-[290]   # Pokemon Den-Caterpie
+[290]   # Pokemon Den-Bellsprout
 Name = Pokemon Den-Caterpie
 SnapEdges = true
 BattleBack = Den4
@@ -1108,5 +1112,6 @@ TrainerBattleBGM = Trainer Battle.mp3
 Environment = Graveyard
 #-------------------------------
 [464]   # Dewford Lagoon
+Name = Dewford Lagoon
 Outdoor = true
 Weather = Rain,20
