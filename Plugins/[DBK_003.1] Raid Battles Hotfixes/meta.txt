@@ -1,0 +1,6 @@
+Name         = Raid Battles Hotfixes
+Version      = 1.0.8
+Essentials   = 21.1
+Requires     = [DBK] Raid Battles,1.0
+Website      = no
+Credits      = Lucidious89, Nononever, Community Bug Reports
