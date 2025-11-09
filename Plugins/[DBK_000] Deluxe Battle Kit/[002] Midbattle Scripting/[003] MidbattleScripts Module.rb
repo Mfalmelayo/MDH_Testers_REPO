@@ -1777,6 +1777,91 @@ OXANNE_QUIZ = {
   }
 }
 
+BEA_MIDBATTLE = {
+  "RoundStartCommand_1_foe" => {
+    "speech_A" => [
+      "This gym is where true fighters are forged!",
+      "Show me your resolve. Let's battle!"
+    ],
+    "playSE" => "Anim/Applause"
+  },
+  "AfterSendOut_foe" => {
+    "ignoreAfter" => "AfterSendOut_foe_repeat",
+    "speech" => ["Go! Fight with honor!"],
+    "playSE" => "Anim/BrickBreak"
+  },
+  "AfterSendOut_foe_repeat" => {
+    "speech" => ["Next!"]
+  },
+  "battlerSpecies_HITMONTOP" => {
+    "speech" => ["Hitmontop! Topple them with your spin!"],
+    "battlerStats" => [:SPEED, 1],
+    "playSE" => "Anim/RapidSpin"
+  },
+  "battlerSpecies_MEDITITE" => {
+    "speech" => ["Meditite! Set the stage with your screens!"],
+    "playSE" => "Anim/LightScreen"
+  },
+  "battlerSpecies_FALINKS" => {
+    "speech" => ["Falinks! March as one unbreakable formation!"],
+    "battlerStats" => [:DEFENSE, 1, :SPECIAL_DEFENSE, 1],
+    "playSE" => "Anim/IronDefense"
+  },
+  "battlerSpecies_HARIYAMA" => {
+    "speech" => ["Hariyama! Crush them with raw power!"],
+    "battlerStats" => [:ATTACK, 1],
+    "playSE" => "Anim/CloseCombat"
+  },
+  "battlerSpecies_SIRFETCHD" => {
+    "speech" => [
+      "Sirfetch'd! My proud warrior, show no mercy!",
+      "This is it! The decisive battle!"
+    ],
+    "battlerHPCap" => 49,
+    "battlerStats" => [:ATTACK, 2, :CRITICAL_HIT, 2],
+    "playSE" => "Anim/BraveBird"
+  },
+  "TargetTookDamage_foe" => {
+    "ignoreAfter" => "TargetHPHalf_foe",
+    "battlerHP" => [15, "{1} grits its teeth and endures!"],
+    "playSE" => "Anim/FocusEnergy"
+  },
+  "TargetHPHalf_foe" => {
+    "setBattler" => :Opposing,
+    "battlerHP" => [33, "{1} rises stronger from adversity!"],
+    "battlerStats" => [:ATTACK, 1, :DEFENSE, 1],
+    "text" => ["{1} digs deep and fights back!"],
+    "playSE" => "Anim/SwordsDance",
+    "ignoreAfter" => "TargetHPHalf_foe"
+  },
+  "BattlerReachedHPCap_SIRFETCHD" => {
+    "setBattler" => :Opposing,
+    "battlerHP" => [50, "Sirfetch'd channels its fighting spirit!"],
+    "battlerStats" => [:ATTACK, 2, :SPEED, 2],
+    "text" => [
+      "Sirfetch'd refuses to yield!",
+      "One final clash!"
+    ],
+    "playSE" => "Anim/CloseCombat"
+  },
+  "BattlerReachedHPCap_foe" => {
+    "dynamax" => true,
+    "text" => ["{1} maximizes its fighting potential!"]
+  },
+  "UserHPHalf_player" => {
+    "setBattler" => :Opposing,
+    "text" => ["You're faltering! Now's my chance!"],
+    "battlerStats" => [:SPEED, 1],
+    "playSE" => "Anim/SwordsDance"
+  },
+  "BattleEndLoss_foe" => {
+    "speech_A" => [
+      "Incredible... You overwhelmed my team.",
+      "Your fighting spirit is unmatched. Take the badge!"
+    ]
+  }
+}
+
 InesseBFFTrainers_MIDBATTLE   = {
   "RoundStartCommand_1_foe" => {
     :speech    => ["Get ready for battle you scarred Mutt!"],
