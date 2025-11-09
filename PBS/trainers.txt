@@ -970,13 +970,6 @@ Pokemon = RELICANTH,30
     Item = SITRUSBERRY
     Gender = male
     IV = 20,20,20,20,20,20
-Pokemon = MAROWAKx,32
-    Ability = PARENTALBOND
-    Item = THICKCLUB
-    Gender = female
-    IV = 20,20,20,20,20,20
-    Ball = HEAVYBALL
-	Innates = BONEZONE
 #-------------------------------
 [CULTIST,Ariel]
 Items = SUPERPOTION,SUPERPOTION
