@@ -984,8 +984,8 @@ BaseMoney = 80
 Name = Team Galatic Admin
 Gender = Female
 BaseMoney = 100
-BattleBGM = Battle! Team Galactic Commander
-VictoryBGM = Victory! Aqua Grunt
+BattleBGM = Team Galactic Admin
+VictoryBGM = Team Galactic Victory
 #-------------------------------
 [ADMINDUO_RSE]
 Name = Admin Duo
