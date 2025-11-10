@@ -53,6 +53,7 @@ Pokemon = MINIOR,15
     Item = FLYINGGEM
     Gender = female
     IV = 20,20,20,20,20,20
+	Innates = LOOSEROCKS
 Pokemon = LILEEP,18
     Moves = BLOCK,HARDEN,TACKLE,ROCKTOMB
     AbilityIndex = 0
@@ -66,6 +67,7 @@ Pokemon = NOSEPASS,18
     Item = LEFTOVERS
     Gender = female
     IV = 20,20,20,20,20,20
+	Innates = FILTER,SHELLARMOR
     Ball = HEAVYBALL
 #-------------------------------
 [LEADER_Brawly,Bea]
@@ -90,7 +92,7 @@ Pokemon = SIRFETCHD,26
     Moves = FIRSTIMPRESSION,CLOSECOMBAT,NIGHTSLASH,BRAVEBIRD
     Item = SITRUSBERRY
     IV = 20,20,20,20,20,20
-	Innates = SELFSUFFICIENT
+	Innates = SELFSUFFICIENT,DEFIANT,
 #-------------------------------
 [LEADER_Wattson,Wattson]
 Items = SUPERPOTION,SUPERPOTION
@@ -3867,6 +3869,7 @@ Pokemon = SKITTY,23
 Pokemon = MEOWTH,25
 Pokemon = YUNGOOS,25
 Pokemon = BUNEARY_2,27
+Pokemon = ABSOL_2,30
 #-------------------------------
 [LASS,Kiki,1]
 LoseText = "You didn't have to win so convincingly!"

@@ -7818,3 +7818,11 @@ Pocket = 8
 Price = 0
 Flags = KeyItem
 Description = A rare core that can be used to forge a sword!
+#-------------------------------
+[STONECORE]
+Name = Stone Core
+NamePlural = Stone Cores
+Pocket = 8
+Price = 0
+Flags = KeyItem
+Description = A rare core that can be used to forge a sword!

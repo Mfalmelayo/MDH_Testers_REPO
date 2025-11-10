@@ -1578,17 +1578,22 @@ ABOMINEON_MIDBATTLE = {
 HOUNDOOM1_MIDBATTLE = {
 "RoundStartCommand_1_foe" => {
     "setVariable" => 0,
-    "setBattler"  => :Opposing,
-    "teamEffects" => [:SeaOfFire, true, "{1} unleashes a blazing delinquent aura!"]
+	"battlerHPCap" => 75,
+    "text" => ["{1} Seems to want to test your might!"]
   },
   "UserDealtDamage_foe_repeat" => {
     "addVariable" => 1,
-    "ignoreUntil" => "Variable_repeat_every_3" 
+	"text" => ["{1} is feeling herself!"]
   },
-  "Variable_repeat_every_3" => {
-    "setBattler"   => :Opposing,
+  "VariableUp_repeat_every_3" => {
+    "setBattler"   => :Self,
     "battlerStats" => [:ATTACK, 1, :SPECIAL_ATTACK, 1, :SPEED, 1],
-    "text"         => ["{1} is getting pumped up! She's landing hits left and right!"]
+    "text" => ["{1} is getting pumped up! She's landing hits left and right!"]
+  },
+  "BattlerReachedHPCap_foe" => {
+    "speech"    => ["She seems pleased with the battle."],
+    "endSpeech" => true,
+    "endBattle" => 1
   }
 }
 
@@ -1668,11 +1673,14 @@ BRAIXEN_MAGI_MIDBATTLE = {
 # MDH MIDBATTLE SCRIPTS!
 #
 #===============================================
-InesseBFFTrainers_MIDBATTLE   = {
+InesseBFFTrainers_MIDBATTLE = {
   "RoundStartCommand_1_foe" => {
-    :speech    => ["Get ready for battle you scarred Mutt!"],
-    "addWild" => [:ABSOL_2, 25]
-   }
+    "speech"   => ["Get ready for battle, you scarred mutt!"],
+    "setVariable" => 1
+ },
+  "Variable_1" => {
+   "addWild" => [:ABSOLx, 30],
+   "text" => ["This Pokemon slowly walks into battle!"]
  }
-
+}
 end
