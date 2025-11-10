@@ -95,3 +95,6 @@ Innates = COWED,SURGESURFER,BEASTBOOST
 #-------------------------------
 [ENTEIh]
 Innates = OVERCOAT,THERMALEXCHANGE,BEASTBOOST
+#-------------------------------
+[MAROWAKx_1]
+Innates = FILTER,JUSTIFIED,ROCKHEAD

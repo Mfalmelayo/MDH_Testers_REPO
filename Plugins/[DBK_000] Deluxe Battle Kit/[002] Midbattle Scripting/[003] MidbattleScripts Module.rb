@@ -1543,7 +1543,6 @@ DONPOLEON_MIDBATTLE = {
 
 MOTHERWAK_MIDBATTLE = {
 "RoundStartCommand_1_foe" => {
-    "dynamax" => false,
     "speech_A" => ["Thank you for protecting me MotherWak, I'm sorry."],
 	"battlerHPCap" => 49,
 	"setBattler" => :Opposing,
@@ -1560,9 +1559,10 @@ MOTHERWAK_MIDBATTLE = {
     "playSE" => "Anim/Glare"
 },
 "BattlerReachedHPCap_foe" => {
-    "dynamax" => true,
-    "dynamax" => "You can feel her love, her anger, and all of her sorrow!"
-  },
+    "megaEvolve" => "You can feel her love, her anger, and all of her sorrow!",
+	"battlerStats" => [:ATTACK, 1, :SPECIAL_ATTACK, 1, :DEFENSE, 1, :SPECIAL_DEFENSE, 1],
+	"teamEffects" => [:StealthRock, true, "{1} The ground obey's her motherly fury!"]
+  }
  }
  
 ABOMINEON_MIDBATTLE = {
