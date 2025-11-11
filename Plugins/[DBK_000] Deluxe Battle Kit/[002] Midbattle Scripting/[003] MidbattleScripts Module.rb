@@ -681,6 +681,122 @@ FROSLASS_MIDBATTLE   = {
  }
 }
 
+MIST_GRENINJA1 = {
+  "RoundStartCommand_1_foe" => {
+    "speech" => ["The Greninja emerges from the shadows, ready to strike like a true shinobi!"],
+    "setVariable" => 0,
+    "changeTerrain" => :Misty,
+    "battlerStats" => [:EVASION, 6, :SPEED, 6, :SPECIAL_ATTACK, 6]
+  },
+  "TargetTookDamage_foe_repeat" => {
+    "addVariable" => 1,
+    "text" => ["Greninja vanishes into shadows, creating illusions!"],
+  },
+  "TargetHPHalf_foe" => {
+    "speech" => ["Greninja performs the forbidden jutsu—shadow clones multiply!"],
+    "addWild" => [:GRENINJA, 50],
+    "battlerStats" => [:ATTACK, 2, :SPECIAL_ATTACK, 2]
+  },
+  "VariableUp_repeat_every_3" => {
+    "text" => ["The shadow clones overwhelm the battlefield!"],
+    "battlerStats" => [:EVASION, 1, :SPEED, 1],
+	"setBattler" => :Opposing,
+    "battlerEffects_foe" => [:Confusion, 2, "The shadows confuse your Pokémon!"]
+},
+  "BattlerFainted_foe" => {
+    "text" => ["The shinobi Greninja fades into the shadows, defeated..."],
+    "changeTerrain" => :None,
+    "changeWeather" => :None
+  }
+}
+
+MIST_GRENINJA2 = {
+  "RoundStartCommand_1_foe" => {
+    "speech" => ["The Greninja emerges from the shadows, ready to strike like a true shinobi!"],
+    "setVariable" => 0,
+    "changeTerrain" => :Misty,
+    "battlerStats" => [:EVASION, 4, :SPEED, 4, :SPECIAL_ATTACK, 4]
+  },
+  "TargetTookDamage_foe_repeat" => {
+    "addVariable" => 1,
+    "text" => ["Greninja vanishes into shadows, creating illusions!"],
+  },
+  "TargetHPHalf_foe" => {
+    "speech" => ["Greninja performs the forbidden jutsu—shadow clones multiply!"],
+    "addWild" => [:GRENINJA, 45],
+    "battlerStats" => [:ATTACK, 2, :SPECIAL_ATTACK, 2]
+  },
+  "VariableUp_repeat_every_3" => {
+    "text" => ["The shadow clones overwhelm the battlefield!"],
+    "battlerStats" => [:EVASION, 1, :SPEED, 1],
+	"setBattler" => :Opposing,
+    "battlerEffects_foe" => [:Confusion, 2, "The shadows confuse your Pokémon!"]
+},
+  "BattlerFainted_foe" => {
+    "text" => ["The shinobi Greninja fades into the shadows, defeated..."],
+    "changeTerrain" => :None,
+    "changeWeather" => :None
+  }
+}
+
+MIST_GRENINJA3 = {
+  "RoundStartCommand_1_foe" => {
+    "speech" => ["The Greninja emerges from the shadows, ready to strike like a true shinobi!"],
+    "setVariable" => 0,
+    "changeTerrain" => :Misty,
+    "battlerStats" => [:EVASION, 3, :SPEED, 3, :SPECIAL_ATTACK, 3]
+  },
+  "TargetTookDamage_foe_repeat" => {
+    "addVariable" => 1,
+    "text" => ["Greninja vanishes into shadows, creating illusions!"],
+  },
+  "TargetHPHalf_foe" => {
+    "speech" => ["Greninja performs the forbidden jutsu—shadow clones multiply!"],
+    "addWild" => [:GRENINJA, 40],
+    "battlerStats" => [:ATTACK, 2, :SPECIAL_ATTACK, 2]
+  },
+  "VariableUp_repeat_every_3" => {
+    "text" => ["The shadow clones overwhelm the battlefield!"],
+    "battlerStats" => [:EVASION, 1, :SPEED, 1],
+	"setBattler" => :Opposing,
+    "battlerEffects_foe" => [:Confusion, 2, "The shadows confuse your Pokémon!"]
+},
+  "BattlerFainted_foe" => {
+    "text" => ["The shinobi Greninja fades into the shadows, defeated..."],
+    "changeTerrain" => :None,
+    "changeWeather" => :None
+  }
+}
+
+MIST_GRENINJA4 = {
+  "RoundStartCommand_1_foe" => {
+    "speech" => ["The Greninja emerges from the shadows, ready to strike like a true shinobi!"],
+    "setVariable" => 0,
+    "changeTerrain" => :Misty,
+    "battlerStats" => [:EVASION, 2, :SPEED, 2, :SPECIAL_ATTACK, 2]
+  },
+  "TargetTookDamage_foe_repeat" => {
+    "addVariable" => 1,
+    "text" => ["Greninja vanishes into shadows, creating illusions!"],
+  },
+  "TargetHPHalf_foe" => {
+    "speech" => ["Greninja performs the forbidden jutsu—shadow clones multiply!"],
+    "addWild" => [:GRENINJA, 40],
+    "battlerStats" => [:ATTACK, 2, :SPECIAL_ATTACK, 2]
+  },
+  "VariableUp_repeat_every_3" => {
+    "text" => ["The shadow clones overwhelm the battlefield!"],
+    "battlerStats" => [:EVASION, 1, :SPEED, 1],
+	"setBattler" => :Opposing,
+    "battlerEffects_foe" => [:Confusion, 2, "The shadows confuse your Pokémon!"]
+},
+  "BattlerFainted_foe" => {
+    "text" => ["The shinobi Greninja fades into the shadows, defeated..."],
+    "changeTerrain" => :None,
+    "changeWeather" => :None
+  }
+}
+
 MIST_GRENINJA = {
   "RoundStartCommand_1_foe" => {
     "speech" => ["The Greninja emerges from the shadows, ready to strike like a true shinobi!"],
@@ -795,10 +911,31 @@ DRAGONAIR_MIDBATTLE = {
  }
 }
 
+GOODRA_MIDBATTLE = {
+  "RoundStartCommand_1_foe" => {
+    "text" => ["The Dragonair coils defensively, claiming this ocean route as its territory!"],
+    "setVariable" => 0,
+    "changeWeather" => :Rain,
+    "changeTerrain" => :Misty
+  },
+  "TargetTookDamage_foe_repeat" => {
+    "addVariable" => 1,
+    "text" => ["Dragonair roars, defending its turf with greater fury!"]
+},
+  "VariableUp_repeat_every_3" => {
+    "battlerStats" => [:DEFENSE, 1, :SPECIAL_DEFENSE, 1],
+    "battlerEffects" => [:AquaRing, true, "Waves trap your Pokémon in a whirlpool!"]
+},
+  "TargetHPHalf_foe" => {
+    "speech" => ["Dragonair summons the ocean's wrath in desperation!"],
+    "battlerStats" => [:SPECIAL_DEFENSE, 2, :SPECIAL_ATTACK, 2],
+    "changeWeather" => :HeavyRain
+ }
+}
+
 WHIMSCOTT_MIDBATTLE = {
   "RoundStartCommand_1_foe" => {
     "changeTerrain" => :Misty,
-    "teamEffects" => [:Tailwind, true, "{1} whips up a tailwind with mischievous glee!"],
     "battlerHPCap" => 49,
     "playSE" => "Anim/Fairy",
     "text" => ["{1} flutters about playfully!"]
@@ -1654,14 +1791,44 @@ BRAIXEN_MAGI_MIDBATTLE = {
     "addVariable" => 1,
     "playSE" => "Anim/Flamethrower"
   },
-  "Variable_3" => {
-    "battlerHPCap" => 0,
-    "changeTerrain" => :None,
-    "changeWeather" => :Sun,
-    "battlerHP" => [50, "{1} absorbs the essence of her fallen familiars!"],
-    "battlerStats" => [:ATTACK, 1, :SPECIAL_ATTACK, 2, :SPEED, 1],
-    "text" => ["{1} unleashes her full magical fury!"],
-    "playSE" => "Anim/SunnyDay"
+  "BattlerReachedHPCap_foe" => {
+    "dynamax" => true,
+    "text" => ["{1} towers above, radiating mystical flames!"]
+  }
+}
+
+BRAIXEN_MAGI_MIDBATTLE1 = {
+  "RoundStartCommand_1_foe" => {
+    "addWild" => [:FENNEKIN_2, 30],
+    "addVariable" => 1,
+    "battlerHPCap" => 49,
+    "changeTerrain" => :Psychic,
+    "playSE" => "Anim/Psychic",
+    "text" => ["{1} summons her first magical familiar!"]
+  },
+  "Variable_1" => {
+    "addWild" => [:ABSOL_2, 35],
+    "text" => ["She is being called to aid {1}!"]
+  },
+  "TargetTookDamage_foe" => {
+    "ignoreAfter" => "Variable_2",
+    "battlerHP" => [15, "{1} is shielded by her familiars!"],
+    "text" => ["The familiars absorb some of the damage!"],
+    "playSE" => "Anim/Protect"
+  },
+  "BattlerFainted_FENNEKIN_2" => {
+    "text" => ["Brax! Braxien!"],
+    "setBattler" => :Opposing,
+    "battlerStats" => [:SPECIAL_ATTACK, 1, :SPEED, 1],
+    "addVariable" => 1,
+    "playSE" => "Anim/Flamethrower"
+  },
+  "BattlerFainted_ABSOL_2" => {
+    "text" => ["Brax! Braxien!"],
+    "setBattler" => :Opposing,
+    "battlerStats" => [:DEFENSE, 1, :SPECIAL_DEFENSE, 1],
+    "addVariable" => 1,
+    "playSE" => "Anim/Flamethrower"
   },
   "BattlerReachedHPCap_foe" => {
     "dynamax" => true,
