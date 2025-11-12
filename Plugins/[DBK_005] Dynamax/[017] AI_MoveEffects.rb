@@ -227,7 +227,7 @@ Battle::AI::Handlers::MoveEffectAgainstTargetScore.copy("ConfuseTargetSide",
                                                         "ConfuseTargetSideAddMoney")
 
 #-------------------------------------------------------------------------------
-# G-Max Stonesurge, G-Max Steelsurge
+# G-Max Stonesurge, G-Max Steelsurge, Chargestone
 #-------------------------------------------------------------------------------
 Battle::AI::Handlers::MoveEffectScore.add("DamageTargetAddStealthRocksToFoeSide",
   proc { |score, move, user, ai, battle|
@@ -244,9 +244,13 @@ Battle::AI::Handlers::MoveEffectScore.add("DamageTargetAddStealthRocksToFoeSide"
     next score + (10 * foe_reserves.length)
   }
 )
+
+# Copy AI logic for Steelsurge and Chargestone
 Battle::AI::Handlers::MoveEffectScore.copy("DamageTargetAddStealthRocksToFoeSide",
                                            "DamageTargetAddSteelsurgeToFoeSide")
-										   
+Battle::AI::Handlers::MoveEffectScore.copy("DamageTargetAddStealthRocksToFoeSide",
+                                           "DamageTargetAddChargestoneToFoeSide")
+
 #-------------------------------------------------------------------------------
 # G-Max Resonance
 #-------------------------------------------------------------------------------

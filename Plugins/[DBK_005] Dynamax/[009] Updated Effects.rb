@@ -194,39 +194,62 @@ Battle::AbilityEffects::OnBeingHit.add(:WANDERINGSPIRIT,
 #===============================================================================
 # Rapid Spin
 #===============================================================================
-# Also clears away hazard applied with G-Max Steelsurge.
+# Also clears away hazards applied with G-Max Steelsurge or Chargestone.
 #-------------------------------------------------------------------------------
 class Battle::Move::RemoveUserBindingAndEntryHazards < Battle::Move::StatUpMove
   alias dynamax_pbEffectAfterAllHits pbEffectAfterAllHits
   def pbEffectAfterAllHits(user, target)
-    dynamax_pbEffectAfterAllHits(user,target)
+    dynamax_pbEffectAfterAllHits(user, target)
+
+    # G-Max Steelsurge
     if user.pbOwnSide.effects[PBEffects::Steelsurge]
       user.pbOwnSide.effects[PBEffects::Steelsurge] = false
       @battle.pbDisplay(_INTL("{1} blew away the pointed steel!", user.pbThis))
     end
+
+    # Chargestone (Electric hazard)
+    if user.pbOwnSide.effects[PBEffects::Chargestone]
+      user.pbOwnSide.effects[PBEffects::Chargestone] = false
+      @battle.pbDisplay(_INTL("{1} blew away the electrified debris!", user.pbThis))
+    end
   end
 end
+
 
 #===============================================================================
 # Defog
 #===============================================================================
-# Also clears away hazard applied with G-Max Steelsurge.
+# Also clears away hazards applied with G-Max Steelsurge and Chargestone.
 #-------------------------------------------------------------------------------
 class Battle::Move::LowerTargetEvasion1RemoveSideEffects < Battle::Move::TargetStatDownMove
   alias dynamax_pbFailsAgainstTarget? pbFailsAgainstTarget?
   def pbFailsAgainstTarget?(user, target, show_message)
-    return false if Settings::MECHANICS_GENERATION >= 6 && target.pbOpposingSide.effects[PBEffects::Steelsurge]
+    if Settings::MECHANICS_GENERATION >= 6 &&
+       (target.pbOpposingSide.effects[PBEffects::Steelsurge] ||
+        target.pbOpposingSide.effects[PBEffects::Chargestone])
+      return false
+    end
     return dynamax_pbFailsAgainstTarget?(user, target, show_message)
   end
-  
+
   alias dynamax_pbEffectAgainstTarget pbEffectAgainstTarget
   def pbEffectAgainstTarget(user, target)
     dynamax_pbEffectAgainstTarget(user, target)
+
+    # Remove Steelsurge
     if target.pbOwnSide.effects[PBEffects::Steelsurge] ||
        (Settings::MECHANICS_GENERATION >= 6 && target.pbOpposingSide.effects[PBEffects::Steelsurge])
-      target.pbOwnSide.effects[PBEffects::Steelsurge]      = false
+      target.pbOwnSide.effects[PBEffects::Steelsurge] = false
       target.pbOpposingSide.effects[PBEffects::Steelsurge] = false if Settings::MECHANICS_GENERATION >= 6
       @battle.pbDisplay(_INTL("{1} blew away the pointed steel!", user.pbThis))
+    end
+
+    # Remove Chargestone
+    if target.pbOwnSide.effects[PBEffects::Chargestone] ||
+       (Settings::MECHANICS_GENERATION >= 6 && target.pbOpposingSide.effects[PBEffects::Chargestone])
+      target.pbOwnSide.effects[PBEffects::Chargestone] = false
+      target.pbOpposingSide.effects[PBEffects::Chargestone] = false if Settings::MECHANICS_GENERATION >= 6
+      @battle.pbDisplay(_INTL("{1} blew away the electrified debris!", user.pbThis))
     end
   end
 end
@@ -234,21 +257,27 @@ end
 #===============================================================================
 # Court Change
 #===============================================================================
-# Also swaps side effects of certain G-Max moves.
+# Also swaps side effects of certain G-Max moves, including Chargestone.
 #-------------------------------------------------------------------------------
 class Battle::Move::SwapSideEffects < Battle::Move
   alias dynamax_initialize initialize
   def initialize(battle, move)
     dynamax_initialize(battle, move)
-    @boolean_effects.push(PBEffects::Steelsurge)
+    # Boolean side effects to swap
+    @boolean_effects.push(
+      PBEffects::Steelsurge,
+      PBEffects::Chargestone
+    )
+    # Numeric side effects to swap
     @number_effects += [
-      PBEffects::Cannonade, 
-      PBEffects::VineLash, 
-      PBEffects::Volcalith, 
+      PBEffects::Cannonade,
+      PBEffects::VineLash,
+      PBEffects::Volcalith,
       PBEffects::Wildfire
     ]
   end
 end
+
 
 #===============================================================================
 # Low Kick, Grass Knot

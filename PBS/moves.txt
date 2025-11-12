@@ -9986,3 +9986,15 @@ FunctionCode = LowerTargetSpDef2LowerTargetDefense2
 Flags = RemoveProtections
 EffectChance = 100
 Description = The user attacks by unleashing a peculiar, mind-bending light that harshly lowers the target’s Sp. Def.
+#-------------------------------
+[CHARGESTONE]
+Name = Chargestone
+Type = ELECTRIC
+Category = Special
+Power = 40
+Accuracy = 0
+TotalPP = 16
+Target = NearOther
+FunctionCode = DamageTargetAddChargestoneToFoeSide
+Flags = ZPower_AllStats_1
+Description = The user launches charged debris at the foe's side that harms and confuses any foe who switch in.

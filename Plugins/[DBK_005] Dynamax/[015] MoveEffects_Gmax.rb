@@ -517,6 +517,7 @@ class Battle::DynamaxMove::RemoveSideEffectsAndTerrain < Battle::DynamaxMove::Mo
       [PBEffects::ToxicSpikes, 0,     _INTL("{1} blew away poison spikes!", user.pbThis)],
       [PBEffects::StealthRock, false, _INTL("{1} blew away stealth rocks!", user.pbThis)],
       [PBEffects::Steelsurge,  false, _INTL("{1} blew away the pointed steel!", user.pbThis)],
+      [PBEffects::Chargestone,  false, _INTL("{1} blew away the electrified debris!", user.pbThis)],
       [PBEffects::StickyWeb,   false, _INTL("{1} blew away sticky webs!", user.pbThis)]
     ]
     side_effects.each do |effect|

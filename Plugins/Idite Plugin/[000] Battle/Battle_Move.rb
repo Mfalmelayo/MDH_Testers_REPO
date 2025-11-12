@@ -265,3 +265,45 @@ end
 
 
 end
+
+# Chargestone
+class Battle::Move::DamageTargetAddChargestoneToFoeSide < Battle::Move
+  def pbEffectWhenDealingDamage(user, target)
+    return if target.pbOwnSide.effects[PBEffects::Chargestone]
+    target.pbOwnSide.effects[PBEffects::Chargestone] = true
+    @battle.pbAnimation(:ZINGZAP, user, target)
+    @battle.pbDisplay(_INTL("Electrified debris floats in the air around {1}!", user.pbOpposingTeam(true)))
+  end
+end
+
+#===============================================================================
+# Chargestone entry hazard
+#===============================================================================
+class Battle
+  # Use a unique alias name so we don't stomp other hazards.
+  alias chargestone_pbEntryHazards pbEntryHazards
+  def pbEntryHazards(battler)
+    chargestone_pbEntryHazards(battler)
+
+    side = battler.pbOwnSide
+    return unless side.effects[PBEffects::Chargestone]
+    return unless battler.takesIndirectDamage?
+    return if battler.hasActiveItem?(:HEAVYDUTYBOOTS)
+    return unless GameData::Type.exists?(:ELECTRIC)
+
+    bTypes = battler.pbTypes(true)
+    eff = Effectiveness.calculate(:ELECTRIC, *bTypes)
+    return if Effectiveness.ineffective?(eff)
+
+    # Damage
+    battler.pbReduceHP(battler.totalhp * eff / 8, false)
+    pbDisplay(_INTL("Sparks of electricity zapped {1}!", battler.pbThis(true)))
+    battler.pbItemHPHealCheck
+
+    # Confusing, isn't it?
+    if battler.effects[PBEffects::Confusion] == 0 && !battler.hasActiveAbility?(:OWNTEMPO)
+      battler.pbConfuse
+      pbDisplay(_INTL("The shock confused {1}!", battler.pbThis(true)))
+    end
+  end
+end

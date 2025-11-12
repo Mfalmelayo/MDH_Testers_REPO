@@ -17,6 +17,7 @@ module PBEffects
   Cannonade    = 824  # The lingering effect of G-Max Cannonade.
   Volcalith    = 825  # The lingering effect of G-Max Volcalith.
   Steelsurge   = 826  # The hazard effect of G-Max Steelsurge.
+  Chargestone  = 1751  # The hazard effect of Zoe & Grizzbolt's boss battle.
 end
 
 #-------------------------------------------------------------------------------
@@ -30,6 +31,7 @@ module Battle::DebugVariables
   SIDE_EFFECTS[PBEffects::Cannonade]   = { name: "G-Max Cannonade duration",           default: 0     }
   SIDE_EFFECTS[PBEffects::Volcalith]   = { name: "G-Max Volcalith duration",           default: 0     }
   SIDE_EFFECTS[PBEffects::Steelsurge]  = { name: "G-Max Steelsurge exists",            default: false }
+  SIDE_EFFECTS[PBEffects::Chargestone] = { name: "Chargestone exists",                 default: false }
 end
 
 #-------------------------------------------------------------------------------
@@ -39,11 +41,12 @@ class Battle::ActiveSide
   alias dynamax_initialize initialize  
   def initialize
     dynamax_initialize
-    @effects[PBEffects::Cannonade]  = 0
-    @effects[PBEffects::Steelsurge] = false
-    @effects[PBEffects::VineLash]   = 0
-    @effects[PBEffects::Volcalith]  = 0
-    @effects[PBEffects::Wildfire]   = 0
+    @effects[PBEffects::Cannonade]   = 0
+    @effects[PBEffects::Steelsurge]  = false
+    @effects[PBEffects::Chargestone] = false
+    @effects[PBEffects::VineLash]    = 0
+    @effects[PBEffects::Volcalith]   = 0
+    @effects[PBEffects::Wildfire]    = 0
   end
 end
 
@@ -70,7 +73,7 @@ class Battle
       end
     end
   end
-  
+
   #-----------------------------------------------------------------------------
   # Aliased for the end of round damage for certain G-Max move effects.
   #-----------------------------------------------------------------------------

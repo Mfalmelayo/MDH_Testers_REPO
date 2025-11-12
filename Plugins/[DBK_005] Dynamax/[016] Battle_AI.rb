@@ -138,7 +138,7 @@ class Battle::AI
     end
     return dynamax_pbGetMovesToScore
   end
-  
+
   #-----------------------------------------------------------------------------
   # Aliased to allow the AI to consider hazard damage from G-Max Steelsurge.
   #-----------------------------------------------------------------------------
@@ -155,6 +155,34 @@ class Battle::AI
     return ret
   end
 end
+
+#-----------------------------------------------------------------------------
+# Adds AI consideration for Chargestone hazard, safely separated from Dynamax.
+#-----------------------------------------------------------------------------
+class Battle
+  if method_defined?(:calculate_entry_hazard_damage)
+    alias chargestone_calculate_entry_hazard_damage calculate_entry_hazard_damage
+  end
+
+  def calculate_entry_hazard_damage(pkmn, side)
+    # If the original method didn’t exist yet, just start with 0.
+    ret = defined?(chargestone_calculate_entry_hazard_damage) ?
+            chargestone_calculate_entry_hazard_damage(pkmn, side) : 0
+
+    return ret if pkmn.hasAbility?(:MAGICGUARD) || pkmn.hasItem?(:HEAVYDUTYBOOTS)
+    return ret unless @battle.sides[side].effects[PBEffects::Chargestone]
+    return ret unless GameData::Type.exists?(:ELECTRIC)
+
+    pkmn_types = pkmn.types
+    eff = Effectiveness.calculate(:ELECTRIC, *pkmn_types)
+    return ret if Effectiveness.ineffective?(eff)
+
+    ret += pkmn.totalhp * eff / 8
+    return ret
+  end
+end
+
+
 
 #===============================================================================
 # Additions to the Battle::AI::AIBattler class.
