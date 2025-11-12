@@ -4078,6 +4078,19 @@ Pokemon = HOUNDOOMx,55
     Ability = APEXPREDATOR
     HeldItem = LIFEORB
 #-------------------------------
+[KAHUNA_Olivia,Olivia]
+LoseText = "Looks like I still have more polishing to do!"
+Pokemon = LYCHANROC,47
+    Moves = STONEEDGE,CRUNCH,ACCELEROCK,SWORDSDANCE
+Pokemon = PROBOPASS,47
+    Moves = POWERGEM,THUNDERWAVE,EARTHPOWER,SANDSTORM
+Pokemon = GIGALITH,46
+    Moves = ROCKBLAST,SANDTOMB,IRONDEFENSE,BODYPRESS
+Pokemon = CRADILY,46
+    Moves = GIGADRAIN,ANCIENTPOWER,TOXIC,RECOVER
+Pokemon = CARBINK,45
+    Moves = MOONBLAST,REFLECT,LIGHTSCREEN,POWERGEM
+#-------------------------------
 [FISHER_LANA,Lana]
 LoseText = "..."
 Pokemon = CHINCHOU,28

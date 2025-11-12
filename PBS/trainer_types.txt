@@ -30,6 +30,11 @@ Name = Pokémon Trainer
 Gender = Female
 BaseMoney = 60
 #-------------------------------
+[KAHUNA_Olivia]
+Name = KAHUNA
+Gender = Female
+BaseMoney = 60
+#-------------------------------
 [POKEMONTRAINER_Wally]
 Name = Rival
 Gender = Male

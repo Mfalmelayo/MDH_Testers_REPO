@@ -1760,7 +1760,7 @@ MAY_MIDBATTLE = {
 
 BRAIXEN_MAGI_MIDBATTLE = {
   "RoundStartCommand_1_foe" => {
-    "addWild" => [:FENNEKINm, 30],
+    "addWild" => [:FENNEKIN_2, 30],
     "addVariable" => 1,
     "battlerHPCap" => 49,
     "changeTerrain" => :Psychic,
@@ -1799,7 +1799,7 @@ BRAIXEN_MAGI_MIDBATTLE = {
 
 BRAIXEN_MAGI_MIDBATTLE1 = {
   "RoundStartCommand_1_foe" => {
-    "addWild" => [:FENNEKINm, 30],
+    "addWild" => [:FENNEKIN_2, 30],
     "addVariable" => 1,
     "battlerHPCap" => 49,
     "changeTerrain" => :Psychic,
