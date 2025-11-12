@@ -1818,14 +1818,14 @@ BRAIXEN_MAGI_MIDBATTLE1 = {
   },
   "BattlerFainted_FENNEKIN_2" => {
     "text" => ["Brax! Braxien!"],
-    "setBattler" => :Opposing,
+    "setBattler" => 1,
     "battlerStats" => [:SPECIAL_ATTACK, 1, :SPEED, 1],
     "addVariable" => 1,
     "playSE" => "Anim/Flamethrower"
   },
   "BattlerFainted_ABSOL_2" => {
     "text" => ["Brax! Braxien!"],
-    "setBattler" => :Opposing,
+    "setBattler" => 1,
     "battlerStats" => [:DEFENSE, 1, :SPECIAL_DEFENSE, 1],
     "addVariable" => 1,
     "playSE" => "Anim/Flamethrower"
