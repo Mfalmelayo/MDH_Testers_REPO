@@ -30957,7 +30957,7 @@ Generation = 4
 WildItemUncommon = QUICKCLAW
 RaidRanks = 3,4,5
 #-------------------------------
-[FENNEKIN_2]
+[FENNEKINm]
 Name = Fennekin
 Types = FIRE
 BaseStats = 70,65,70,90,75,80
@@ -30982,7 +30982,36 @@ Pokedex = As it walks, it munches on a twig in place of a snack. It intimidates 
 Generation = 6
 RaidRanks = 3,4,5
 #-------------------------------
-[BUNEARY_2]
+[RATTATAm]
+Name = Rattata
+Types = NORMAL
+BaseStats = 60,85,55,90,25,55
+GenderRatio = AlwaysFemale
+GrowthRate = Medium
+BaseExp = 51
+EVs = SPEED,1
+CatchRate = 255
+Happiness = 50
+Abilities = RUNAWAY,GUTS
+HiddenAbilities = HUSTLE
+Moves = 1,TAILWHIP,1,TACKLE,4,QUICKATTACK,7,FOCUSENERGY,10,BITE,13,LASERFOCUS,16,TAKEDOWN,19,ASSURANCE,22,CRUNCH,25,SUCKERPUNCH,28,SUPERFANG,31,DOUBLEEDGE,34,ENDEAVOR
+TutorMoves = ATTRACT,BLIZZARD,BODYSLAM,CAPTIVATE,CHARGEBEAM,CONFIDE,COUNTER,COVET,CUT,DEFENSECURL,DIG,DOUBLEEDGE,DOUBLETEAM,ENDEAVOR,ENDURE,FACADE,FRUSTRATION,GRASSKNOT,HEADBUTT,HIDDENPOWER,ICEBEAM,ICYWIND,IRONTAIL,LASTRESORT,MIMIC,MUDSLAP,NATURALGIFT,PLUCK,PROTECT,RAINDANCE,REST,RETALIATE,RETURN,ROCKSMASH,ROUND,SECRETPOWER,SHADOWBALL,SHOCKWAVE,SLEEPTALK,SLUDGEBOMB,SNORE,SUBSTITUTE,SUCKERPUNCH,SUNNYDAY,SUPERFANG,SWAGGER,SWIFT,TAUNT,THIEF,THUNDER,THUNDERBOLT,THUNDERWAVE,UPROAR,UTURN,WILDCHARGE,WORKUP,ZENHEADBUTT
+EggMoves = BITE,COUNTER,FINALGAMBIT,FLAMEWHEEL,FURYSWIPES,LASTRESORT,REVENGE,REVERSAL,SCREECH,UPROAR
+EggGroups = Field
+HatchSteps = 3840
+Height = 0.3
+Weight = 3.5
+Color = Purple
+Shape = Quadruped
+Habitat = Grassland
+Category = Mouse
+Pokedex = A Rattata is cautious in the extreme. Even while it is asleep, it constantly moves its ears and listens for danger. It will make its nest anywhere.
+Generation = 1
+WildItemUncommon = CHILANBERRY
+CallRateSOS = 9
+RaidRanks = 1,2
+#-------------------------------
+[BUNEARYm]
 Name = Buneary
 Types = NORMAL
 BaseStats = 75,86,44,85,44,56

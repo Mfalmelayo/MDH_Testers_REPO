@@ -1760,7 +1760,7 @@ MAY_MIDBATTLE = {
 
 BRAIXEN_MAGI_MIDBATTLE = {
   "RoundStartCommand_1_foe" => {
-    "addWild" => [:FENNEKIN_2, 30],
+    "addWild" => [:FENNEKINm, 30],
     "addVariable" => 1,
     "battlerHPCap" => 49,
     "changeTerrain" => :Psychic,
@@ -1799,7 +1799,7 @@ BRAIXEN_MAGI_MIDBATTLE = {
 
 BRAIXEN_MAGI_MIDBATTLE1 = {
   "RoundStartCommand_1_foe" => {
-    "addWild" => [:FENNEKIN_2, 30],
+    "addWild" => [:FENNEKINm, 30],
     "addVariable" => 1,
     "battlerHPCap" => 49,
     "changeTerrain" => :Psychic,
@@ -1840,6 +1840,19 @@ BRAIXEN_MAGI_MIDBATTLE1 = {
 # MDH MIDBATTLE SCRIPTS!
 #
 #===============================================
+RATTATAm_MIDBATTLE = {
+  "RoundStartCommand_1_foe" => {
+    "addWild" => [:RATTATAm, 40],
+    "addVariable" => 1,
+    "battlerHPCap" => 49,
+    "playSE" => "Anim/Rain",
+    "text" => ["{1} glares at you menacingly!"]
+  },
+  "Variable_1" => {
+    "addWild" => [:RATTATAm, 40]
+  }
+ }
+ 
 InesseBFFTrainers_MIDBATTLE = {
   "RoundStartCommand_1_foe" => {
     "speech"   => ["Get ready for battle, you scarred mutt!"],
