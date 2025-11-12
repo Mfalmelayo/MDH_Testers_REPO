@@ -3850,7 +3850,7 @@ LoseText = "You didn't have to win so convincingly!"
 Pokemon = SKITTY,17
 Pokemon = POOCHYENA,18
 Pokemon = ROCKRUFF,18
-Pokemon = FENNEKINm,22
+Pokemon = FENNEKIN_2,22
 #-------------------------------
 [LASS,Melinie,1]
 LoseText = "You didn't have to win so convincingly!"
@@ -3860,7 +3860,7 @@ Pokemon = MIGHTYENA,45
     Moves = CRUNCH,HOWL,ASSURANCE,YAWN
 Pokemon = LYCANROC,45
     Moves = ROCKSLIDE,CRUNCH,ROAR,HOWL
-Pokemon = FENNEKINm,46
+Pokemon = FENNEKIN_2,46
     Moves = LAVAPLUME,PSYSHOCK,DAZZLINGGLEAM,WILLOWISP
 #-------------------------------
 [LASS,Kiki]
@@ -3868,7 +3868,7 @@ LoseText = "You didn't have to win so convincingly!"
 Pokemon = SKITTY,23
 Pokemon = MEOWTH,25
 Pokemon = YUNGOOS,25
-Pokemon = BUNEARYm,27
+Pokemon = BUNEARY_2,27
 Pokemon = ABSOL_2,30
 #-------------------------------
 [LASS,Kiki,1]
@@ -3879,7 +3879,7 @@ Pokemon = PERSIAN,45
     Moves = SLASH,FAKEOUT,FEINTATTACK,SCREECH
 Pokemon = GUMSHOOS,45
     Moves = CRUNCH,ROCKSMASH,HYPERFANG,WORKUP
-Pokemon = BUNEARYm,46
+Pokemon = BUNEARY_2,46
     Moves = HIGHJUMPKICK,PLAYROUGH,THUNDERPUNCH,QUICKATTACK
 #-------------------------------
 [LASS,Lyra]
@@ -3887,7 +3887,7 @@ LoseText = "You didn't have to win so convincingly!"
 Pokemon = SKITTY,30
 Pokemon = GROWLITHE,31
 Pokemon = FIDOUGH,32
-Pokemon = FENNEKINm,32
+Pokemon = FENNEKIN_2,32
 #-------------------------------
 [LASS,Lyra,1]
 LoseText = "You didn't have to win so convincingly!"
@@ -3897,16 +3897,16 @@ Pokemon = ARCANINE,45
     Moves = FLAMETHROWER,CRUNCH,AGILITY,REVERSAL
 Pokemon = DACHSBUN,45
     Moves = PLAYROUGH,BITE,YAWN,HEADBUTT
-Pokemon = FENNEKINm,46
+Pokemon = FENNEKIN_2,46
     Moves = PSYSHOCK,LAVAPLUME,DAZZLINGGLEAM,WILLOWISP
 #-------------------------------
 [LASS,Chloe]
 LoseText = "You didn't have to win so convincingly!"
 Pokemon = SKITTY,31
 Pokemon = GLAMEOW,32
-Pokemon = FENNEKINm,34
+Pokemon = FENNEKIN_2,34
     Moves = LAVAPLUME,DAZZLINGGLEAM,FIRESPIN,WILLOWISP
-Pokemon = BUNEARYm,34
+Pokemon = BUNEARY_2,34
     Moves = HIGHJUMPKICK,SWORDSDANCE,PLAYROUGH,THUNDERPUNCH
 #-------------------------------
 [LASS,Chloe,1]
@@ -3917,7 +3917,7 @@ Pokemon = PURUGLY,45
     Moves = SLASH,FAKEOUT,ASSIST,HYPNOSIS
 Pokemon = DELPHOX,46
     Moves = LAVAPLUME,DAZZLINGGLEAM,FIRESPIN,WILLOWISP
-Pokemon = BUNEARYm,46
+Pokemon = BUNEARY_2,46
     Moves = HIGHJUMPKICK,SWORDSDANCE,PLAYROUGH,THUNDERPUNCH
 #-------------------------------
 [CAMPER,Brandon]

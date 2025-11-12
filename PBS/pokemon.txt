@@ -30957,7 +30957,7 @@ Generation = 4
 WildItemUncommon = QUICKCLAW
 RaidRanks = 3,4,5
 #-------------------------------
-[FENNEKINm]
+[FENNEKIN_2]
 Name = Fennekin
 Types = FIRE
 BaseStats = 70,65,70,90,75,80
@@ -31011,7 +31011,7 @@ WildItemUncommon = CHILANBERRY
 CallRateSOS = 9
 RaidRanks = 1,2
 #-------------------------------
-[BUNEARYm]
+[BUNEARY_2]
 Name = Buneary
 Types = NORMAL
 BaseStats = 75,86,44,85,44,56
