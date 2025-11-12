@@ -1489,6 +1489,7 @@ ZOE_MIDBATTLE   = {
 "RoundStartCommand_1_foe" => {
     "speech_A" => ["You will experence the might of Zoe, Grizzbolt, and the Rayne Syndicate!"],
 	"changeTerrain" => :Electric,
+	"teamEffects" => [:Chargestone, "There seems to be some kind of explosive ordnance!"],
     "battlerHPCap" => 49,
 	"text" => ["The hair on you arms are standing, Something Powerful is coming"]
 	},
@@ -1513,11 +1514,6 @@ ZOE_MIDBATTLE   = {
 	"battlerMoves" => [:FLAMETHROWER, :INCINERATE, :SHOCKWAVE, :HYPNOSIS],
     "battlerHP"     => [4, "{1} regenerated some HP!"]
   },
-"AfterSwitchIn_player_repeat" => {
-    "battlerHP" => -4,
-	"battlerStatus" => :CONFUSION,
-	"text" => ["The explosive ordnance activated!"]
-	},
 "BattlerReachedHPCap_foe" => {
     "speech_A" => ["Time to pull out all the stops!"]
   },
@@ -1526,7 +1522,7 @@ ZOE_MIDBATTLE   = {
     "playSE"        => "Anim/Sound2",
     "battlerForm"   => [2, "{1} Grizzbolt's gun is running!!"],
     "playCry"       => :Self,
-	"battlerMoves" => [:FLAMETHROWER, :INCINERATE, :SHOCKWAVE, :HYPNOSIS],
+	"battlerMoves" => [:FLAMETHROWER, :HYDROSTEAM, :SHOCKWAVE, :GATLINGRUSH],
     "battlerHP"     => [4, "{1} regenerated some HP!"]
   }
  }
@@ -1712,6 +1708,38 @@ ABOMINEON_MIDBATTLE = {
  }
 }
  
+HOUNDOOM_MIDBATTLE = {
+"RoundStartCommand_1_foe" => {
+    "setVariable" => 0,
+	"battlerHPCap" => 50,
+    "text" => ["{1} Seems to want to test your might!"]
+  },
+  "UserDealtDamage_foe_repeat" => {
+    "addVariable" => 1,
+	"text" => ["{1} is feeling herself!"]
+  },
+  "VariableUp_repeat_every_3" => {
+    "setBattler"   => :Self,
+    "battlerStats" => [:ATTACK, 1, :SPECIAL_ATTACK, 1, :SPEED, 1],
+    "text" => ["{1} is getting pumped up! She's landing hits left and right!"]
+  },
+   "UserMoveEffective_player_repeat" => {
+    "text"          => [:Opposing, "{1} unleashes a crippling howl!"],
+    "battlerStatus" => [:PARALYSIS, true]
+  },
+  "BattlerReachedHPCap_foe" => {
+    "megaEvolve" => "It seems that her most Primal instints have awaken!",
+	"battlerStats" => [:ATTACK, 1, :SPECIAL_ATTACK, 1, :DEFENSE, 1, :SPECIAL_DEFENSE, 1],
+	"battlerMoves" => [:FLAREBLITZ, :WICKEDBLOW, :DYNAMICPUNCH, :YAWN],
+	"teamEffects" => [:StealthRock, true, "{1} Shards of the rock fly across the battle feild!"]
+  },
+  "TurnStart_3_foe_repeat_every_3" => {
+    "ignoreUntil" => "BattlerReachedHPCap_foe",
+    "useMove" => :DESTRUCTIONINTHREESTRIKES,
+	"battlerStats" => [:SPECIAL_DEFENSE, 1, :DEFENSE, 1]
+  }
+}
+
 HOUNDOOM1_MIDBATTLE = {
 "RoundStartCommand_1_foe" => {
     "setVariable" => 0,
@@ -1731,6 +1759,27 @@ HOUNDOOM1_MIDBATTLE = {
     "speech"    => ["She seems pleased with the battle."],
     "endSpeech" => true,
     "endBattle" => 1
+  }
+}
+
+ABSOL_MIDBATTLE = {
+"RoundStartCommand_1_foe" => {
+    "setVariable" => 0,
+	"battlerHPCap" => 50,
+    "text" => ["{1} doesn't want to battle"]
+  },
+  "UserDealtDamage_foe_repeat" => {
+    "addVariable" => 1,
+	"text" => ["{1} she's trying to keep a keep up!"]
+  },
+  "VariableUp_repeat_every_3" => {
+    "setBattler"   => :Self,
+    "battlerStats" => [:ATTACK, 1, :SPEED, 1],
+    "text" => ["{1} pushing her limits!"]
+  },
+  "BattlerReachedHPCap_foe" => {
+    "battlerForm"   => [2, "{1} whales as she unleashed her love, her anger, and all of her sorrow!"],
+	"battlerStats" => [:ATTACK, 1, :SPECIAL_ATTACK, 1, :SPEED, 1]
   }
 }
 

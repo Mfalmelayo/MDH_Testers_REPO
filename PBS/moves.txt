@@ -3831,6 +3831,18 @@ FunctionCode = HitTwoToFiveTimes
 Flags = CanProtect,CanMirrorMove,Bomb
 Description = The user forcefully shoots seeds at the target. Two to five seeds are shot in rapid succession.
 #-------------------------------
+[GATLINGRUSH]
+Name = Gatling rush
+Type = STEEL
+Category = Special
+Power = 45
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+FunctionCode = HitTwoToFiveTimes
+Flags = CanProtect,CanMirrorMove,Bomb
+Description = The user forcefully shoots seeds at the target. Two to five seeds are shot in rapid succession.
+#-------------------------------
 [ABSORB]
 Name = Absorb
 Type = GRASS
@@ -9337,6 +9349,18 @@ Target = NearOther
 FunctionCode = CantSelectConsecutiveTurns
 Flags = CanProtect,CanMirrorMove
 Description = The user attacks with its huge hammer. This move can’t be used twice in a row.
+#-------------------------------
+[DESTRUCTIONINTHREESTRIKES]
+Name = Destruction in three strikes
+Type = DARK
+Category = Physical
+Power = 200
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = HitThreeTimesAlwaysCriticalHit
+Flags = CanProtect,CanMirrorMove
+Description = Fueled my the will of her mistress. This is Mega Houndoom's ultimate attack!
 #-------------------------------
 [GLAIVERUSH]
 Name = Glaive Rush

@@ -1037,6 +1037,16 @@ Weight = 49.0
 Pokedex = When this Pokémon whips the winglike fur on its back as though beating its wings, it sends an intimidating aura flying at its opponents.
 Generation = 6
 #-------------------------------
+[ABSOL_2,1]
+FormName = Broken Absol
+BaseStats = 100,180,60,115,115,60
+BaseExp = 198
+Abilities = MAGICBOUNCE
+HiddenAbilities = MAGICBOUNCE
+Weight = 49.0
+Pokedex = When this Pokémon whips the winglike fur on its back as though beating its wings, it sends an intimidating aura flying at its opponents.
+Generation = 6
+#-------------------------------
 [GLALIE,1]
 FormName = Mega Glalie
 MegaStone = GLALITITE
@@ -2932,6 +2942,7 @@ FormName = Zoe
 Moves = 0,STRENGTHSAP,1,TRIATTACK,1,ARMORPIERCER,1,NASTYPLOT
 #--------------------------------
 [ZOEGRIZZBOLT,2]
-FormName = Zoe
+FormName = Gatlin form
+Abilities = SKILLLINK
 BaseStats = 160,105,110,200,250,110
 Moves = 0,STRENGTHSAP,1,TRIATTACK,1,ARMORPIERCER,1,NASTYPLOT
