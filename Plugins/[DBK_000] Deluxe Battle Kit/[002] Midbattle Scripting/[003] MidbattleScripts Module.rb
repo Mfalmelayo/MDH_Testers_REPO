@@ -1943,4 +1943,52 @@ InesseBFFTrainers_MIDBATTLE = {
    "text" => ["This Pokemon slowly walks into battle!"]
  }
 }
+
+#===============================================
+#
+# Professional's MIDBATTLE SCRIPTS!
+#
+#===============================================
+
+#Eevee Boss Fight
+EEVEE_MIDBATTLE   = {
+  "TargetTookDamage_foe_repeat" => {
+    "ignoreAfter" => "BattlerReachedHPCap_foe",
+    "text" => "{1} stares a you defiant!",
+    "battlerHPCap" => 40
+  },
+  "BattlerReachedHPCap_foe" => {
+	"ignoreAfter" => "BattlerHPCritical_foe",
+	"text_A" => "{1} looks weakened for a moment, she shakes her head and gets back to the battle",
+	"battlerHPCap" => 0
+  },
+  "RoundEnd_foe_repeat" => {
+    "ignoreUntil" => "BattlerHPCritical_foe",
+    "setVariable" => 0, 
+    "addVariable" => [1,2,3]
+  },
+  "BattlerHPCritical_foe" => {
+    "text_A" => "Eevee resist don't wanting to lose against you",
+    "playAnim" => [:BULKUP, :Self],
+    "playCry" => :Self,
+    "battlerHP" => [25, "{1} Recover some health and gather all her strenght as a last effort!"],
+    "battlerStats" => [:ATTACK, 6, :DEFENSE, 1, :SPEED, 2, :SPECIAL_DEFENSE, 1, :SPECIAL_ATTACK, 6],
+  },
+  "Variable_1_repeat" => {
+	"playCry" => :Self,
+	"text_A" => "Eevee throws at you some items!",
+	"setBattler_A" => :Opposing,
+	"battlerHP" => -8,
+	"battlerStats_A" => [:Random, 1, :Random, -1]
+  },
+  "Variable_2_repeat" => {
+	"text" => "Eevee shouts loudly!",
+	"setBattler_A" => :Opposing,
+	"battlerStats" => [:ATTACK, -1, :DEFENSE, -1]
+  },
+  "Variable_3_repeat" => { 
+	"text" => "Eevee takes a bite of a berry",
+	"battlerHP" => 5
+  }
+}
 end
