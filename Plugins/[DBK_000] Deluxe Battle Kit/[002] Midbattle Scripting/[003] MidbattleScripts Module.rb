@@ -1707,6 +1707,37 @@ ABOMINEON_MIDBATTLE = {
 	"teamEffects" => [:StealthRock, true, "{1} The ground obey's her motherly fury!"]
  }
 }
+
+GIANT_SERPERIOR_MIDBATTLE = {
+  "RoundStartCommand_1_foe" => {
+    "setBattler" => :Opposing,
+    "changeTerrain" => :Grassy,
+    "playSE" => "Anim/GrassyTerrain",
+    "text" => ["Verdant grass surges across the battlefield, pulsing with life!"],
+    "battlerHPCap" => 30
+  },
+  "TargetHPHalf_foe" => {
+    "ignoreAfter" => "TargetHPHalf_foe",
+    "battlerHP" => [75, "{1} siphons life from the ancient roots!"],
+    "battlerStats" => [:ATTACK, 1, :DEFENSE, 2, :SPECIAL_ATTACK, 1, :SPECIAL_DEFENSE, 1],
+    "playSE" => "Anim/Coil",
+    "text" => ["{1} coils majestically, its body swelling with primal vigor!"]
+  },
+  "TargetHPLow_foe" => {
+    "ignoreAfter" => "TargetHPLow_foe",
+    "battlerHP" => [50, "{1} radiates an aura of unyielding dominance!"],
+    "battlerStats" => [:ATTACK, 1, :SPECIAL_ATTACK, 2, :SPEED, 2],
+    "playSE" => "Anim/DragonDance",
+    "text" => ["{1}'s fronds flare wildly as it prepares its final assault!"],
+    "speech" => ["Witness the wrath of the forest king!"]
+  },
+  "BattlerReachedHPCap_foe" => {
+    "dynamax" => true,
+    "text" => ["{1} erupts with colossal energy!"],
+    "speech" => ["Now... feel the full extent of my glory!"],
+    "playSE" => "Anim/MaxFlare" 
+  }
+}
  
 HOUNDOOM_MIDBATTLE = {
 "RoundStartCommand_1_foe" => {
@@ -1736,7 +1767,7 @@ HOUNDOOM_MIDBATTLE = {
   "TurnStart_3_foe_repeat_every_3" => {
     "ignoreUntil" => "BattlerReachedHPCap_foe",
     "useMove" => :DESTRUCTIONINTHREESTRIKES,
-	"battlerStats" => [:SPECIAL_DEFENSE, 1, :DEFENSE, 1]
+	"battlerStats" => [:SPECIAL_DEFENSE, -1, :DEFENSE, -1]
   }
 }
 
@@ -1779,7 +1810,7 @@ ABSOL_MIDBATTLE = {
   },
   "BattlerReachedHPCap_foe" => {
     "battlerForm"   => [1, "{1} whales as she unleashed her love, her anger, and all of her sorrow!"],
-	"battlerStats" => [:ATTACK, 1, :SPECIAL_ATTACK, 1, :SPEED, 1]
+	"battlerStats" => [:ATTACK, 1, :DEFENSE, 1, :SPEED, 1]
   }
 }
 
@@ -1911,5 +1942,53 @@ InesseBFFTrainers_MIDBATTLE = {
    "addWild" => [:ABSOLx, 30],
    "text" => ["This Pokemon slowly walks into battle!"]
  }
+}
+
+#===============================================
+#
+# Professional's MIDBATTLE SCRIPTS!
+#
+#===============================================
+
+#Eevee Boss Fight
+EEVEE_MIDBATTLE   = {
+  "TargetTookDamage_foe_repeat" => {
+    "ignoreAfter" => "BattlerReachedHPCap_foe",
+    "text" => "{1} stares a you defiant!",
+    "battlerHPCap" => 40
+  },
+  "BattlerReachedHPCap_foe" => {
+	"ignoreAfter" => "BattlerHPCritical_foe",
+	"text_A" => "{1} looks weakened for a moment, she shakes her head and gets back to the battle",
+	"battlerHPCap" => 0
+  },
+  "RoundEnd_foe_repeat" => {
+    "ignoreUntil" => "BattlerHPCritical_foe",
+    "setVariable" => 0, 
+    "addVariable" => [1,2,3]
+  },
+  "BattlerHPCritical_foe" => {
+    "text_A" => "Eevee resist don't wanting to lose against you",
+    "playAnim" => [:BULKUP, :Self],
+    "playCry" => :Self,
+    "battlerHP" => [25, "{1} Recover some health and gather all her strenght as a last effort!"],
+    "battlerStats" => [:ATTACK, 6, :DEFENSE, 1, :SPEED, 2, :SPECIAL_DEFENSE, 1, :SPECIAL_ATTACK, 6],
+  },
+  "Variable_1_repeat" => {
+	"playCry" => :Self,
+	"text_A" => "Eevee throws at you some items!",
+	"setBattler_A" => :Opposing,
+	"battlerHP" => -8,
+	"battlerStats_A" => [:Random, 1, :Random, -1]
+  },
+  "Variable_2_repeat" => {
+	"text" => "Eevee shouts loudly!",
+	"setBattler_A" => :Opposing,
+	"battlerStats" => [:ATTACK, -1, :DEFENSE, -1]
+  },
+  "Variable_3_repeat" => { 
+	"text" => "Eevee takes a bite of a berry",
+	"battlerHP" => 5
+  }
 }
 end
