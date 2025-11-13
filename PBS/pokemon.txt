@@ -31401,7 +31401,7 @@ Flags = Legendary
 RaidRanks = 6
 #-------------------------------
 [ZOEGRIZZBOLT]
-Name = Zoe
+Name = Zoe and GRIZZBOLT
 Types = ELECTRIC
 BaseStats = 117,46,77,45,106,120
 GenderRatio = AlwaysFemale

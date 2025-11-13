@@ -1448,13 +1448,12 @@ GYM4_MIDBATTLE   = {
 =end
 GYM5_MIDBATTLE   = {
   # Regimimilk
-  "AfterSendOut_MILTANKx_foe" => {  # Replace "MILTANKx" with whatever the ID for SG Miltank is. 
+  "RoundStartCommand_1_foe" => {  # Replace "MILTANKx" with whatever the ID for SG Miltank is. 
     "speech" => ["Alright! It's time for my ace in the hole!"],
     "battlerStats" => [:SPEED, -2],
     "text" => ["{1} can't get it going because of her Slow Start!"]
   },
   "BeforeStatusMove_foe" => {
-    "ignoreUntil" => "AfterSendOut_MILTANKx", # Change MILTANK to SG Miltank ID!
     "ignoreAfter" => "Variable_3",
     "addVariable" => [1]
   },
@@ -1496,14 +1495,15 @@ ZOE_MIDBATTLE   = {
 "TurnStart_1_foe" => {
     "useMove" => :THUNDER,
 	"useZMove" => :GIGAVOLTHAVOC,
-	"battlerStats" => [:ATTACK, 1, :DEFENSE, 2],
+	"setBattler" => :Self,
+	"battlerStats" => [:SPECIAL_ATTACK, 1, :DEFENSE, 2],
 	"text" => ["There seems to be some kind of explosive ordnance!"]
 	},
 "RoundEnd_foe_repeat_even" => {
     "playSE"        => "Anim/Sound2",
     "battlerForm"   => [1, "{1} got the glock!"],
     "playCry"       => :Self,
-	"battlerMoves" => [:STRENGTHSAP, :TRIATTACK, :ARMORPIERCER, :NASTYPLOT],
+	"battlerMoves" => [:EMBARGO, :TRIATTACK, :ARMORPIERCER, :NASTYPLOT],
     "battlerHP"     => [4, "{1} regenerated some HP!"]
   },
  "RoundEnd_foe_repeat_odd" => {
@@ -1511,7 +1511,7 @@ ZOE_MIDBATTLE   = {
     "playSE"        => "Anim/Sound2",
     "battlerForm"   => [0, "{1} Grizzbolt is ready!"],
     "playCry"       => :Self,
-	"battlerMoves" => [:FLAMETHROWER, :INCINERATE, :SHOCKWAVE, :HYPNOSIS],
+	"battlerMoves" => [:FLAMETHROWER, :WATERPULSE, :SHOCKWAVE, :ENERGYBALL],
     "battlerHP"     => [4, "{1} regenerated some HP!"]
   },
 "BattlerReachedHPCap_foe" => {
@@ -1778,7 +1778,7 @@ ABSOL_MIDBATTLE = {
     "text" => ["{1} pushing her limits!"]
   },
   "BattlerReachedHPCap_foe" => {
-    "battlerForm"   => [2, "{1} whales as she unleashed her love, her anger, and all of her sorrow!"],
+    "battlerForm"   => [1, "{1} whales as she unleashed her love, her anger, and all of her sorrow!"],
 	"battlerStats" => [:ATTACK, 1, :SPECIAL_ATTACK, 1, :SPEED, 1]
   }
 }
