@@ -1448,13 +1448,13 @@ GYM4_MIDBATTLE   = {
 =end
 GYM5_MIDBATTLE   = {
   # Regimimilk
-  "AfterSendOut_MILTANK_foe" => {  # Replace "MILTANKx" with whatever the ID for SG Miltank is. 
+  "AfterSendOut_MILTANKx_foe" => {  # Replace "MILTANKx" with whatever the ID for SG Miltank is. 
     "speech" => ["Alright! It's time for my ace in the hole!"],
     "battlerStats" => [:SPEED, -2],
     "text" => ["{1} can't get it going because of her Slow Start!"]
   },
   "BeforeStatusMove_foe" => {
-    "ignoreUntil" => "AfterSendOut_MILTANK", # Change MILTANK to SG Miltank ID!
+    "ignoreUntil" => "AfterSendOut_MILTANKx", # Change MILTANK to SG Miltank ID!
     "ignoreAfter" => "Variable_3",
     "addVariable" => [1]
   },
