@@ -932,6 +932,82 @@ GOODRA_MIDBATTLE = {
   }
 }
 
+SMEARGLE_MIDBATTLE = {
+  "RoundStartCommand_1_foe" => {
+    "speech" => ["Sme...argle!", "Behold! I'll paint a battlefield masterpiece with your defeat!"],
+    "playSE" => "Anim/Sketch",
+	"battlerHPCap" => 24,
+    "battlerStats" => [:EVASION, 2],
+    "changeTerrain" => :Grassy,
+    "text" => ["{1} dips its tail in vibrant paint and slashes the air!"]
+  },
+  "RoundStartCommand_foe_repeat_every_3" => {
+    "text" => ["{1} adds a wild stroke of color to the canvas!"],
+    "playSE" => "Anim/Splash",
+    "changeTerrain" => :Random,
+    "ignoreAfter" => "TerrainEnded"
+  },
+  "TargetTookDamage_foe" => {
+    "addVariable" => 1,
+    "text" => ["{1} swiftly sketches your attack with its tail!"],
+    "playSE" => "Anim/Sketch",
+    "ignoreAfter" => "Variable_repeat_every_3"
+  },
+  "Variable_repeat_every_3" => {
+    "setBattler" => :Opposing,
+    "battlerStats" => [:ATTACK, 1, :SPECIAL_ATTACK, 1, :SPEED, 2],
+    "battlerHP" => [20, "{1} brings its sketch to life and flourishes!"],
+    "text" => ["The sketch animates! {1} grows fiercer and more agile!"],
+    "playSE" => "Anim/DragonDance"
+  },
+  "UserMoveDodged_foe" => {
+    "battlerStats" => [:EVASION, 1],
+    "text" => ["{1} dodges with an elegant brush stroke!"],
+    "playSE" => "Anim/DoubleTeam"
+  },
+  "TargetHPHalf_foe" => {
+    "ignoreAfter" => "TargetHPHalf_foe",
+    "setChoices" => [:paintColor, nil, {
+      "Red"   => "Red paint ignites passion! Power surges through {1}!",
+      "Blue"  => "Blue paint forms an impervious shield around {1}!",
+      "Green" => "Green paint draws life from the earth! {1} revitalizes!"
+    }],
+    "speech" => ["Smeeargle! (urgent)", "Final colors for my masterpiece! Choose the hue!" , :Choices],
+    "battlerHP" => [33, "{1} licks revitalizing paint from its tail!"],
+    "playSE" => "Anim/Recover"
+  },
+  "Choice_paintColor_1" => {
+    "battlerStats" => [:ATTACK, 2, :SPECIAL_ATTACK, 1],
+    "changeWeather" => :Sun,
+    "text" => ["Crimson flames erupt from the red paint!"],
+    "playSE" => "Anim/SunnyDay"
+  },
+  "Choice_paintColor_2" => {
+    "battlerStats" => [:DEFENSE, 2, :SPECIAL_DEFENSE, 2],
+    "changeWeather" => :Rain,
+    "text" => ["Sapphire waves crash, fortifying {1}!"],
+    "playSE" => "Anim/RainDance"
+  },
+  "Choice_paintColor_3" => {
+    "battlerHP" => [50, "{1} blooms with verdant energy!"],
+    "battlerStats" => [:SPEED, 2],
+    "changeTerrain" => :Grassy,
+    "playSE" => "Anim/GrassyTerrain"
+  },
+  "BattlerHPLow_foe" => {
+    "ignoreAfter" => "BattlerHPLow_foe",
+    "speech" => ["Sme...argle! (defiant)"],
+    "text" => ["{1} shakes off ailments with artistic resolve!"],
+    "playSE" => "Anim/Splash"
+  },
+  "BattlerReachedHPCap_foe" => {
+    "dynamax" => true,
+	"addWild" => [:GRENINJA, 30],
+    "speech" => ["Behold my colossal canvas of chaos!"],
+    "playSE" => "Anim/Sketch"
+  }
+}
+
 WHIMSCOTT_MIDBATTLE = {
   "RoundStartCommand_1_foe" => {
     "changeTerrain" => :Misty,

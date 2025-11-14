@@ -718,6 +718,28 @@ Quest13 = {
     :QuestDescription => "Inspired by your victories, Lilth wants to see a strong Fighting-type Pokémon you’ve trained. Bring one to her to motivate her own training.",
     :RewardString => "Lilth’s respect and top-tier training gear."
 }
+
+   Quest66 = {
+    :ID => "66",
+    :Name => "Sign of Love: Greninja",
+    :QuestGiver => "Greninja",
+    :Stage1 => "Increase her Affinity",
+    :Location1 => "...",
+    :QuestDescription => "Greninja seems to have taken a liking to you! It would be best to show her some loving! Big Pearl, 5 Chesto Berries, Sea Incense, SlowPoke Tail, Heart Scale, Water Gem",
+    :RewardString => ". . ."
+	
+}
+
+    Quest67 = {
+    :ID => "67",
+    :Name => "Sign of Love: Goodra",
+    :QuestGiver => "Goodra",
+    :Stage1 => "Increase her Affinity",
+    :Location1 => "...",
+    :QuestDescription => "Greninja seems to have taken a liking to you! It would be best to show her some loving! Big Pearl, 5 Chesto Berries, Sea Incense, SlowPoke Tail, Heart Scale, Water Gem",
+    :RewardString => ". . ."
+	
+}
   #======================================================#
   #                                                      #
   #                      "Official"                      #
