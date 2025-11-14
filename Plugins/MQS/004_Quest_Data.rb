@@ -736,7 +736,7 @@ Quest13 = {
     :QuestGiver => "Goodra",
     :Stage1 => "Increase her Affinity",
     :Location1 => "...",
-    :QuestDescription => "Greninja seems to have taken a liking to you! It would be best to show her some loving! Big Pearl, 5 Chesto Berries, Sea Incense, SlowPoke Tail, Heart Scale, Water Gem",
+    :QuestDescription => "Goodra seems to have taken a liking to you! It would be best to show her some loving! Protein, Muscle Band, Power Belt, Pewter Crunchies, Energy Powder, Dragon Gem",
     :RewardString => ". . ."
 	
 }
