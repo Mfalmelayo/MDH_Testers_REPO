@@ -669,6 +669,55 @@ Quest13 = {
     :QuestDescription => "Gal Goodgirl mentioned that Captain Stern needs help recovering a valuable prototype stolen from the Slateport Shipyard. Track down the culprit and return the missing item to him.",
     :RewardString => "Captain Stern’s gratitude and a rare mechanical part!"
 }
+    
+   LusamineCaveQuest = {
+    :ID => "61",
+    :Name => "Project Awakening",
+    :QuestGiver => "Lusamine",
+    :Stage1 => "Escort Lusamine to the Dewford research site.",
+    :Location1 => "Dewford Cave",
+    :QuestDescription => "Lusamine confides in you about a confidential research operation near Dewford.",
+    :RewardString => "Lusamine’s approval."
+}	
+   LillieCaveQuest = {
+    :ID => "62",
+    :Name => "The First Signs",
+    :QuestGiver => "Lillie",
+    :Stage1 => "Investigate the Dewford cave with Lillie.",
+    :Location1 => "Dewford Cave",
+    :QuestDescription => "Lillie has discovered her mother is secretly researching strange energies beneath Dewford.",
+    :RewardString => "Lillie's trust and a lead on Lusamine's secret project."
+}
+
+   LilthBlackBeltQuest = {
+    :ID => "63",
+    :Name => "Power in Cloth",
+    :QuestGiver => "Lilth",
+    :Stage1 => "Find a Black Belt",
+    :Location1 => "Dewford Island",
+    :QuestDescription => "Lilth wants to power up her own Pokémon. She asks you to find a Black Belt she can use to help her partner grow.",
+    :RewardString => "Lilth’s gratitude!"
+}
+
+   LilthMuscleBandQuest = {
+    :ID => "64",
+    :Name => "Strength in Every Strike",
+    :QuestGiver => "Lilth",
+    :Stage1 => "Find a Muscle Band.",
+    :Location1 => "Dewford Island",
+    :QuestDescription => "Lilth wants to improve her Pokémon's striking power. She asks you to find a Muscle Band for her intense training sessions.",
+    :RewardString => "Lilth’s thanks."
+}
+
+   LilthShowFightingQuest = {
+    :ID => "65",
+    :Name => "Show Me Power",
+    :QuestGiver => "Lilth",
+    :Stage1 => "Show Lilth a .",
+    :Location1 => "Dewford Island",
+    :QuestDescription => "Inspired by your victories, Lilth wants to see a strong Fighting-type Pokémon you’ve trained. Bring one to her to motivate her own training.",
+    :RewardString => "Lilth’s respect and top-tier training gear."
+}
   #======================================================#
   #                                                      #
   #                      "Official"                      #

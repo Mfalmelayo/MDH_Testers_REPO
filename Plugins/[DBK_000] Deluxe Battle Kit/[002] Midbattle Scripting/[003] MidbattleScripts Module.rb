@@ -913,24 +913,23 @@ DRAGONAIR_MIDBATTLE = {
 
 GOODRA_MIDBATTLE = {
   "RoundStartCommand_1_foe" => {
-    "text" => ["The Dragonair coils defensively, claiming this ocean route as its territory!"],
+    "text" => ["The Goodra is blocking your path!"],
     "setVariable" => 0,
     "changeWeather" => :Rain,
-    "changeTerrain" => :Misty
   },
   "TargetTookDamage_foe_repeat" => {
     "addVariable" => 1,
-    "text" => ["Dragonair roars, defending its turf with greater fury!"]
-},
+    "text" => ["Goodra roars with greater fury!"]
+  },
   "VariableUp_repeat_every_3" => {
-    "battlerStats" => [:DEFENSE, 1, :SPECIAL_DEFENSE, 1],
-    "battlerEffects" => [:AquaRing, true, "Waves trap your Pokémon in a whirlpool!"]
-},
+    "battlerStats" => [:DEFENSE, 2, :SPECIAL_DEFENSE, 2],
+    "battlerEffects" => [:Mist, true, "Goodra's goo forms a protective mist!"]
+  },
   "TargetHPHalf_foe" => {
-    "speech" => ["Dragonair summons the ocean's wrath in desperation!"],
-    "battlerStats" => [:SPECIAL_DEFENSE, 2, :SPECIAL_ATTACK, 2],
+    "speech" => ["Goodra Secrete oil to increase it's defense!"],
+    "battlerStats" => [:SPECIAL_DEFENSE, 3, :SPECIAL_ATTACK, 3],
     "changeWeather" => :HeavyRain
- }
+  }
 }
 
 WHIMSCOTT_MIDBATTLE = {
