@@ -31297,8 +31297,8 @@ RaidRanks = 3,4,5
 [SMEARGLEsg]
 Name = Smeargle
 Types = NORMAL
-BaseStats = 55,20,35,75,20,45
-GenderRatio = Female50Percent
+BaseStats = 55,20,35,160,20,45
+GenderRatio = AlwaysFemale
 GrowthRate = Fast
 BaseExp = 88
 EVs = SPEED,1
