@@ -934,10 +934,11 @@ GOODRA_MIDBATTLE = {
 
 SMEARGLE_MIDBATTLE = {
   "RoundStartCommand_1_foe" => {
-    "speech" => ["Sme...argle!", "Behold! I'll paint a battlefield masterpiece with your defeat!"],
+    "setSpeaker" => :PAINTER,
+    "speech" => ["Behold! She'll paint a battlefield masterpiece with your defeat!"],
     "playSE" => "Anim/Sketch",
 	"battlerHPCap" => 24,
-    "battlerStats" => [:EVASION, 2],
+    "battlerStats" => [:EVASION, 1],
     "changeTerrain" => :Grassy,
     "text" => ["{1} dips its tail in vibrant paint and slashes the air!"]
   },
@@ -955,8 +956,7 @@ SMEARGLE_MIDBATTLE = {
   },
   "Variable_repeat_every_3" => {
     "setBattler" => :Opposing,
-    "battlerStats" => [:ATTACK, 1, :SPECIAL_ATTACK, 1, :SPEED, 2],
-    "battlerHP" => [20, "{1} brings its sketch to life and flourishes!"],
+    "battlerStats" => [:ATTACK, 1, :DEFENSE, 1, :SPEED, 1],
     "text" => ["The sketch animates! {1} grows fiercer and more agile!"],
     "playSE" => "Anim/DragonDance"
   },
@@ -972,26 +972,32 @@ SMEARGLE_MIDBATTLE = {
       "Blue"  => "Blue paint forms an impervious shield around {1}!",
       "Green" => "Green paint draws life from the earth! {1} revitalizes!"
     }],
-    "speech" => ["Smeeargle! (urgent)", "Final colors for my masterpiece! Choose the hue!" , :Choices],
+	"setSpeaker" => :PAINTER,
+    "speech" => ["Ah, The final colors for her masterpiece! Choose the hue!" , :Choices],
     "battlerHP" => [33, "{1} licks revitalizing paint from its tail!"],
     "playSE" => "Anim/Recover"
   },
   "Choice_paintColor_1" => {
-    "battlerStats" => [:ATTACK, 2, :SPECIAL_ATTACK, 1],
+    "battlerStats" => [:SPECIAL_ATTACK, 1, :ACCURACY, 1, :ATTACK, 1],
     "changeWeather" => :Sun,
+	"battlerMoves" => [:STOREDPOWER, :WILLOWISP, :MEGAKICK, :FIREBLAST],
+	"battlerForm" => 2,
     "text" => ["Crimson flames erupt from the red paint!"],
     "playSE" => "Anim/SunnyDay"
   },
   "Choice_paintColor_2" => {
     "battlerStats" => [:DEFENSE, 2, :SPECIAL_DEFENSE, 2],
     "changeWeather" => :Rain,
+	"battlerMoves" => [:STOREDPOWER, :TOXIC, :SCALD, :THUNDER],
+	"battlerForm" => 3,
     "text" => ["Sapphire waves crash, fortifying {1}!"],
     "playSE" => "Anim/RainDance"
   },
   "Choice_paintColor_3" => {
-    "battlerHP" => [50, "{1} blooms with verdant energy!"],
-    "battlerStats" => [:SPEED, 2],
-    "changeTerrain" => :Grassy,
+    "battlerStats" => [:SPEED, 2, :SPECIAL_ATTACK, 1],
+	"battlerMoves" => [:STOREDPOWER, :THUNDERWAVE, :HYPERVOICE, :ELECTROBALL],
+    "changeTerrain" => :Electric,
+	"battlerForm" => 4,
     "playSE" => "Anim/GrassyTerrain"
   },
   "BattlerHPLow_foe" => {
@@ -1001,9 +1007,9 @@ SMEARGLE_MIDBATTLE = {
     "playSE" => "Anim/Splash"
   },
   "BattlerReachedHPCap_foe" => {
-    "dynamax" => true,
-	"addWild" => [:GRENINJA, 30],
-    "speech" => ["Behold my colossal canvas of chaos!"],
+	"addWild" => [:SMEARGLEsg_1, 50],
+	"setSpeaker" => :PAINTER,
+    "speech" => ["Behold! Life imitating art!"],
     "playSE" => "Anim/Sketch"
   }
 }

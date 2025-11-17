@@ -10385,10 +10385,12 @@ DmaxBackSprite = 0,0
 DmaxFrontSprite = 0,0
 #-------------------------------
 [SMEARGLEsg]
-BackSprite = 0,0
-FrontSprite = 0,0
+BackSprite = 0,36
+FrontSprite = 0,14
 ShadowX = 0
 ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,0
 #-------------------------------
 [MAROWAKx,1]
 BackSprite = 0,0
