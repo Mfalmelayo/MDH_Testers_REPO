@@ -10405,3 +10405,11 @@ FrontSprite = -2,15
 ShadowX = 0
 ShadowSize = 2
 DmaxFrontSprite = 0,0
+#-------------------------------
+[MARACTUSx]
+BackSprite = 0,36
+FrontSprite = 0,16
+ShadowX = 0
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,0

@@ -1144,6 +1144,58 @@ MACHOKE_MIDBATTLE   = {
   }
 }
 
+MARACTUS_MIDBATTLE = {
+  "RoundStartCommand_1_foe" => {
+    "addWild" => [:MARACTUSx_1, 45],
+    "playSE" => "Anim/HyperVoice",
+    "changeWeather" => :Sandstorm,
+    "changeTerrain" => :Grassy,
+    "battlerStats" => [:DEFENSE, 1, :SPECIAL_DEFENSE, 1],
+    "text" => ["{1} shakes its maraca buds, filling the air with rhythmic beats!"],
+    "addVariable" => 1
+  },
+  "Variable_1" => {
+    "addWild" => [:MARACTUSx_1, 45]
+  },
+  "TargetTookDamage_foe" => {
+    "addVariable" => 1,
+    "text" => ["{1} shakes harder, building the rhythm!"],
+    "playSE" => "Anim/BulletSeed",
+    "ignoreUntil" => ["Variable_4", "Variable_8"]
+  },
+  "Variable_4" => {
+    "battlerStats" => [:SPEED, 1, :ATTACK, 1],
+    "text" => ["The beat quickens! {1} dances with vigor!"],
+    "playSE" => "Anim/DragonDance"
+  },
+  "Variable_8" => {
+    "battlerHP" => [30, "{1} draws energy from the rhythm!"],
+    "battlerStats" => [:SPEED, 2, :ATTACK, 2],
+    "text" => ["Crescendo! {1}'s song grows powerful!"],
+    "playSE" => "Anim/GrassWhistle"
+  },
+  "UserMoveDodged_foe" => {
+    "battlerStats" => [:EVASION, 1],
+    "text" => ["{1} sways to the rhythm, dodging gracefully!"],
+    "playSE" => "Anim/DoubleTeam"
+  },
+  "TargetHPHalf_foe" => {
+    "ignoreAfter" => "TargetHPHalf_foe",
+    "speech" => ["Marac~tuuus! (melodic)", "The rhythm intensifies!"],
+    "battlerStats" => [:SPEED, 1, :ATTACK, 1, :DEFENSE, 1],
+    "changeWeather" => :Sun,
+    "text" => ["{1} enters a frenzied dance, boosting its power!"],
+    "playSE" => "Anim/SwordsDance"
+  },
+  "BattlerHPLow_foe" => {
+    "ignoreAfter" => "BattlerHPLow_foe",
+    "battlerStatus" => [:None, "{1} shakes off the funk!"],
+    "battlerHP" => [25, "{1} heals with a healing melody!"],
+    "playSE" => "Anim/HealBell",
+    "text" => ["The music purges weakness!"]
+   }
+ }
+ 
 # Vulpix
 VULPIX_MIDBATTLE   = {
   "AfterSendOut_WATER_player" => {

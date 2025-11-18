@@ -2980,4 +2980,11 @@ FormName = Electric craft
 Abilities = IMPOSTER
 BaseStats = 160,105,110,200,250,110
 Moves = 0,STRENGTHSAP,1,TRIATTACK,1,ARMORPIERCER,1,GATLINGRUSH
+#--------------------------------
+[MARACTUSx,1]
+FormName = Goon
+Abilities = HEALER
+BaseStats = 100,86,67,60,106,67
+Moves = 0,LEECHSEED,1,SPIKES,1,ENERGYBALL,1,FLOWERSHIELD
+
 
