@@ -10392,6 +10392,14 @@ ShadowSize = 2
 DmaxBackSprite = 0,0
 DmaxFrontSprite = 0,0
 #-------------------------------
+[SERPERIORsg]
+BackSprite = 0,48
+FrontSprite = -2,18
+ShadowX = 0
+ShadowSize = 3
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,27
+#-------------------------------
 [MAROWAKx,1]
 BackSprite = 0,0
 FrontSprite = 0,13
