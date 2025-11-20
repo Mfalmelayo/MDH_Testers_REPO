@@ -1841,7 +1841,7 @@ ABOMINEON_MIDBATTLE = {
  }
 }
 
-GIANT_SERPERIOR_MIDBATTLE = {
+SERPERIOR_MIDBATTLE = {
   "RoundStartCommand_1_foe" => {
     "setBattler" => :Opposing,
     "changeTerrain" => :Grassy,
@@ -1849,25 +1849,36 @@ GIANT_SERPERIOR_MIDBATTLE = {
     "text" => ["Verdant grass surges across the battlefield, pulsing with life!"],
     "battlerHPCap" => 30
   },
+  "TargetTookDamage_foe_repeat" => {
+    "addVariable" => 1,
+    "battlerEffects" => [:Stockpile, 1, "She's seems to be storing energy!"]
+  },
+  "VariableOver_3_repeat" => {
+    "text" => ["{1} is ready!"],
+    "battlerStats" => [:SPEED, 1, :DEFENSE, 3, :SPECIAL_DEFENSE, 3],
+	"battlerMoves" => [:SPITUP,nil,nil,nil]
+  },
+  "AfterMove_SPITUP_repeat" => {
+    "battlerMoves" => [:FLAMETHROWER, :SLUDGEWAVE, :ENERGYBALL, :MOONBLAST],
+	"setVariable" => 0
+  },
   "TargetHPHalf_foe" => {
     "ignoreAfter" => "TargetHPHalf_foe",
     "battlerHP" => [75, "{1} siphons life from the ancient roots!"],
-    "battlerStats" => [:ATTACK, 1, :DEFENSE, 2, :SPECIAL_ATTACK, 1, :SPECIAL_DEFENSE, 1],
+    "battlerStats" => [:SPEED, 1, :DEFENSE, 2, :SPECIAL_ATTACK, 2, :SPECIAL_DEFENSE, 1],
     "playSE" => "Anim/Coil",
     "text" => ["{1} coils majestically, its body swelling with primal vigor!"]
   },
   "TargetHPLow_foe" => {
     "ignoreAfter" => "TargetHPLow_foe",
     "battlerHP" => [50, "{1} radiates an aura of unyielding dominance!"],
-    "battlerStats" => [:ATTACK, 1, :SPECIAL_ATTACK, 2, :SPEED, 2],
+    "battlerStats" => [:SPECIAL_ATTACK, 1, :DEFENSE, 1, :SPEED, 2],
     "playSE" => "Anim/DragonDance",
-    "text" => ["{1}'s fronds flare wildly as it prepares its final assault!"],
-    "speech" => ["Witness the wrath of the forest king!"]
+    "text" => ["{1}'s fronds flare wildly as it prepares its final assault!"]
   },
   "BattlerReachedHPCap_foe" => {
     "dynamax" => true,
     "text" => ["{1} erupts with colossal energy!"],
-    "speech" => ["Now... feel the full extent of my glory!"],
     "playSE" => "Anim/MaxFlare" 
   }
 }
