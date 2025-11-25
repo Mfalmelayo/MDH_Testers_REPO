@@ -338,6 +338,7 @@ Battle::AbilityEffects::OnBeingHit.add(:JAGGEDSTEEL,
 # Leeching
 # Contact moves apply Leech Seed
 #===============================================
+=begin
 Battle::AbilityEffects::OnBeingHit.add(:LEECHING,
   proc { |ability, user, target, move, battle|
     next if !move.pbContactMove?(user)
@@ -352,6 +353,21 @@ Battle::AbilityEffects::OnBeingHit.add(:LEECHING,
     battle.pbHideAbilitySplash(target)
   }
 )
+=end 
+Battle::AbilityEffects::OnDealingHit.add(:LEECHING, proc { |ability, user, target, move, battle|
+  next if !move.contactMove?                              
+  next if target.fainted? || user.fainted?                
+  next if target.effects[PBEffects::LeechSeed] >= 0       
+  next if target.pbHasType?(:GRASS)                      
+  next if target.damageState.substitute                   
+
+  battle.pbShowAbilitySplash(user)
+  target.effects[PBEffects::LeechSeed] = user.index
+  battle.pbAnimation(:LEECHSEED, user, user.pbDirectOpposing)
+  battle.pbDisplay(_INTL("{1} was seeded by {2}'s {3}!", target.pbThis, user.pbThis(true), user.abilityName))
+  battle.pbHideAbilitySplash(user)
+})
+
 
 #===============================================
 # Poison Absorb
