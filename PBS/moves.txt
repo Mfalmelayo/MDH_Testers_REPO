@@ -10022,3 +10022,16 @@ Target = NearOther
 FunctionCode = DamageTargetAddChargestoneToFoeSide
 Flags = ZPower_AllStats_1
 Description = The user launches charged debris at the foe's side that harms and confuses any foe who switch in.
+#-------------------------------
+[FLASHSTEP]
+Name = Flash Step
+Type = NORMAL
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 5
+Target = NearOther
+Priority = 2
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove,Kicking
+Description = The user charges the target at blinding speed. This attack always goes before any other move.

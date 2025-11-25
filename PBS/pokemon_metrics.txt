@@ -10421,3 +10421,11 @@ ShadowX = 0
 ShadowSize = 2
 DmaxBackSprite = 0,0
 DmaxFrontSprite = 0,0
+#-------------------------------
+[LOPUNNYsg]
+BackSprite = 0,36
+FrontSprite = 0,17
+ShadowX = 0
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,0

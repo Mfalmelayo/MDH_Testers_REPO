@@ -1882,6 +1882,48 @@ SERPERIOR_MIDBATTLE = {
     "playSE" => "Anim/MaxFlare" 
   }
 }
+
+LOPUNNY_MIDBATTLE = {
+  "RoundStartCommand_1_foe" => {
+    "setVariable" => 0,
+    "teamEffects" => [:StealthRock, true, "Pointed stones float around the foe's party!"],
+    "text" => ["{1} scattered pointed stones across the battlefield!"]
+  },
+  "BattlerStatRaised_SPEED_foe" => {
+    "text" => ["{1}'s legs blur with blinding speed!"],
+	"ignoreAfter" => "BattlerReachedHPCap_foe",
+    "setBattler" => :Opposing,
+    "battlerHP" => [-12, "{1} was struck by {2}'s swift kick!"],
+    "addVariable" => 1,
+    "text" => ["{1} gains momentum from her speed!"]
+  },
+  "VariableUp_repeat_every_3" => {
+    "setBattler" => :Self,
+    "battlerStats" => [:ATTACK, 2, :DEFENSE, 1, :SPECIAL_DEFENSE, 1, :SPEED, -1],
+    "text" => ["{1}'s attack surges with her blistering speed!"],
+    "setBattler" => :Opposing,
+    "battlerStats" => [:ATTACK, -1, :DEFENSE, -1, :SPECIAL_ATTACK, -1, :SPECIAL_DEFENSE, -1, :SPEED, -1, :EVASION, -1],
+    "text" => ["{1} is overwhelmed by Lopunny's flurry of kicks!"]
+  },
+  "BattlerReachedHPCap_foe" => {
+    "ignoreAfter" => "TargetHPHalf_foe",
+    "megaEvolve" => "{1} mega evolved in a burst of fierce determination!",
+    "text" => ["Behold the ultimate evolution of speed and power!"]
+  },
+  "UserMoveEffective_player_repeat" => {
+    "ignoreUntil" => "TargetHPHalf_foe",
+    "text" => [:Opposing, "{1} flaming chains lashes out!"],
+    "battlerStatus" => [:BURN, true]
+  },
+  "BattlerStatRaised_foe" => {
+    "text" => ["{1}'s legs blur with blinding speed!"],
+	"ignoreUntil" => "BattlerReachedHPCap_foe",
+    "setBattler" => :Opposing,
+    "battlerHP" => [-24, "{1} was struck by {2}'s swift kick!"],
+    "addVariable" => 1,
+    "text" => ["{1} gains momentum from her speed!"]
+  },
+}
  
 HOUNDOOM_MIDBATTLE = {
 "RoundStartCommand_1_foe" => {
@@ -1893,13 +1935,13 @@ HOUNDOOM_MIDBATTLE = {
     "addVariable" => 1,
 	"text" => ["{1} is feeling herself!"]
   },
-  "VariableUp_repeat_every_3" => {
+  "VariableUp_repeat_every_4" => {
     "setBattler"   => :Self,
-    "battlerStats" => [:ATTACK, 1, :SPECIAL_ATTACK, 1, :SPEED, 1],
+    "battlerStats" => [:ATTACK, 1, :SPECIAL_DEFENSE, 1, :SPEED, 1],
     "text" => ["{1} is getting pumped up! She's landing hits left and right!"]
   },
    "UserMoveEffective_player_repeat" => {
-    "text"          => [:Opposing, "{1} unleashes a crippling howl!"],
+    "text" => [:Opposing, "{1} unleashes a crippling howl!"],
     "battlerStatus" => [:PARALYSIS, true]
   },
   "BattlerReachedHPCap_foe" => {
