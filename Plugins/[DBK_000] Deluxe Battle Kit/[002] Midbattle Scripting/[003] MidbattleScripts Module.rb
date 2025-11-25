@@ -1886,16 +1886,18 @@ SERPERIOR_MIDBATTLE = {
 LOPUNNY_MIDBATTLE = {
   "RoundStartCommand_1_foe" => {
     "setVariable" => 0,
+	"battlerHPCap" => 49,
+	"setBattler" => :Opposing,
     "teamEffects" => [:StealthRock, true, "Pointed stones float around the foe's party!"],
     "text" => ["{1} scattered pointed stones across the battlefield!"]
   },
-  "BattlerStatRaised_SPEED_foe" => {
+  "BattlerStatRaised_SPEED_foe_repeat" => {
     "text" => ["{1}'s legs blur with blinding speed!"],
 	"ignoreAfter" => "BattlerReachedHPCap_foe",
     "setBattler" => :Opposing,
     "battlerHP" => [-12, "{1} was struck by {2}'s swift kick!"],
     "addVariable" => 1,
-    "text" => ["{1} gains momentum from her speed!"]
+    "text" => ["Lopunny gains momentum from her speed!"]
   },
   "VariableUp_repeat_every_3" => {
     "setBattler" => :Self,
@@ -1915,7 +1917,7 @@ LOPUNNY_MIDBATTLE = {
     "text" => [:Opposing, "{1} flaming chains lashes out!"],
     "battlerStatus" => [:BURN, true]
   },
-  "BattlerStatRaised_foe" => {
+  "BattlerStatRaised_foe_repeat" => {
     "text" => ["{1}'s legs blur with blinding speed!"],
 	"ignoreUntil" => "BattlerReachedHPCap_foe",
     "setBattler" => :Opposing,
