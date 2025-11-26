@@ -10429,3 +10429,27 @@ ShadowX = 0
 ShadowSize = 2
 DmaxBackSprite = 0,0
 DmaxFrontSprite = 0,0
+#-------------------------------
+[EMPOLEONsg]
+BackSprite = 0,36
+FrontSprite = 0,6
+ShadowX = 0
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,0
+#-------------------------------
+[PIPLUPh]
+BackSprite = 0,36
+FrontSprite = 0,37
+ShadowX = 0
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,0
+#-------------------------------
+[PRINPLUPh]
+BackSprite = 0,36
+FrontSprite = 0,25
+ShadowX = 0
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,0

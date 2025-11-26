@@ -2986,5 +2986,17 @@ FormName = Goon
 Abilities = HEALER
 BaseStats = 100,86,67,60,106,67
 Moves = 0,LEECHSEED,1,SPIKES,1,ENERGYBALL,1,FLOWERSHIELD
+#--------------------------------
+[PIPLUPh,1]
+FormName = Goon
+Abilities = FRIENDGUARD
+BaseStats = 80,51,70,50,80,70
+Moves = 0,BABYDOLLEYES,1,WATERPULSE,1,FAKETEARS,1,HELPINGHAND
+#--------------------------------
+[PRINPLUPh,1]
+FormName = Goon
+Abilities = STEELYSPIRIT
+BaseStats = 100,70,85,60,100,85
+Moves = 0,SCALD,1,MUDSPORT,1,PROTECT,1,KNOCKOFF
 
 

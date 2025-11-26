@@ -529,12 +529,14 @@ Quest13 = {
     :QuestGiver => "Nami",
     :Stage1 => "Seek out Gal",
 	:Stage2 => "Met up with Goons",
-	:Stage3 => "Head to their hideout",
+	:Stage3 => "Head to Don's hideout",
+	:Stage4 => "Head to Nami",
     :Location1 => "Rustboro City",
 	:Location2 => "Route 107",
-	:Location3 => "Mr.Briney",
+	:Location3 => "Route 115 (Meteor Falls)",
+	:Location4 => "Route 109",
     :QuestDescription => "Nami is being extorted by Don Poleon, and you to defeat them!",
-    :RewardString => "A heartfelt gift from Johanna and a Token of Gratitude"
+    :RewardString => "A heartfelt gift from Nami and a Token of Gratitude"
 }
 	
   # Rookidee Side-Quest

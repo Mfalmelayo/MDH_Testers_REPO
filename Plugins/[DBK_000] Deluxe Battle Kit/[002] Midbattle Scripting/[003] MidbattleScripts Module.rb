@@ -1758,52 +1758,45 @@ PIPLUP_PRINPLUP_MIDBATTLE = {
 
 DONPOLEON_MIDBATTLE = {
   "RoundStartCommand_1_foe" => {
-    "addWild" => [:PRINPLUP, 30],
+    "addWild" => [:PRINPLUPh_1, 45],
     "addVariable" => 1,
     "changeWeather" => :Rain,
+	"battlerHPCap" => 49,
 	"setBattler" => :Opposing,
     "teamEffects" => [:Spikes, 3, "{1} scatters vicious spikes across the field!"],
-    "battlerHPCap" => 49,
     "playSE" => "Anim/Rain",
     "text" => ["{1} glares at you menacingly!"]
   },
   "Variable_1" => {
-    "addWild" => [:PIPLUP, 30]
+    "addWild" => [:PIPLUPh_1, 40]
   },
-  "AfterPhysicalMove_repeat_random_25" => {
-    "setBattler" => :Self,
-    "battlerStats" => [:DEFENSE, 1],
-    "text" => ["{1} hardens its steel shell!"],
-    "playSE" => "Anim/IronDefense"
+  "VariableUp_repeat_every_2" => {
+    "addWild" => [:PIPLUPh_1, 40],
+	"setBattler" => :Ally,
+	"battlerStats" => [:SPECIAL_ATTACK, 1]
   },
-  "AfterSpecialMove_repeat_random_25" => {
-    "setBattler" => :Self,
-    "battlerStats" => [:SPECIAL_DEFENSE, 1],
+  "VariableUp_repeat_every_3" => {
+    "addWild" => [:PRINPLUPh_1, 45],
+	"setBattler" => :Ally2,
+	"battlerStats" => [:SPECIAL_DEFENSE, 1]
+  },
+  "AfterSpecialMove_EMPOLEONsg_repeat_random_25" => {
+    "setBattler" => :Ally,
+    "battlerStats" => [:SPECIAL_DEFENSE, 1, :DEFENSE, 1],
     "text" => ["{1} steels its resolve!"],
-    "playSE" => "Anim/CosmicPower"
+    "playSE" => "Anim/CosmicPower",
+	"addVariable" => 1
   },
-  "BattlerFainted_PIPLUP_foe" => {
-    "setBattler" => :Opposing,
-    "battlerHP" => [25, "{1} got fired up and recovered some HP!"],
-    "battlerStats" => [:ATTACK, -2, :DEFENSE, -1],
-    "text" => ["{1} cries out in fury!"]
-  },
-  "BattlerFainted_PRINPLUP_foe" => {
-    "setBattler" => :Opposing,
-    "battlerHP" => [25, "{1} got fired up and recovered some HP!"],
-    "battlerStats" => [:SPECIAL_ATTACK, -2, :SPECIAL_DEFENSE, -1],
+  "BattlerFainted_foe_repeat" => {
+	"setBattler" => :Opposing,
+    "battlerStats" => [:ATTACK, -1, :SPECIAL_ATTACK, -1],
+	"addVariable" => 1,
     "text" => ["{1} cries out in fury!"]
   },
   "BattlerReachedHPCap_foe" => {
     "dynamax" => true,
+	"battlerStats" => [:ATTACK, 1, :SPECIAL_ATTACK, 1, :DEFENSE, 1, :SPECIAL_DEFENSE, 1],
     "text" => ["{1} towers over you, ready to crush all opposition!"]
-  },
-  "TargetHPHalf_foe" => {
-    "battlerHP" => [50, "{1} draws deep from its reserves!"],
-    "battlerStats" => [:ATTACK, 1, :SPECIAL_ATTACK, 1, :DEFENSE, 1, :SPECIAL_DEFENSE, 1],
-    "text" => ["{1} roars defiantly!"],
-    "playSE" => "Anim/DragonDance",
-    "ignoreAfter" => "TargetHPHalf_foe"
   }
 }
 
