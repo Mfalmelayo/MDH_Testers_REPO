@@ -10453,3 +10453,11 @@ ShadowX = 0
 ShadowSize = 2
 DmaxBackSprite = 0,0
 DmaxFrontSprite = 0,0
+#-------------------------------
+[RATTATAm]
+BackSprite = 0,60
+FrontSprite = 0,36
+ShadowX = 0
+ShadowSize = 1
+DmaxBackSprite = 0,0
+DmaxFrontSprite = -2,35
