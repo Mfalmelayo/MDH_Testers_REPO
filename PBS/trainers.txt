@@ -4129,6 +4129,21 @@ Pokemon = ARAQUANID,32
 Pokemon = BLAZIKEN,36
     Moves = FLAREBLITZ,SWORDSDANCE,LOWKICK
 #-------------------------------
+[POKEMONTRAINER_Johanna,Johanna,1]
+LoseText = "What? Impossible!"
+Pokemon = UMBREON,27
+    Moves = AIRSLASH,TOXIC,ROOST,CONFUSERAY
+    Ability = INNERFOCUS
+    HeldItem = BLACKSLUDGE
+Pokemon = GLAMEOW,26
+    Moves = GYROBALL,EXTRASENSORY,LIGHTSCREEN,REFLECT
+    Ability = LEVITATE
+    HeldItem = LIGHTCLAY
+Pokemon = KANGASKHAN,29
+    Moves = FLAMETHROWER,POISONJAB,NIGHTSLASH,SUCKERPUNCH
+    Ability = AFTERMATH
+    HeldItem = SITRUSBERRY
+#-------------------------------
 [ADMIN_Mars,Mars]
 LoseText = "What? Impossible!"
 Pokemon = GOLBAT,27
