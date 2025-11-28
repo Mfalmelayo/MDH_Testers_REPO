@@ -599,6 +599,11 @@ Name = Possessed
 Gender = Female
 BaseMoney = 30
 #-------------------------------
+[POSSESSED_DAWN]
+Name = Possessed
+Gender = Female
+BaseMoney = 70
+#-------------------------------
 [HEX]
 Name = Hex Maniac
 Gender = Female

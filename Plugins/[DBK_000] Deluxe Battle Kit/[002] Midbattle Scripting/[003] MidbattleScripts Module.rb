@@ -1797,6 +1797,11 @@ DONPOLEON_MIDBATTLE = {
     "dynamax" => true,
 	"battlerStats" => [:ATTACK, 1, :SPECIAL_ATTACK, 1, :DEFENSE, 1, :SPECIAL_DEFENSE, 1],
     "text" => ["{1} towers over you, ready to crush all opposition!"]
+  },
+  "BattlerFainted_EMPOLEONsg" => {
+    "speech"    => ["She dives into the water to escape!"],
+    "endSpeech" => true,
+    "endBattle" => 1
   }
 }
 
@@ -1821,6 +1826,39 @@ MOTHERWAK_MIDBATTLE = {
     "megaEvolve" => "You can feel her love, her anger, and all of her sorrow!",
 	"battlerStats" => [:ATTACK, 1, :SPECIAL_ATTACK, 1, :DEFENSE, 1, :SPECIAL_DEFENSE, 1],
 	"teamEffects" => [:StealthRock, true, "{1} The ground obey's her motherly fury!"]
+  }
+ }
+
+PDAWN_MIDBATTLE = {
+"RoundStartCommand_1_foe" => {
+    "speech_A" => ["We will take you down!"],
+	"battlerHPCap" => 49,
+	"setBattler" => :Opposing,
+	"teamEffects" => [:Spikes, 3, "Dawn scatters vicious spikes across the field!"]
+ },
+ "BattlerStatLowered_DEFENCE_foe_repeat" => {
+	"ignoreAfter" => "BattlerReachedHPCap_foe",
+    "setBattler" => :Opposing,
+	"battlerAbility" => :NORMALIZE,
+    "addVariable" => 1,
+    "text" => ["Dawn's spectral influence has altered {1} ability!"]
+  },
+"VariableUp_repeat_every_3" => {
+    "setBattler" => :Self,
+    "battlerStats" => [:DEFENSE, 1, :SPECIAL_DEFENSE, 1],
+    "text" => ["{1}'s attack surges with her blistering speed!"],
+    "setBattler" => :Opposing,
+	"battlerStatus" => [:CONFUSION, true],
+    "battlerStats" => [:ATTACK, -1, :DEFENSE, -1, :SPECIAL_ATTACK, -1, :SPECIAL_DEFENSE, -1, :SPEED, -1, :EVASION, -1]
+  },
+  "UserMoveEffective_CERULEDGEsg_foe" => {
+    "setBattler" => :Opposing,
+    "battlerEffects" => [:Curse, true, "Dawn haunts your Pokemon!"],
+    "playSE" => "Anim/Glare"
+  },
+  "BattlerReachedHPCap_foe" => {
+    "text" => ["{1}'s flame burns brightly!"],
+	"battlerStats" => [:ATTACK, 1, :SPECIAL_ATTACK, 1, :DEFENSE, 1, :SPECIAL_DEFENSE, 1]
   }
  }
  

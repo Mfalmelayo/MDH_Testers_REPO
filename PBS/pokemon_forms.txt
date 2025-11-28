@@ -1889,6 +1889,16 @@ HiddenAbilities = MAGICBOUNCE
 Height = 1.1
 Weight = 27.8
 #-------------------------------
+[MILOTIC,1]
+FormName = Mega Milotic
+MegaStone = MILOITE
+BaseStats = 95,60,109,101,120,155
+BaseExp = 350
+Abilities = MAGICBOUNCE
+HiddenAbilities = MAGICBOUNCE
+Height = 1.1
+Weight = 27.8
+#-------------------------------
 [HOOPA,1]
 FormName = Hoopa Unbound
 Types = PSYCHIC,DARK

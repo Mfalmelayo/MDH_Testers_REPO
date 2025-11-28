@@ -10461,3 +10461,11 @@ ShadowX = 0
 ShadowSize = 1
 DmaxBackSprite = 0,0
 DmaxFrontSprite = -2,35
+#-------------------------------
+[CERULEDGEsg]
+BackSprite = 0,36
+FrontSprite = 0,14
+ShadowX = 0
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,0
