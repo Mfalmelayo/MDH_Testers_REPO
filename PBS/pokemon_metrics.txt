@@ -8784,7 +8784,7 @@ FrontSprite = 4,10
 ShadowX = 0
 ShadowSize = 1
 DmaxBackSprite = 0,0
-DmaxFrontSprite = 0,0
+DmaxFrontSprite = 0,21
 #-------------------------------
 [CERULEDGE]
 BackSprite = 0,54
@@ -8872,7 +8872,7 @@ FrontSprite = 0,26
 ShadowX = 0
 ShadowSize = 2
 DmaxBackSprite = 0,0
-DmaxFrontSprite = 0,0
+DmaxFrontSprite = 0,46
 #-------------------------------
 [TOEDSCOOL]
 BackSprite = 0,45
