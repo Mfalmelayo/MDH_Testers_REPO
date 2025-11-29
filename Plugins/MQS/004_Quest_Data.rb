@@ -748,6 +748,39 @@ Quest13 = {
     :RewardString => ". . ."
 	
 }
+
+    WickeHurtPokemonQuest = {
+    :ID => "68",
+    :Name => "A Pokémon in Distress",
+    :QuestGiver => "Wicke",
+    :Stage1 => "Help Wicke examine a Pokémon wounded by an aggressive attacker.",
+    :Location1 => "Aether Hoenn Outpost",
+    :QuestDescription => "Wicke found an injured Pokémon that was attacked by an unusually aggressive wild Pokémon. Handle the threat!",
+    :RewardString => "Stuff!"
+	
+}
+
+    WickeRescueQuest = {
+    :ID => "82",
+    :Name => "Operation: Aether Rescue",
+    :QuestGiver => "Wicke",
+    :Stage1 => "Help Wicke recover Pokémon stolen by Team Rocket.",
+    :Location1 => "Slateport Outskirts",
+    :QuestDescription => "Wicke discovered that Team Rocket has stolen endangered Pokémon! Kick their ass!",
+    :RewardString => "Stuff!"
+}
+
+
+    WickeGoldenScaleQuest = {
+    :ID => "83",
+    :Name => "The Golden Scale",
+    :QuestGiver => "Wicke",
+    :Stage1 => "Find a Golden Scale for Wicke.",
+    :Location1 => "Any Waterside Location",
+    :QuestDescription => "Wicke is researching a rare phenomenon involving shimmering golden scales that appear near Hoenn’s waters. She needs your help retrieving one for analysis.",
+    :RewardString => "Aether-grade research supplies and Wicke’s affection."
+	
+}
   #======================================================#
   #                                                      #
   #                      "Official"                      #
