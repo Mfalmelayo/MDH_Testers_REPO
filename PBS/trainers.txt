@@ -4280,6 +4280,24 @@ Pokemon = CUBONE,18
 Pokemon = SANDSHREW,18
     Moves = BODYSLAM,BULLDOZE,ROCKTOMB
 #-------------------------------
+[TEAMROCKET_F,Grunt,3]
+Items = HYPERPOTION
+LoseText = "..."
+Pokemon = ARBOK,46
+    Moves = GUNKSHOT,EARTHQUAKE,SUCKERPUNCH,GLARE
+    Gender = female
+Pokemon = RATICATE,47
+    Moves = CRUNCH,HYPERFANG,SUCKERPUNCH,STOMPINGTANTRUM
+Pokemon = WEEZING,47
+    Moves = TOXICSPIKES,SLUDGEBOMB,WILLOWISP,PAINSPLIT
+Pokemon = GOLBAT,48
+    Moves = BRAVEBIRD,ROOST,SUPERFANG,POISONFANG
+Pokemon = SANDSLASH,48
+    Moves = EARTHQUAKE,KNOCKOFF,LEECHLIFE,ROCKSLIDE
+Pokemon = VILEPLUME,50
+    Moves = GIGADRAIN,SLUDGEBOMB,STRENGTHSAP,SPORE
+	Shadow = true
+#-------------------------------
 [TEAMROCKET_Duo,Grunts]
 Items = SUPERPOTION
 LoseText = "We're blasting off again!"

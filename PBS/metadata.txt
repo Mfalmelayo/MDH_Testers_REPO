@@ -31,3 +31,23 @@ SurfCharset = trainer_FUTAMC_SURF
 DiveCharset = trainer_FUTAMC_SURF
 FishCharset = girl_fish_offset
 SurfFishCharset = girl_fish_offset
+#-------------------------------
+[3]
+TrainerType = MALE_PROTAGONIST
+WalkCharset = trainer_MALEMC_WALK
+RunCharset = trainer_MALEMC_RUN
+CycleCharset = trainer_MALEMC_BIKE
+SurfCharset = trainer_MALEMC_SURF
+DiveCharset = trainer_MALEMC_SURF
+FishCharset = trainer_MALEMC_FISH
+SurfFishCharset = trainer_MALEMC_FISH
+#-------------------------------
+[4]
+TrainerType = FUTA_PROTAGONIST
+WalkCharset = trainer_FUTAMC_WALK
+RunCharset = trainer_FUTAMC_RUN
+CycleCharset = trainer_FUTAMC_BIKE
+SurfCharset = trainer_FUTAMC_SURF
+DiveCharset = trainer_FUTAMC_SURF
+FishCharset = girl_fish_offset
+SurfFishCharset = girl_fish_offset

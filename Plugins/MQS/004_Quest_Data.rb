@@ -754,25 +754,25 @@ Quest13 = {
     :Name => "A Pokémon in Distress",
     :QuestGiver => "Wicke",
     :Stage1 => "Help Wicke examine a Pokémon wounded by an aggressive attacker.",
-    :Location1 => "Aether Hoenn Outpost",
+    :Location1 => "Route 113",
     :QuestDescription => "Wicke found an injured Pokémon that was attacked by an unusually aggressive wild Pokémon. Handle the threat!",
     :RewardString => "Stuff!"
 	
 }
 
     WickeRescueQuest = {
-    :ID => "82",
+    :ID => "69",
     :Name => "Operation: Aether Rescue",
     :QuestGiver => "Wicke",
     :Stage1 => "Help Wicke recover Pokémon stolen by Team Rocket.",
-    :Location1 => "Slateport Outskirts",
+    :Location1 => "Route 110",
     :QuestDescription => "Wicke discovered that Team Rocket has stolen endangered Pokémon! Kick their ass!",
     :RewardString => "Stuff!"
 }
 
 
     WickeGoldenScaleQuest = {
-    :ID => "83",
+    :ID => "70",
     :Name => "The Golden Scale",
     :QuestGiver => "Wicke",
     :Stage1 => "Find a Golden Scale for Wicke.",

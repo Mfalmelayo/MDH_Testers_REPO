@@ -7826,3 +7826,11 @@ Pocket = 8
 Price = 0
 Flags = KeyItem
 Description = A rare core that can be used to forge a sword!
+#-------------------------------
+[GOLDENSCALE]
+Name = Golden Scale
+NamePlural = Golden Scales
+Pocket = 1
+Price = 40000
+Flags = Fling_130
+Description = A scale of pure gold that gives off a lustrous gleam. A maniac will buy it for a high price.

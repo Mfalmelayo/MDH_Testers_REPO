@@ -1979,14 +1979,19 @@ HOUNDOOM_MIDBATTLE = {
   },
   "BattlerReachedHPCap_foe" => {
     "megaEvolve" => "It seems that her most Primal instints have awaken!",
-	"battlerStats" => [:ATTACK, 1, :SPECIAL_ATTACK, 1, :DEFENSE, 1, :SPECIAL_DEFENSE, 1],
+	"battlerStats" => [:ATTACK, 1, :SPEED, 1, :DEFENSE, 1, :SPECIAL_DEFENSE, 1],
 	"battlerMoves" => [:FLAREBLITZ, :WICKEDBLOW, :DYNAMICPUNCH, :YAWN],
-	"teamEffects" => [:StealthRock, true, "{1} Shards of the rock fly across the battle feild!"]
+	"teamEffects" => [:StealthRock, true, "{1} Shards of the rock fly across the battle feild!"],
+	"setVariable" => 0
   },
-  "TurnStart_3_foe_repeat_every_3" => {
+  "VariableUp_repeat_every_5" => {
     "ignoreUntil" => "BattlerReachedHPCap_foe",
-    "useMove" => :DESTRUCTIONINTHREESTRIKES,
+	"battlerMoves" => [:DESTRUCTIONINTHREESTRIKES,nil,nil,nil],
 	"battlerStats" => [:SPECIAL_DEFENSE, -1, :DEFENSE, -1]
+  },
+	"AfterMove_DESTRUCTIONINTHREESTRIKES_repeat" => {
+    "battlerMoves" => [:FLAREBLITZ, :WICKEDBLOW, :DYNAMICPUNCH, :YAWN],
+	"setVariable" => 0
   }
 }
 

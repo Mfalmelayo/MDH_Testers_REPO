@@ -3666,6 +3666,7 @@ Shape = Finned
 Habitat = WatersEdge
 Category = Fish
 Pokedex = Its swimming muscles are weak, so it is easily washed away by currents. In places where water pools, you can see many Magikarp deposited there by the flow.
+WildItemRare = GOLDENSCALE
 Generation = 1
 Evolutions = GYARADOS,Level,20
 SpeciesSOS = MAGIKARP,GYARADOS
