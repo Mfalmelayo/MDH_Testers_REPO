@@ -31485,7 +31485,7 @@ Generation = 9
 [SMEARGLEsg]
 Name = Smeargle
 Types = NORMAL
-BaseStats = 55,20,35,160,20,45
+BaseStats = 105,60,90,160,100,90
 GenderRatio = AlwaysFemale
 GrowthRate = Fast
 BaseExp = 88
