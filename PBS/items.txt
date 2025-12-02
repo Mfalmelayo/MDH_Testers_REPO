@@ -7440,6 +7440,28 @@ FieldUse = OnPokemon
 Flags = EvolutionStone,Fling_30
 Description = A dress worn while dancing to Numel by Numel! It makes certain species of Pokémon evolve!
 #-------------------------------
+[SACREDVEIL]
+Name = Sacred Veil
+NamePlural = Sacred Veils
+Pocket = 1
+Price = 10000
+SellPrice = 750
+BPPrice = 5
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A headdress that doubles as a spellcasting focus! It makes certain species of Pokémon evolve!
+#-------------------------------
+[TYRANTSCYTHE]
+Name = Tyrant Scythe
+NamePlural = Tyrant Scythes
+Pocket = 1
+Price = 10000
+SellPrice = 750
+BPPrice = 5
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A Scythe who's oxner govern black masses! It makes certain species of Pokémon evolve!
+#-------------------------------
 # CULTIVATION MEGA STONES
 #-------------------------------
 [HONCHNITE]

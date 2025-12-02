@@ -781,6 +781,17 @@ Quest13 = {
     :RewardString => "Aether-grade research supplies and Wicke’s affection."
 	
 }
+
+    Quest71 = {
+    :ID => "71",
+    :Name => "Sign of Love: Maractus",
+    :QuestGiver => "Maractus",
+    :Stage1 => "Increase her Affinity",
+    :Location1 => "...",
+    :QuestDescription => "Maractus seems to have taken a liking to you! It would be best to show her some loving! Energy Root, 5 Lum Berries, Rose Incense, Sticky Barbs, TM37, Grass Gem",
+    :RewardString => ". . ."
+	
+ }
   #======================================================#
   #                                                      #
   #                      "Official"                      #
