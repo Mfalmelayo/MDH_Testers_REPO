@@ -444,7 +444,7 @@ class Battle::Move::AddMoneyGainedFromBattleLowerUserSpAtk1 < Battle::Move
     end
     @battle.pbDisplay(_INTL("Coins were scattered everywhere!")) if hit_target
     # Stats modifier
-    if user.pbCanLowerStatStage?(@statDown[0], user, self) && hit_target
+    if user.pbCanLowerStatStage?(@statDown[0], user, self) && hit_target && !user.hasActiveAbility?(:BADCOMPANY) # ligma
       user.pbLowerStatStage(@statDown[0], @statDown[1], user)
     end
   end
