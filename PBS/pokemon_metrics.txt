@@ -10469,3 +10469,11 @@ ShadowX = 0
 ShadowSize = 2
 DmaxBackSprite = 0,0
 DmaxFrontSprite = 0,0
+#-------------------------------
+[ARCANINEi]
+BackSprite = 0,27
+FrontSprite = 17,7
+ShadowX = 0
+ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,0

@@ -1,0 +1,23 @@
+[GRENINJAi]
+BackSprite = 0,41
+FrontSprite = -2,7
+ShadowX = 0
+ShadowSize = 1
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,0
+#-------------------------------
+[FLUTTERMANEi]
+BackSprite = 0,20
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+DmaxBackSprite = 0,0
+#-------------------------------
+[FROSLASSi]
+BackSprite = 5,40
+FrontSprite = 5,-2
+ShadowX = 0
+ShadowSize = 1
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,0
+#-------------------------------

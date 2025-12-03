@@ -31632,7 +31632,6 @@ Category = Aurora
 Pokedex = When Suicune steps near water, it becomes pure. Her presence calms even those with fiery tempers.
 Generation = 2
 Flags = Legendary
-RaidRanks = 6
 #-------------------------------
 [RAIKOUh]
 Name = Raikou
@@ -31659,7 +31658,6 @@ Category = Thunder
 Pokedex = Raikou embodies the speed of lightning. Its roars send shock waves shuddering through the air and ground as if lightning bolts were crashing down.
 Generation = 2
 Flags = Legendary
-RaidRanks = 6
 #-------------------------------
 [ENTEIh]
 Name = Entei
@@ -31686,7 +31684,6 @@ Category = Volcano
 Pokedex = Entei embodies the passion of magma. It is thought to have been born in the eruption of a volcano. It blasts fire that consumes all that it touches.
 Generation = 2
 Flags = Legendary
-RaidRanks = 6
 #-------------------------------
 [ZOEGRIZZBOLT]
 Name = Zoe
@@ -31715,7 +31712,6 @@ Pokedex = Arid regions are their habitat. They move rhythmically, making a sound
 Generation = 5
 WildItemUncommon = MIRACLESEED
 CallRateSOS = 9
-RaidRanks = 3,4,5
 #-------------------------------
 [SERPERIORsg]
 Name = Serperior
@@ -31741,4 +31737,3 @@ Habitat = Grassland
 Category = Regal
 Pokedex = They raise their heads to intimidate opponents, but only give it their all when fighting a powerful opponent.
 Generation = 5
-RaidRanks = 3,4,5
