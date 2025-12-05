@@ -1825,6 +1825,7 @@ MOTHERWAK_MIDBATTLE = {
 "BattlerReachedHPCap_foe" => {
     "megaEvolve" => "You can feel her love, her anger, and all of her sorrow!",
 	"battlerStats" => [:ATTACK, 1, :SPECIAL_ATTACK, 1, :DEFENSE, 1, :SPECIAL_DEFENSE, 1],
+	"battlerMoves" => [:FLAREBLITZ, :WATERPULSE, :SHOCKWAVE, :ENERGYBALL],
 	"teamEffects" => [:StealthRock, true, "{1} The ground obey's her motherly fury!"]
   }
  }
