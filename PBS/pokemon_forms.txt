@@ -3018,5 +3018,14 @@ Abilities = APEXPREDATOR
 HiddenAbilities = APEXPREDATOR
 Height = 1.1
 Weight = 27.8
-
+#-------------------------------
+[GROWLITHE_3,1]
+FormName = Legendary
+BaseStats = 95,130,120,50,70,115
+BaseExp = 198
+Abilities = SHEERFORCE
+HiddenAbilities = DUALWIELD
+Weight = 49.0
+Pokedex = When this Pokémon whips the winglike fur on its back as though beating its wings, it sends an intimidating aura flying at its opponents.
+Generation = 6
 

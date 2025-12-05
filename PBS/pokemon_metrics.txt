@@ -10477,3 +10477,16 @@ ShadowX = 0
 ShadowSize = 2
 DmaxBackSprite = 0,0
 DmaxFrontSprite = 0,0
+#-------------------------------
+[GARDEVOIRdnd]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[GROWLITHE_3,1]
+BackSprite = 0,0
+FrontSprite = -1,22
+ShadowX = 0
+ShadowSize = 2
+DmaxFrontSprite = 0,0
