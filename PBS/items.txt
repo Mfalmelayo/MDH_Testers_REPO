@@ -7856,3 +7856,11 @@ Pocket = 1
 Price = 40000
 Flags = Fling_130
 Description = A scale of pure gold that gives off a lustrous gleam. A maniac will buy it for a high price.
+#-------------------------------
+[TEST]
+Name = TEST Item
+NamePlural = TEST Items
+Pocket = 1
+Price = 0
+Flags = Fling_30
+Description = This item is not meant to be gotten, this is just to update the PBS file in the github.
