@@ -792,6 +792,17 @@ Quest13 = {
     :RewardString => ". . ."
 	
  }
+ 
+    Quest72 = {
+    :ID => "72",
+    :Name => "Sign of Love: Flygon",
+    :QuestGiver => "Flygon",
+    :Stage1 => "Increase her Affinity",
+    :Location1 => "...",
+    :QuestDescription => "Flygon seems to have taken a liking to you! It would be best to show her some loving! Big Pearl, 5 Chesto Berries, Draco Plate, Pewter Crunchies, Heart Scale, Dragon Gem",
+    :RewardString => ". . ."
+	
+ }
   #======================================================#
   #                                                      #
   #                      "Official"                      #
