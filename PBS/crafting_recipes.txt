@@ -1,0 +1,261 @@
+# ===============================================================================
+# CRAFTING RECIPES
+# ===============================================================================
+
+# Each recipe follows the format:
+# [RECIPE_ID]
+# Name = Display Name
+# Description = Recipe description
+# Result = ITEM_ID,quantity
+# Ingredients = ITEM_ID1,qty1,ITEM_ID2,qty2,ITEM_ID3,qty3...
+# Category = category_name (optional)
+# UnlockCondition = condition_string (optional - if not specified, recipe is always available)
+#
+# ===============================================================================
+# SUPPORTED UNLOCK CONDITIONS:
+# ===============================================================================
+#
+# badges >= X                    - Player has X or more gym badges
+# story_flag("FLAG_NAME")        - Specific story flag is set to true
+# has_item("ITEM_SYMBOL")        - Player has the specified item in bag
+# pokemon_seen >= X              - Player has seen X or more Pokemon species
+# pokemon_caught >= X            - Player has caught X or more Pokemon species
+# level >= X                     - Player's highest level Pokemon is X or higher
+# money >= X                     - Player has X or more money
+# 
+# Multiple conditions can be combined with commas (AND logic):
+# UnlockCondition = badges >= 5, story_flag("SURF_UNLOCKED"), pokemon_seen >= 75
+#
+#===============================================================================
+
+[BASIC_POTION]
+Name = Basic Potion
+Description = A healing potion made from medicinal berries
+Result = POTION,1
+Ingredients = ORANBERRY,2,CHESTOBERRY,1,PECHABERRY,1
+Category = Materials
+UnlockCondition = 
+
+[HEALING_BERRY_MIX]
+Name = Healing Berry Mix
+Description = A mixture of berries with healing properties
+Result = BERRYJUICE,1
+Ingredients = ORANBERRY,3,SITRUSBERRY,1
+Category = Materials
+UnlockCondition = 
+
+[ANTIDOTE_BLEND]
+Name = Antidote Blend
+Description = A natural antidote made from cleansing berries
+Result = ANTIDOTE,1
+Ingredients = PECHABERRY,2,RAWSTBERRY,1,LUMBERRY,1
+Category = Materials
+UnlockCondition = 
+
+[AWAKENING_BREW]
+Name = Awakening Brew
+Description = A stimulating brew that fights drowsiness
+Result = AWAKENING,1
+Ingredients = CHESTOBERRY,2,LUMBERRY,1,PERSIMBERRY,1
+Category = Materials
+UnlockCondition = 
+
+[BURN_SALVE]
+Name = Burn Salve
+Description = A soothing salve for treating burns
+Result = BURNHEAL,1
+Ingredients = RAWSTBERRY,3,ASPEARBERRY,1
+Category = Materials
+UnlockCondition = 
+
+[PARALYZE_CURE]
+Name = Paralyze Cure
+Description = A remedy that restores movement to paralyzed Pokemon
+Result = PARALYZEHEAL,1
+Ingredients = CHERIBERRY,3,LUMBERRY,1
+Category = Materials
+UnlockCondition = 
+
+[CRAFT_CHEAP_CANDY]
+Name = Craft Cheap Candy
+Description = A simple candy; it gets the job done.
+Result = CHEAPCANDY,1
+Ingredients = ORANBERRY,1
+Category = Materials
+UnlockCondition =
+
+[CRAFT_SWEET_CANDY]
+Name = Craft Sweet Candy
+Description = A sugary treat.
+Result = SWEETCANDY,1
+Ingredients = CHERIBERRY,1
+Category = Materials
+UnlockCondition =
+
+[CRAFT_SOUR_CANDY]
+Name = Craft Sour Candy
+Description = A candy sour enough to pucker your lips.
+Result = SOURCANDY,1
+Ingredients = ASPEARBERRY,1
+Category = Materials
+UnlockCondition =
+
+[CRAFT_BITTER_CANDY]
+Name = Craft Bitter Candy
+Description = A somewhat unpopular candy made to taste bitter.
+Result = BITTERCANDY,1
+Ingredients = PERSIMBERRY,1
+Category = Materials
+UnlockCondition =
+
+[LIFE_ORB_SYNTHESIS]
+Name = Life Orb Forge
+Description = A mysterious orb formed by compressing stardust and rare minerals.
+Result = LIFEORB,1
+Ingredients = STARDUST,5,STARPIECE,1,BLACKSLUDGE,1
+Category = Held Items
+UnlockCondition = 
+
+[LEFTOVERS_STEW]
+Name = Leftovers Forge
+Description = A hearty stew of rare ingredients that never seems to run out.
+Result = LEFTOVERS,1
+Ingredients = TINYMUSHROOM,3,BIGMUSHROOM,1,SLOWPOKETAIL,1
+Category = Held Items
+UnlockCondition = 
+
+[LUCKY_EGG_INFUSION]
+Name = Lucky Egg Forge
+Description = An egg infused with shimmering treasures that hum with joy.
+Result = LUCKYEGG,1
+Ingredients = PEARLSTRING,1,HEARTSCALE,2,TINYMUSHROOM,5
+Category = Held Items
+UnlockCondition = 
+
+[CHOICE_BAND_FORGE]
+Name = Choice Band Forge
+Description = A battle-worn band reforged with precious metal to unleash power.
+Result = CHOICEBAND,1
+Ingredients = BLACKBELT,1,NUGGET,2,RAREBONE,1
+Category = Held Items
+UnlockCondition = 
+
+[CHOICE_SPECS_ASSEMBLY]
+Name = Choice Specs Forge
+Description = Glass and gold combined into specs that focus raw special power.
+Result = CHOICESPECS,1
+Ingredients = WIDELENS,1,ZOOMLENS,1,STARPIECE,1
+Category = Held Items
+UnlockCondition = 
+
+[CHOICE_SCARF_WEAVE]
+Name = Choice Scarf Weave
+Description = A scarf woven with rare feathers that lets its wearer move first.
+Result = CHOICESCARF,1
+Ingredients = SILKSCARF,1,PRETTYFEATHER,10,COMETSHARD,1
+Category = Held Items
+UnlockCondition =
+
+[ASSAULT_VEST_PLATING]
+Name = Assault Vest Plating
+Description = A vest reinforced with dense minerals to enhance resilience.
+Result = ASSAULTVEST,1
+Ingredients = ROCKYHELMET,1,RAREBONE,2,IRONBALL,1
+Category = Held Items
+UnlockCondition = 
+
+[WEAKNESS_POLICY_DRAFT]
+Name = Weakness Policy Draft
+Description = A contract written in elemental reagents that rewards taking hits.
+Result = WEAKNESSPOLICY,1
+Ingredients = ABSORBBULB,1,CELLBATTERY,1,LUMINOUSMOSS,1,SNOWBALL,1
+Category = Held Items
+UnlockCondition =
+
+[FOCUS_SASH_STITCH]
+Name = Focus Sash Stitch
+Description = A fragile sash, carefully stitched, that protects at the brink of defeat.
+Result = FOCUSSASH,1
+Ingredients = FOCUSBAND,1,SILKSCARF,1,WHITEHERB,1
+Category = Held Items
+UnlockCondition =
+
+[EXPERT_BELT_CRAFT]
+Name = Expert Belt Craft
+Description = A belt lined with treasures that empowers well-aimed strikes.
+Result = EXPERTBELT,1
+Ingredients = MUSCLEBAND,1,WISEGLASSES,1,NUGGET,1
+Category = Held Items
+UnlockCondition =
+
+[SHINY_CHARM_GIFT]
+Name = Shiny Charm Gift
+Description = A special charm said to increase the chance of encountering Shiny Pokémon.
+Result = SHINYCHARM,1
+Ingredients = ORANBERRY,1
+Category = Key Items
+UnlockCondition = pokemon_caught >= 150
+
+[CAPTURE_CHARM_GIFT]
+Name = Capture Charm Gift
+Description = A charm that is believed to improve the success rate of capturing Pokémon.
+Result = CAPTURECHARM,1
+Ingredients = CHESTOBERRY,1
+Category = Key Items
+UnlockCondition = pokemon_caught >= 100 
+
+[EXP_CHARM_GIFT]
+Name = Exp. Charm Gift
+Description = A charm said to increase the amount of Exp. gained in battle.
+Result = EXPCHARM,1
+Ingredients = PECHABERRY,1
+Category = Key Items
+UnlockCondition = pokemon_caught >= 50
+
+[SAVAGE_AXE_FORGE]
+Name = Forge Savage Axe
+Description = Forge a crude battle axe said to lower the wielder’s intellect but empower evolution.
+Result = SAVAGEAXE,1
+Ingredients = HARDSTONE,2,RAREBONE,1,BLACKBELT,1
+Category = Evolution Items
+UnlockCondition = story_flag("MAWILE_LOVE")
+
+[OATH_SIGN_BINDING]
+Name = Craft Oath Sign
+Description = A lovingly crafted charm symbolizing unbreakable bonds.
+Result = OATHSIGN,1
+Ingredients = HEARTSCALE,1,PRETTYFEATHER,3,PEARL,1
+Category = Evolution Items
+UnlockCondition = story_flag("NINETALES_LOVE")
+
+[HARP_ASSEMBLY]
+Name = Assemble Harp
+Description = A seductive musical instrument crafted from rare strings and polished shell.
+Result = HARP,1
+Ingredients = SHELLBELL,1,SILKSCARF,1,PEARLSTRING,1
+Category = Evolution Items
+UnlockCondition = story_flag("EEVEE_1_LOVE")
+
+[MAGUS_GARB_WEAVE]
+Name = Weave Magus Garb
+Description = An arcane outfit once worn by hunters of ancient horrors.
+Result = MAGUSGARB,1
+Ingredients = WISEGLASSES,1,ODDINCENSE,2,CLEANSETAG,1
+Category = Evolution Items
+UnlockCondition = story_flag("BRAIXEN_LOVE")
+
+[SACRED_VEIL_CONSECRATION]
+Name = Consecrate Sacred Veil
+Description = A holy veil infused with mystical energy and ceremonial offerings.
+Result = SACREDVEIL,1
+Ingredients = PUREINCENSE,1,WHITEHERB,2,STARDUST,3
+Category = Evolution Items
+UnlockCondition = story_flag("GARDEVOIR_LOVE")
+
+[ASSASSINATION_CREED_INSCRIPTION]
+Name = Inscribe Assassination Creed
+Description = A secret manuscript encrypted in ancient Thieves’ Cant.
+Result = ASSASSINATIONCREED,1
+Ingredients = DUSKSTONE,1,SMOKEBALL,2,BLACKGLASSES,1
+Category = Evolution Items
+UnlockCondition = story_flag("NOIVERN_LOVE")

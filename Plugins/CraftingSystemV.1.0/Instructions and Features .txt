@@ -1,0 +1,40 @@
+Crafting System by Yael Bashan
+
+Credits are appreciated!
+If you make a project with this plugin, let me know! I'd love to see it :)
+
+
+Installation Instructions:
+- Copy all folders
+- Paste folders in desired Game Maker XP project
+  (this will auto add any files in plugin folders to the existing folders)
+
+
+Features:
+- Customizable crafting system
+- PBS file integration (define crafting recipes and their outputs in crafting_recipes.txt)
+- Multi-ingredient recipes with quantity requirements
+- Live UI indicator for players if they have all ingredients to craft recipe or not
+- Customizable category system (Add/remove/change categories in CraftingConfig.rb) 
+- Customizable unlock conditions (ie: Pokedex count, badges, story switches and many more)
+- UI customizations:
+    - X, Y Positioning of UI windows
+    - Typography spacing
+    - Color customization
+    - Asset customization (keep file names!)
+- Technical Features:
+    - Asset Caching (Graphics loaded once and reused)
+    - Memory Management (Proper cleanup on exit)
+    - Error Handling with clear debug outputs
+    - Descriptive comments for each block of code
+
+
+Usage:
+
+# Call from events or menu
+pbCraftingMenu
+
+# Alternative (legacy support)
+scene = Scene_Crafting.new
+scene.main
+

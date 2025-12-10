@@ -1,0 +1,5 @@
+Name = Crafting System
+Version = 1.0
+Essentials = 21.1
+Link = https://www.pokecommunity.com/members/yaelb.1411316/
+Credits = Yael Bashan
