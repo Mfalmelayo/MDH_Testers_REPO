@@ -7363,16 +7363,16 @@ FieldUse = OnPokemon
 Flags = EvolutionStone,Fling_30
 Description = The outfit worn by the Goddess of Hell! It makes certain species of Pokémon evolve!
 #-------------------------------
-[SAVAGEAXE]
-Name = Savage Axe
-NamePlural = Savage Axes
+[TYRANTSCYTHE]
+Name = Tyrant Scythe
+NamePlural = Tyrant Scythes
 Pocket = 1
-Price = 3000
+Price = 10000
 SellPrice = 750
 BPPrice = 5
 FieldUse = OnPokemon
 Flags = EvolutionStone,Fling_30
-Description = An axe said to lower the intelligence of the wielder. It makes certain species of Pokémon evolve!
+Description = A Scythe who's oxner govern black masses! It makes certain species of Pokémon evolve!
 #-------------------------------
 [DHAMPIRRAPIER]
 Name = Dhampir Rapier
@@ -7384,6 +7384,39 @@ BPPrice = 5
 FieldUse = OnPokemon
 Flags = EvolutionStone,Fling_30
 Description = A weapon for hybrid bloodsuckers! It makes certain species of Pokémon evolve!
+#-------------------------------
+[WINTERDRIP]
+Name = Winter Drip
+NamePlural = Winter Drips
+Pocket = 1
+Price = 3000
+SellPrice = 750
+BPPrice = 5
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = An outfit filled with winter cheer. It makes certain species of Pokémon evolve!
+#-------------------------------
+[ANCIENTDRESS]
+Name = Ancient Dress
+NamePlural = Ancient Dresses
+Pocket = 1
+Price = 10000
+SellPrice = 750
+BPPrice = 5
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = A dress worn while dancing to Numel by Numel! It makes certain species of Pokémon evolve!
+#-------------------------------
+[SAVAGEAXE]
+Name = Savage Axe
+NamePlural = Savage Axes
+Pocket = 1
+Price = 3000
+SellPrice = 750
+BPPrice = 5
+FieldUse = OnPokemon
+Flags = EvolutionStone,Fling_30
+Description = An axe said to lower the intelligence of the wielder. It makes certain species of Pokémon evolve!
 #-------------------------------
 [OATHSIGN]
 Name = Oath Sign
@@ -7407,17 +7440,6 @@ FieldUse = OnPokemon
 Flags = EvolutionStone,Fling_30
 Description = A musical tool of mass seduction! It makes certain species of Pokémon evolve!
 #-------------------------------
-[WINTERDRIP]
-Name = Winter Drip
-NamePlural = Winter Drips
-Pocket = 1
-Price = 3000
-SellPrice = 750
-BPPrice = 5
-FieldUse = OnPokemon
-Flags = EvolutionStone,Fling_30
-Description = An outfit filled with winter cheer. It makes certain species of Pokémon evolve!
-#-------------------------------
 [MAGUSGARB]
 Name = Magus Garb
 NamePlural = Magus Garbs
@@ -7428,17 +7450,6 @@ BPPrice = 5
 FieldUse = OnPokemon
 Flags = EvolutionStone,Fling_30
 Description = Outfit worn by one who hunted the Abyss Lord. It makes certain species of Pokémon evolve!
-#-------------------------------
-[ANCIENTDRESS]
-Name = Ancient Dress
-NamePlural = Ancient Dresses
-Pocket = 1
-Price = 10000
-SellPrice = 750
-BPPrice = 5
-FieldUse = OnPokemon
-Flags = EvolutionStone,Fling_30
-Description = A dress worn while dancing to Numel by Numel! It makes certain species of Pokémon evolve!
 #-------------------------------
 [SACREDVEIL]
 Name = Sacred Veil
@@ -7451,16 +7462,16 @@ FieldUse = OnPokemon
 Flags = EvolutionStone,Fling_30
 Description = A headdress that doubles as a spellcasting focus! It makes certain species of Pokémon evolve!
 #-------------------------------
-[TYRANTSCYTHE]
-Name = Tyrant Scythe
-NamePlural = Tyrant Scythes
+[ASSASSINATIONCREED]
+Name = Assassination Creed
+NamePlural = Assassination Creed
 Pocket = 1
 Price = 10000
 SellPrice = 750
 BPPrice = 5
 FieldUse = OnPokemon
 Flags = EvolutionStone,Fling_30
-Description = A Scythe who's oxner govern black masses! It makes certain species of Pokémon evolve!
+Description = An old manuscript encypted in Thieves' Cant! It makes certain species of Pokémon evolve!
 #-------------------------------
 # CULTIVATION MEGA STONES
 #-------------------------------

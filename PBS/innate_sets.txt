@@ -12,6 +12,12 @@ Innates = WELLBAKEDBODY
 [GARDEVOIR_2]
 Innates = DANCER
 #-------------------------------
+[GALLADE_2]
+Innates = PREFAE
+#-------------------------------
+[MARACTUSh]
+Innates = ROUGHSKIN
+#-------------------------------
 [NINETALES_3]
 Innates = SHADOWTAG
 #-------------------------------
@@ -23,6 +29,9 @@ Innates = COWED
 #-------------------------------
 [GARDEVOIR_3]
 Innates = PRANKSTER
+#-------------------------------
+[GOODRA_2]
+Innates = FILTER
 #-------------------------------
 [MAWILE_2]
 Innates = STRONGJAW
