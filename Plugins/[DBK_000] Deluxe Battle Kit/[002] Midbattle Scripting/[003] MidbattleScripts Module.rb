@@ -1817,16 +1817,9 @@ MOTHERWAK_MIDBATTLE = {
     "battlerStatus" => [:SLEEP, "{1} is hugged in a motherly embrace and falls asleep!"],
     "playSE" => "Anim/Heal"
 },
-  "UserMoveEffective_MAROWAKx_foe" => {
-    "setBattler" => :Self,
-    "battlerEffects" => [:Disable, true, "{1} gives you a stern glare, disabling your move!"],
-    "playSE" => "Anim/Glare"
-},
 "BattlerReachedHPCap_foe" => {
     "megaEvolve" => "You can feel her love, her anger, and all of her sorrow!",
-	"battlerStats" => [:ATTACK, 1, :SPECIAL_ATTACK, 1, :DEFENSE, 1, :SPECIAL_DEFENSE, 1],
-	"battlerMoves" => [:FLAREBLITZ, :WATERPULSE, :SHOCKWAVE, :ENERGYBALL],
-	"teamEffects" => [:StealthRock, true, "{1} The ground obey's her motherly fury!"]
+	"battlerStats" => [:ATTACK, 1, :SPECIAL_ATTACK, 1, :DEFENSE, 1, :SPECIAL_DEFENSE, 1]
   }
  }
 
