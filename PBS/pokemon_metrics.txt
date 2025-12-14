@@ -9787,7 +9787,6 @@ BackSprite = 0,0
 FrontSprite = 0,4
 ShadowX = 0
 ShadowSize = 2
-DmaxBackSprite = 0,0
 DmaxFrontSprite = 0,0
 #-------------------------------
 [DHELMISE_1]
@@ -10241,7 +10240,7 @@ DmaxFrontSprite = 0,0
 #-------------------------------
 [DRACEON_1]
 BackSprite = 0,0
-FrontSprite = 0,11
+FrontSprite = 0,5
 ShadowX = 0
 ShadowSize = 2
 DmaxFrontSprite = 0,0
