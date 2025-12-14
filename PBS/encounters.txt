@@ -907,3 +907,81 @@ GoodRod
     50,STARYU,10,30
     25,PYUKUMUKU,10,30
     25,MAREANIE,10,30
+#-------------------------------
+#Raid Dens
+#-------------------------------
+[304] # Petalburg Woods
+Land,20
+    20,BELLSPROUT,15
+    20,MANKEY,15
+    20,TANGELA,15
+    15,PARAS,15
+    15,NYMBLE,15
+    7,IMPIDIMP,15
+    2,MORELULL,15
+    1,EKANS,15
+#-------------------------------
+[287] # Route 111
+Land,20
+    20,NIDORINA,15
+    20,GIRAFARIG,15
+    20,KRICKETUNE,15
+    15,NIDORINO,15
+    15,PACHIRISU,15
+    7,DOTTLER,15
+    2,GOGOAT,15
+    1,THIEVUL,15
+#-------------------------------
+[295] # Route 113
+Land,21
+    20,TYROGUE,29,32
+    20,SCRAGGY,29,34
+    20,GLIGAR,29,33
+    15,CAPSAKID,29,34
+    15,DONPHAN,29,34
+    10,RHYHORN,29,34
+    10,LYCANROC,33
+    5,CROCALOR,28,35
+    1,WEEZING,25
+#-------------------------------
+[290] # Route 114
+Land,21
+    20,GREEDENT,29,34
+    20,THIEVUL,29,34
+    15,DIGGERSBY,29,34
+    10,ORANGURU,29,34
+    4,DRAMPA,29,34
+    1,SHUCKLE,29,34
+    1,SAWSBUCK,29,34
+#-------------------------------
+[292] # Route 114
+Land,21
+    20,GREEDENT,29,34
+    20,THIEVUL,29,34
+    15,DIGGERSBY,29,34
+    10,ORANGURU,29,34
+    4,DRAMPA,29,34
+    1,SHUCKLE,29,34
+    1,SAWSBUCK,29,34
+#-------------------------------
+[293] # Route 114
+Land,21
+    20,GREEDENT,29,34
+    20,THIEVUL,29,34
+    15,DIGGERSBY,29,34
+    10,ORANGURU,29,34
+    4,DRAMPA,29,34
+    1,SHUCKLE,29,34
+    1,SAWSBUCK,29,34
+#-------------------------------
+[284] # Route 117
+Land,21
+    20,ELECTABUZZ,13,19
+    20,COMFEY,13,19
+    15,FURRET,13,18
+    10,FLETCHINDER,14,20
+    10,LITLEO,13,19
+    10,PALPITOAD,13,20
+    5,DEWPIDER,14,20
+    5,POLIWHIRL,15,20
+    4,DACHSBUN,15,21
