@@ -212,6 +212,14 @@ Ingredients = PECHABERRY,1
 Category = Key Items
 UnlockCondition = pokemon_caught >= 50
 
+[HOOK_SWORD_FORGE]
+Name = Hook Sword Forge
+Description = A hooked shaped sword that may be used to trap or deflect other weapons.
+Result = CHOICEBAND,1
+Ingredients = LEAFCORE,1,NUGGET,1,RAREBONE,1
+Category = Key Items
+UnlockCondition = 
+
 [SAVAGE_AXE_FORGE]
 Name = Forge Savage Axe
 Description = Forge a crude battle axe said to lower the wielder’s intellect but empower evolution.
