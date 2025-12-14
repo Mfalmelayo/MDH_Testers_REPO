@@ -9783,7 +9783,7 @@ ShadowSize = 2
 DmaxFrontSprite = 0,0
 #-------------------------------
 [DELPHOX_2]
-BackSprite = 0,36
+BackSprite = 0,0
 FrontSprite = 0,4
 ShadowX = 0
 ShadowSize = 2
