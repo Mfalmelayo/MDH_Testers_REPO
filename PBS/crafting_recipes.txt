@@ -108,6 +108,14 @@ Ingredients = PERSIMBERRY,1
 Category = Materials
 UnlockCondition =
 
+[PEARL_STRING_ASSEMBLY]
+Name = Pearl String
+Description = A necklace made of pearls
+Result = PEARLSTRING,1
+Ingredients = PEARL,1,BIGPEARL,2
+Category = Materials
+UnlockCondition =
+
 [LIFE_ORB_SYNTHESIS]
 Name = Life Orb Forge
 Description = A mysterious orb formed by compressing stardust and rare minerals.

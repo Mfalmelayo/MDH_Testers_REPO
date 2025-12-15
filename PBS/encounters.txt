@@ -160,12 +160,12 @@ Land,21
 Cave,5
     20,WHISMUR,9,13
     20,GEODUDE,7,13
-    15,PHANPY,7,13
+    15,PARAS,7,13
     10,BUNNELBY,7,13
     10,SANDSHREW,7,13
     10,ZUBAT,6,13
     5,DURANT,6,13
-    5,PARAS,8,13
+    5,PHANPY,8,13
     4,DRILBUR,8,13
     1,TRAPINCH,8,13
 #-------------------------------

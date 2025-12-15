@@ -7875,3 +7875,14 @@ Pocket = 1
 Price = 0
 Flags = Fling_30
 Description = This item is not meant to be gotten, this is just to update the PBS file in the github.
+#-------------------------------
+# Held Items
+#-------------------------------
+[HOOKSWORD]
+Name = Hook Sword
+NamePlural = Hook Swords
+Pocket = 1
+Price = 1000
+SellPrice = 0
+Flags = Fling_90,Plate
+Description = A stone tablet to be held by a certain Pokémon. It the holder the power of every type there is.
