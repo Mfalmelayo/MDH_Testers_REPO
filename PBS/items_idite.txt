@@ -7,4 +7,4 @@ Description = A rare berry that makes a Pokémon shiny when used.
 CanUseInBattle = false
 CanUseOutsideBattle = true
 FieldUse = OnPokemon
-Flags = Berry,Fling_10,NaturalGift_NORMAL_240
+Flags = Fling_10,NaturalGift_NORMAL_240
