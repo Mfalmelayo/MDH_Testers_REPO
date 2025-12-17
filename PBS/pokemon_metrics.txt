@@ -10489,3 +10489,10 @@ FrontSprite = -1,22
 ShadowX = 0
 ShadowSize = 2
 DmaxFrontSprite = 0,0
+#-------------------------------
+[GALLADEh_1]
+BackSprite = 0,0
+FrontSprite = -2,10
+ShadowX = -1
+ShadowSize = 2
+DmaxFrontSprite = 0,0
