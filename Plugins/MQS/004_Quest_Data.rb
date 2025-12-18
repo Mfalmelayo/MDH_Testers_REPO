@@ -417,9 +417,9 @@ Quest13 = {
     :ID => "37",
     :Name => "Purrfect Remedy",
     :QuestGiver => "Johanna",
-    :Stage1 => "Buy natural herbs",
+    :Stage1 => "Buy Medical Root",
     :Location1 => "Slateport City Market",
-    :QuestDescription => "Johanna’s Glameow is under the weather, and she needs natural herbs from Slateport City to help. Deliver them quickly!",
+    :QuestDescription => "Johanna’s Glameow is under the weather, and she needs Medical Root from Slateport City to help. Deliver them quickly!",
     :RewardString => "Glameow's Charm"
 }
     Quest38 = {

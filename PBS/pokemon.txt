@@ -29123,7 +29123,7 @@ Habitat = Urban
 Kind = Emotion
 Pokedex = If its Trainer becomes happy, it overflows with energy, dancing joyously while spinning about.
 Generation = 3
-Evolutions = GARDEVOIR_2,LevelFemale,30,GALLADE_2,ItemMale,DAWNSTONE,GARDEVOIR_3,Item,STRONGESTDRESS,GARDEVOIRdnd,Item,SACREDVEIL
+Evolutions = GARDEVOIR_2,LevelFemale,30,GALLADEh_1,ItemMale,DAWNSTONE,GARDEVOIR_3,Item,STRONGESTDRESS,GARDEVOIRdnd,Item,SACREDVEIL
 RaidRanks = 3,4,5
 #-------------------------------
 [MAROWAKx]
@@ -29204,7 +29204,7 @@ Pokedex = It has the power to predict the future. Its power peaks when it is pro
 Generation = 3
 RaidRanks = 3,4,5
 #-------------------------------
-[GALLADE_2]
+[GALLADEh_1]
 Name = Gallade
 Types = PSYCHIC,FIGHTING
 BaseStats = 78,145,65,100,65,115

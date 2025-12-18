@@ -9625,11 +9625,10 @@ ShadowSize = 1
 DmaxFrontSprite = 0,0
 #-------------------------------
 [SLIGGOO_2]
-BackSprite = 0,36
-FrontSprite = 2,10
+BackSprite = 0,0
+FrontSprite = 2,5
 ShadowX = 0
 ShadowSize = 2
-DmaxBackSprite = 0,0
 DmaxFrontSprite = 0,0
 #-------------------------------
 [SCORBUNNY_1]
@@ -9856,11 +9855,10 @@ ShadowSize = 2
 DmaxFrontSprite = 0,0
 #-------------------------------
 [GOOMY_2]
-BackSprite = 0,36
+BackSprite = 0,0
 FrontSprite = 0,5
 ShadowX = 0
 ShadowSize = 2
-DmaxBackSprite = 0,0
 DmaxFrontSprite = 0,0
 #-------------------------------
 [HATTERENE_2]
@@ -10486,6 +10484,40 @@ ShadowSize = 2
 [GROWLITHE_3,1]
 BackSprite = 0,0
 FrontSprite = -1,22
+ShadowX = 0
+ShadowSize = 2
+DmaxFrontSprite = 0,0
+#-------------------------------
+[GALLADEh_1]
+BackSprite = 0,0
+FrontSprite = -2,10
+ShadowX = -1
+ShadowSize = 2
+DmaxFrontSprite = 0,0
+#-------------------------------
+[DELPHOXmgq]
+BackSprite = 0,0
+FrontSprite = 0,9
+ShadowX = 0
+ShadowSize = 2
+DmaxFrontSprite = 0,0
+#-------------------------------
+[TSAREENAsg]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[UMBREONsh]
+BackSprite = 0,0
+FrontSprite = 0,11
+ShadowX = 0
+ShadowSize = 2
+DmaxFrontSprite = 0,0
+#-------------------------------
+[UMBREONshD]
+BackSprite = 0,0
+FrontSprite = 0,7
 ShadowX = 0
 ShadowSize = 2
 DmaxFrontSprite = 0,0
