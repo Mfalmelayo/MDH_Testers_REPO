@@ -12,7 +12,7 @@ Innates = WELLBAKEDBODY
 [GARDEVOIR_2]
 Innates = DANCER
 #-------------------------------
-[GALLADE_2]
+[GALLADEh_1]
 Innates = PREFAE
 #-------------------------------
 [MARACTUSh]
