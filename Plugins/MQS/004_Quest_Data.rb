@@ -277,8 +277,8 @@ Quest13 = {
     :Name => "Fossil Expedition",
     :QuestGiver => "May",
     :Stage1 => "Retrieve a Root fossil for May",
-    :Location1 => "Mining Points",
-    :QuestDescription => "May is helping her father with research and needs you to find a fossil from a cave near Route 116 or mining points.",
+    :Location1 => "Harrow Cave",
+    :QuestDescription => "May is helping her father with research and needs you to find a fossil from a cave near Route 116.",
     :RewardString => "A rare item from May!"
 }
 
@@ -473,7 +473,7 @@ Quest13 = {
     :QuestGiver => "Voidkip",
     :Stage1 => "Defeat them!",
     :Location1 => "Trackless Forest",
-    :QuestDescription => "Voidkip has informed you that Braixen is feeling the presents of a powerful Evil MagiPoke Shojo. You still don't get any of this because you're not a weeb. However, like all tasks, it's your job to handle it.",
+    :QuestDescription => "Voidkip has informed you that Braixen is feeling the presence of a powerful Evil MagiPoke Shojo. You still don't get any of this because you're not a weeb. However, like all tasks, it's your job to handle it.",
     :RewardString => ". . ."
 }
     Quest44 = {
