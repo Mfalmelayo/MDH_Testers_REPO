@@ -10526,7 +10526,7 @@ ShadowSize = 2
 DmaxFrontSprite = 0,0
 #-------------------------------
 [FLYGONsg]
-BackSprite = 0,0
-FrontSprite = 0,0
+BackSprite = 0,46
+FrontSprite = -1,8
 ShadowX = 0
 ShadowSize = 2
