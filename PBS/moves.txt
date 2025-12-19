@@ -10035,3 +10035,15 @@ Priority = 2
 FunctionCode = None
 Flags = Contact,CanProtect,CanMirrorMove,Kicking
 Description = The user charges the target at blinding speed. This attack always goes before any other move.
+#-------------------------------
+[ILLUSIONARYGLOMP]
+Name = Illusionary Glomp
+Type = GHOST
+Category = Physical
+Power = 1
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = PowerHigherWithUserFasterThanTarget
+Flags = CanProtect,CanMirrorMove,Bomb
+Description = Penny is an ambush predator apparently? 
