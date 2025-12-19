@@ -72,6 +72,12 @@ Innates = PSYCHICSURGE
 [UMBREON_1]
 Innates = WONDERSKIN
 #-------------------------------
+[UMBREONsh]
+Innates = HUSTLE
+#-------------------------------
+[UMBREONshD]
+Innates = INTIMIDATE
+#-------------------------------
 [GLACEON_1]
 Innates = ICEBODY
 #-------------------------------

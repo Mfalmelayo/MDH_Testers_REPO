@@ -9848,10 +9848,11 @@ ShadowSize = 1
 DmaxFrontSprite = 0,0
 #-------------------------------
 [GOODRA_2]
-BackSprite = 0,0
-FrontSprite = 5,3
+BackSprite = 0,34
+FrontSprite = 5,5
 ShadowX = 0
 ShadowSize = 2
+DmaxBackSprite = 0,0
 DmaxFrontSprite = 0,0
 #-------------------------------
 [GOOMY_2]
@@ -10099,10 +10100,12 @@ DmaxBackSprite = 0,0
 DmaxFrontSprite = 0,0
 #-------------------------------
 [DRATINI_1]
-BackSprite = 0,0
-FrontSprite = 0,0
+BackSprite = 0,36
+FrontSprite = 0,30
 ShadowX = 0
 ShadowSize = 2
+DmaxBackSprite = 0,0
+DmaxFrontSprite = 0,0
 #-------------------------------
 [FOMANTIS_1]
 BackSprite = 0,0
@@ -10521,3 +10524,9 @@ FrontSprite = 0,7
 ShadowX = 0
 ShadowSize = 2
 DmaxFrontSprite = 0,0
+#-------------------------------
+[FLYGONsg]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
