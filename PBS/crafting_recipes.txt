@@ -108,6 +108,14 @@ Ingredients = PERSIMBERRY,1
 Category = Materials
 UnlockCondition =
 
+[RAID_BAIT_SYNTHESIS]
+Name = Craft Raid Bait
+Description = A recipe on how to make a special type of bait.
+Result = RAIDBAIT,1
+Ingredients = SOURCANDY,1,BITTERCANDY,1,SWEETCANDY,1
+Category = Materials
+UnlockCondition =
+
 [PEARL_STRING_ASSEMBLY]
 Name = Pearl String
 Description = A necklace made of pearls
