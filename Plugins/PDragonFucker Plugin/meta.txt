@@ -1,5 +1,5 @@
-Name         = NPC Pokemon System
-Version      = 1.2
+Name         = PDragonFucker Plugin
+Version      = 1.4
 Essentials   = 21.1
 Requires     = v21.1 Hotfixes
 Credits      = Professional Dragon Fucker
