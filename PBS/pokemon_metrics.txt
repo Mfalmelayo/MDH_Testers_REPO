@@ -10530,3 +10530,10 @@ BackSprite = 0,46
 FrontSprite = -1,8
 ShadowX = 0
 ShadowSize = 2
+#-------------------------------
+[NOIVERNdnd]
+BackSprite = 0,0
+FrontSprite = 0,7
+ShadowX = 0
+ShadowSize = 2
+DmaxFrontSprite = 0,0
