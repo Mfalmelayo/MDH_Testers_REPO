@@ -230,7 +230,7 @@ UnlockCondition = pokemon_caught >= 50
 
 [HOOK_SWORD_FORGE]
 Name = Hook Sword Forge
-Description = A hooked shaped sword that may be used to trap or deflect other weapons.
+Description = A hooked shaped sword
 Result = HOOKSWORD,1
 Ingredients = LEAFCORE,1,NUGGET,1,RAREBONE,1
 Category = Key Items
