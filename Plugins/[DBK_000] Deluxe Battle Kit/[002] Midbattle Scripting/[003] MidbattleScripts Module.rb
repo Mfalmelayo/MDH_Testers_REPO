@@ -1648,7 +1648,8 @@ ZOE_MIDBATTLE   = {
     "battlerHP"     => [4, "{1} regenerated some HP!"]
   },
 "BattlerReachedHPCap_foe" => {
-    "speech_A" => ["Time to pull out all the stops!"]
+    "speech_A" => ["Time to pull out all the stops!"],
+	"ignoreAfter"   => "BattlerReachedHPCap_foe"
   },
 "RoundEnd_foe_repeat_odd" => {
     "ignoreUntil"   => "BattlerReachedHPCap_foe",
