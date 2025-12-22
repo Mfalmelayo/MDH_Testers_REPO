@@ -204,6 +204,14 @@ Ingredients = MUSCLEBAND,1,WISEGLASSES,1,NUGGET,1
 Category = Held Items
 UnlockCondition =
 
+[HOOK_SWORD_CRAFT]
+Name = Hook Sword Craft
+Description = A Blueprint on how to make a Hook Sword!
+Result = HOOKSWORD,1
+Ingredients = LEAFCORE,1,NUGGET,1,RAREBONE,1
+Category = Held Items
+UnlockCondition = 
+
 [SHINY_CHARM_GIFT]
 Name = Shiny Charm Gift
 Description = A special charm said to increase the chance of encountering Shiny Pokémon.
@@ -227,14 +235,6 @@ Result = EXPCHARM,1
 Ingredients = PECHABERRY,1
 Category = Key Items
 UnlockCondition = pokemon_caught >= 50
-
-[HOOK_SWORD_FORGE]
-Name = Hook Sword Forge
-Description = A hooked shaped sword
-Result = HOOKSWORD,1
-Ingredients = LEAFCORE,1,NUGGET,1,RAREBONE,1
-Category = Key Items
-UnlockCondition = 
 
 [SAVAGE_AXE_FORGE]
 Name = Forge Savage Axe
