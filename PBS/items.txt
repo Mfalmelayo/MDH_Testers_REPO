@@ -7885,4 +7885,4 @@ Pocket = 1
 Price = 1000
 SellPrice = 0
 Flags = Fling_90,Plate
-Description = A stone tablet to be held by a certain Pokémon. It the holder the power of every type there is.
+Description = A sword with a hook!

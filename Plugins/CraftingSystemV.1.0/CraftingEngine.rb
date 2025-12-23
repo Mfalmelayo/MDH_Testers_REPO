@@ -129,8 +129,8 @@ module CraftingUnlockChecker
       # Pokemon caught count conditions (e.g., "pokemon_caught >= 25")
       when /^pokemon_caught\s*([><=]+)\s*(\d+)$/i
         operator, value = $1, $2.to_i
-        caught_count = $player.pokedex.caught_count rescue 0
-        compare_values(caught_count, operator, value)
+        owned_count = $player.pokedex.owned_count rescue 0
+        compare_values(owned_count, operator, value)
         
       # Pokemon level conditions (e.g., "level >= 30")
       when /^level\s*([><=]+)\s*(\d+)$/i

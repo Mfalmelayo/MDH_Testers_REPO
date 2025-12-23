@@ -223,7 +223,7 @@ UnlockCondition = pokemon_caught >= 150
 [CAPTURE_CHARM_GIFT]
 Name = Capture Charm Gift
 Description = A charm that is believed to improve the success rate of capturing Pokémon.
-Result = CAPTURECHARM,1
+Result = CATCHINGCHARM,1
 Ingredients = CHESTOBERRY,1
 Category = Key Items
 UnlockCondition = pokemon_caught >= 100 
