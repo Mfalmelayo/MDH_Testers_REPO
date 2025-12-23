@@ -113,3 +113,6 @@ Innates = OVERCOAT,THERMALEXCHANGE,BEASTBOOST
 #-------------------------------
 [MAROWAKx_1]
 Innates = FILTER,JUSTIFIED,ROCKHEAD
+#-------------------------------
+[DRAGONITE_1]
+Innates = PHOENIXDOWN,AERILATE

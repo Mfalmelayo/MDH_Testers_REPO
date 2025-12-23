@@ -10046,4 +10046,17 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = PowerHigherWithUserFasterThanTarget
 Flags = CanProtect,CanMirrorMove,Bomb
-Description = Penny is an ambush predator apparently? 
+Description = Penny is an ambush predator apparently?
+#-------------------------------
+[HEARTSTOMP]
+Name = Heart Stomp
+Type = PSYCHIC
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = FlinchTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 30
+Description = The user unleashes a vicious blow after its cute act makes the foe less wary. It may also cause flinching.

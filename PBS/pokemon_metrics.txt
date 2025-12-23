@@ -10100,11 +10100,10 @@ DmaxBackSprite = 0,0
 DmaxFrontSprite = 0,0
 #-------------------------------
 [DRATINI_1]
-BackSprite = 0,36
-FrontSprite = 0,30
+BackSprite = 0,0
+FrontSprite = 0,8
 ShadowX = 0
 ShadowSize = 2
-DmaxBackSprite = 0,0
 DmaxFrontSprite = 0,0
 #-------------------------------
 [FOMANTIS_1]
@@ -10341,7 +10340,7 @@ ShadowSize = 2
 DmaxFrontSprite = 0,0
 #-------------------------------
 [DRAGONITE_1]
-BackSprite = 0,18
+BackSprite = 0,48
 FrontSprite = 0,13
 ShadowX = 0
 ShadowSize = 2
