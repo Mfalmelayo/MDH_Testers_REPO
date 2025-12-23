@@ -30633,7 +30633,7 @@ Category = Dragon
 Pokedex = A Dratini continually molts and sloughs off its old skin. It does so because the life energy within its body steadily builds to reach uncontrollable levels.
 Generation = 1
 WildItemUncommon = DRAGONSCALE
-Evolutions = DRAGONAIR,Level,30
+Evolutions = DRAGONAIR_1,Level,30
 SpeciesSOS = DRATINI,DRAGONAIR
 CallRateSOS = 9
 RaidRanks = 3,4,5
@@ -30663,7 +30663,7 @@ Category = Dragon
 Pokedex = A Dragonair stores an enormous amount of energy inside its body. It is said to alter the weather around it by loosing energy from the crystals on its neck and tail.
 Generation = 1
 WildItemUncommon = DRAGONSCALE
-Evolutions = DRAGONITE,Level,55
+Evolutions = DRAGONITE_1,Level,55
 CallRateSOS = 6
 RaidRanks = 3,4,5
 #-------------------------------
