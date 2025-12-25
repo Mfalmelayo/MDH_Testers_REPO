@@ -1670,8 +1670,9 @@ DANCERFLYGON_MIDBATTLE = {
     "text" => "Flygon's dance tempo begins to rise!",
     "addVariable" => 1
   },
-  "UserMoveDodged_repeat" => {
-    "battlerHP" => -8,
+  "UserMoveDodged_player_repeat" => {
+    "setBattler" => :Opposing,
+	"battlerHP" => -8,
     "setBattler" => :Opposing,
     "battlerStats" => [:SPEED, 1],
     "addVariable" => [1],
@@ -1685,7 +1686,8 @@ DANCERFLYGON_MIDBATTLE = {
     "battlerHP_B" => [4, "{1} regenerated some HP!"],
     "addVariable" => [1]
   },
-  "BattlerHPRecovered" => {
+  "BattlerHPRecovered_foe" => {
+	"setBattler" => :Self,
     "battlerStats" => [:EVASION, 1],
     "text" => ["Her tempo is increasing!"],
     "addVariable" => [1]
