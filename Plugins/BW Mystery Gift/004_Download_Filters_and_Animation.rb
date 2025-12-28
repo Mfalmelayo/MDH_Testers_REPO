@@ -296,7 +296,7 @@ def self.pbDownloadMysteryGift_Internet(trainer)
         pbMessageDisplay(sprites["msgwindow"], _INTL("The gift has been received!") + "\1") {
           sprite.update; [sprites["grid"], sprites["grid2"]].each { |g| g.oy += 1; g.update }
         }
-        pbMessageDisplay(sprites["msgwindow"], _INTL("Please pick up your gift from the deliveryman in any Poké Mart.")) {
+        pbMessageDisplay(sprites["msgwindow"], _INTL("Please pick up your gift from the deliverygirl in any Poké center.")) {
           sprite.update; [sprites["grid"], sprites["grid2"]].each { |g| g.oy += 1; g.update }
         }
 
@@ -487,7 +487,7 @@ def self.pbDownloadMysteryGift_Password(trainer)
       pbMessageDisplay(sprites["msgwindow"], _INTL("The gift has been received!") + "\1") {
         sprite.update; [sprites["grid"], sprites["grid2"]].each { |g| g.oy += 1; g.update }
       }
-      pbMessageDisplay(sprites["msgwindow"], _INTL("Please pick up your gift from the deliveryman in any Poké Mart.")) {
+      pbMessageDisplay(sprites["msgwindow"], _INTL("Please pick up your gift from the deliverygirl in any Poké center.")) {
         sprite.update; [sprites["grid"], sprites["grid2"]].each { |g| g.oy += 1; g.update }
       }
 
