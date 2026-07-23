@@ -668,12 +668,10 @@ Quest13 = {
     :ID => "60",
     :Name => "Stern’s Stolen Prototype",
     :QuestGiver => "Gal Goodgirl",
-    :Stage1 => "Speak with Captain Stern at the Shipyard.",
-    :Stage2 => "Retrieve Stern’s stolen prototype.",
-    :Stage3 => "Return the prototype to Stern.",
-    :Location1 => "Slateport Beach",
-    :Location2 => "Route 103",
-    :Location3 => "Slateport Shipyard",
+    :Stage1 => "Head to Route 103.",
+    :Stage2 => "Report your findings to Gal.",
+    :Location1 => "Route 103",
+    :Location2 => "Gal Goodgirl's office",
     :QuestDescription => "Gal Goodgirl mentioned that Captain Stern needs help recovering a valuable prototype stolen from the Slateport Shipyard. Track down the culprit and return the missing item to him.",
     :RewardString => "Captain Stern’s gratitude and a rare mechanical part!"
 }

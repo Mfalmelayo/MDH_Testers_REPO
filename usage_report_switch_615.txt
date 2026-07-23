@@ -1,0 +1,85 @@
+================================
+==== Switch 615 Event Usage ====
+================================
+
+Map 118 - Gal Goodgirl's office
+  Event 10 - EV010 [19, 4]
+    Page 3
+      Conditions
+        Switch 2
+
+Map 148 - Slateport City
+  Event 10 - EV010 [27, 11]
+    Page 3
+      Conditions
+        Switch 1
+  Event 11 - EV011 [11, 13]
+    Page 2
+      Conditions
+        Switch 1
+  Event 12 - EV012 [14, 24]
+    Page 3
+      Conditions
+        Switch 1
+  Event 13 - EV013 [21, 31]
+    Page 3
+      Conditions
+        Switch 1
+  Event 14 - EV014 [26, 37]
+    Page 2
+      Conditions
+        Switch 1
+  Event 15 - EV015 [43, 41]
+    Page 2
+      Conditions
+        Switch 1
+  Event 16 - EV016 [34, 46]
+    Page 2
+      Conditions
+        Switch 1
+  Event 17 - EV017 [40, 51]
+    Page 2
+      Conditions
+        Switch 1
+  Event 18 - EV018 [11, 43]
+    Page 2
+      Conditions
+        Switch 1
+  Event 30 - EV030 [40, 29]
+    Page 2
+      Conditions
+        Switch 1
+  Event 31 - EV031 [32, 29]
+    Page 2
+      Conditions
+        Switch 1
+  Event 32 - Mart [11, 51]
+    Page 2
+      Conditions
+        Switch 1
+  Event 34 - Mart [11, 47]
+    Page 2
+      Conditions
+        Switch 1
+  Event 35 - EV035 [14, 42]
+    Page 2
+      Conditions
+        Switch 1
+  Event 37 - Mart [12, 38]
+    Page 2
+      Conditions
+        Switch 1
+  Event 39 - EV039 [22, 46]
+    Page 2
+      Conditions
+        Switch 1
+  Event 41 - Exit [36, 26]
+    Page 3
+      Conditions
+        Switch 1
+
+Map 339 - Dungeon floor 3
+  Event 1 - Exit [1, 1]
+    Page 3
+      Conditions
+        Switch 1
