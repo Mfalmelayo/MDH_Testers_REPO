@@ -3914,6 +3914,17 @@ Pokemon = SWELLOW,31
 Pokemon = SLUGMA,29
     Moves = FLAMEBURST,ROCKTHROW,HARDEN,AMNESIA
 #-------------------------------
+[CAMPER_F,Test]
+LoseText = "Aw, I was so close!"
+Pokemon = MARILL,30
+    Moves = AQUATAIL,ROLLINGKICK,BUBBLEBEAM,DEFENSECURL
+Pokemon = SLUGMA,29
+    Moves = FLAMEBURST,ROCKTHROW,HARDEN,AMNESIA
+Pokemon = SWELLOW,31
+    Moves = WINGATTACK,AERIALACE,QUICKATTACK,DOUBLETEAM
+Pokemon = SLUGMA,29
+    Moves = FLAMEBURST,ROCKTHROW,HARDEN,AMNESIA
+#-------------------------------
 [BIRDKEEPER,Cody]
 LoseText = "My birds couldn't keep up..."
 Pokemon = SWABLU,29
