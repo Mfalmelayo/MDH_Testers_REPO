@@ -1814,7 +1814,7 @@ MOTHERWAK_MIDBATTLE = {
     "battlerStatus" => [:SLEEP, "{1} is hugged in a motherly embrace and falls asleep!"],
     "playSE" => "Anim/Heal"
 },
-"BattlerReachedHPCap_foe" => {
+"TargetHPHalf_foe" => {
     "megaEvolve" => "You can feel her love, her anger, and all of her sorrow!",
 	"battlerStats" => [:ATTACK, 1, :SPECIAL_ATTACK, 1, :DEFENSE, 1, :SPECIAL_DEFENSE, 1]
   }
@@ -1989,7 +1989,7 @@ HOUNDOOM_REMATCH_MIDBATTLE = {
     "text" => [:Opposing, "{1} unleashes a crippling howl!"],
     "battlerStatus" => [:PARALYSIS, true]
   },
-  "BattlerReachedHPCap_foe" => {
+  "TargetHPHalf_foe" => {
     "megaEvolve" => "It seems that her most Primal instints have awaken!",
 	"battlerStats" => [:ATTACK, 1, :SPEED, 1, :DEFENSE, 1, :SPECIAL_DEFENSE, 1],
 	"battlerMoves" => [:FLAREBLITZ, :WICKEDBLOW, :DYNAMICPUNCH, :YAWN],
