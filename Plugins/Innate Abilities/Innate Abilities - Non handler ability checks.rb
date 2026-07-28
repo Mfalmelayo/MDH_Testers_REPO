@@ -1,36 +1,61 @@
 #===============================================================================
 # Sturdy's ability splash displayed properly
 #===============================================================================
-class Battle::Move 
+class Battle::Move
   def pbEndureKOMessage(target)
     if target.damageState.disguise
-      @battle.pbShowAbilitySplash(target)
+      @battle.pbShowAbilitySplash(target, false, true, :DISGUISE)
       if Battle::Scene::USE_ABILITY_SPLASH
-        @battle.pbDisplay(_INTL("Its disguise served it as a decoy!"))
+        @battle.pbDisplay(_INTL(
+          "{1}'s disguise served it as a decoy!",
+          target.pbThis
+        ))
       else
-        @battle.pbDisplay(_INTL("{1}'s disguise served it as a decoy!", target.pbThis))
+        @battle.pbDisplay(_INTL(
+          "{1}'s disguise served it as a decoy!",
+          target.pbThis
+        ))
       end
       @battle.pbHideAbilitySplash(target)
-      if target.hasSpecies?(:MIMIKYU)
-        target.pbChangeForm(1, _INTL("{1}'s disguise was busted!", target.pbThis), :MIMIKYU)
+
+      if target.isSpecies?(:MIMIKYU)
+        target.pbChangeForm(
+          1,
+          _INTL("{1}'s disguise was busted!", target.pbThis)
+        )
       else
-        @battle.pbDisplay(_INTL("{1}'s disguise was busted!",target.pbThis))
+        @battle.pbDisplay(_INTL(
+          "{1}'s disguise was busted!",
+          target.pbThis
+        ))
         target.disguiseFace = false
       end
-      target.pbReduceHP(target.totalhp / 8, false) if Settings::MECHANICS_GENERATION >= 8
+
+      if Settings::MECHANICS_GENERATION >= 8
+        target.pbReduceHP(target.totalhp / 8, false)
+      end
+
     elsif target.damageState.iceFace
-      @battle.pbShowAbilitySplash(target)
+      @battle.pbShowAbilitySplash(target, false, true, :ICEFACE)
+
       if !Battle::Scene::USE_ABILITY_SPLASH
-        @battle.pbDisplay(_INTL("{1}'s {2} activated!", target.pbThis, target.abilityName))
+        @battle.pbDisplay(_INTL("{1}'s Ice Face activated!", target.pbThis))
       end
-      if target.hasSpecies?(:EISCUE)
-        target.pbChangeForm(1, _INTL("{1} transformed!", target.pbThis), :EISCUE)
+
+      if target.isSpecies?(:EISCUE)
+        target.pbChangeForm(
+          1,
+          _INTL("{1} transformed!", target.pbThis)
+        )
       else
         target.disguiseFace = false
       end
+
       @battle.pbHideAbilitySplash(target)
+
     elsif target.damageState.endured
       @battle.pbDisplay(_INTL("{1} endured the hit!", target.pbThis))
+
     elsif target.damageState.sturdy
       @battle.pbShowAbilitySplash(target, false, true, :STURDY)
       if Battle::Scene::USE_ABILITY_SPLASH
@@ -39,20 +64,34 @@ class Battle::Move
         @battle.pbDisplay(_INTL("{1} hung on with Sturdy!", target.pbThis))
       end
       @battle.pbHideAbilitySplash(target)
+
     elsif target.damageState.focusSash
       @battle.pbCommonAnimation("UseItem", target)
-      @battle.pbDisplay(_INTL("{1} hung on using its Focus Sash!", target.pbThis))
+      @battle.pbDisplay(_INTL(
+        "{1} hung on using its Focus Sash!",
+        target.pbThis
+      ))
       target.pbConsumeItem
+
     elsif target.damageState.focusBand
       @battle.pbCommonAnimation("UseItem", target)
-      @battle.pbDisplay(_INTL("{1} hung on using its Focus Band!", target.pbThis))
+      @battle.pbDisplay(_INTL(
+        "{1} hung on using its Focus Band!",
+        target.pbThis
+      ))
+
     elsif target.damageState.affection_endured
-      @battle.pbDisplay(_INTL("{1} toughed it out so you wouldn't feel sad!", target.pbThis))
+      @battle.pbDisplay(_INTL(
+        "{1} toughed it out so you wouldn't feel sad!",
+        target.pbThis
+      ))
     end
   end
 end
 
-# Intercepts the game data to properly handle multiple abilities in the checks for ability.id or similar
+# Intercepts the game data to properly handle multiple abilities in checks which
+# accidentally receive a MultiAbilityProxy. This MUST unwrap recursively, because
+# older versions of this file could accidentally create proxy-inside-proxy values.
 module GameData
   class Ability
     class << self
@@ -64,26 +103,38 @@ module GameData
         alias innates_proxy_original_try_get try_get
       end
 
+      def innate_proxy_unwrap_id(id)
+        while defined?(MultiAbilityProxy) && id.is_a?(MultiAbilityProxy)
+          id = id.primary
+        end
+        return id
+      end
+
       def get(id)
-        id = id.primary if id.is_a?(MultiAbilityProxy)
+        id = innate_proxy_unwrap_id(id)
         return innates_proxy_original_get(id)
       end
 
       def try_get(id)
-        id = id.primary if id.is_a?(MultiAbilityProxy)
+        id = innate_proxy_unwrap_id(id)
         return innates_proxy_original_try_get(id)
       end
     end
   end
 end
 
-# Proxy to handle multiple abilities
+# Proxy to handle multiple abilities for equality-style checks.
+# Important: @primary must always be the real main Ability Symbol, not another
+# MultiAbilityProxy.
 class MultiAbilityProxy
   attr_reader :battler, :primary
 
   def initialize(battler, primary_ability)
     @battler = battler
-    @primary = primary_ability # The actual Symbol (e.g. :INTIMIDATE)
+    while defined?(MultiAbilityProxy) && primary_ability.is_a?(MultiAbilityProxy)
+      primary_ability = primary_ability.primary
+    end
+    @primary = primary_ability
   end
 
   def id; @primary; end
@@ -122,7 +173,7 @@ class MultiAbilityProxy
     return false
   end
 
-  # Forward name/description calls to the primary ability data
+  # Forward name/description calls to the primary ability data.
   def method_missing(m, *args, &block)
     data = GameData::Ability.try_get(@primary)
     if data && data.respond_to?(m)
@@ -137,61 +188,55 @@ class MultiAbilityProxy
   end
 end
 
-=begin
-# OLD VERSION <3 Idite
+#===============================================================================
+# Battler ability proxy
+#-------------------------------------------------------------------------------
+# The old version called the original Battle::Battler#ability method here.
+# In Essentials, that original method calls self.ability_id internally. Since this
+# plugin also proxies ability_id, that can feed a MultiAbilityProxy back into
+# GameData::Ability.try_get and recurse through validation until stack overflow.
+#
+# Fix: build the proxy directly from the original ability_id Symbol instead of
+# calling the original ability method.
+#===============================================================================
 class Battle::Battler
-  alias __proxy_ability_id ability_id
-  def ability_id
-    res = __proxy_ability_id
-    return nil if res.nil?
-    return @__ability_proxy if @__ability_proxy&.primary == res
-    #@__ability_proxy = MultiAbilityProxy.new(self, res)
-    return @__ability_proxy = MultiAbilityProxy.new(self, res)
+  unless method_defined?(:innates_proxy_original_ability_id)
+    alias innates_proxy_original_ability_id ability_id
   end
-  
-  alias __proxy_ability ability
-  def ability
-    res = __proxy_ability
-    return nil if res.nil?
-    return @__ability_proxy if @__ability_proxy&.primary == res
-    #return MultiAbilityProxy.new(self, res)
-    return @__ability_proxy = MultiAbilityProxy.new(self, res)
-  end
-end
-=end
 
-# New, based version <3 idite
-class Battle::Battler
-  alias __proxy_ability_id ability_id
+  def innate_proxy_raw_ability_id
+    ret = innates_proxy_original_ability_id
+    while defined?(MultiAbilityProxy) && ret.is_a?(MultiAbilityProxy)
+      ret = ret.primary
+    end
+    return ret
+  end
+
+  def innate_proxy_for(primary_ability, forced = false)
+    return nil if primary_ability.nil?
+    primary_ability = primary_ability.primary if primary_ability.is_a?(MultiAbilityProxy)
+    if forced
+      return @__forced_ability_proxy if @__forced_ability_proxy&.primary == primary_ability
+      return @__forced_ability_proxy = MultiAbilityProxy.new(self, primary_ability)
+    end
+    return @__ability_proxy if @__ability_proxy&.primary == primary_ability
+    return @__ability_proxy = MultiAbilityProxy.new(self, primary_ability)
+  end
+
   def ability_id
     # During an ability splash, show the forced splash ability if one exists.
     if @forcedSplashAbilityStack && !@forcedSplashAbilityStack.empty?
-      forced = @forcedSplashAbilityStack.last
-      return nil if forced.nil?
-      return @__forced_ability_proxy if @__forced_ability_proxy&.primary == forced
-      return @__forced_ability_proxy = MultiAbilityProxy.new(self, forced)
+      return innate_proxy_for(@forcedSplashAbilityStack.last, true)
     end
-
-    res = __proxy_ability_id
-    return nil if res.nil?
-    return @__ability_proxy if @__ability_proxy&.primary == res
-    return @__ability_proxy = MultiAbilityProxy.new(self, res)
+    return innate_proxy_for(innate_proxy_raw_ability_id)
   end
 
-  alias __proxy_ability ability
   def ability
-    # During an ability splash, show the forced splash ability if one exists.
+    # Do NOT call the original ability method here. See note above.
     if @forcedSplashAbilityStack && !@forcedSplashAbilityStack.empty?
-      forced = @forcedSplashAbilityStack.last
-      return nil if forced.nil?
-      return @__forced_ability_proxy if @__forced_ability_proxy&.primary == forced
-      return @__forced_ability_proxy = MultiAbilityProxy.new(self, forced)
+      return innate_proxy_for(@forcedSplashAbilityStack.last, true)
     end
-
-    res = __proxy_ability
-    return nil if res.nil?
-    return @__ability_proxy if @__ability_proxy&.primary == res
-    return @__ability_proxy = MultiAbilityProxy.new(self, res)
+    return innate_proxy_for(innate_proxy_raw_ability_id)
   end
 end
 
