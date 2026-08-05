@@ -842,12 +842,33 @@ class Battle::Scene::PokemonDataBox < Sprite
                             @anim_hp_timer_start, System.uptime)
     refresh_hp
     if @anim_hp_current == @anim_hp_end
+      # Idite Code
       if @anim_hp_start > @anim_hp_end
         triggers = ["BattlerHPReduced", @battler.species, *@battler.pokemon.types]
-        if !@battler.fainted? && @battler.hasLowHP?
-          triggers.push("BattlerHPCritical", @battler.species, *@battler.pokemon.types)
+
+        if !@battler.fainted?
+          half_hp = @battler.totalhp / 2
+
+          # Triggers when HP crosses from above 50% to 50% or below.
+          if @anim_hp_start > half_hp && @anim_hp_end <= half_hp
+            triggers.push(
+              "BattlerHPHalf",
+              @battler.species,
+              *@battler.pokemon.types
+            )
+          end
+
+          if @battler.hasLowHP?
+            triggers.push(
+              "BattlerHPCritical",
+              @battler.species,
+              *@battler.pokemon.types
+            )
+          end
         end
+
         @battler.battle.pbDeluxeTriggers(@battler, nil, *triggers)
+      # End Idite Code
       elsif @anim_hp_start < @anim_hp_end
         triggers = ["BattlerHPRecovered", @battler.species, *@battler.pokemon.types]
         if @battler.hp == @battler.totalhp
