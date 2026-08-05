@@ -65,7 +65,8 @@ class Battle::Move
     # Disguise will take the damage.
     if !@battle.moldBreaker && target.ability == :DISGUISE
       native_disguise_user = target.isSpecies?(:MIMIKYU) ||
-                             target.isSpecies?(:PENNY)
+                             target.isSpecies?(:PENNY) ||
+                             target.isSpecies?(:PENNY_2)
       disguise_intact = if native_disguise_user
                           target.form == 0
                         else
@@ -92,7 +93,7 @@ class Battle::Move
       end
       @battle.pbHideAbilitySplash(target)
 
-      if target.isSpecies?(:MIMIKYU) || target.isSpecies?(:PENNY)
+      if target.isSpecies?(:MIMIKYU) || target.isSpecies?(:PENNY) || target.isSpecies?(:PENNY_2)
         target.pbChangeForm(
           1,
           _INTL("{1}'s disguise was busted!", target.pbThis)
