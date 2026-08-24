@@ -277,6 +277,16 @@ class QuestData
     return "#{QuestModule.const_get(quest)[:RewardString]}"
   end
 
+  # Get the active quest menu page. Valid values in 004_Quest_Data are:
+  # :STORY, :TARGET, :OAK and :SIDEQUEST.
+  # Missing or invalid values default to :SIDEQUEST for backwards compatibility.
+  def getQuestPage(quest)
+    page = QuestModule.const_get(quest)[:QuestPage]
+    page = page.to_s.upcase.to_sym if page
+    valid_pages = [:STORY, :TARGET, :OAK, :SIDEQUEST]
+    return valid_pages.include?(page) ? page : :SIDEQUEST
+  end
+
   # Get overall quest description
   def getQuestDescription(quest)
     return "#{QuestModule.const_get(quest)[:QuestDescription]}"

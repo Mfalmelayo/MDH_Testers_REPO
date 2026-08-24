@@ -70,13 +70,13 @@ class QuestList_Scene
     @shadow = Color.new(160,160,168)
     addBackgroundPlane(@sprites,"bg","QuestUI/bg_1",@viewport)
     @sprites["base"] = IconSprite.new(0,0,@viewport)
-    @sprites["base"].setBitmap("Graphics/UI/QuestUI/bg_2")
+    @page_keys = [:STORY, :TARGET, :OAK, :SIDEQUEST, :COMPLETED]
+    @page_keys.push(:FAILED) if SHOW_FAILED_QUESTS
+    setQuestPageBackground(0)
     @sprites["page_icon1"] = IconSprite.new(0,4,@viewport)
-    if SHOW_FAILED_QUESTS
-      @sprites["page_icon1"].setBitmap("Graphics/UI/QuestUI/page_icon1a")
-    else
-      @sprites["page_icon1"].setBitmap("Graphics/UI/QuestUI/page_icon1b")
-    end
+    tab_graphic = QUEST_TAB_GRAPHIC
+    tab_graphic = "Graphics/UI/QuestUI/page_icon1a" if !pbResolveBitmap(tab_graphic)
+    @sprites["page_icon1"].setBitmap(tab_graphic)
     @sprites["page_icon1"].x = Graphics.width - @sprites["page_icon1"].bitmap.width - 10
     @sprites["page_icon2"] = IconSprite.new(0,4,@viewport)
     @sprites["page_icon2"].setBitmap("Graphics/UI/QuestUI/page_icon2")
@@ -84,14 +84,18 @@ class QuestList_Scene
     @sprites["page_icon2"].opacity = 0
     @sprites["pageIcon"] = IconSprite.new(@sprites["page_icon1"].x,4,@viewport)
     @sprites["pageIcon"].setBitmap("Graphics/UI/QuestUI/pageIcon")
+    active_quests = $PokemonGlobal.quests.active_quests
     @quests = [
-      $PokemonGlobal.quests.active_quests,
+      active_quests.select { |quest| $quest_data.getQuestPage(quest.id) == :STORY },
+      active_quests.select { |quest| $quest_data.getQuestPage(quest.id) == :TARGET },
+      active_quests.select { |quest| $quest_data.getQuestPage(quest.id) == :OAK },
+      active_quests.select { |quest| $quest_data.getQuestPage(quest.id) == :SIDEQUEST },
       $PokemonGlobal.quests.completed_quests
     ]
-    @quests_text = ["Active", "Completed"]
+    @quests_text = ["Story Quests", "Target Quests", "Signs of Love", "Sidequests", "Completed Tasks"]
     if SHOW_FAILED_QUESTS
       @quests.push($PokemonGlobal.quests.failed_quests)
-      @quests_text.push("Failed")
+      @quests_text.push("Failed Tasks")
     end
 	###
 	if SORT_QUESTS
@@ -117,7 +121,7 @@ class QuestList_Scene
     @sprites["overlay_control"] = BitmapSprite.new(Graphics.width,Graphics.height,@viewport)
     pbSetSystemFont(@sprites["overlay_control"].bitmap)
     pbDrawTextPositions(@sprites["overlay1"].bitmap,[
-      [_INTL("{1} tasks", @quests_text[@current_quest]),6,6,0,Color.new(248,248,248),Color.new(0,0,0),true]
+      [_INTL("{1}", @quests_text[@current_quest]),6,6,0,Color.new(248,248,248),Color.new(0,0,0),true]
     ])
     drawFormattedTextEx(@sprites["overlay_control"].bitmap,38,320,
       436,"<c2=#{colorQuest("red")}>ARROWS:</c2> Navigate",@base,@shadow)
@@ -170,9 +174,17 @@ class QuestList_Scene
     @sprites["itemlist"].index = 0 # Resets cursor position
     @sprites["itemlist"].quests = @quests[@current_quest]
     @sprites["pageIcon"].x = @sprites["page_icon1"].x + 32*@current_quest
+    setQuestPageBackground(@current_quest)
     pbDrawTextPositions(@sprites["overlay1"].bitmap,[
-      [_INTL("{1} tasks", @quests_text[@current_quest]),6,6,0,Color.new(248,248,248),Color.new(0,0,0),true]
+      [_INTL("{1}", @quests_text[@current_quest]),6,6,0,Color.new(248,248,248),Color.new(0,0,0),true]
     ])
+  end
+
+  def setQuestPageBackground(index)
+    page_key = @page_keys[index] || :SIDEQUEST
+    bitmap = QUEST_PAGE_BACKGROUNDS[page_key]
+    bitmap = "Graphics/UI/QuestUI/bg_2" if !bitmap || !pbResolveBitmap(bitmap)
+    @sprites["base"].setBitmap(bitmap)
   end
   
   def fadeContent
@@ -277,12 +289,14 @@ class QuestList_Scene
     else
       time_text = "failure"
     end
+
     # Quest reward
+    # V0.2.42 Idite: Display the rewards no matter what.
     questReward = $quest_data.getQuestReward(quest.id)
-	active_quests = getActiveQuests
-    if questReward=="nil" || questReward=="" || active_quests.include?(quest.id)
+    if questReward=="nil" || questReward==""
       questReward = "???"
     end
+
     textpos = [
       [sprintf("Stage %d/%d",quest.stage,questLength),38,50,0,@base,@shadow],
       ["#{questGiver}",38,122,0,@base,@shadow],

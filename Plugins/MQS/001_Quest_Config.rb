@@ -24,7 +24,20 @@ QUEST_FAIL = "GUI sel buzzer.ogg"
 # Option to have quests sorted by story, then time started
 SORT_QUESTS = true
 
-# Future plans are to add different backgrounds that can be chosen by you
+# Quest menu tab strip. This image should contain six 32x32 page slots in this
+# order: Story, Target, Oak, Sidequests, Completed, Failed (192x32 total).
+QUEST_TAB_GRAPHIC = "Graphics/UI/QuestUI/page_icon1c"
+
+# Background used by each quest page. If one of these files does not exist,
+# the UI safely falls back to the original bg_2 graphic.
+QUEST_PAGE_BACKGROUNDS = {
+  :STORY     => "Graphics/UI/QuestUI/bg_story",
+  :TARGET    => "Graphics/UI/QuestUI/bg_target",
+  :OAK       => "Graphics/UI/QuestUI/bg_oak",
+  :SIDEQUEST => "Graphics/UI/QuestUI/bg_sidequest",
+  :COMPLETED => "Graphics/UI/QuestUI/bg_completed",
+  :FAILED    => "Graphics/UI/QuestUI/bg_failed"
+}
 
 #===============================================================================
 # Utility method for setting colors

@@ -507,6 +507,7 @@ Quest13 = {
 }
     Quest47 = {
     :ID => "47",
+	:QuestPage => :SIDEQUEST,
     :Name => "The Legendary Fisherman!",
     :QuestGiver => "Nami",
     :Stage1 => "Fish for Pokemon!",
@@ -804,6 +805,7 @@ Quest13 = {
  
    Quest73 = {
     :ID => "73",
+	:QuestPage => :OAK,
     :Name => "Sign of Love: Houndoom",
     :QuestGiver => "Houndoom",
     :Stage1 => "Increase her Affinity",
@@ -815,6 +817,7 @@ Quest13 = {
  
    Houndoom1 = {
     :ID => "74",
+	:QuestPage => :TARGET,
     :Name => "Rebel Howl",
     :QuestGiver => "Houndoom",
     :Stage1 => "See what she wants",

@@ -1,0 +1,23 @@
+Name = M.E.W - Move Events Wherever
+Version = 1.0.0
+Essentials = 21.1
+Credits = BloodyNeonz
+
+#===============================================================================
+# Usage
+#===============================================================================
+# Move an NPC event to tile (x, y).
+# Accepts an event ID (integer) or a Game_Character object.
+#
+#   pbEventMoveToXY(event, x, y)          # move and wait until arrived
+#   pbEventMoveToXY(event, x, y, wait: false)  # fire-and-forget
+#
+# Move the player to tile (x, y):
+#
+#   pbPlayerMoveToXY(x, y)
+#   pbPlayerMoveToXY(x, y, wait: false)
+#
+# Returns true on success, false if the target tile is unreachable.
+# In event scripts, use get_character(0) for the calling event,
+# or get_character(N) for event ID N.
+#===============================================================================
